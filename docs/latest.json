@@ -1,0 +1,68 @@
+{
+ "date": "2026-10-04",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-04.html",
+ "archive_url": "https://rainerschlund.github.io/ki-radar/",
+ "notify": "RainerSchlund",
+ "github": {
+  "count": 26,
+  "headline": "Agenten-Werkzeuge drumherum: Überwachung, Video-Skills und Spiele-Modding mit Claude Code",
+  "top": [
+   {
+    "title": "rehan-remade/universal-modder",
+    "what": "Ein Plugin-Paket, mit dem Claude Code fast jedes PC-Spiel modden kann, das man besitzt: Skills und Werkzeuge für Recherche, Reverse Engineering, Tests im Spiel sowie ein MCP-Server (fal) für generierte Grafik, 3D und Audio.",
+    "importance": 3
+   },
+   {
+    "title": "Louis-CFM/coucou",
+    "what": "Eine kleine Begleit-App, die in der Notch (macOS) oder am oberen Bildschirmrand sitzt und den Zustand laufender Coding-Agenten wie Claude Code, Codex, Cursor oder Gemini CLI anzeigt.",
+    "importance": 3
+   },
+   {
+    "title": "CoplayDev/unity-mcp",
+    "what": "Eine MCP-Brücke zwischen KI-Assistenten und dem Unity-Editor: Das Modell kann Assets verwalten, Szenen steuern und Skripte bearbeiten.",
+    "importance": 2
+   },
+   {
+    "title": "mlc-ai/TIRx-harness",
+    "what": "Ein offenes Compiler-Harness (Laufzeitumgebung um ein Modell) des mlc-ai-Teams für agentische GPU-Programmierung; Details gehen aus der knappen Beschreibung nicht hervor.",
+    "importance": 2
+   },
+   {
+    "title": "facebookresearch/swe-sweep",
+    "what": "Ein Benchmark von Facebook Research, der misst, wie viele Fehler Sprachmodelle in großen Codebasen finden und beheben können; läuft laut Topics auf dem Harbor-Framework.",
+    "importance": 2
+   }
+  ]
+ },
+ "reddit": {
+  "count": 16,
+  "headline": "Neue Modelle im Alltagstest, Tempo-Frust bei Codex und die Frage nach Budgetgrenzen für Agenten",
+  "top": [
+   {
+    "title": "We're going to need default hard budget caps on pretty much everything",
+    "what": "Simon Willison argumentiert, dass für Agenten und KI-Dienste standardmäßig harte Budgetobergrenzen nötig sind. Der Beitrag steht auf simonwillison.net; der Inhalt wird hier nur aus Titel und Quelle abgeleitet.",
+    "importance": 3
+   },
+   {
+    "title": "A Harvard physicist spent 3 months doing research with Claude Fable 5: it reproduced weeks of work in 20 minutes, completed 15 never-before-solved physics calculations, and contributed to 36 papers across 18 fields",
+    "what": "Anthropic berichtet in \"Claude-shaped science\" von einem Harvard-Physiker, der drei Monate lang mit Claude Fable 5 forschte: rund 400 Probleme in 18 Fachgebieten, 36 Manuskripte, 15 bislang ungelöste Berechnungen.",
+    "importance": 2
+   },
+   {
+    "title": "Ethan Mollick on the dot and the swarm, and how to benefit from the bitter lesson",
+    "what": "Ethan Mollick schreibt unter dem Titel \"The dot and the swarm\" darüber, wie man von der \"bitteren Lektion\" (Skalierung schlägt Handarbeit) profitiert. Gemeint sind offenbar OpenAIs neuer persönlicher Agent \"dots\" und Schwärme von Agenten; der Inhalt ist nur aus Titel und Quelle erschlossen.",
+    "importance": 2
+   },
+   {
+    "title": "OpenAI publishes a model guide for the GPT-6 family covering model choice, reasoning effort, and tool use",
+    "what": "OpenAI veröffentlicht einen praktischen Leitfaden zum Bauen mit der GPT-6-Familie, der Modellwahl, Reasoning-Aufwand und Werkzeugnutzung behandelt.",
+    "importance": 2
+   },
+   {
+    "title": "Benchmark notes: Sonnet 5.5 jumps from 72 to 94/98; Opus 5.5 reaches 96/98 with much less request time",
+    "what": "Der MindTrial-Betreiber testet Sonnet 5.5 und Opus 5.5 auf derselben 98-Aufgaben-Suite wie die Vorgänger: Sonnet springt von 72 auf 94 gelöste Aufgaben, Opus 5.5 erreicht 96 bei deutlich kürzerer Anfragezeit.",
+    "importance": 2
+   }
+  ]
+ }
+}

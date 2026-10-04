@@ -1,0 +1,16 @@
+[Unit]
+Description=KI-Radar Tageslauf (GitHub + Reddit -> Dashboard)
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=4h
+StartLimitBurst=6
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/IdeaProjects/ki-radar
+Environment=CLAUDE_CONFIG_DIR=%h/.claude_rainer
+Environment=PATH=%h/.local/bin:%h/.nvm/versions/node/v22.23.1/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/usr/bin/python3 radar/run.py
+Restart=on-failure
+RestartSec=15min
+TimeoutStartSec=90min

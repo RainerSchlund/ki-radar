@@ -1,0 +1,14 @@
+[Unit]
+Description=KI-Radar täglich (holt verpasste Läufe nach dem Aufwachen nach)
+
+[Timer]
+# Mehrere Zeitpunkte: der Lauf selbst ist pro Tag nur einmal wirksam,
+# spätere Termine fangen Tage ab, an denen der Laptop morgens aus war.
+OnCalendar=*-*-* 07:00
+OnCalendar=*-*-* 12:00
+OnCalendar=*-*-* 17:00
+Persistent=true
+RandomizedDelaySec=5min
+
+[Install]
+WantedBy=timers.target

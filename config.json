@@ -1,0 +1,117 @@
+{
+  "site_url": "https://rainerschlund.github.io/ki-radar",
+  "notify_github_user": "RainerSchlund",
+  "model": "sonnet",
+  "reject_cooldown_days": 7,
+  "github": {
+    "trending_paths": [
+      "",
+      "python",
+      "typescript",
+      "rust",
+      "go",
+      "c%23",
+      "c++"
+    ],
+    "search_window_days": 7,
+    "search_min_stars": 30,
+    "search_per_query": 15,
+    "search_queries": [
+      "agent memory",
+      "llm memory",
+      "long-term memory agent",
+      "personal assistant agent",
+      "personal ai agent",
+      "coding agent",
+      "claude code",
+      "codex cli",
+      "agent harness",
+      "agent skills",
+      "mcp server",
+      "context engineering",
+      "llm inference",
+      "game ai llm",
+      "game development ai",
+      "godot ai",
+      "unity ai agent",
+      "topic:llm",
+      "topic:ai-agents",
+      "topic:mcp",
+      "topic:claude-code",
+      "topic:agent-memory",
+      "topic:gamedev ai"
+    ]
+  },
+  "reddit": {
+    "request_pause_seconds": 65,
+    "window_hours": 48,
+    "domains": [
+      "simonwillison.net",
+      "latent.space",
+      "karpathy.bearblog.dev",
+      "karpathy.github.io",
+      "martinfowler.com",
+      "addyosmani.com",
+      "addyo.substack.com",
+      "oneusefulthing.org",
+      "interconnects.ai",
+      "hamel.dev",
+      "eugeneyan.com",
+      "newsletter.pragmaticengineer.com",
+      "lucumr.pocoo.org",
+      "mitchellh.com",
+      "ghuntley.com",
+      "steipete.me",
+      "harper.blog",
+      "antirez.com",
+      "magazine.sebastianraschka.com",
+      "lilianweng.github.io",
+      "every.to",
+      "swyx.io",
+      "blog.fsck.com",
+      "crawshaw.io",
+      "anthropic.com",
+      "openai.com",
+      "deepmind.google",
+      "huggingface.co"
+    ],
+    "users": [],
+    "subreddit_groups": [
+      [
+        "ClaudeAI",
+        "ClaudeCode",
+        "cursor",
+        "ChatGPTCoding",
+        "codex",
+        "GithubCopilot",
+        "vibecoding",
+        "AI_Agents",
+        "mcp"
+      ],
+      [
+        "LocalLLaMA"
+      ],
+      [
+        "OpenAI",
+        "singularity",
+        "MachineLearning",
+        "artificial"
+      ],
+      [
+        "ExperiencedDevs",
+        "programming",
+        "softwareengineering"
+      ],
+      [
+        "gamedev",
+        "aigamedev",
+        "godot",
+        "Unity3D",
+        "unrealengine",
+        "IndieDev"
+      ]
+    ],
+    "domain_groups_size": 10
+  },
+  "max_items_per_source": 20
+}

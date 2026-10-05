@@ -27,13 +27,19 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px}
 h1{font-size:22px;margin:0}h1 small{color:var(--muted);font-weight:400;font-size:15px}
 nav a{margin-left:14px;font-size:14px}
-.lage{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+.lage{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:14px 0 18px}
+.lead{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:18px 0 0;font-size:16px}
+.lead h3{margin:0 0 6px;font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.newsgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:start}
+.newsgrid .card{margin:0}.src{font-size:12px;color:var(--muted)}
+section.rubrik{margin-top:26px}h2.big{font-size:19px;border-bottom:2px solid var(--line);padding-bottom:6px}
 .box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
 .box h3{margin:0 0 4px;font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
 .stats{display:flex;gap:10px;flex-wrap:wrap;margin:6px 0 14px}
 .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 14px}
 .stat b{font-size:20px;display:block}.stat span{color:var(--muted);font-size:12px}
-.chips{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 4px}
+.filter summary{cursor:pointer;color:var(--accent);font-size:14px}
 .chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;
 padding:3px 11px;font-size:13px;cursor:pointer}.chip.on{background:var(--accent);color:#fff;border-color:var(--accent)}
 .cols{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
@@ -52,7 +58,7 @@ table{width:100%;border-collapse:collapse;background:var(--card);border-radius:1
 td,th{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;font-size:14px}
 th{font-size:12px;text-transform:uppercase;color:var(--muted)}
 td.n{text-align:right;white-space:nowrap}
-@media (max-width:760px){.lage,.cols{grid-template-columns:1fr}nav a{margin:0 12px 0 0}}
+@media (max-width:760px){.lage,.cols,.newsgrid{grid-template-columns:1fr}nav a{margin:0 12px 0 0}}
 """
 
 JS = """
@@ -115,10 +121,25 @@ def rd_card(p):
 <div class="meta">{' · '.join(meta)}</div><div>{esc(p['what'])}</div><div class="why">{esc(p['why'])}</div></div>"""
 
 
+def news_card(n):
+    meta = [f'<span class="cat">{esc(n["category"])}</span>', esc(n["source"].replace("googlenews:", "Google News · "))]
+    if n.get("author") and not n["source"].startswith("YouTube"):
+        meta.append(esc(n["author"]))
+    if n.get("discussion_url"):
+        meta.append(f'<a href="{esc(n["discussion_url"])}" target="_blank" rel="noopener">HN-Diskussion ({n.get("points")} Punkte)</a>')
+    title = n.get("headline_de") or n["title"]
+    return f"""<div class="card i{n['importance']}" data-cat="{esc(n['category'])}">
+<div class="t"><a href="{esc(n['url'])}" target="_blank" rel="noopener" title="{esc(n['title'])}">{esc(title)}</a></div>
+<div class="meta">{' · '.join(meta)}</div><div>{esc(n['what'])}</div><div class="why">{esc(n['why'])}</div></div>"""
+
+
+EMPTY_NEWS = {"headline": "", "items": [], "candidates": 0, "fetched": 0, "failures": []}
+
+
 def day_page(d, prev_d, next_d):
-    gh, rd = d["github"], d["reddit"]
+    nw, gh, rd = d.get("news", EMPTY_NEWS), d["github"], d["reddit"]
     cats = []
-    for it in gh["items"] + rd["items"]:
+    for it in nw["items"] + gh["items"] + rd["items"]:
         if it["category"] not in cats:
             cats.append(it["category"])
     nav = '<a href="../index.html">Archiv</a>'
@@ -126,22 +147,29 @@ def day_page(d, prev_d, next_d):
         nav = f'<a href="{prev_d}.html">← {prev_d}</a>' + nav
     if next_d:
         nav += f'<a href="{next_d}.html">{next_d} →</a>'
+    news_html = ""
+    if "news" in d:
+        news_html = f"""<div class="lead"><h3>Tagesüberblick</h3>{esc(nw['headline'])}</div>
+<section class="rubrik"><h2 class="big"><span class="dot" style="background:var(--accent)"></span>News des Tages</h2>
+<div class="newsgrid">{''.join(news_card(n) for n in nw['items']) or '<div class="empty">Heute nichts Neues von Belang.</div>'}</div></section>"""
     body = f"""<header><h1>KI-Radar <small>{long_date(d['date'])}</small></h1><nav>{nav}</nav></header>
+<div class="stats" style="margin-top:14px"><div class="stat"><b>{len(nw['items'])}</b><span>News</span></div>
+<div class="stat"><b>{len(gh['items'])}</b><span>Repos</span></div>
+<div class="stat"><b>{len(rd['items'])}</b><span>Reddit-Beiträge</span></div>
+<div class="stat"><b>{nw['candidates'] + gh['candidates'] + rd['candidates']}</b><span>neue Kandidaten geprüft</span></div></div>
+<details class="filter"><summary>Nach Kategorie filtern</summary><div class="chips">{''.join(f'<button class="chip" data-cat="{esc(c)}">{esc(c)}</button>' for c in cats)}</div></details>
+{news_html}
+<section class="rubrik"><h2 class="big">Gezielt beobachtet: GitHub &amp; Reddit</h2>
 <div class="lage"><div class="box"><h3>GitHub heute</h3>{esc(gh['headline'])}</div>
 <div class="box"><h3>Reddit heute</h3>{esc(rd['headline'])}</div></div>
-<div class="stats"><div class="stat"><b>{len(gh['items'])}</b><span>Repos ausgewählt</span></div>
-<div class="stat"><b>{len(rd['items'])}</b><span>Beiträge ausgewählt</span></div>
-<div class="stat"><b>{gh['candidates']}</b><span>neue Repos geprüft</span></div>
-<div class="stat"><b>{rd['candidates']}</b><span>neue Beiträge geprüft</span></div></div>
-<div class="chips">{''.join(f'<button class="chip" data-cat="{esc(c)}">{esc(c)}</button>' for c in cats)}</div>
 <div class="cols"><section><h2><span class="dot" style="background:var(--gh)"></span>GitHub · Repos</h2>
 {''.join(gh_card(r) for r in gh['items']) or '<div class="empty">Heute nichts Neues von Belang.</div>'}</section>
 <section><h2><span class="dot" style="background:var(--rd)"></span>Reddit · Blogs, Meinungen, Berichte</h2>
-{''.join(rd_card(p) for p in rd['items']) or '<div class="empty">Heute nichts Neues von Belang.</div>'}</section></div>
+{''.join(rd_card(p) for p in rd['items']) or '<div class="empty">Heute nichts Neues von Belang.</div>'}</section></div></section>
 <footer>Linke Randfarbe = Wichtigkeit (rot: heute ansehen, orange: lohnend, grau: zur Kenntnis).
 Jeder Eintrag erscheint nur einmal; das Archiv merkt sich, was schon gezeigt wurde.<br>
-Quellenstatus: GitHub {gh['fetched']} abgerufen, {len(gh['failures'])} Fehler · Reddit {rd['fetched']} abgerufen,
-{len(rd['failures'])} Fehler{(' — ' + esc('; '.join((gh['failures'] + rd['failures'])[:6]))) if gh['failures'] or rd['failures'] else ''}<br>
+Quellenstatus: News {nw['fetched']} abgerufen, {len(nw['failures'])} Fehler · GitHub {gh['fetched']} abgerufen,
+{len(gh['failures'])} Fehler · Reddit {rd['fetched']} abgerufen, {len(rd['failures'])} Fehler{(' — ' + esc('; '.join((nw['failures'] + gh['failures'] + rd['failures'])[:8]))) if nw['failures'] or gh['failures'] or rd['failures'] else ''}<br>
 Erzeugt {esc(d['generated'])}</footer>"""
     return page(f"KI-Radar {d['date']}", body)
 
@@ -149,13 +177,14 @@ Erzeugt {esc(d['generated'])}</footer>"""
 def index_page(days, status):
     rows = "".join(
         f"""<tr><td><a href="days/{d['date']}.html">{long_date(d['date'])}</a></td>
+<td class="n">{len(d.get('news', EMPTY_NEWS)['items'])}</td>
 <td class="n">{len(d['github']['items'])}</td><td class="n">{len(d['reddit']['items'])}</td>
-<td>{esc(d['github']['headline'])} {esc(d['reddit']['headline'])}</td></tr>""" for d in reversed(days))
+<td>{esc(d.get('news', {}).get('headline') or (d['github']['headline'] + ' ' + d['reddit']['headline']))}</td></tr>""" for d in reversed(days))
     latest = f'<p>Neueste Ausgabe: <a href="days/{days[-1]["date"]}.html">{long_date(days[-1]["date"])}</a></p>' if days else ""
     body = f"""<header><h1>KI-Radar <small>Archiv</small></h1></header>
-<p style="color:var(--muted)">Tägliches Briefing zu KI in Software- und Spieleentwicklung aus GitHub und Reddit.
+<p style="color:var(--muted)">Tägliches Briefing zu KI in Software- und Spieleentwicklung: News des Tages, dazu gezielt beobachtet GitHub und Reddit.
 Zuletzt geprüft: {esc(status.get('last_check', '–'))} ({esc(status.get('last_result', ''))}). Tage ohne Neuigkeiten erscheinen hier nicht.</p>
-{latest}<table><tr><th>Datum</th><th>Repos</th><th>Beiträge</th><th>Tageslage</th></tr>{rows}</table>"""
+{latest}<table><tr><th>Datum</th><th>News</th><th>Repos</th><th>Reddit</th><th>Tageslage</th></tr>{rows}</table>"""
     return page("KI-Radar", body)
 
 
@@ -164,7 +193,7 @@ def render_all(status):
     for p in sorted(glob.glob(os.path.join(ROOT, "archive", "items", "*.json"))):
         with open(p) as f:
             d = json.load(f)
-        if d["github"]["items"] or d["reddit"]["items"]:
+        if d.get("news", EMPTY_NEWS)["items"] or d["github"]["items"] or d["reddit"]["items"]:
             days.append(d)
     os.makedirs(os.path.join(ROOT, "docs", "days"), exist_ok=True)
     for i, d in enumerate(days):

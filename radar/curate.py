@@ -35,6 +35,17 @@ def reddit_line(i, p):
     }, ensure_ascii=False)
 
 
+def news_line(i, n):
+    return json.dumps({
+        "id": f"n{i}", "title": n["title"], "source": n["source"], "author": n.get("author"),
+        "points": n.get("points"), "text": (n.get("text") or "")[:350],
+        "url_host": re.sub(r"^https?://(www\.)?", "", n["url"]).split("/")[0],
+    }, ensure_ascii=False)
+
+
+LINES = {"github": (github_line, "g"), "reddit": (reddit_line, "r"), "news": (news_line, "n")}
+
+
 def extract_json(text):
     text = text.strip()
     text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text)
@@ -59,14 +70,15 @@ def ask_claude(prompt, model, timeout=900):
     return extract_json(wrapper["result"])
 
 
-def curate(kind, candidates, model, max_items=20, ask=ask_claude):
-    """kind = 'github' | 'reddit'. Gibt (headline, ausgewählte Items) zurück."""
+def curate(kind, candidates, model, max_items=20, ask=ask_claude, recent=()):
+    """kind = 'github' | 'reddit' | 'news'. Gibt (headline, ausgewählte Items) zurück."""
     if not candidates:
         return "Keine neuen Kandidaten.", []
-    line = github_line if kind == "github" else reddit_line
-    prefix = "g" if kind == "github" else "r"
+    line, prefix = LINES[kind]
     with open(os.path.join(ROOT, "prompts", f"{kind}.md")) as f:
-        prompt = f.read().replace("{max_items}", str(max_items)) + "\n".join(line(i, c) for i, c in enumerate(candidates))
+        head = f.read().replace("{max_items}", str(max_items))
+    head = head.replace("{recent}", "\n".join(recent) or "(noch nichts)")
+    prompt = head + "\n".join(line(i, c) for i, c in enumerate(candidates))
     answer = ask(prompt, model)
     by_id = {f"{prefix}{i}": c for i, c in enumerate(candidates)}
     picked, seen = [], set()
@@ -77,6 +89,7 @@ def curate(kind, candidates, model, max_items=20, ask=ask_claude):
         seen.add(c["key"])
         picked.append({**c, "category": sel.get("category") or "Sonstiges",
                        "what": sel.get("what", ""), "why": sel.get("why", ""),
+                       "headline_de": sel.get("headline_de"),
                        "importance": int(sel.get("importance") or 1)})
     picked.sort(key=lambda x: -x["importance"])  # stabil: Modell-Reihenfolge bleibt je Stufe
     return answer.get("headline", ""), picked[:max_items]

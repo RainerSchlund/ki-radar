@@ -21,11 +21,15 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from archive import Archive  # noqa: E402
 from curate import curate  # noqa: E402
 from fetch_github import GitHubFetcher  # noqa: E402
+from fetch_news import NewsFetcher  # noqa: E402
 from fetch_reddit import RedditFetcher  # noqa: E402
 import render  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATUS = os.path.join(ROOT, "archive", "status.json")
+# Quelle → (Abrufer, Anzeigename). Jede Quelle wird getrennt abgerufen und kuratiert.
+SOURCES = {"news": (NewsFetcher, "News"), "github": (GitHubFetcher, "GitHub"),
+           "reddit": (RedditFetcher, "Reddit")}
 
 
 def log(msg):
@@ -59,7 +63,8 @@ def no_mentions(text):
 
 def latest_json(cfg, day):
     def top(items, n=5):
-        return [{"title": no_mentions(i.get("full_name") or i.get("title")),
+        return [{"title": no_mentions(i.get("headline_de") or i.get("full_name")
+                                      or i.get("title")),
                  "what": no_mentions(i["what"]), "importance": i["importance"]}
                 for i in items[:n]]
     return {
@@ -67,6 +72,8 @@ def latest_json(cfg, day):
         "url": f"{cfg['site_url']}/days/{day['date']}.html",
         "archive_url": f"{cfg['site_url']}/",
         "notify": cfg.get("notify_github_user"),
+        "news": {"count": len(day["news"]["items"]), "headline": no_mentions(day["news"]["headline"]),
+                 "top": top(day["news"]["items"], 7)},
         "github": {"count": len(day["github"]["items"]), "headline": no_mentions(day["github"]["headline"]),
                    "top": top(day["github"]["items"])},
         "reddit": {"count": len(day["reddit"]["items"]), "headline": no_mentions(day["reddit"]["headline"]),
@@ -87,47 +94,56 @@ def run(args):
     if args.render:
         render.render_all(status)
         return 0
-    if status.get("last_date") == today.isoformat() and not args.force:
+    if status.get("last_date") == today.isoformat() and not (args.force or args.only):
         log(f"heute ({today}) schon gelaufen — nichts zu tun")
         return 0
 
-    gh_f = GitHubFetcher(cfg["github"], log=log)
-    rd_f = RedditFetcher(cfg["reddit"], log=log)
-    with ThreadPoolExecutor(2) as ex:
-        gh_job, rd_job = ex.submit(gh_f.fetch), ex.submit(rd_f.fetch)
-        gh_all, rd_all = gh_job.result(), rd_job.result()
-    if not gh_all and not rd_all:
+    sources = args.only or list(SOURCES)
+    fetchers = {k: SOURCES[k][0](cfg[k], log=log) for k in sources}
+    with ThreadPoolExecutor(len(fetchers)) as ex:
+        jobs = {k: ex.submit(f.fetch) for k, f in fetchers.items()}
+        fetched = {k: j.result() for k, j in jobs.items()}
+    if not any(fetched.values()):
         log("Abruf leer — offline? Abbruch ohne Archiv-Eintrag")
         return 1
 
     arc = Archive(os.path.join(ROOT, "archive", "seen.json"))
-    cooldown = cfg["reject_cooldown_days"]
-    gh_new = arc.filter_new(gh_all, today, cooldown)
-    rd_new = arc.filter_new(rd_all, today, cooldown)
-    log(f"neu: GitHub {len(gh_new)}/{len(gh_all)}, Reddit {len(rd_new)}/{len(rd_all)}")
+    new = {k: arc.filter_new(v, today, cfg["reject_cooldown_days"]) for k, v in fetched.items()}
+    log("neu: " + ", ".join(f"{SOURCES[k][1]} {len(new[k])}/{len(fetched[k])}" for k in sources))
 
-    gh_head, gh_items = curate("github", gh_new, cfg["model"], cfg["max_items_per_source"])
-    log(f"kuratiert GitHub: {len(gh_items)}")
-    rd_head, rd_items = curate("reddit", rd_new, cfg["model"], cfg["max_items_per_source"])
-    log(f"kuratiert Reddit: {len(rd_items)}")
-
-    day = {
-        "date": today.isoformat(),
-        "generated": datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "github": {"headline": gh_head, "items": gh_items, "candidates": len(gh_new),
-                   "fetched": len(gh_all), "failures": gh_f.failures},
-        "reddit": {"headline": rd_head, "items": rd_items, "candidates": len(rd_new),
-                   "fetched": len(rd_all), "failures": rd_f.failures},
-    }
-    has_news = bool(gh_items or rd_items)
+    # Bestehende Tagesausgabe (z. B. bei --only) wird ergänzt, nicht ersetzt.
+    day = {"date": today.isoformat()}
+    if os.path.exists(day_file):
+        with open(day_file) as f:
+            day = json.load(f)
+    for k in sources:
+        recent = (arc.recent_titles(today, cfg["news"]["recent_titles_days"])
+                  if k == "news" else ())
+        head, items = curate(k, new[k], cfg["model"], cfg["max_items_per_source"], recent=recent)
+        log(f"kuratiert {SOURCES[k][1]}: {len(items)}")
+        old = day.get(k)
+        if old and old["items"]:
+            items = old["items"] + items
+            head = old["headline"] + (" " + head if new[k] else "")
+        day[k] = {"headline": head, "items": items, "candidates": len(new[k]),
+                  "fetched": len(fetched[k]), "failures": fetchers[k].failures}
+        arc.record(new[k], {i["key"] for i in items}, today)
+        if k == "news":
+            arc.remember_titles([i["headline_de"] for i in items if i.get("headline_de")], today)
+    for k in SOURCES:
+        day.setdefault(k, {"headline": "", "items": [], "candidates": 0, "fetched": 0,
+                           "failures": []})
+    day["generated"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+    counts = {k: len(day[k]["items"]) for k in SOURCES}
+    has_news = any(counts.values())
     with open(day_file, "w") as f:
         json.dump(day, f, indent=1, ensure_ascii=False)
-    arc.record(gh_new + rd_new, {i["key"] for i in gh_items + rd_items}, today)
     arc.save()
 
     status = {"last_date": today.isoformat(),
               "last_check": datetime.now().strftime("%Y-%m-%d %H:%M"),
-              "last_result": (f"{len(gh_items)} Repos, {len(rd_items)} Beiträge"
+              "last_result": (f"{counts['news']} News, {counts['github']} Repos, "
+                              f"{counts['reddit']} Reddit-Beiträge"
                               if has_news else "keine Neuigkeiten")}
     with open(STATUS, "w") as f:
         json.dump(status, f, indent=1, ensure_ascii=False)
@@ -146,6 +162,8 @@ def main():
     ap.add_argument("--no-publish", dest="publish", action="store_false")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--render", action="store_true")
+    ap.add_argument("--only", nargs="+", choices=["news", "github", "reddit"],
+                    help="nur diese Quellen; Ergebnis wird in die heutige Ausgabe eingefügt")
     args = ap.parse_args()
     os.makedirs(os.path.join(ROOT, "logs"), exist_ok=True)
     with open(os.path.join(ROOT, "logs", ".lock"), "w") as lock:

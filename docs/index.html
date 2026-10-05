@@ -14,13 +14,19 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px}
 h1{font-size:22px;margin:0}h1 small{color:var(--muted);font-weight:400;font-size:15px}
 nav a{margin-left:14px;font-size:14px}
-.lage{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+.lage{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:14px 0 18px}
+.lead{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:18px 0 0;font-size:16px}
+.lead h3{margin:0 0 6px;font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.newsgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:start}
+.newsgrid .card{margin:0}.src{font-size:12px;color:var(--muted)}
+section.rubrik{margin-top:26px}h2.big{font-size:19px;border-bottom:2px solid var(--line);padding-bottom:6px}
 .box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
 .box h3{margin:0 0 4px;font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
 .stats{display:flex;gap:10px;flex-wrap:wrap;margin:6px 0 14px}
 .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 14px}
 .stat b{font-size:20px;display:block}.stat span{color:var(--muted);font-size:12px}
-.chips{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 4px}
+.filter summary{cursor:pointer;color:var(--accent);font-size:14px}
 .chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;
 padding:3px 11px;font-size:13px;cursor:pointer}.chip.on{background:var(--accent);color:#fff;border-color:var(--accent)}
 .cols{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
@@ -39,13 +45,15 @@ table{width:100%;border-collapse:collapse;background:var(--card);border-radius:1
 td,th{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;font-size:14px}
 th{font-size:12px;text-transform:uppercase;color:var(--muted)}
 td.n{text-align:right;white-space:nowrap}
-@media (max-width:760px){.lage,.cols{grid-template-columns:1fr}nav a{margin:0 12px 0 0}}
+@media (max-width:760px){.lage,.cols,.newsgrid{grid-template-columns:1fr}nav a{margin:0 12px 0 0}}
 </style></head><body><div class="wrap"><header><h1>KI-Radar <small>Archiv</small></h1></header>
-<p style="color:var(--muted)">Tägliches Briefing zu KI in Software- und Spieleentwicklung aus GitHub und Reddit.
-Zuletzt geprüft: 2026-10-05 07:09 (17 Repos, 15 Beiträge). Tage ohne Neuigkeiten erscheinen hier nicht.</p>
-<p>Neueste Ausgabe: <a href="days/2026-10-05.html">Montag, 5. Oktober 2026</a></p><table><tr><th>Datum</th><th>Repos</th><th>Beiträge</th><th>Tageslage</th></tr><tr><td><a href="days/2026-10-05.html">Montag, 5. Oktober 2026</a></td>
+<p style="color:var(--muted)">Tägliches Briefing zu KI in Software- und Spieleentwicklung: News des Tages, dazu gezielt beobachtet GitHub und Reddit.
+Zuletzt geprüft: 2026-10-05 09:59 (14 News, 17 Repos, 15 Reddit-Beiträge). Tage ohne Neuigkeiten erscheinen hier nicht.</p>
+<p>Neueste Ausgabe: <a href="days/2026-10-05.html">Montag, 5. Oktober 2026</a></p><table><tr><th>Datum</th><th>News</th><th>Repos</th><th>Reddit</th><th>Tageslage</th></tr><tr><td><a href="days/2026-10-05.html">Montag, 5. Oktober 2026</a></td>
+<td class="n">14</td>
 <td class="n">17</td><td class="n">15</td>
-<td>Lokale Inferenz, Agenten-Laufzeiten und Skill-Sammlungen dominieren den Tag Codex-Nutzer streiten über Sol 6.1 (Tempo, Verbrauch), Claude-Nutzer über Mods und die Cloud-Umstellung am 6. Oktober; dazu eine Debatte über Anthropics Umgang mit gekennzeichneten Anfragen.</td></tr><tr><td><a href="days/2026-10-04.html">Sonntag, 4. Oktober 2026</a></td>
+<td>Capcom baut die RE Engine für KI um, Claude Sonnet 5.5 und Opus 5.5 im Fokus, DeepSeek Harness als Desktop-App</td></tr><tr><td><a href="days/2026-10-04.html">Sonntag, 4. Oktober 2026</a></td>
+<td class="n">0</td>
 <td class="n">26</td><td class="n">16</td>
 <td>Agenten-Werkzeuge drumherum: Überwachung, Video-Skills und Spiele-Modding mit Claude Code Neue Modelle im Alltagstest, Tempo-Frust bei Codex und die Frage nach Budgetgrenzen für Agenten</td></tr></table></div><script>
 document.querySelectorAll('.chip').forEach(c=>c.addEventListener('click',()=>{

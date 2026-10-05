@@ -27,6 +27,7 @@ class Archive:
         if os.path.exists(path):
             with open(path) as f:
                 self.data = json.load(f)
+        self.data.setdefault("titles", [])
 
     def is_blocked(self, item, today, cooldown_days):
         entry = self.data["items"].get(item["key"])
@@ -54,6 +55,16 @@ class Archive:
             ext = norm_url(i.get("external_url"))
             if status == "reported" and ext:
                 self.data["urls"][ext] = today.isoformat()
+
+    def remember_titles(self, titles, today):
+        self.data["titles"] += [{"date": today.isoformat(), "title": t} for t in titles]
+
+    def recent_titles(self, today, days):
+        """Überschriften gemeldeter News — damit dieselbe Geschichte aus anderer Quelle
+        nicht erneut erscheint (Links allein erkennen das nicht)."""
+        cutoff = (today - timedelta(days=days)).isoformat()
+        self.data["titles"] = [t for t in self.data["titles"] if t["date"] >= cutoff]
+        return [f"{t['date']}: {t['title']}" for t in self.data["titles"] if t["date"] < today.isoformat()]
 
     def save(self):
         tmp = self.path + ".tmp"

@@ -1,4 +1,4 @@
-# Sobald der Laptop eine neue Ausgabe hochlädt (docs/latest.json ändert sich),
+# Sobald der Laptop eine neue oder ergänzte Ausgabe hochlädt (docs/latest.json ändert sich),
 # legt der GitHub-Bot ein Issue mit Link an. Weil der Bot (nicht du) der Autor
 # ist und dich erwähnt, schickt GitHub dir eine Benachrichtigungs-Mail.
 name: notify
@@ -26,8 +26,15 @@ jobs:
           def lines(sec):
               mark = {3: "🔴", 2: "🟠", 1: "⚪"}
               return "\n".join(f"- {mark.get(t['importance'], '⚪')} **{t['title']}** — {t['what']}" for t in sec["top"])
+          news = d.get("news") or {"count": 0, "headline": "", "top": []}
           body = f"""## [➜ Dashboard vom {d['date']} öffnen]({d['url']})
 
+          ### News des Tages ({news['count']})
+          {news['headline']}
+
+          {lines(news)}
+
+          ### Gezielt beobachtet
           **GitHub ({d['github']['count']} Repos):** {d['github']['headline']}
 
           {lines(d['github'])}
@@ -39,7 +46,7 @@ jobs:
           [Archiv aller Ausgaben]({d['archive_url']}) · @{d['notify']}
           """
           body = "\n".join(l.strip() if l.startswith("          ") else l for l in body.splitlines())
-          title = f"KI-Radar {d['date']}: {d['github']['count']} Repos, {d['reddit']['count']} Beiträge"
+          title = f"KI-Radar {d['date']}: {news['count']} News, {d['github']['count']} Repos, {d['reddit']['count']} Reddit-Beiträge"
           subprocess.run(["gh", "label", "create", "ausgabe", "--color", "3b5bdb", "-R", os.environ["REPO"]], check=False)
           old = subprocess.run(["gh", "issue", "list", "-R", os.environ["REPO"], "--label", "ausgabe",
                                 "--state", "open", "--json", "number", "-q", ".[].number"],

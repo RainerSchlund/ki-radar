@@ -14,13 +14,19 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px}
 h1{font-size:22px;margin:0}h1 small{color:var(--muted);font-weight:400;font-size:15px}
 nav a{margin-left:14px;font-size:14px}
-.lage{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+.lage{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:14px 0 18px}
+.lead{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:18px 0 0;font-size:16px}
+.lead h3{margin:0 0 6px;font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.newsgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:start}
+.newsgrid .card{margin:0}.src{font-size:12px;color:var(--muted)}
+section.rubrik{margin-top:26px}h2.big{font-size:19px;border-bottom:2px solid var(--line);padding-bottom:6px}
 .box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
 .box h3{margin:0 0 4px;font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
 .stats{display:flex;gap:10px;flex-wrap:wrap;margin:6px 0 14px}
 .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 14px}
 .stat b{font-size:20px;display:block}.stat span{color:var(--muted);font-size:12px}
-.chips{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 4px}
+.filter summary{cursor:pointer;color:var(--accent);font-size:14px}
 .chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;
 padding:3px 11px;font-size:13px;cursor:pointer}.chip.on{background:var(--accent);color:#fff;border-color:var(--accent)}
 .cols{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
@@ -39,15 +45,17 @@ table{width:100%;border-collapse:collapse;background:var(--card);border-radius:1
 td,th{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;font-size:14px}
 th{font-size:12px;text-transform:uppercase;color:var(--muted)}
 td.n{text-align:right;white-space:nowrap}
-@media (max-width:760px){.lage,.cols{grid-template-columns:1fr}nav a{margin:0 12px 0 0}}
+@media (max-width:760px){.lage,.cols,.newsgrid{grid-template-columns:1fr}nav a{margin:0 12px 0 0}}
 </style></head><body><div class="wrap"><header><h1>KI-Radar <small>Sonntag, 4. Oktober 2026</small></h1><nav><a href="../index.html">Archiv</a><a href="2026-10-05.html">2026-10-05 →</a></nav></header>
+<div class="stats" style="margin-top:14px"><div class="stat"><b>0</b><span>News</span></div>
+<div class="stat"><b>26</b><span>Repos</span></div>
+<div class="stat"><b>16</b><span>Reddit-Beiträge</span></div>
+<div class="stat"><b>558</b><span>neue Kandidaten geprüft</span></div></div>
+<details class="filter"><summary>Nach Kategorie filtern</summary><div class="chips"><button class="chip" data-cat="Spieleentwicklung">Spieleentwicklung</button><button class="chip" data-cat="Coding-Agenten &amp; Harnesses">Coding-Agenten &amp; Harnesses</button><button class="chip" data-cat="Gedächtnis &amp; Kontext">Gedächtnis &amp; Kontext</button><button class="chip" data-cat="Weitere Enhancements">Weitere Enhancements</button><button class="chip" data-cat="MCP &amp; Skills">MCP &amp; Skills</button><button class="chip" data-cat="Persönliche Agenten">Persönliche Agenten</button><button class="chip" data-cat="Modelle &amp; Inferenz">Modelle &amp; Inferenz</button><button class="chip" data-cat="Blog &amp; Essay">Blog &amp; Essay</button><button class="chip" data-cat="Forschung &amp; Benchmark">Forschung &amp; Benchmark</button><button class="chip" data-cat="Release &amp; Ankündigung">Release &amp; Ankündigung</button><button class="chip" data-cat="Erfahrungsbericht">Erfahrungsbericht</button><button class="chip" data-cat="Meinung &amp; Debatte">Meinung &amp; Debatte</button></div></details>
+
+<section class="rubrik"><h2 class="big">Gezielt beobachtet: GitHub &amp; Reddit</h2>
 <div class="lage"><div class="box"><h3>GitHub heute</h3>Agenten-Werkzeuge drumherum: Überwachung, Video-Skills und Spiele-Modding mit Claude Code</div>
 <div class="box"><h3>Reddit heute</h3>Neue Modelle im Alltagstest, Tempo-Frust bei Codex und die Frage nach Budgetgrenzen für Agenten</div></div>
-<div class="stats"><div class="stat"><b>26</b><span>Repos ausgewählt</span></div>
-<div class="stat"><b>16</b><span>Beiträge ausgewählt</span></div>
-<div class="stat"><b>180</b><span>neue Repos geprüft</span></div>
-<div class="stat"><b>378</b><span>neue Beiträge geprüft</span></div></div>
-<div class="chips"><button class="chip" data-cat="Spieleentwicklung">Spieleentwicklung</button><button class="chip" data-cat="Coding-Agenten &amp; Harnesses">Coding-Agenten &amp; Harnesses</button><button class="chip" data-cat="Gedächtnis &amp; Kontext">Gedächtnis &amp; Kontext</button><button class="chip" data-cat="Weitere Enhancements">Weitere Enhancements</button><button class="chip" data-cat="MCP &amp; Skills">MCP &amp; Skills</button><button class="chip" data-cat="Persönliche Agenten">Persönliche Agenten</button><button class="chip" data-cat="Modelle &amp; Inferenz">Modelle &amp; Inferenz</button><button class="chip" data-cat="Blog &amp; Essay">Blog &amp; Essay</button><button class="chip" data-cat="Forschung &amp; Benchmark">Forschung &amp; Benchmark</button><button class="chip" data-cat="Release &amp; Ankündigung">Release &amp; Ankündigung</button><button class="chip" data-cat="Erfahrungsbericht">Erfahrungsbericht</button><button class="chip" data-cat="Meinung &amp; Debatte">Meinung &amp; Debatte</button></div>
 <div class="cols"><section><h2><span class="dot" style="background:var(--gh)"></span>GitHub · Repos</h2>
 <div class="card i3" data-cat="Spieleentwicklung">
 <div class="t"><a href="https://github.com/rehan-remade/universal-modder" target="_blank" rel="noopener">rehan-remade/universal-modder</a></div>
@@ -135,11 +143,11 @@ td.n{text-align:right;white-space:nowrap}
 <div class="t"><a href="https://www.reddit.com/r/aigamedev/comments/1wx2k3a/two_claude_models_built_the_same_mine_cart_game/" target="_blank" rel="noopener">Two Claude models built the same mine cart game in Godot</a> <a href="https://v.redd.it/uyqcjyjnkcth1" target="_blank" rel="noopener" class="meta">↗ v.redd.it</a></div>
 <div class="meta"><span class="cat">Spieleentwicklung</span> · r/aigamedev · u/orellanaed</div><div>Opus 5.5 und Sonnet 5.5 bauten mit demselben Prompt in Godot dasselbe Loren-Spiel, jeweils mit einem MCP-Server zum Starten, Steuern und Screenshots machen. Beide haben keine Physik-Lore gebaut, sondern eine Kurvenfahrt; Sonnet testete doppelt so viel, ließ aber trotzdem ein Loch in der Tunnelwand stehen.</div><div class="why">Direkter Modellvergleich auf identischer Aufgabe mit geschlossenem Testkreislauf in der Engine.</div></div><div class="card i1" data-cat="Spieleentwicklung">
 <div class="t"><a href="https://www.reddit.com/r/aigamedev/comments/1wwuqpg/godot_47_vs_unity_testing_agentic_dev_against/" target="_blank" rel="noopener">Godot 4.7 vs Unity testing agentic dev against both - my skills files so far</a></div>
-<div class="meta"><span class="cat">Spieleentwicklung</span> · r/aigamedev · u/danm72</div><div>Ein Entwickler testet agentische Entwicklung mit Godot 4.7 und Unity für sein Spiel Crush Depth und veröffentlicht seine Skill-Dateien, Hooks und eine API-Nachschlage-Idee samt Blogbeitrag.</div><div class="why">Konkrete Arbeitsweise und Repo für Agenten in der Spieleentwicklung, nicht nur Ergebnisvideos.</div></div></section></div>
+<div class="meta"><span class="cat">Spieleentwicklung</span> · r/aigamedev · u/danm72</div><div>Ein Entwickler testet agentische Entwicklung mit Godot 4.7 und Unity für sein Spiel Crush Depth und veröffentlicht seine Skill-Dateien, Hooks und eine API-Nachschlage-Idee samt Blogbeitrag.</div><div class="why">Konkrete Arbeitsweise und Repo für Agenten in der Spieleentwicklung, nicht nur Ergebnisvideos.</div></div></section></div></section>
 <footer>Linke Randfarbe = Wichtigkeit (rot: heute ansehen, orange: lohnend, grau: zur Kenntnis).
 Jeder Eintrag erscheint nur einmal; das Archiv merkt sich, was schon gezeigt wurde.<br>
-Quellenstatus: GitHub 180 abgerufen, 0 Fehler · Reddit 378 abgerufen,
-0 Fehler<br>
+Quellenstatus: News 0 abgerufen, 0 Fehler · GitHub 180 abgerufen,
+0 Fehler · Reddit 378 abgerufen, 0 Fehler<br>
 Erzeugt 2026-10-04 11:07</footer></div><script>
 document.querySelectorAll('.chip').forEach(c=>c.addEventListener('click',()=>{
  const on=!c.classList.contains('on');document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));

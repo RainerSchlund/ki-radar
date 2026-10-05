@@ -1,7 +1,16 @@
 # KI-Radar
 
 Tägliches Briefing zu KI in Software- und Spieleentwicklung — Tools, Coding-Agenten,
-Harnesses, Modelle, Gedächtnis, persönliche Agenten. Zwei Quellen, getrennt beobachtet:
+Harnesses, Modelle, Gedächtnis, persönliche Agenten. Drei Rubriken, jede getrennt abgerufen
+und kuratiert:
+
+- **News des Tages:** 44 Feeds (Hersteller wie OpenAI, DeepMind, Hugging Face, GitHub;
+  Stimmen wie Simon Willison, Latent Space, Martin Fowler; Fachmedien wie The Verge, Ars
+  Technica, heise, The Decoder, golem; Spieleentwicklung wie Game Developer, 80 Level, Unity,
+  Godot; YouTube-Kanäle), Google-News-Suchen und populäre Hacker-News-Beiträge. Dieselbe
+  Geschichte aus anderer Quelle wird über die Überschriften der letzten 7 Tage erkannt.
+
+Daneben gezielt beobachtet:
 
 - **GitHub:** Trending-Seiten (alle Sprachen + Python, TypeScript, Rust, Go, C#, C++) und
   Suche nach Repos, die in den letzten 7 Tagen angelegt wurden und schnell Sterne sammeln
@@ -17,7 +26,7 @@ Seite, dazu eine Mail (GitHub-Benachrichtigung) mit Direktlink.
 ```
 systemd-Timer (07:00, 12:00, 17:00; holt verpasste Termine nach)
   └─ radar/run.py  – höchstens ein wirksamer Lauf pro Tag
-       ├─ fetch_github.py / fetch_reddit.py   abrufen (reines I/O)
+       ├─ fetch_news.py / fetch_github.py / fetch_reddit.py   abrufen (reines I/O)
        ├─ archive.py      schon Gezeigtes und kürzlich Aussortiertes herausfiltern
        ├─ curate.py       claude -p wählt aus, ordnet ein, fasst auf Deutsch zusammen
        │                  (je Quelle ein eigener Aufruf; Modell gibt nur IDs zurück,
@@ -43,6 +52,7 @@ wann zuletzt geprüft wurde.
 python3 radar/run.py               # Tageslauf (macht nichts, wenn heute schon gelaufen)
 python3 radar/run.py --no-publish  # ohne git push
 python3 radar/run.py --render      # nur HTML neu erzeugen (z. B. nach Design-Änderung)
+python3 radar/run.py --only news   # einzelne Quelle(n) nachholen, in heutige Ausgabe einfügen
 python3 -m unittest tests/test_radar.py
 systemd/install.sh                 # Timer installieren
 journalctl --user -u ki-radar      # Laufprotokoll; zusätzlich logs/run.log

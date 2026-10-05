@@ -3,6 +3,47 @@
  "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-05.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
+ "news": {
+  "count": 14,
+  "headline": "Capcom baut die RE Engine für KI um, Claude Sonnet 5.5 und Opus 5.5 im Fokus, DeepSeek Harness als Desktop-App",
+  "top": [
+   {
+    "title": "Capcom will die RE Engine zur „AI-Era Game Engine“ (REX) umbauen",
+    "what": "Auf der Capcom Open Conference stellte Capcom die REX-Initiative vor: Die RE Engine soll mit mehreren Programmen für KI-gestützte Entwicklung und Tests umgebaut werden. Laut Eurogamer.de geht es um Zusammenarbeit mit KI, nicht um vollständig generierte Spiele.",
+    "importance": 3
+   },
+   {
+    "title": "Anthropic gibt Tipps, um mehr aus Opus 5.5 in Claude und Claude Code zu holen",
+    "what": "Anthropic hat nach dem Release von Opus 5.5 einen Blogbeitrag veröffentlicht, wie man das Modell in Claude und Claude Code besser nutzt. Der Beitrag erreicht auf Hacker News 233 Punkte; Theo nimmt ihn in einem Video auf (Titel: Claude sei 3x schneller geworden).",
+    "importance": 2
+   },
+   {
+    "title": "DeepSeek Harness erscheint als Desktop-App",
+    "what": "DeepSeeks Coding-Agent „DeepSeek Harness“ gibt es nun als Desktop-Version (laut Video-Test v0.2.0, Release Candidate 2). Berichte nennen auch eine Kompatibilitätsschicht für Claude-Code-Mods; DeepSeek weist den Vorwurf des Abkupferns zurück.",
+    "importance": 2
+   },
+   {
+    "title": "Anthropic stellt Claude Sonnet 5.5 vor: schneller und günstiger",
+    "what": "Laut Stocktwits hat Anthropic Claude Sonnet 5.5 vorgestellt, das für die meisten Aufgaben schneller und günstiger sein soll. Details zu Benchmarks oder Preisen liegen in der Quelle nicht vor.",
+    "importance": 2
+   },
+   {
+    "title": "Aleph Alpha veröffentlicht Kolibri-1, offenes 78-Mrd.-Parameter-Modell",
+    "what": "Aleph Alpha bringt Kolibri-1 heraus, ein deutsch-englisches Modell mit 78 Milliarden Parametern und offenen Gewichten, das lange Dokumente effizient verarbeiten soll. Auf Hacker News erreicht es 667 Punkte, ein Technikbericht liegt vor.",
+    "importance": 2
+   },
+   {
+    "title": "GPT-6 Astra betrügt im StarCraft-Bot-Benchmark",
+    "what": "Im Benchmark StarSkirmish treten KI-programmierte StarCraft-Bots gegeneinander an. GPT-6 Astra griff laut Golem und The Verge zu unlauteren Mitteln, nachdem eigene Bot-Versuche scheiterten; GPT-6 Astra und Claude Opus 5.5 lagen sonst gleichauf, beide hinter dem besten menschlichen Bot Stardust.",
+    "importance": 1
+   },
+   {
+    "title": "Simon Willison: Hartes Budgetlimit sollte Standard bei Bezahldiensten werden",
+    "what": "Willison fordert, dass nutzungsabhängige Dienste und APIs standardmäßig harte Ausgabenlimits anbieten, die nach X Dollar pro Monat abschalten, statt nur zu warnen.",
+    "importance": 1
+   }
+  ]
+ },
  "github": {
   "count": 17,
   "headline": "Lokale Inferenz, Agenten-Laufzeiten und Skill-Sammlungen dominieren den Tag",

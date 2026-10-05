@@ -1,0 +1,783 @@
+{
+ "date": "2026-10-05",
+ "generated": "2026-10-05 07:09",
+ "github": {
+  "headline": "Lokale Inferenz, Agenten-Laufzeiten und Skill-Sammlungen dominieren den Tag",
+  "items": [
+   {
+    "full_name": "antirez/ds4",
+    "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+    "stars_today": 211,
+    "language": "C",
+    "sources": [
+     "trending/all"
+    ],
+    "stars": 23484,
+    "topics": [],
+    "created_at": "2026-05-06T17:17:05Z",
+    "pushed_at": "2026-09-20T07:51:19Z",
+    "homepage": null,
+    "url": "https://github.com/antirez/ds4",
+    "key": "gh:antirez/ds4",
+    "category": "Modelle & Inferenz",
+    "what": "Inferenz-Engine von antirez (Salvatore Sanfilippo, Redis-Autor) in C, die DeepSeek 4 Flash und PRO lokal auf Metal (Apple), CUDA (Nvidia) und ROCm (AMD) ausführt. Starkes Trending-Signal: rund 211 neue Sterne heute.",
+    "why": "Wer große offene Modelle auf eigener Hardware ohne schwere Frameworks betreiben will, bekommt hier eine schlanke Option.",
+    "importance": 3
+   },
+   {
+    "full_name": "tinyhumansai/openhuman",
+    "description": "OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust",
+    "stars_today": 98,
+    "language": "Rust",
+    "sources": [
+     "trending/rust"
+    ],
+    "stars": 40644,
+    "topics": [
+     "agent-orchestration",
+     "ai-agents",
+     "ai-assistant",
+     "desktop",
+     "llm",
+     "local-first",
+     "mcp",
+     "personal-ai",
+     "privacy",
+     "rust",
+     "second-brain",
+     "tauri"
+    ],
+    "created_at": "2026-02-18T20:01:27Z",
+    "pushed_at": "2026-10-04T18:44:09Z",
+    "homepage": "https://tinyhumans.ai/openhuman",
+    "url": "https://github.com/tinyhumansai/openhuman",
+    "key": "gh:tinyhumansai/openhuman",
+    "category": "Coding-Agenten & Harnesses",
+    "what": "In Rust geschriebene Agent-Harness (Laufzeitumgebung um ein Modell), die lokal läuft und MCP sowie Agent-Orchestrierung unterstützt. Laut Beschreibung soll sie besonders schnell und sparsam sein; das ist eine Eigenaussage ohne Beleg hier.",
+    "why": "Mit über 40.000 Sternen ist sie eine der sichtbarsten Open-Source-Alternativen im Bereich persönlicher Agenten.",
+    "importance": 2
+   },
+   {
+    "full_name": "AFK-surf/Comma",
+    "description": "Best free & open source personal agent. Always-on, proactive, sessionless. Browser, computer use, files, remote control. Competiable with ChatGPT/codex and claude code. Selfhost your open source alternative to Muse, Dots, Instinct and Town. Built with Go/Elixir/Lean.",
+    "stars": 172,
+    "language": "Elixir",
+    "topics": [
+     "agent",
+     "elixir-lang",
+     "golang",
+     "personal-ai"
+    ],
+    "created_at": "2026-09-30T08:39:30Z",
+    "pushed_at": "2026-10-03T06:32:04Z",
+    "homepage": "https://comma.surf",
+    "sources": [
+     "search:coding agent",
+     "search:claude code"
+    ],
+    "url": "https://github.com/AFK-surf/Comma",
+    "key": "gh:afk-surf/comma",
+    "category": "Persönliche Agenten",
+    "what": "Selbst hostbarer, dauerhaft laufender und proaktiver persönlicher Agent ohne Sitzungsbegrenzung, mit Browser- und Computersteuerung, Dateizugriff und Fernbedienung. Gebaut mit Go, Elixir und Lean, erst seit Ende September online.",
+    "why": "Ein ungewöhnlicher Technologie-Stack für einen Always-on-Agenten, der als Open-Source-Gegenentwurf zu kommerziellen Angeboten antritt (noch sehr früh, 172 Sterne).",
+    "importance": 2
+   },
+   {
+    "full_name": "michael-denyer/pstack-claude",
+    "description": "Claude Code, Codex, Pi, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.",
+    "stars_today": 232,
+    "language": "JavaScript",
+    "sources": [
+     "trending/all"
+    ],
+    "stars": 1193,
+    "topics": [
+     "agent-plugin",
+     "agent-skills",
+     "agentic-ai",
+     "anthropic",
+     "chatgpt",
+     "claude",
+     "claude-code",
+     "claude-code-plugin",
+     "claude-code-skills",
+     "claude-skills",
+     "code-review",
+     "codex",
+     "codex-cli",
+     "codex-plugin",
+     "codex-skills",
+     "coding-agent",
+     "developer-tools",
+     "gemini-cli",
+     "opencode",
+     "pstack"
+    ],
+    "created_at": "2026-05-26T13:26:00Z",
+    "pushed_at": "2026-10-04T20:53:10Z",
+    "homepage": null,
+    "url": "https://github.com/michael-denyer/pstack-claude",
+    "key": "gh:michael-denyer/pstack-claude",
+    "category": "Coding-Agenten & Harnesses",
+    "what": "Portierung von Poteto's pstack (Satz strenger Agenten-Workflows) auf Claude Code, Codex, Pi, OpenCode, Gemini und weitere Harnesses. Cursor-spezifische Bausteine wurden dafür übersetzt.",
+    "why": "Zeigt, wie sich Workflows harness-übergreifend wiederverwenden lassen; heute rund 232 neue Sterne.",
+    "importance": 2
+   },
+   {
+    "full_name": "garrytan/gstack",
+    "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+    "stars_today": 125,
+    "language": "TypeScript",
+    "sources": [
+     "trending/all",
+     "trending/typescript"
+    ],
+    "stars": 135212,
+    "topics": [],
+    "created_at": "2026-03-11T21:22:45Z",
+    "pushed_at": "2026-10-05T04:47:21Z",
+    "homepage": null,
+    "url": "https://github.com/garrytan/gstack",
+    "key": "gh:garrytan/gstack",
+    "category": "MCP & Skills",
+    "what": "Garry Tans Claude-Code-Konfiguration als 23 vorgefertigte Werkzeuge, die Rollen wie Designer, Release Manager, QA oder Doku-Autor übernehmen.",
+    "why": "Mit über 135.000 Sternen ein Massenphänomen; nützlich als Anschauungsmaterial, wie andere ihre Agenten in Rollen aufteilen.",
+    "importance": 2
+   },
+   {
+    "full_name": "experientiallabs/experiential",
+    "description": "Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and train a specialized model you own.",
+    "stars_today": 472,
+    "language": "Python",
+    "sources": [
+     "trending/python"
+    ],
+    "stars": 8998,
+    "topics": [],
+    "created_at": "2026-06-24T22:40:57Z",
+    "pushed_at": "2026-10-05T01:40:59Z",
+    "homepage": "https://experientiallabs.ai",
+    "url": "https://github.com/experientiallabs/experiential",
+    "key": "gh:experientiallabs/experiential",
+    "category": "Weitere Enhancements",
+    "what": "Open-Source-Gateway für eigene API-Schlüssel, selbst gehostete und über tausend Marktplatz-Modelle, ohne Aufschlag. Es lernt laut Beschreibung aus dem Datenverkehr, senkt Kosten, empfiehlt bessere Modelle und trainiert ein eigenes Spezialmodell.",
+    "why": "Der Ansatz, aus dem eigenen Agenten-Verkehr ein spezialisiertes Modell zu gewinnen, ist interessant; heute rund 472 neue Sterne.",
+    "importance": 2
+   },
+   {
+    "full_name": "Neroued/ninfer",
+    "description": "High-performance single-GPU inference for selected model checkpoints and GPUs.",
+    "stars_today": 44,
+    "language": "C++",
+    "sources": [
+     "trending/c++"
+    ],
+    "stars": 2699,
+    "topics": [],
+    "created_at": "2026-06-26T16:20:43Z",
+    "pushed_at": "2026-10-04T17:21:54Z",
+    "homepage": null,
+    "url": "https://github.com/Neroued/ninfer",
+    "key": "gh:neroued/ninfer",
+    "category": "Modelle & Inferenz",
+    "what": "C++-Inferenz für einzelne GPUs, ausgelegt auf ausgewählte Modell-Checkpoints und Grafikkarten. Die Beschreibung ist knapp, Details zu unterstützten Modellen fehlen.",
+    "why": "Spezialisierung auf wenige Kombinationen kann gegenüber Allzweck-Engines Tempo bringen; rund 44 neue Sterne heute.",
+    "importance": 2
+   },
+   {
+    "full_name": "AlexsJones/llmfit",
+    "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+    "stars_today": 64,
+    "language": "Rust",
+    "sources": [
+     "trending/rust"
+    ],
+    "stars": 37606,
+    "topics": [
+     "gguf",
+     "llm",
+     "localai",
+     "mlx",
+     "skill",
+     "unsloth"
+    ],
+    "created_at": "2026-02-15T16:11:31Z",
+    "pushed_at": "2026-10-05T02:59:52Z",
+    "homepage": null,
+    "url": "https://github.com/AlexsJones/llmfit",
+    "key": "gh:alexsjones/llmfit",
+    "category": "Modelle & Inferenz",
+    "what": "Kommandozeilenwerkzeug in Rust, das für Hunderte Modelle und Anbieter ermittelt, was auf der eigenen Hardware läuft. Unterstützt laut Topics GGUF und MLX.",
+    "why": "Spart das Ausprobieren, welches lokale Modell zur eigenen GPU und zum Arbeitsspeicher passt.",
+    "importance": 2
+   },
+   {
+    "full_name": "vllm-project/semantic-router",
+    "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
+    "stars_today": 15,
+    "language": "Go",
+    "sources": [
+     "trending/go"
+    ],
+    "stars": 6032,
+    "topics": [
+     "ai-gateway",
+     "guardrails",
+     "inference",
+     "kubernetes",
+     "llm",
+     "llmrouter",
+     "mixture-of-models",
+     "pytorch",
+     "semantic-router",
+     "transformer",
+     "vllm"
+    ],
+    "created_at": "2025-08-26T21:49:50Z",
+    "pushed_at": "2026-10-05T04:58:39Z",
+    "homepage": "https://vllm-sr.ai",
+    "url": "https://github.com/vllm-project/semantic-router",
+    "key": "gh:vllm-project/semantic-router",
+    "category": "Modelle & Inferenz",
+    "what": "Programmierbarer Router aus dem vLLM-Projekt, der Anfragen auf verschiedene Sprachmodelle verteilt (Mixture-of-Models). Enthalten sind Leitplanken, und er ist für Kubernetes gedacht.",
+    "why": "Relevant für alle, die mehrere Modelle je nach Aufgabe und Kosten einsetzen wollen.",
+    "importance": 2
+   },
+   {
+    "full_name": "sauravtom/phone-use",
+    "description": "Control Android phones from coding agents through MCP, a CLI, or a skill. No API keys required.",
+    "stars": 51,
+    "language": "Python",
+    "topics": [],
+    "created_at": "2026-09-28T10:41:21Z",
+    "pushed_at": "2026-09-29T04:57:13Z",
+    "homepage": null,
+    "sources": [
+     "search:coding agent",
+     "search:agent skills"
+    ],
+    "url": "https://github.com/sauravtom/phone-use",
+    "key": "gh:sauravtom/phone-use",
+    "category": "MCP & Skills",
+    "what": "Steuert Android-Telefone aus Coding-Agenten, über MCP-Server, Kommandozeile oder Skill, ohne API-Schlüssel.",
+    "why": "Ermöglicht es Agenten, mobile Apps auf echten Geräten auszuprobieren; mit 51 Sternen noch sehr jung.",
+    "importance": 2
+   },
+   {
+    "full_name": "earthtojake/text-to-cad",
+    "description": "Give your agent CAD superpowers.",
+    "stars_today": 83,
+    "language": "Python",
+    "sources": [
+     "trending/all",
+     "trending/python"
+    ],
+    "stars": 16955,
+    "topics": [
+     "agents",
+     "ai-agents",
+     "cad",
+     "mechanical-engineering",
+     "robotics",
+     "step",
+     "stl",
+     "stp",
+     "text-to-cad"
+    ],
+    "created_at": "2026-04-22T01:09:45Z",
+    "pushed_at": "2026-10-05T04:58:00Z",
+    "homepage": "https://www.texttocad.dev",
+    "url": "https://github.com/earthtojake/text-to-cad",
+    "key": "gh:earthtojake/text-to-cad",
+    "category": "Weitere Enhancements",
+    "what": "Gibt Agenten die Fähigkeit, CAD-Modelle zu erzeugen, mit Ausgabe in Formaten wie STEP und STL. Mit rund 17.000 Sternen bereits breit beachtet.",
+    "why": "Ein anschauliches Beispiel, wie Agenten über Code in ein Fachgebiet jenseits von Software vordringen.",
+    "importance": 2
+   },
+   {
+    "full_name": "ggml-org/llama.cpp",
+    "description": "LLM inference in C/C++",
+    "stars_today": 85,
+    "language": "C++",
+    "sources": [
+     "trending/c++"
+    ],
+    "stars": 130324,
+    "topics": [
+     "ggml"
+    ],
+    "created_at": "2023-03-10T18:58:00Z",
+    "pushed_at": "2026-10-05T04:58:07Z",
+    "homepage": "https://llama.app",
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "key": "gh:ggml-org/llama.cpp",
+    "category": "Modelle & Inferenz",
+    "what": "Die bekannte C/C++-Bibliothek für Sprachmodell-Inferenz auf eigener Hardware, heute wieder in den Trends.",
+    "why": "Technische Grundlage vieler lokaler Setups, darunter vermutlich auch einige der hier genannten Projekte.",
+    "importance": 1
+   },
+   {
+    "full_name": "Nasiko-Labs/nasiko",
+    "description": "The Open Runtime for AI Agents",
+    "stars_today": 5,
+    "language": "Rust",
+    "sources": [
+     "trending/rust"
+    ],
+    "stars": 9408,
+    "topics": [
+     "agent-security",
+     "ai",
+     "ai-agents",
+     "cli",
+     "hacktoberfest",
+     "llms",
+     "mcp-gateway",
+     "multi-agent",
+     "rust",
+     "tokenomics",
+     "tokenops"
+    ],
+    "created_at": "2026-02-12T10:45:29Z",
+    "pushed_at": "2026-10-03T06:26:22Z",
+    "homepage": "https://www.nasiko.com",
+    "url": "https://github.com/Nasiko-Labs/nasiko",
+    "key": "gh:nasiko-labs/nasiko",
+    "category": "Coding-Agenten & Harnesses",
+    "what": "Offene Laufzeitumgebung für KI-Agenten mit Sicherheitsfunktionen, MCP-Gateway und Mehr-Agenten-Betrieb, geschrieben in Rust.",
+    "why": "Interessant für alle, die Agenten kontrolliert und nicht nur als Einzelprogramm betreiben wollen; die Beschreibung bleibt allerdings knapp.",
+    "importance": 1
+   },
+   {
+    "full_name": "Chengjun023/agent-smith",
+    "description": "Token 超支？快给史密斯打电话！ Better Call Smith. Adaptive model routing, a glassy Codex usage monitor, and reproducible benchmarks with receipts.",
+    "stars": 79,
+    "language": "Python",
+    "topics": [
+     "ai-agents",
+     "benchmark",
+     "codex",
+     "cost-optimization",
+     "llm-routing",
+     "local-first",
+     "macos",
+     "swiftui",
+     "token-usage"
+    ],
+    "created_at": "2026-09-30T15:58:32Z",
+    "pushed_at": "2026-10-01T05:53:08Z",
+    "homepage": null,
+    "sources": [
+     "search:topic:ai-agents"
+    ],
+    "url": "https://github.com/Chengjun023/agent-smith",
+    "key": "gh:chengjun023/agent-smith",
+    "category": "Weitere Enhancements",
+    "what": "Wählt automatisch das passende Modell je Aufgabe, um Token-Kosten zu senken, und zeigt den Codex-Verbrauch in einer Mac-Oberfläche. Reproduzierbare Benchmarks sind laut Beschreibung enthalten.",
+    "why": "Praktisch für Nutzer mit knappem Nutzungskontingent.",
+    "importance": 1
+   },
+   {
+    "full_name": "try2love/codex-mobile-bridge",
+    "description": "从手机、平板或电脑浏览器继续 Codex App 会话，兼容官方登录、API 与自定义模型服务。Self-hosted browser access to your existing Codex chats, with local/SSH sessions, approvals and notifications.",
+    "stars": 35,
+    "language": "Python",
+    "topics": [
+     "ai-agents",
+     "codex",
+     "codex-app",
+     "developer-tools",
+     "mobile",
+     "openai-codex",
+     "remote-access",
+     "self-hosted",
+     "ssh",
+     "web-ui"
+    ],
+    "created_at": "2026-09-29T17:21:43Z",
+    "pushed_at": "2026-10-04T10:49:30Z",
+    "homepage": "https://try2love.github.io/codex-mobile-bridge/",
+    "sources": [
+     "search:topic:ai-agents"
+    ],
+    "url": "https://github.com/try2love/codex-mobile-bridge",
+    "key": "gh:try2love/codex-mobile-bridge",
+    "category": "Coding-Agenten & Harnesses",
+    "what": "Selbst gehosteter Browser-Zugang, um bestehende Codex-App-Sitzungen von Handy, Tablet oder Rechner weiterzuführen, inklusive Freigaben und Benachrichtigungen.",
+    "why": "Löst das Problem, einen laufenden Coding-Agenten unterwegs im Blick zu behalten.",
+    "importance": 1
+   },
+   {
+    "full_name": "Asigers/pi-knock",
+    "description": "Remote notifications for the Pi coding agent — Pushover, ntfy, and webhooks when tasks finish or need your input.",
+    "stars": 74,
+    "language": "TypeScript",
+    "topics": [
+     "ai-coding-agent",
+     "apple-watch",
+     "developer-tools",
+     "notifications",
+     "ntfy",
+     "pi-coding-agent",
+     "pi-extension",
+     "push-notifications",
+     "pushover",
+     "remote-notifications",
+     "typescript",
+     "webhook"
+    ],
+    "created_at": "2026-10-03T08:27:38Z",
+    "pushed_at": "2026-10-05T01:47:35Z",
+    "homepage": "https://www.npmjs.com/package/@asigers/pi-knock",
+    "sources": [
+     "search:coding agent"
+    ],
+    "url": "https://github.com/Asigers/pi-knock",
+    "key": "gh:asigers/pi-knock",
+    "category": "Coding-Agenten & Harnesses",
+    "what": "Erweiterung für den Pi-Coding-Agenten, die per Pushover, ntfy oder Webhook meldet, wenn Aufgaben fertig sind oder Eingaben brauchen.",
+    "why": "Kleines, aber nützliches Werkzeug für langlaufende Agenten.",
+    "importance": 1
+   },
+   {
+    "full_name": "isoshimodo/ai-data-extractor",
+    "description": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.",
+    "stars": 112,
+    "language": "Python",
+    "topics": [
+     "ai-data",
+     "claude-code",
+     "cursor-ai",
+     "data-extraction",
+     "data-extractor",
+     "windsurf",
+     "windsurf-ai"
+    ],
+    "created_at": "2026-10-03T16:28:57Z",
+    "pushed_at": "2026-10-03T16:32:20Z",
+    "homepage": null,
+    "sources": [
+     "search:claude code",
+     "search:topic:claude-code"
+    ],
+    "url": "https://github.com/isoshimodo/ai-data-extractor",
+    "key": "gh:isoshimodo/ai-data-extractor",
+    "category": "Gedächtnis & Kontext",
+    "what": "Extrahiert Chat-Verläufe von Coding-Assistenten wie Claude Code, Cursor, Windsurf, Aider und Cline in ein auswertbares Format.",
+    "why": "Eine Grundlage, um aus früheren Sitzungen Wissen oder Gedächtnis für Agenten zu gewinnen.",
+    "importance": 1
+   }
+  ],
+  "candidates": 68,
+  "fetched": 158,
+  "failures": []
+ },
+ "reddit": {
+  "headline": "Codex-Nutzer streiten über Sol 6.1 (Tempo, Verbrauch), Claude-Nutzer über Mods und die Cloud-Umstellung am 6. Oktober; dazu eine Debatte über Anthropics Umgang mit gekennzeichneten Anfragen.",
+  "items": [
+   {
+    "id": "t3_1wxiysh",
+    "title": "Updated Claude storage/memory map: what's local, what's cloud, and what changes Oct 6",
+    "author": "BenSimonDev",
+    "subreddit": "ClaudeAI",
+    "published": "2026-10-04T15:51:31+00:00",
+    "permalink": "https://www.reddit.com/r/ClaudeAI/comments/1wxiysh/updated_claude_storagememory_map_whats_local/",
+    "external_url": "https://i.redd.it/pf7icjzjxgth1.png",
+    "text": "Lots of changes over the last few months. Hard to keep track of. Here are all 21 Anthropic help articles, doc pages and release notes on the migration combined in one visualization. Next milestone is October 6th. If you haven't seen it already, all new sessions in the Claude app on Pro/Max will be cloud only. No more local option. Tasks you already started locally stay local. Claude Code is still the local option. Team/Enterprise admins still decide location ATM, no specific date yet. All references in full article .",
+    "sources": [
+     "r/ClaudeAI+ClaudeCode+cursor+ChatGPTCoding+codex+GithubCopilot+vibecoding+AI_Agents+mcp"
+    ],
+    "rank": 10,
+    "key": "rd:t3_1wxiysh",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1wxiysh/updated_claude_storagememory_map_whats_local/",
+    "category": "Release & Ankündigung",
+    "what": "Eine Grafik fasst 21 Anthropic-Hilfeseiten und Release Notes zusammen: Ab dem 6. Oktober laufen neue Sitzungen in der Claude-App auf Pro/Max nur noch in der Cloud, lokal begonnene Aufgaben bleiben lokal, Claude Code bleibt lokal nutzbar.",
+    "why": "Wer Claude für Arbeit mit lokalen Daten nutzt, sollte vor dem Stichtag wissen, was sich ändert.",
+    "importance": 3
+   },
+   {
+    "id": "t3_1wxcd4k",
+    "title": "Top ARC-ΑGI-3 scores on Kaggle just went from 7% to 56% [N]",
+    "author": "we_are_mammals",
+    "subreddit": "MachineLearning",
+    "published": "2026-10-04T10:24:58+00:00",
+    "permalink": "https://www.reddit.com/r/MachineLearning/comments/1wxcd4k/top_arcαgi3_scores_on_kaggle_just_went_from_7_to/",
+    "external_url": null,
+    "text": "https://preview.redd.it/gkjgii48gfth1.png?width=575&format=png&auto=webp&s=4e1c35bdacf41d18a6409baedcddc9432ec79814 This happened over the past 30 days. So smallish local models (Kagglers can only use those), in a harness, just started beating average humans at a benchmark intentionally designed to show human superiority. I'm curious what people here think. (The leaderboard graphic is a little out-of-date)",
+    "sources": [
+     "r/OpenAI+singularity+MachineLearning+artificial"
+    ],
+    "rank": 14,
+    "key": "rd:t3_1wxcd4k",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wxcd4k/top_arcαgi3_scores_on_kaggle_just_went_from_7_to/",
+    "category": "Forschung & Benchmark",
+    "what": "Die Spitzenwerte auf Kaggle für den Benchmark ARC-AGI-3 sind innerhalb von 30 Tagen von 7 % auf 56 % gestiegen, mit kleinen lokalen Modellen in einem Harness (Rahmenprogramm um das Modell). Der Benchmark sollte eigentlich menschliche Überlegenheit zeigen.",
+    "why": "Ein deutliches Signal dafür, wie viel das Harness um ein Modell herum ausmacht.",
+    "importance": 3
+   },
+   {
+    "id": "t3_1wxqhtx",
+    "title": "Codex has a huge TOK/s problem in longer sessions.",
+    "author": "ikhDark",
+    "subreddit": "codex",
+    "published": "2026-10-04T21:01:13+00:00",
+    "permalink": "https://www.reddit.com/r/codex/comments/1wxqhtx/codex_has_a_huge_toks_problem_in_longer_sessions/",
+    "external_url": "https://i.redd.it/4g6vj9hllith1.png",
+    "text": "This post is not about usage complaining or the price of plans so it's not going to get the attention it needs but whatever, this bug is big enough that I'm taking the time to give information on it. I’ve been profiling why some Codex sessions become extremely slow halfway through a task. Across ten rollouts, about 75% of total agent time was spent waiting for the provider to stream model output. Tool calls were about 24%, while harness orchestration was only around 4%, so the local harness itself wasn’t the main reason the slow sessions took so long. Two sessions stood out. One took about 39 ",
+    "sources": [
+     "r/ClaudeAI+ClaudeCode+cursor+ChatGPTCoding+codex+GithubCopilot+vibecoding+AI_Agents+mcp"
+    ],
+    "rank": 68,
+    "key": "rd:t3_1wxqhtx",
+    "url": "https://www.reddit.com/r/codex/comments/1wxqhtx/codex_has_a_huge_toks_problem_in_longer_sessions/",
+    "category": "Erfahrungsbericht",
+    "what": "Ein Nutzer hat zehn Codex-Sitzungen ausgewertet: Rund 75 % der Agentenzeit gingen für das Warten auf die Ausgabe des Modells (Streaming) drauf, die Geschwindigkeit sinkt in langen Sitzungen deutlich. Er hält das für einen eigenen Bug und nennt Messdaten.",
+    "why": "Eine seltene datenbasierte Analyse statt Limit-Gejammer, nützlich für alle, die lange Codex-Läufe fahren.",
+    "importance": 2
+   },
+   {
+    "id": "t3_1wxsns4",
+    "title": "Anthropic needs an even cheaper model than Haiku",
+    "author": "Balance-",
+    "subreddit": "ClaudeAI",
+    "published": "2026-10-04T22:37:30+00:00",
+    "permalink": "https://www.reddit.com/r/ClaudeAI/comments/1wxsns4/anthropic_needs_an_even_cheaper_model_than_haiku/",
+    "external_url": null,
+    "text": "GPT-6 Luna is priced at $0.10 per million input tokens and $0.50 per million output tokens. Claude's cheapest model, Haiku 4.5, costs $1 and $5. That's ten times more. Agents send most of their calls to small, fast worker models. Those calls are where most tokens get spent, and a 10x gap on that much volume decides which vendor gets picked. Caching maintains that 10x gap: Luna charges $0.01 per million for cache reads, Haiku charges $0.10. Anthropic has been cutting prices higher up. Opus 5.5 is $4/$20, down from $5/$25 for Opus 5. Haiku is the tier that hasn't moved. Haiku 5.5 is due in the c",
+    "sources": [
+     "r/ClaudeAI+ClaudeCode+cursor+ChatGPTCoding+codex+GithubCopilot+vibecoding+AI_Agents+mcp"
+    ],
+    "rank": 24,
+    "key": "rd:t3_1wxsns4",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1wxsns4/anthropic_needs_an_even_cheaper_model_than_haiku/",
+    "category": "Meinung & Debatte",
+    "what": "Der Autor rechnet vor, dass GPT-6 Luna mit 0,10 $/0,50 $ pro Million Tokens zehnmal billiger ist als Claude Haiku 4.5 (1 $/5 $), und argumentiert, dass Agenten den Großteil ihrer Aufrufe an kleine Worker-Modelle schicken, weshalb dieser Preisabstand die Anbieterwahl entscheidet.",
+    "why": "Die Kostenstruktur von Multi-Agenten-Setups ist ein echtes Architekturthema und das Argument ist konkret.",
+    "importance": 2
+   },
+   {
+    "id": "t3_1wxndo3",
+    "title": "The biggest improvement to my multi-agent system was making the agents less important",
+    "author": "Druss_",
+    "subreddit": "AI_Agents",
+    "published": "2026-10-04T18:52:41+00:00",
+    "permalink": "https://www.reddit.com/r/AI_Agents/comments/1wxndo3/the_biggest_improvement_to_my_multiagent_system/",
+    "external_url": null,
+    "text": "For the last couple of weeks I've been reworking the architecture of a fairly extensive multi-agent system I use for real work. And the biggest conceptual shift has been surprisingly simple: I no longer want the agents to be the system. I want them to be replaceable workers inside the system. Originally, like many people, I thought mostly in terms of roles: Director → researcher → analyst → executor → reviewer That still has value, but once tasks become long-running and consequential, a much more important question appears: What survives when I replace the worker? If I swap Codex for another m",
+    "sources": [
+     "r/ClaudeAI+ClaudeCode+cursor+ChatGPTCoding+codex+GithubCopilot+vibecoding+AI_Agents+mcp"
+    ],
+    "rank": 64,
+    "key": "rd:t3_1wxndo3",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1wxndo3/the_biggest_improvement_to_my_multiagent_system/",
+    "category": "Erfahrungsbericht",
+    "what": "Ein Entwickler berichtet, dass die größte Verbesserung seines produktiven Multi-Agenten-Systems darin bestand, die Agenten austauschbar zu machen: Das System soll tragen, die Agenten sind ersetzbare Arbeiter statt Rollen wie Direktor, Forscher, Analyst.",
+    "why": "Ein Architekturprinzip aus der Praxis, das über einzelne Modelle hinaus gilt.",
+    "importance": 2
+   },
+   {
+    "id": "t3_1wxm5bh",
+    "title": "In June Anthropic apologized for silently rerouting flagged Fable 5 requests. The Sept 8 NSA/CISA/FBI advisory tells labs to downgrade suspected distillers without telling them. Does the June promise still hold?",
+    "author": "MysteriousAvocado580",
+    "subreddit": "ClaudeAI",
+    "published": "2026-10-04T18:02:39+00:00",
+    "permalink": "https://www.reddit.com/r/ClaudeAI/comments/1wxm5bh/in_june_anthropic_apologized_for_silently/",
+    "external_url": null,
+    "text": "Two texts that are hard to square. In June, people found in the Fable 5 system card that requests flagged as frontier-AI development were silently answered by Opus 4.8. Anthropic reversed that within days and told Fortune: \"Starting this week, flagged requests will visibly fall back to Opus 4.8. On the API, any flagged requests will return a reason for their refusal. You will see this every time it happens.\" And: \"We made the wrong tradeoff and we apologize for not getting the balance right.\" ( Fortune ) On Sept 8, NSA, CISA and FBI published advisory AA26-251A on Chinese distillation campaign",
+    "sources": [
+     "r/ClaudeAI+ClaudeCode+cursor+ChatGPTCoding+codex+GithubCopilot+vibecoding+AI_Agents+mcp"
+    ],
+    "rank": 50,
+    "key": "rd:t3_1wxm5bh",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1wxm5bh/in_june_anthropic_apologized_for_silently/",
+    "category": "Meinung & Debatte",
+    "what": "Im Juni entschuldigte sich Anthropic dafür, markierte Fable-5-Anfragen still auf Opus 4.8 umgeleitet zu haben. Eine Behörden-Empfehlung vom 8. September rät Labors nun, mutmaßliche Distillierer ohne Hinweis herabzustufen; der Beitrag fragt, ob das Juni-Versprechen noch gilt.",
+    "why": "Berührt die Frage, ob man bei Modell-Ausgaben darauf vertrauen kann, wirklich das gewählte Modell zu bekommen.",
+    "importance": 2
+   },
+   {
+    "id": "t3_1wxlc3e",
+    "title": "What could have been done here?",
+    "author": "Renarii",
+    "subreddit": "OpenAI",
+    "published": "2026-10-04T17:29:14+00:00",
+    "permalink": "https://www.reddit.com/r/OpenAI/comments/1wxlc3e/what_could_have_been_done_here/",
+    "external_url": null,
+    "text": "I just watched this and the difference is insane. https://www.youtube.com/watch?v=R_uf5OfMGio (tl;dr prompt was make a game engine, claude opus 5.5 on ultracode worked for a day and a half, where as astra on max worked for 1.5 hours) However, the key difference is that claude worked 24x longer on this. I think the big thing is that ultracode was specifically designed to spawn off sub agents and work on long running projects like this. I'm assuming astra did this all within a single context window and used a single agent, which means it paid less attention to detail for each individual requirem",
+    "sources": [
+     "r/OpenAI+singularity+MachineLearning+artificial"
+    ],
+    "rank": 77,
+    "key": "rd:t3_1wxlc3e",
+    "url": "https://www.reddit.com/r/OpenAI/comments/1wxlc3e/what_could_have_been_done_here/",
+    "category": "Erfahrungsbericht",
+    "what": "Verwiesen wird auf ein Video, in dem Claude Opus 5.5 (Ultracode) einen Tag und einen halben Tag an einer Game Engine arbeitet, Astra auf Max dagegen 1,5 Stunden; der Beitrag diskutiert, ob der Unterschied vor allem an der 24-fach längeren Laufzeit und dem Sub-Agenten-Design liegt.",
+    "why": "Ein direkter Vergleich zweier Agentenansätze an einer anspruchsvollen Aufgabe.",
+    "importance": 2
+   },
+   {
+    "id": "t3_1wxfg79",
+    "title": "The best USAGE for plus users",
+    "author": "Swimming_Ask3859",
+    "subreddit": "codex",
+    "published": "2026-10-04T13:15:51+00:00",
+    "permalink": "https://www.reddit.com/r/codex/comments/1wxfg79/the_best_usage_for_plus_users/",
+    "external_url": null,
+    "text": "I just started using a new method with the desktop app and its been doing really good. Previously I was using gpt 6.1 sol at high but that would take days, and even with subagents EAT up the plus usage limits. I just tried using luna extra high as a orchestrator, luna medium subagents as the implementers, and 6.1 sol medium as reviewers and its been flying through tasks. 43 minutes running with 2 subagents and reviewer and only 12% of my 5 hour limit used. Its actually crazy and this might be the new strat for me",
+    "sources": [
+     "r/ClaudeAI+ClaudeCode+cursor+ChatGPTCoding+codex+GithubCopilot+vibecoding+AI_Agents+mcp"
+    ],
+    "rank": 95,
+    "key": "rd:t3_1wxfg79",
+    "url": "https://www.reddit.com/r/codex/comments/1wxfg79/the_best_usage_for_plus_users/",
+    "category": "Erfahrungsbericht",
+    "what": "Ein Codex-Nutzer setzt Luna (extra high) als Orchestrator, Luna medium als Umsetzer und Sol 6.1 medium als Prüfer ein und berichtet, dass das deutlich schneller und sparsamer läuft als Sol 6.1 allein.",
+    "why": "Ein konkretes, nachbaubares Muster, Modelle nach Rolle zu staffeln und Limits zu schonen.",
+    "importance": 2
+   },
+   {
+    "id": "t3_1wxbpfq",
+    "title": "Left Sol 6.1 Ultra overnight with 4 long but easy tasks - woke up to bazilion of tests, 40% weekly usage burned and 0 tasks started",
+    "author": "jedruch",
+    "subreddit": "codex",
+    "published": "2026-10-04T09:43:28+00:00",
+    "permalink": "https://www.reddit.com/r/codex/comments/1wxbpfq/left_sol_61_ultra_overnight_with_4_long_but_easy/",
+    "external_url": null,
+    "text": "I was happy with Sol 6.1 so far, it was kind of slow, but rather reliable. Yesterday I decided to give it 4 tasks for my app that I wanted to finish by Monday. It did 0. Complete \"building tests\" spiral. 40% of usage burned, none of the tasks was even started. How can I trust them with 100% automated solutions like Dots when their coding agent goes into doom loops like a 2025 chinese model",
+    "sources": [
+     "r/ClaudeAI+ClaudeCode+cursor+ChatGPTCoding+codex+GithubCopilot+vibecoding+AI_Agents+mcp"
+    ],
+    "rank": 29,
+    "key": "rd:t3_1wxbpfq",
+    "url": "https://www.reddit.com/r/codex/comments/1wxbpfq/left_sol_61_ultra_overnight_with_4_long_but_easy/",
+    "category": "Erfahrungsbericht",
+    "what": "Über Nacht ließ ein Nutzer Sol 6.1 Ultra vier lange, aber einfache Aufgaben bearbeiten und fand morgens eine Unmenge Tests, 40 % des Wochenlimits verbraucht und keine einzige Aufgabe begonnen.",
+    "why": "Warnbeispiel für unbeaufsichtigte Läufe mit Agenten, die in Test-Schleifen geraten.",
+    "importance": 2
+   },
+   {
+    "id": "t3_1wxp34w",
+    "title": "Local MCP server that gives coding agents a map of your project instead of whole files (9.3x fewer tokens on a measured task)",
+    "author": "Honest_Traffic_8613",
+    "subreddit": "mcp",
+    "published": "2026-10-04T20:02:05+00:00",
+    "permalink": "https://www.reddit.com/r/mcp/comments/1wxp34w/local_mcp_server_that_gives_coding_agents_a_map/",
+    "external_url": null,
+    "text": "Edit: thanks for the sharp questions. Three of them are fixed in 0.2.1, out today: impact and refs now re-check the project on every call (no 2-second window), outlines say when a file looks generated or uses macros, and empty answers say what isn't indexed. Next version: impact states its own coverage (imports only). Release notes: https://github.com/hedinouairi124-bot/sweepspace/releases/tag/v0.2.1 I built this, so disclosure up front: it's part of Sweepspace, my free Windows app for running coding agents. The MCP server indexes your project locally and exposes: overview , search , grep , ou",
+    "sources": [
+     "r/ClaudeAI+ClaudeCode+cursor+ChatGPTCoding+codex+GithubCopilot+vibecoding+AI_Agents+mcp"
+    ],
+    "rank": 92,
+    "key": "rd:t3_1wxp34w",
+    "url": "https://www.reddit.com/r/mcp/comments/1wxp34w/local_mcp_server_that_gives_coding_agents_a_map/",
+    "category": "Release & Ankündigung",
+    "what": "Ein lokaler MCP-Server gibt Coding-Agenten statt ganzer Dateien eine Karte des Projekts und soll bei einer gemessenen Aufgabe 9,3-mal weniger Tokens verbrauchen. Der Autor hat nach Kritik drei Punkte in Version 0.2.1 behoben und nennt Abdeckungsgrenzen offen.",
+    "why": "Token-sparender Kontext für Agenten ist ein praxisrelevantes Thema, und die Kritikpunkte sind ehrlich benannt.",
+    "importance": 1
+   },
+   {
+    "id": "t3_1wxkg3e",
+    "title": "Cursor: no longer developer tool, now for vibecoders",
+    "author": "LearnedByError",
+    "subreddit": "cursor",
+    "published": "2026-10-04T16:52:51+00:00",
+    "permalink": "https://www.reddit.com/r/cursor/comments/1wxkg3e/cursor_no_longer_developer_tool_now_for_vibecoders/",
+    "external_url": null,
+    "text": "Edit Start: I decided to keep the title as short as I could. Given some of the replies, a better title would be: Cursor, no longer for AI assisted development, now for vibecoders . Today, I write code myself when needed. For the majority of code, I provide an engineering framework for coding assistants to develop within and give them structured requirements to deliver. I may be old, but I'm not a total luddite! Edit End Am I alone in believing that Cursor is being optimized for vibe coders and abandoning its AI assisted coding roots or am I just naive in believing that it every had those roots",
+    "sources": [
+     "r/ClaudeAI+ClaudeCode+cursor+ChatGPTCoding+codex+GithubCopilot+vibecoding+AI_Agents+mcp"
+    ],
+    "rank": 59,
+    "key": "rd:t3_1wxkg3e",
+    "url": "https://www.reddit.com/r/cursor/comments/1wxkg3e/cursor_no_longer_developer_tool_now_for_vibecoders/",
+    "category": "Meinung & Debatte",
+    "what": "Ein erfahrener Entwickler, der Coding-Assistenten einen Engineering-Rahmen und strukturierte Anforderungen vorgibt, meint, Cursor sei kein Werkzeug für KI-gestützte Entwicklung mehr, sondern habe sich zu Vibe-Codern hin verschoben.",
+    "why": "Zeigt, wie sich professionelle Nutzer von einem bisherigen Standardwerkzeug entfernen.",
+    "importance": 1
+   },
+   {
+    "id": "t3_1wxrbz5",
+    "title": "If service reliability conflicts with cost, what’s your strategy?",
+    "author": "c1rno123",
+    "subreddit": "ExperiencedDevs",
+    "published": "2026-10-04T21:37:26+00:00",
+    "permalink": "https://www.reddit.com/r/ExperiencedDevs/comments/1wxrbz5/if_service_reliability_conflicts_with_cost_whats/",
+    "external_url": null,
+    "text": "Before containers and Kubernetes, I deployed services onto virtual machines. We had a fixed number. When the peak arrived at night, whoever was on call tried to spread the load by hand. Buying more hardware took time, and some unreliability was acceptable. Then AWS and Cloudflare made it easier to throw money at capacity and let some infrastructure scale. You have to design the system with scaling in mind. And a bill. Now tokens add cost. If you own both the service and the bill, what’s your strategy? How do you cap, what cap acceptable? How to gracefully degrade? And how rules applies across ",
+    "sources": [
+     "r/ExperiencedDevs+programming+softwareengineering"
+    ],
+    "rank": 4,
+    "key": "rd:t3_1wxrbz5",
+    "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1wxrbz5/if_service_reliability_conflicts_with_cost_whats/",
+    "category": "Meinung & Debatte",
+    "what": "Die Frage, wie man Zuverlässigkeit und Kosten abwägt, seit Cloud-Kapazität per Geld skaliert; der Autor vergleicht das mit der Zeit fester Server und manueller Lastverteilung.",
+    "why": "Grundsatzdiskussion unter erfahrenen Entwicklern, die auch für KI-Betriebskosten relevant ist.",
+    "importance": 1
+   },
+   {
+    "id": "t3_1wxvkfc",
+    "title": "Ownership - by Thorsten Ball - Register Spill",
+    "author": "fagnerbrack",
+    "subreddit": "SoftwareEngineering",
+    "published": "2026-10-05T01:01:00+00:00",
+    "permalink": "https://www.reddit.com/r/SoftwareEngineering/comments/1wxvkfc/ownership_by_thorsten_ball_register_spill/",
+    "external_url": "https://registerspill.thorstenball.com/p/ownership",
+    "text": "",
+    "sources": [
+     "r/ExperiencedDevs+programming+softwareengineering"
+    ],
+    "rank": 6,
+    "key": "rd:t3_1wxvkfc",
+    "url": "https://www.reddit.com/r/SoftwareEngineering/comments/1wxvkfc/ownership_by_thorsten_ball_register_spill/",
+    "category": "Blog & Essay",
+    "what": "Essay von Thorsten Ball im Blog Register Spill mit dem Titel \"Ownership\". Aus Titel und Quelle ist nur das Thema Verantwortung erkennbar, der Inhalt ist hier nicht wiedergegeben.",
+    "why": "Ball ist eine bekannte Stimme zu Coding-Agenten, daher dürfte der Text einen Blick wert sein.",
+    "importance": 1
+   },
+   {
+    "id": "t3_1wxkp86",
+    "title": "My flying steampunk chair (and Ant) now in Unreal Engine! ...and how I did it in three.js using the Gauntlet Loop.",
+    "author": "Different-Director82",
+    "subreddit": "aigamedev",
+    "published": "2026-10-04T17:03:11+00:00",
+    "permalink": "https://www.reddit.com/r/aigamedev/comments/1wxkp86/my_flying_steampunk_chair_and_ant_now_in_unreal/",
+    "external_url": "https://v.redd.it/b6kvb2uvbhth1",
+    "text": "Hi! I posted a few days ago about my flying steampunk chair here and got a lot of comments. Thanks a lot for that! Many of you wanted to hear how I did it and some tips and tricks, so I'm sharing how I started it. First of all, my creating process pretty much came from Xikhar's Spiderbench which in his turn came from Matt Shumer's Gauntlet Loop. He basically built \"Claude of Duty\" in three.js using it. You can read more about it here: Gauntlet Loop by Matt So basically what it does is: Set's a goal for claude, for example to create an AAA quality game based on some images, screenshots or other",
+    "sources": [
+     "r/gamedev+aigamedev+godot+Unity3D+unrealengine+IndieDev"
+    ],
+    "rank": 23,
+    "key": "rd:t3_1wxkp86",
+    "url": "https://www.reddit.com/r/aigamedev/comments/1wxkp86/my_flying_steampunk_chair_and_ant_now_in_unreal/",
+    "category": "Spieleentwicklung",
+    "what": "Ein Entwickler zeigt, wie er einen fliegenden Steampunk-Stuhl in three.js mit Claude per \"Gauntlet Loop\" (Schleife aus Bauen, Prüfen, Verbessern nach Matt Shumer) gebaut und danach in Unreal Engine übertragen hat.",
+    "why": "Konkrete Arbeitsweise für KI-gestützte Spielprototypen, mit Tipps zum Vorgehen.",
+    "importance": 1
+   },
+   {
+    "id": "t3_1wxhkpg",
+    "title": "Not a 1 promt game but 3 months project to build something I can't code on my own, or afford a professional to team up.",
+    "author": "8WayPixels",
+    "subreddit": "aigamedev",
+    "published": "2026-10-04T14:52:31+00:00",
+    "permalink": "https://www.reddit.com/r/aigamedev/comments/1wxhkpg/not_a_1_promt_game_but_3_months_project_to_build/",
+    "external_url": "https://v.redd.it/04tv1b2xogth1",
+    "text": "I'm not a programmer, and I'm not even a game designer. My experience is mostly in animation, and even then, I don't have the time to sit down and create the full mountain of assets a game needs because I have a full-time job. Like many of you, I want to make a game. I've tried teaming up with people before, but at some point motivation tends to fade when there's no way to self-fund the project. I've also tried getting some code going for my own projects with LLMs in the past, but I always ended up hitting dead ends and limitations after barely scratching the surface of what a real game requir",
+    "sources": [
+     "r/gamedev+aigamedev+godot+Unity3D+unrealengine+IndieDev"
+    ],
+    "rank": 34,
+    "key": "rd:t3_1wxhkpg",
+    "url": "https://www.reddit.com/r/aigamedev/comments/1wxhkpg/not_a_1_promt_game_but_3_months_project_to_build/",
+    "category": "Spieleentwicklung",
+    "what": "Eine Nicht-Programmiererin mit Animationshintergrund schildert ein dreimonatiges Projekt, in dem sie mit KI ein Spiel baut, das sie allein nicht programmieren könnte.",
+    "why": "Realistischer Gegenpol zu \"Spiel mit einem Prompt\"-Behauptungen.",
+    "importance": 1
+   }
+  ],
+  "candidates": 339,
+  "fetched": 379,
+  "failures": []
+ }
+}

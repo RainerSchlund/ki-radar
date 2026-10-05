@@ -1,66 +1,66 @@
 {
- "date": "2026-10-04",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-04.html",
+ "date": "2026-10-05",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-05.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "github": {
-  "count": 26,
-  "headline": "Agenten-Werkzeuge drumherum: Überwachung, Video-Skills und Spiele-Modding mit Claude Code",
+  "count": 17,
+  "headline": "Lokale Inferenz, Agenten-Laufzeiten und Skill-Sammlungen dominieren den Tag",
   "top": [
    {
-    "title": "rehan-remade/universal-modder",
-    "what": "Ein Plugin-Paket, mit dem Claude Code fast jedes PC-Spiel modden kann, das man besitzt: Skills und Werkzeuge für Recherche, Reverse Engineering, Tests im Spiel sowie ein MCP-Server (fal) für generierte Grafik, 3D und Audio.",
+    "title": "antirez/ds4",
+    "what": "Inferenz-Engine von antirez (Salvatore Sanfilippo, Redis-Autor) in C, die DeepSeek 4 Flash und PRO lokal auf Metal (Apple), CUDA (Nvidia) und ROCm (AMD) ausführt. Starkes Trending-Signal: rund 211 neue Sterne heute.",
     "importance": 3
    },
    {
-    "title": "Louis-CFM/coucou",
-    "what": "Eine kleine Begleit-App, die in der Notch (macOS) oder am oberen Bildschirmrand sitzt und den Zustand laufender Coding-Agenten wie Claude Code, Codex, Cursor oder Gemini CLI anzeigt.",
-    "importance": 3
-   },
-   {
-    "title": "CoplayDev/unity-mcp",
-    "what": "Eine MCP-Brücke zwischen KI-Assistenten und dem Unity-Editor: Das Modell kann Assets verwalten, Szenen steuern und Skripte bearbeiten.",
+    "title": "tinyhumansai/openhuman",
+    "what": "In Rust geschriebene Agent-Harness (Laufzeitumgebung um ein Modell), die lokal läuft und MCP sowie Agent-Orchestrierung unterstützt. Laut Beschreibung soll sie besonders schnell und sparsam sein; das ist eine Eigenaussage ohne Beleg hier.",
     "importance": 2
    },
    {
-    "title": "mlc-ai/TIRx-harness",
-    "what": "Ein offenes Compiler-Harness (Laufzeitumgebung um ein Modell) des mlc-ai-Teams für agentische GPU-Programmierung; Details gehen aus der knappen Beschreibung nicht hervor.",
+    "title": "AFK-surf/Comma",
+    "what": "Selbst hostbarer, dauerhaft laufender und proaktiver persönlicher Agent ohne Sitzungsbegrenzung, mit Browser- und Computersteuerung, Dateizugriff und Fernbedienung. Gebaut mit Go, Elixir und Lean, erst seit Ende September online.",
     "importance": 2
    },
    {
-    "title": "facebookresearch/swe-sweep",
-    "what": "Ein Benchmark von Facebook Research, der misst, wie viele Fehler Sprachmodelle in großen Codebasen finden und beheben können; läuft laut Topics auf dem Harbor-Framework.",
+    "title": "michael-denyer/pstack-claude",
+    "what": "Portierung von Poteto's pstack (Satz strenger Agenten-Workflows) auf Claude Code, Codex, Pi, OpenCode, Gemini und weitere Harnesses. Cursor-spezifische Bausteine wurden dafür übersetzt.",
+    "importance": 2
+   },
+   {
+    "title": "garrytan/gstack",
+    "what": "Garry Tans Claude-Code-Konfiguration als 23 vorgefertigte Werkzeuge, die Rollen wie Designer, Release Manager, QA oder Doku-Autor übernehmen.",
     "importance": 2
    }
   ]
  },
  "reddit": {
-  "count": 16,
-  "headline": "Neue Modelle im Alltagstest, Tempo-Frust bei Codex und die Frage nach Budgetgrenzen für Agenten",
+  "count": 15,
+  "headline": "Codex-Nutzer streiten über Sol 6.1 (Tempo, Verbrauch), Claude-Nutzer über Mods und die Cloud-Umstellung am 6. Oktober; dazu eine Debatte über Anthropics Umgang mit gekennzeichneten Anfragen.",
   "top": [
    {
-    "title": "We're going to need default hard budget caps on pretty much everything",
-    "what": "Simon Willison argumentiert, dass für Agenten und KI-Dienste standardmäßig harte Budgetobergrenzen nötig sind. Der Beitrag steht auf simonwillison.net; der Inhalt wird hier nur aus Titel und Quelle abgeleitet.",
+    "title": "Updated Claude storage/memory map: what's local, what's cloud, and what changes Oct 6",
+    "what": "Eine Grafik fasst 21 Anthropic-Hilfeseiten und Release Notes zusammen: Ab dem 6. Oktober laufen neue Sitzungen in der Claude-App auf Pro/Max nur noch in der Cloud, lokal begonnene Aufgaben bleiben lokal, Claude Code bleibt lokal nutzbar.",
     "importance": 3
    },
    {
-    "title": "A Harvard physicist spent 3 months doing research with Claude Fable 5: it reproduced weeks of work in 20 minutes, completed 15 never-before-solved physics calculations, and contributed to 36 papers across 18 fields",
-    "what": "Anthropic berichtet in \"Claude-shaped science\" von einem Harvard-Physiker, der drei Monate lang mit Claude Fable 5 forschte: rund 400 Probleme in 18 Fachgebieten, 36 Manuskripte, 15 bislang ungelöste Berechnungen.",
+    "title": "Top ARC-ΑGI-3 scores on Kaggle just went from 7% to 56% [N]",
+    "what": "Die Spitzenwerte auf Kaggle für den Benchmark ARC-AGI-3 sind innerhalb von 30 Tagen von 7 % auf 56 % gestiegen, mit kleinen lokalen Modellen in einem Harness (Rahmenprogramm um das Modell). Der Benchmark sollte eigentlich menschliche Überlegenheit zeigen.",
+    "importance": 3
+   },
+   {
+    "title": "Codex has a huge TOK/s problem in longer sessions.",
+    "what": "Ein Nutzer hat zehn Codex-Sitzungen ausgewertet: Rund 75 % der Agentenzeit gingen für das Warten auf die Ausgabe des Modells (Streaming) drauf, die Geschwindigkeit sinkt in langen Sitzungen deutlich. Er hält das für einen eigenen Bug und nennt Messdaten.",
     "importance": 2
    },
    {
-    "title": "Ethan Mollick on the dot and the swarm, and how to benefit from the bitter lesson",
-    "what": "Ethan Mollick schreibt unter dem Titel \"The dot and the swarm\" darüber, wie man von der \"bitteren Lektion\" (Skalierung schlägt Handarbeit) profitiert. Gemeint sind offenbar OpenAIs neuer persönlicher Agent \"dots\" und Schwärme von Agenten; der Inhalt ist nur aus Titel und Quelle erschlossen.",
+    "title": "Anthropic needs an even cheaper model than Haiku",
+    "what": "Der Autor rechnet vor, dass GPT-6 Luna mit 0,10 $/0,50 $ pro Million Tokens zehnmal billiger ist als Claude Haiku 4.5 (1 $/5 $), und argumentiert, dass Agenten den Großteil ihrer Aufrufe an kleine Worker-Modelle schicken, weshalb dieser Preisabstand die Anbieterwahl entscheidet.",
     "importance": 2
    },
    {
-    "title": "OpenAI publishes a model guide for the GPT-6 family covering model choice, reasoning effort, and tool use",
-    "what": "OpenAI veröffentlicht einen praktischen Leitfaden zum Bauen mit der GPT-6-Familie, der Modellwahl, Reasoning-Aufwand und Werkzeugnutzung behandelt.",
-    "importance": 2
-   },
-   {
-    "title": "Benchmark notes: Sonnet 5.5 jumps from 72 to 94/98; Opus 5.5 reaches 96/98 with much less request time",
-    "what": "Der MindTrial-Betreiber testet Sonnet 5.5 und Opus 5.5 auf derselben 98-Aufgaben-Suite wie die Vorgänger: Sonnet springt von 72 auf 94 gelöste Aufgaben, Opus 5.5 erreicht 96 bei deutlich kürzerer Anfragezeit.",
+    "title": "The biggest improvement to my multi-agent system was making the agents less important",
+    "what": "Ein Entwickler berichtet, dass die größte Verbesserung seines produktiven Multi-Agenten-Systems darin bestand, die Agenten austauschbar zu machen: Das System soll tragen, die Agenten sind ersetzbare Arbeiter statt Rollen wie Direktor, Forscher, Analyst.",
     "importance": 2
    }
   ]

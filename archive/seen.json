@@ -30,6 +30,11 @@
 "first_seen": "2026-10-04",
 "status": "reported"
 },
+"gh:afk-surf/comma": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
 "gh:agent-substrate/substrate": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -55,10 +60,25 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:alexsjones/llmfit": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"gh:andrewmd5/borderless-gaming": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
 "gh:anthropics/claude-code": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
 "status": "rejected"
+},
+"gh:antirez/ds4": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
 },
 "gh:aquasecurity/trivy": {
 "date": "2026-10-04",
@@ -85,6 +105,11 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:asigers/pi-knock": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
 "gh:autumn-27/artex": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -93,6 +118,16 @@
 "gh:avelino/awesome-go": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:azahar-emu/azahar": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:bennettxai/founderos-demo": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "gh:beyonddimension/steamtools": {
@@ -104,6 +139,11 @@
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
 "status": "reported"
+},
+"gh:caddyserver/caddy": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
 },
 "gh:calesthio/openmontage": {
 "date": "2026-10-04",
@@ -120,6 +160,11 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:chengjun023/agent-smith": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
 "gh:chromedevtools/chrome-devtools-mcp": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -128,6 +173,11 @@
 "gh:cjpais/handy": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:clash-verge-rev/clash-verge-rev": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "gh:clawyi-com/china-market-data": {
@@ -159,6 +209,11 @@
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
 "status": "reported"
+},
+"gh:coreyhaines31/marketingskills": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
 },
 "gh:crmne/omarchy-rescue": {
 "date": "2026-10-04",
@@ -210,6 +265,11 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:dongnguyenvie/bashcut": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
 "gh:dotnet/aspnetcore": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -218,6 +278,11 @@
 "gh:dotnet/runtime": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:dotnet/sdk": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "gh:dotnet/skills": {
@@ -250,9 +315,19 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:earthtojake/text-to-cad": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
 "gh:echris6/motion-video-kit": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:ecruells/resident-evil-pc-decomp": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "gh:edenfunf/reelmimic": {
@@ -274,6 +349,16 @@
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
 "status": "rejected"
+},
+"gh:evcc-io/evcc": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:experientiallabs/experiential": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
 },
 "gh:facebookresearch/swe-sweep": {
 "date": "2026-10-04",
@@ -310,6 +395,16 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:free-tv/iptv": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:garrytan/gstack": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
 "gh:geode-sdk/geode": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -325,9 +420,24 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:ggml-org/llama.cpp": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"gh:gibbed/steamachievementmanager": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
 "gh:github/github-mcp-server": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:golang/go": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "gh:golangci/golangci-lint": {
@@ -338,6 +448,11 @@
 "gh:gongnyang/awesome-ai-motion": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:google/gvisor": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "gh:google/skills": {
@@ -385,6 +500,16 @@
 "first_seen": "2026-10-04",
 "status": "reported"
 },
+"gh:hieunc229/mailflare": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:hirotomasato/duckapi": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
 "gh:howseen-ai/claude-motion-design": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -414,6 +539,21 @@
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
 "status": "rejected"
+},
+"gh:imputnet/helium": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:iptv-org/iptv": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:isoshimodo/ai-data-extractor": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
 },
 "gh:iucc123/cliproxyapi-rust": {
 "date": "2026-10-04",
@@ -445,9 +585,19 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:jellyfin/jellyfin-desktop": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
 "gh:joeseesun/opus-video-prompts": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:joeseesun/qiaomu-codex-imagegen": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "gh:juliusbrussee/caveman": {
@@ -480,9 +630,19 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:kvoltmer/audionaut": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
 "gh:leonvanzyl/cubefarm": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:leonxlnx/cinetic": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "gh:lharries/whatsapp-mcp": {
@@ -510,6 +670,26 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:luolangaga/tubatools": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:luxalgo/vela": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:masterking32/masterdnsvpn": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:mathieu2301/tradingview-api": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
 "gh:mattermost/mattermost": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -530,6 +710,16 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:mhsanaei/3x-ui": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:michael-denyer/pstack-claude": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
 "gh:microsoft/onnxruntime": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -548,6 +738,11 @@
 "gh:mikamikasuki/forest": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:mikuleaks/mikusb": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "gh:minghinmatthewlam/pi-gui": {
@@ -575,6 +770,21 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:mort1d/motion-graphics-skills": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:mostlygeek/llama-swap": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:mrifqidaffaaditya/wa-akg": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
 "gh:mrnerf/lichtfeld-studio": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -595,6 +805,26 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:nasiko-labs/nasiko": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"gh:ndolestudio/httpsms": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:nefarius/dshidmini": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:neroued/ninfer": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
 "gh:nethermindeth/nethermind": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -603,6 +833,16 @@
 "gh:nickvisionapps/parabolic": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:nkaz001/hftbacktest": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:noctalia-dev/umbriel": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "gh:nykooi1/vibe-wise": {
@@ -614,6 +854,11 @@
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
 "status": "reported"
+},
+"gh:ok-oldking/ok-wuthering-waves": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
 },
 "gh:ollama/ollama": {
 "date": "2026-10-04",
@@ -638,6 +883,11 @@
 "gh:opencut-app/opencut": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:openutau/openutau": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "gh:optiscaler/optiscaler": {
@@ -668,6 +918,11 @@
 "gh:pbakaus/impeccable": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:perfare/il2cppdumper": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "gh:pi-pod/pipod": {
@@ -725,6 +980,11 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:rust-lang/rust": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
 "gh:ruvnet/ruflo": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -735,9 +995,19 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:sauravtom/phone-use": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
 "gh:scarletkc/seiso": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:scp222thj/malummenu": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "gh:shadps4-emu/shadps4": {
@@ -748,6 +1018,11 @@
 "gh:shinshin86/mesh-avatar-studio": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:shy3130/tick-stock-panel": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "gh:silentlake-tech-skillhub/silentagenthub": {
@@ -768,6 +1043,11 @@
 "gh:sqlfluff/sqlfluff": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:steamre/depotdownloader": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "gh:subtitleedit/subtitleedit": {
@@ -795,6 +1075,11 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:tester-army/e2e": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
 "gh:thedotmack/claude-mem": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -805,15 +1090,30 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:tinyhumansai/openhuman": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
 "gh:tmodloader/tmodloader": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:touchhle/touchhle": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "gh:tracer-cloud/opensre": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
 "status": "rejected"
+},
+"gh:try2love/codex-mobile-bridge": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
 },
 "gh:tunaarikaya/magaza-mcp": {
 "date": "2026-10-04",
@@ -840,10 +1140,25 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:v2fly/domain-list-community": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:vincentwei1021/mg-styles-15": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
 "gh:vita3k/vita3k": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
 "status": "rejected"
+},
+"gh:vllm-project/semantic-router": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
 },
 "gh:weave-os/router": {
 "date": "2026-10-04",
@@ -860,9 +1175,24 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:wilbowes/echomuse": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:xianyu110/ecommerce-image-skills": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
 "gh:xop01/ai_goodpractice": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:ys-ll/uniterm": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "gh:ythx-101/live-panel-skill": {
@@ -880,10 +1210,20 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:zen-browser/desktop": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
 "gh:zeronsh/zeron": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
 "status": "reported"
+},
+"gh:zerx-lab/fluxdown": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
 },
 "gh:zhou-yujing114514/deepseek-harness-linux": {
 "date": "2026-10-04",
@@ -2685,6 +3025,16 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"rd:t3_1wx7jg6": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wx7k6u": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
 "rd:t3_1wx7kei": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -2720,6 +3070,11 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"rd:t3_1wx88w2": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
 "rd:t3_1wx8f7j": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -2735,6 +3090,21 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"rd:t3_1wx8j5h": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wx8pdp": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wx8rb7": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
 "rd:t3_1wx8ruy": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -2748,6 +3118,11 @@
 "rd:t3_1wx8vyi": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"rd:t3_1wx8w2b": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "rd:t3_1wx8x9q": {
@@ -2770,6 +3145,11 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"rd:t3_1wx9auh": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
 "rd:t3_1wx9dqk": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -2778,6 +3158,41 @@
 "rd:t3_1wx9j5o": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"rd:t3_1wx9l9l": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wx9lzb": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wx9ogl": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wx9paa": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wx9pum": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wx9rzz": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wx9t15": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
 "status": "rejected"
 },
 "rd:t3_1wxa1wr": {
@@ -2789,16 +3204,1641 @@
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
 "status": "rejected"
+},
+"rd:t3_1wxa4dd": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxa6d9": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxaawk": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxabn8": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxabwk": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxag4r": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxakf1": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxamfn": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxanwe": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxao4m": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxaq5h": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxar4x": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxarm9": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxas3f": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxawol": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxb2gt": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxb83y": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxbc0h": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxbgot": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxbhvr": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxbi4y": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxbkth": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxbm8w": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxbpfq": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"rd:t3_1wxbple": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxbpo5": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxbwkk": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxc1h9": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxcd4k": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"rd:t3_1wxch1y": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxcioa": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxcjkc": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxck8v": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxcn49": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxctyx": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxcwqw": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxczqh": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxd1k7": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxd33z": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxd404": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxd6vo": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxd8hr": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxddoo": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxdhkg": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxdia4": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxdid7": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxdl2w": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxdqsa": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxdr6h": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxdxxf": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxe9qx": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxe9xd": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxectl": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxecuy": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxeeal": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxef1u": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxehf4": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxepgu": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxess8": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxeup2": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxew8d": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxex89": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxex8n": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxeyas": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxezys": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxf23a": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxf2vl": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxf6t7": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxf9oq": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxf9v4": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxfaeo": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxfaye": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxfbpv": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxfc4r": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxfcjp": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxfdt9": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxfg79": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"rd:t3_1wxfgb3": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxfgn9": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxfp3z": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxfqbm": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxfrfy": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxfs0d": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxfsqi": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxfxzg": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxg1nr": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxg5u1": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxg8t5": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxgccy": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxgcfx": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxgcmn": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxgdol": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxgh78": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxghff": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxgm0h": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxgmhx": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxh6ky": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxh6ly": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxh7ma": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxhftq": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxhkpg": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"rd:t3_1wxhkvb": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxhome": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxhpa6": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxhpjk": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxhpy4": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxhvz4": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxi3yd": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxi4nd": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxi4uz": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxi7ze": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxibor": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxich4": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxig2m": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxigkj": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxiiea": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxij8n": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxijfd": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxin4m": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxipeg": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxirdb": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxiy8y": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxiysh": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"rd:t3_1wxj0we": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxj7d4": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxj9r8": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxj9xp": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxjcjk": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxjf7m": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxjfb5": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxjgzz": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxjhzi": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxjoip": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxjs47": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxjtgd": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxjuim": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxjv9i": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxjxqf": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxk0al": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxk0o9": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxk1pd": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxk6tj": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxk84b": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxk9m3": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxken1": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxkg3e": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"rd:t3_1wxkhi3": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxkhtc": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxknap": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxkojd": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxkp86": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"rd:t3_1wxktw1": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxkwdq": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxkxhu": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxkzyo": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxl1h0": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxl26z": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxl36c": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxl8p5": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxl8xy": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxlb6e": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxlbyi": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxlc3e": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"rd:t3_1wxlhyw": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxljho": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxllvu": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxlm01": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxlmtk": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxloam": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxlome": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxlq3q": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxlqrd": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxlqu4": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxlso1": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxlw2c": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxlx7z": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxlytt": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxm1b5": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxm1vq": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxm27w": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxm2og": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxm3ft": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxm5bh": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"rd:t3_1wxm5p3": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxma3a": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxma64": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxmc9z": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxml0x": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxml5f": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxmnjj": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxmo87": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxmr6l": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxmtq3": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxmunv": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxn3ua": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxnait": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxndo3": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"rd:t3_1wxnhuf": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxnkca": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxnkuc": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxnlfs": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxnm5i": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxno17": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxnt4u": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxnu0r": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxo0e8": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxo3e0": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxo85r": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxoefa": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxogp8": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxohnf": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxok9e": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxomzr": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxon4e": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxonqb": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxop8q": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxoqqp": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxoqzr": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxos81": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxosur": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxot6u": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxov05": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxoyfu": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxp1u8": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxp21n": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxp34w": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"rd:t3_1wxp8ok": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxp9k7": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxpaus": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxpbwl": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxpdax": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxpgmx": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxphvx": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxpizx": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxpkrj": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxpqnh": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxpvys": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxpydr": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxpyql": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxpzop": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxq039": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxq5ng": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxq74j": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqacr": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqd29": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqd44": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqfo0": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqhqw": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqhtx": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"rd:t3_1wxqif6": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqimq": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqjty": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqmaa": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqn6k": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqoa3": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqrp6": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqvl6": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqxmw": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqxv1": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqy2j": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqy7s": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxqz4g": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxr5t5": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxr6n5": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxr8wd": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxrbz5": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"rd:t3_1wxrij7": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxrm01": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxrozq": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxruop": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxrvpj": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxrwn4": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxs0sp": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxs344": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxs5n0": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxs6hj": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxs8hs": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxs8qq": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxsa2t": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxsa8k": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxsawe": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxsd6s": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxsf0g": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxsfo5": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxsggz": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxsns4": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"rd:t3_1wxswr3": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxt8wo": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxt9qj": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxtfy5": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxtgt7": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxtjr5": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxtpxs": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxtqa5": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxtqhf": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxtsgk": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxu34d": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxu9di": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxud96": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxuevl": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxul6s": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxumqt": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxun83": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxv1fo": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxv3km": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxv4fg": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxv58h": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxv9n5": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxvkfc": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "reported"
+},
+"rd:t3_1wxvsmd": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxvt41": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxvwj3": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxw1gk": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxw2by": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxw2m4": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxwsof": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxwz8n": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxx0hu": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxx7y5": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxxfyi": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxxqfe": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxxqxo": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxxrnm": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
+},
+"rd:t3_1wxyuxx": {
+"date": "2026-10-05",
+"first_seen": "2026-10-05",
+"status": "rejected"
 }
 },
 "urls": {
 "anthropic.com/research/claude-shaped-science": "2026-10-04",
 "carteakey.dev/blog/local-inference/the-rise-of-overfit-inference-engines": "2026-10-04",
+"i.redd.it/4g6vj9hllith1.png": "2026-10-05",
+"i.redd.it/pf7icjzjxgth1.png": "2026-10-05",
 "i.redd.it/s6nfikrxc8th1.png": "2026-10-04",
 "i.redd.it/zm7sngm4dath1.jpeg": "2026-10-04",
 "oneusefulthing.org/p/the-dot-and-the-swarm": "2026-10-04",
 "openai.com/index/practical-guide-building-gpt-6": "2026-10-04",
+"registerspill.thorstenball.com/p/ownership": "2026-10-05",
 "simonwillison.net/2026/oct/3/default-hard-budget-caps": "2026-10-04",
+"v.redd.it/04tv1b2xogth1": "2026-10-05",
+"v.redd.it/b6kvb2uvbhth1": "2026-10-05",
 "v.redd.it/uyqcjyjnkcth1": "2026-10-04"
 }
 }

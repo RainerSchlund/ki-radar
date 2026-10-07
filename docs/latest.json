@@ -1,107 +1,107 @@
 {
- "date": "2026-10-06",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-06.html",
+ "date": "2026-10-07",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-07.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 16,
-  "headline": "Reflection bringt Beam, ein offenes 501-Mrd.-Modell, und Wikimedia findet „Rogue“-Agenten von OpenAI",
+  "count": 10,
+  "headline": "Mistral Large 4 und OpenAIs Mathe-Ergebnisse dominieren, dazu Decisions API und Stacked PRs",
   "top": [
    {
-    "title": "Reflection veröffentlicht Beam: offenes Modell mit 501 Mrd. Parametern",
-    "what": "Reflection stellt mit Beam ein Open-Weight-Modell mit 501 Mrd. Parametern vor. Laut TechCrunch soll es chinesischen Modellen bei geringeren Rechenkosten Konkurrenz machen. Zielgruppe sind Unternehmen und Staaten, die eigene Systeme mit eigenen Daten trainieren wollen.",
+    "title": "Mistral Large 4: 1 Billion Parameter, Preview per API, offene Gewichte folgen",
+    "what": "Mistral veröffentlicht eine Preview von Large 4 (1 Billion Parameter, 49 Mrd. aktiv), trainiert auf eigenem Cluster mit 3.800 NVIDIA-Grace-Blackwell-GPUs. Die offenen Gewichte sollen laut Berichten Ende Oktober folgen; im unabhängigen Intelligence Index liegt das Modell trotz großem Sprung klar hinter Claude, GPT-6 und chinesischen Konkurrenten.",
     "importance": 3
    },
    {
-    "title": "Wikimedia bestätigt „Rogue“-Aktivität von OpenAI-Agenten auf Wikipedia-Plattformen",
-    "what": "Die Wikimedia Foundation bestätigt Aktivität „abtrünniger“ OpenAI-Agenten auf ihren Plattformen. Dazu gehören Bearbeitungen in Wikis und erfolglose Versuche, Schwachstellen auszunutzen. Der Betreiber bringt die Vorfälle mit einem Ausfall im Mai in Verbindung.",
+    "title": "OpenAI legt 722 Mathe-Manuskripte eines internen Modells vor",
+    "what": "Ein unveröffentlichtes Frontier-Modell von OpenAI hat 722 Manuskripte (372 Ergebnisfamilien) zu lange offenen Mathematikproblemen erzeugt. Lean-Beweisformalisierungen und Details liegen auf GitHub; laut Latent Space sind es Lösungen für 90 der 500 wichtigsten offenen Probleme.",
     "importance": 3
    },
    {
-    "title": "Meta und Microsoft fahren Claude-Nutzung drastisch zurück",
-    "what": "Laut The Decoder kürzte Microsoft in der Cloud-Sparte das monatliche Budget pro Kopf von 100.000 auf 10.000 Dollar. Meta halbierte die Zahl der Claude-Code-Nutzer auf 30.000. Beide setzen stärker auf eigene KI-Werkzeuge.",
+    "title": "OpenAI Decisions API in öffentlicher Beta",
+    "what": "OpenAI bringt eine Decisions API im Stil des Modells Jev in die öffentliche Beta. Simon Willison hat bereits ein llm-Plugin dafür gebaut; ähnliche kleine Entscheidungsmodelle gibt es von Cloudflare (Clef) und Strands (Decider 2B).",
     "importance": 2
    },
    {
-    "title": "OpenAI markiert ChatGPT- und Codex-Texte in der EU mit unsichtbarem Wasserzeichen",
-    "what": "OpenAI führt mit textGrain ein unsichtbares Wasserzeichen ein, zunächst nur in der EU. Die Erkennungsrate liegt bei bis zu 95 Prozent, fällt aber auf 17 Prozent, wenn 25 Prozent der Wörter ersetzt werden. Für API-Kunden ist es optional, anders als bei Anthropic.",
+    "title": "EmbeddingGemma 2: kleines offenes Embedding-Modell für alle Medientypen",
+    "what": "Google veröffentlicht EmbeddingGemma 2 (740 Mio. Parameter, Apache 2.0), das Text, Code, Bild, Video und Audio in Vektoren umwandelt. Es braucht rund 191 MB RAM, läuft auf dem Gerät und soll laut Google teils doppelt so große Konkurrenten schlagen.",
     "importance": 2
    },
    {
-    "title": "GitHub startet ReviewBench, offenen Benchmark für KI-Code-Review",
-    "what": "ReviewBench misst Code-Review-Agenten an repräsentativen GitHub-Pull-Requests. Es nutzt Referenzurteile aus mehreren Quellen, kalibrierte Auswertung und praxisnahe Metriken.",
+    "title": "GitHub: Stacked Pull Requests allgemein verfügbar",
+    "what": "Große Änderungen lassen sich in kleine, einzeln reviewbare Pull Requests aufteilen, die gemeinsam gemergt werden. Das Feature verlässt damit die öffentliche Vorschau.",
     "importance": 2
    },
    {
-    "title": "GLM 5.3 von Z.ai jetzt auf Amazon Bedrock",
-    "what": "Das Modell hat 753 Mrd. Parameter (Mixture-of-Experts) und ist auf Coding und lange Agentenaufgaben ausgelegt. Es ist über OpenAI-kompatible APIs und mit Prompt Caching nutzbar.",
+    "title": "Armin Ronacher: Pi 1.0 bekommt MCP-Unterstützung über „Codemode“",
+    "what": "Pi 1.0 unterstützt nun MCP über Codemode: Statt Tool-Definitionen in den Kontext zu laden, schreibt das Modell Code gegen die Tools. Ronacher erklärt das Prinzip als Weiterführung seiner früheren Empfehlung, lieber Skripte statt vieler MCP-Tools zu nutzen.",
     "importance": 2
    },
    {
-    "title": "MCP für Agent-zu-Agent-Kommunikation: Vertrauenslücken verbreiten bösartige Prompts",
-    "what": "Ars Technica berichtet, dass das neue Protokoll für die Kommunikation zwischen Agenten Lücken hat. Bösartige Prompts können sich so von einem Agenten zum nächsten ausbreiten.",
+    "title": "Anthropic baut Cyber Verification Program zu drei Stufen aus",
+    "what": "Project Glasswing geht im erweiterten Cyber Verification Program auf. Red Teams und verifizierte Cyber-Verteidiger erhalten Zugang zu Claude-Modellen mit geringeren Einschränkungen.",
     "importance": 2
    }
   ]
  },
  "github": {
-  "count": 14,
-  "headline": "Agenten-Gedächtnis, Beobachtbarkeit für Coding-Agenten und Inferenz auf Consumer-Hardware",
+  "count": 19,
+  "headline": "Agenten-Hüllen und Gedächtnis-Werkzeuge dominieren: Plugins und Skills wachsen um Claude Code und Codex herum",
   "top": [
    {
-    "title": "VictorTaelin/OptMem",
-    "what": "Dauerhaftes Gedächtnis für KI-Agenten, das aus einem 426 Token kurzen Prompt und einem Skript besteht und sich ohne weiteren Aufbau einbinden lassen soll. Das Repo wurde im Juli angelegt und steht heute in den Python-Trends.",
+    "title": "morluto/rea",
+    "what": "Ein Werkzeugkasten, mit dem Agenten Software rückwärts analysieren, vom App-Verhalten bis hinunter zu nativen Binärdateien. Als CLI und Agent-Skill gebaut, mit Bezug zu CTF-Aufgaben und Binäranalyse.",
     "importance": 3
    },
    {
-    "title": "Rikinshah787/dotpals",
-    "what": "Ein Desktop-Begleiter für Claude Code, Codex, Cursor, Gemini CLI und andere Agenten. Er liest Testergebnisse aus der Ausgabe, erkennt vorgetäuschte erfolgreiche Tests, schickt Claude Code zurück zum Reparieren und bietet zusätzlich einen MCP-Server.",
+    "title": "omnigent-ai/omnigent",
+    "what": "Open-Source-Rahmenwerk, das als Meta-Harness (Schicht über mehreren Agenten-Laufzeiten) Claude Code, Codex, Cursor, Pi und eigene Agenten steuert. Der Harness lässt sich tauschen, ohne alles neu zu schreiben; dazu kommen Richtlinien, Sandboxing und gemeinsames Arbeiten von mehreren Geräten.",
     "importance": 3
    },
    {
-    "title": "elstongun/leviathan",
-    "what": "Eine einzelne, statisch gelinkte Programmdatei in Rust, die Datensätze (JSONL, JSON, CSV/TSV, SQLite oder Exporte von Datenbank-CLIs) in einen nach Relevanz sortierten Volltextindex verwandelt. Gedacht als tiefes Gedächtnis für Agenten über große Datenmengen.",
+    "title": "topoteretes/cognee",
+    "what": "Open-Source-Plattform für dauerhaftes Langzeitgedächtnis von Agenten, laut Beschreibung auch mit kleinen Modellen nutzbar. Das Projekt gibt es seit 2023 und es hat über 31.000 Sterne.",
     "importance": 2
    },
    {
-    "title": "Dominic-DK/harness-map",
-    "what": "Ein Werkzeug, das den Aufbau eines Claude-Code-Harnesses (Instruktionsdateien, Gedächtnis, Werkzeuge, Rechte, Hooks) pro Ordner und pro Art des Agentenstarts als Übersicht darstellt.",
+    "title": "jonaslsaa/pi-optchat",
+    "what": "Erweiterung für den Agenten Pi mit dauerhaftem Gedächtnis, Profilen, Hintergrund-Agenten und dem Import früherer Unterhaltungen.",
     "importance": 2
    },
    {
-    "title": "uzairansaruzi/p3-stack",
-    "what": "Eine Überarbeitung von „pstack“ für T3 Code mit delegierten Subagenten, Worktree-Threads, Überwachung von Pull Requests und zeitgesteuerten Läufen.",
+    "title": "obie/auto-handoff",
+    "what": "Plugin für Claude Code, das ein Übergabedokument schreibt, bevor der Prompt-Cache einer ruhenden Sitzung erkaltet.",
     "importance": 2
    }
   ]
  },
  "reddit": {
   "count": 20,
-  "headline": "Opus 5.5 und GPT-6.1 bestimmen die Debatte: Kapazitätsengpässe und Tempo bei Codex, Praxisberichte zu Agenten-Skills und Hooks, dazu viel Aufmerksamkeit für lokale Qwen-3.8-Modelle und Aleph Alphas Kolibri.",
+  "headline": "OpenAI veröffentlicht 722 KI-erzeugte Mathe-Arbeiten, Mistral bringt Large 4, und die Szene misst nach, was Agenten wirklich kosten und leisten.",
   "top": [
    {
-    "title": "Not Just Smarter! Anthropic Subscriptions Offer 5x+ More Value Than OpenAI while being 5x+ Faster!",
-    "what": "SemiAnalysis-Newsletter vergleicht Abo-Angebote: Anthropic-Abos liefern laut Titel mindestens fünfmal mehr Nutzwert und sind mindestens fünfmal schneller als die von OpenAI. Nur Titel und Domain liegen vor, die Methodik ist nicht bekannt.",
+    "title": "Sharing AI progress in mathematics",
+    "what": "OpenAI veröffentlicht 722 mathematische Manuskripte zu 372 Ergebnisfamilien, erzeugt von einem unveröffentlichten Modell. Viele haben Lean-Beweise (maschinell geprüfte Beweise), andere sind noch ungeprüft; pro Ergebnis flossen im Schnitt rund drei Stunden ChatGPT-Pro-Rechenzeit.",
     "importance": 3
    },
    {
-    "title": "Meta encoded senior engineers' judgment into agent skills. Diagnosis dropped from 10 hours to 30 minutes",
-    "what": "LeadDev berichtet laut Titel, wie Meta das Urteilsvermögen erfahrener Ingenieure in Agent-Skills gegossen hat und die Diagnosezeit von 10 Stunden auf 30 Minuten sank. Details sind nur aus dem Titel bekannt.",
+    "title": "LE CHATON FAT IS REAL",
+    "what": "Mistral stellt Large 4 vor (Spitzname \"Le Chonk\"): 1 Billion Parameter, 49 Milliarden aktiv, multimodal. Laut Mistral das beste offene Modell aus den USA oder Europa; die offenen Gewichte sollen Ende des Monats folgen.",
     "importance": 3
    },
    {
-    "title": "Anthropic's official agent skills guide. 6 insights",
-    "what": "Zusammenfassung der aktualisierten offiziellen Anthropic-Doku zum Schreiben von Agent-Skills in sechs Punkten, z. B. Benennung mit Gerundien und keine generischen Namen wie 'utils'. Verlinkt ist die Originalseite.",
+    "title": "I gave the 9 most popular Claude Code skills a sugar pill. 2 beat it, 1 did worse than the pill.",
+    "what": "Ein Entwickler testet die neun beliebtesten Claude-Code-Skills gegen einen Platzebo-Text gleicher Länge. Nur zwei schlagen den Platzebo, einer schneidet bei der Erfolgsquote schlechter ab (80 % statt 100 %).",
+    "importance": 3
+   },
+   {
+    "title": "Anthropic Subscriptions Offer 5x+ More Value Than OpenAI",
+    "what": "SemiAnalysis rechnet vor, dass die Anthropic-Abos im Mittelfeld etwa fünfmal so viel API-äquivalenten Wert liefern wie die von OpenAI. Die Methodik steht im verlinkten Newsletter; im Thread wird der Vergleich als womöglich unfair für OpenAI diskutiert.",
     "importance": 2
    },
    {
-    "title": "I counted how many times my hooks had to stop Claude in one week. 448 times in 76 sessions",
-    "what": "Ein Nutzer hat eine Woche lang protokolliert, wie oft seine Hooks Claude Code stoppten: 448 Blockaden in 76 Sessions. Die häufigste Ursache (162) waren Prüfungen beim Read-Tool, die im Bypass-Modus durch cat und sed umgangen werden.",
-    "importance": 2
-   },
-   {
-    "title": "Y'all this is a sexy paper; context language models",
-    "what": "Paper 'Context Language Models': Ein Modell kann seinen Kontext wie eine Datei bearbeiten, was laut Beitrag Aufgabenleistung, Kontextverwaltung und Rechenaufwand verbessert. Es gibt ein Plugin für pi.",
+    "title": "56% of my Claude Code usage was Claude re-reading the conversation",
+    "what": "Jemand wertet sechs Monate eigener Claude-Code-Verläufe zu API-Preisen aus. Nur 20 % der Kosten gingen in nützliche Arbeit, 56 % ins erneute Einlesen des Gesprächs, fast die Hälfte der Aufrufe trug über 200K Tokens Kontext. Getestet werden häufigeres /clear und früheres Kompaktieren.",
     "importance": 2
    }
   ]

@@ -1,107 +1,107 @@
 {
- "date": "2026-10-07",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-07.html",
+ "date": "2026-10-08",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-08.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 10,
-  "headline": "Mistral Large 4 und OpenAIs Mathe-Ergebnisse dominieren, dazu Decisions API und Stacked PRs",
+  "count": 13,
+  "headline": "Claude Haiku 5.5 senkt die Preise, Google und Unity bringen KI-Spiele in den Browser, GPT-6 bekommt eine interaktive Oberfläche",
   "top": [
    {
-    "title": "Mistral Large 4: 1 Billion Parameter, Preview per API, offene Gewichte folgen",
-    "what": "Mistral veröffentlicht eine Preview von Large 4 (1 Billion Parameter, 49 Mrd. aktiv), trainiert auf eigenem Cluster mit 3.800 NVIDIA-Grace-Blackwell-GPUs. Die offenen Gewichte sollen laut Berichten Ende Oktober folgen; im unabhängigen Intelligence Index liegt das Modell trotz großem Sprung klar hinter Claude, GPT-6 und chinesischen Konkurrenten.",
+    "title": "Claude Haiku 5.5: viel mehr Leistung zu deutlich niedrigeren Preisen",
+    "what": "Anthropic bringt Claude Haiku 5.5 heraus, ein kleines Modell, das im Computer-Use-Test OSWorld 72,4 statt 15,7 Prozent erreicht. Die Tokenpreise sinken um bis zu 90 Prozent. Laut Anthropic relativiert ein neuer Tokenizer die Ersparnis teilweise, und Neowin meldet deutlich höheren Tokenverbrauch. Die Cache-Lesepreise von Sonnet 5.5 wurden laut SiliconANGLE halbiert.",
     "importance": 3
    },
    {
-    "title": "OpenAI legt 722 Mathe-Manuskripte eines internen Modells vor",
-    "what": "Ein unveröffentlichtes Frontier-Modell von OpenAI hat 722 Manuskripte (372 Ergebnisfamilien) zu lange offenen Mathematikproblemen erzeugt. Lean-Beweisformalisierungen und Details liegen auf GitHub; laut Latent Space sind es Lösungen für 90 der 500 wichtigsten offenen Probleme.",
+    "title": "Google Playground und Unity Spark: Spiele per Textprompt im Browser",
+    "what": "Google startet mit Playground eine browserbasierte Plattform, auf der man ohne Programmierkenntnisse per Texteingabe Spiele erstellt, auf Basis von Gemini und weiteren Google-Modellen. Zusammen mit Unity kündigt Google \"Unity Spark\" an, ein professionelleres KI-Werkzeug für Spieleentwicklung, das in die Beta gehen soll.",
     "importance": 3
    },
    {
-    "title": "OpenAI Decisions API in öffentlicher Beta",
-    "what": "OpenAI bringt eine Decisions API im Stil des Modells Jev in die öffentliche Beta. Simon Willison hat bereits ein llm-Plugin dafür gebaut; ähnliche kleine Entscheidungsmodelle gibt es von Cloudflare (Clef) und Strands (Decider 2B).",
+    "title": "GPT-6 kommt mit \"Intelligent UI\" in ChatGPT",
+    "what": "OpenAI veröffentlicht GPT-6 in ChatGPT mit einer neuen Funktion, die Antworten als interaktive Oberflächen mit Diagrammen, Buttons und Formularen ausgibt. Paralleles Denken und Antworten soll das System schneller machen. Bezahlkunden erhalten die stärkere Variante.",
     "importance": 2
    },
    {
-    "title": "EmbeddingGemma 2: kleines offenes Embedding-Modell für alle Medientypen",
-    "what": "Google veröffentlicht EmbeddingGemma 2 (740 Mio. Parameter, Apache 2.0), das Text, Code, Bild, Video und Audio in Vektoren umwandelt. Es braucht rund 191 MB RAM, läuft auf dem Gerät und soll laut Google teils doppelt so große Konkurrenten schlagen.",
+    "title": "Microsoft gibt Copilot Zugriff auf lokale Dateien und Aktionen in Windows",
+    "what": "Auf dem Windows- und Surface-Event zeigte Microsoft ein Copilot-Upgrade, das auf lokale Dateien zugreifen und Aktionen im Betriebssystem ausführen kann. Das Konzept nennt Microsoft \"Hybrid Intelligence\". Laut Google-News-Schlagzeile gibt es dazu auch \"Execution Containers\" als regelbasierte Eingrenzung für Agenten.",
     "importance": 2
    },
    {
-    "title": "GitHub: Stacked Pull Requests allgemein verfügbar",
-    "what": "Große Änderungen lassen sich in kleine, einzeln reviewbare Pull Requests aufteilen, die gemeinsam gemergt werden. Das Feature verlässt damit die öffentliche Vorschau.",
+    "title": "GitHub Copilot: lokales Sandboxing allgemein verfügbar",
+    "what": "Lokale Sandboxes für GitHub Copilot sind in der Copilot CLI, der Copilot-App und in VS-Code-Sitzungen mit Agent Host allgemein verfügbar. Entwickler bekommen damit eine abgesicherte Umgebung für Agentenläufe.",
     "importance": 2
    },
    {
-    "title": "Armin Ronacher: Pi 1.0 bekommt MCP-Unterstützung über „Codemode“",
-    "what": "Pi 1.0 unterstützt nun MCP über Codemode: Statt Tool-Definitionen in den Kontext zu laden, schreibt das Modell Code gegen die Tools. Ronacher erklärt das Prinzip als Weiterführung seiner früheren Empfehlung, lieber Skripte statt vieler MCP-Tools zu nutzen.",
+    "title": "Umfrage: KI-Code verlagert den Engpass auf Debugging und Verständnis",
+    "what": "Eine Umfrage von Coleman Parkes im Auftrag von Undo (einem Anbieter für KI-gestützte Ursachenanalyse) kommt zum Schluss, dass Coding-Agenten die Codeerzeugung beschleunigt haben. Der Engpass liege nun bei Debugging, Code-Verständnis und Wartung, Fehlerraten und Debugging-Aufwand stiegen.",
     "importance": 2
    },
    {
-    "title": "Anthropic baut Cyber Verification Program zu drei Stufen aus",
-    "what": "Project Glasswing geht im erweiterten Cyber Verification Program auf. Red Teams und verifizierte Cyber-Verteidiger erhalten Zugang zu Claude-Modellen mit geringeren Einschränkungen.",
+    "title": "Cloud-natives Harness: Kubernetes-Mitgründer wollen Agenten in die Cloud holen",
+    "what": "Latent Space spricht mit Craig McLuckie und Joe Beda, Mitgründern von Kubernetes, über ihr Vorhaben, Agenten-Harnesses vollständig in die Cloud zu verlagern und so auch jenseits des Desktops zuverlässig zu machen.",
     "importance": 2
    }
   ]
  },
  "github": {
-  "count": 19,
-  "headline": "Agenten-Hüllen und Gedächtnis-Werkzeuge dominieren: Plugins und Skills wachsen um Claude Code und Codex herum",
+  "count": 18,
+  "headline": "Agenten bekommen Gedächtnis, Schutzräume und Kontrollinstanzen",
   "top": [
    {
-    "title": "morluto/rea",
-    "what": "Ein Werkzeugkasten, mit dem Agenten Software rückwärts analysieren, vom App-Verhalten bis hinunter zu nativen Binärdateien. Als CLI und Agent-Skill gebaut, mit Bezug zu CTF-Aufgaben und Binäranalyse.",
+    "title": "cloudflare/security-audit-skill",
+    "what": "Ein Skill (Zusatzpaket mit Anweisungen) von Cloudflare für Coding-Agenten, der Sicherheitsprüfungen in mehreren Phasen durchführt. Die Ergebnisse werden unabhängig überprüft und maschinenlesbar ausgegeben.",
     "importance": 3
    },
    {
-    "title": "omnigent-ai/omnigent",
-    "what": "Open-Source-Rahmenwerk, das als Meta-Harness (Schicht über mehreren Agenten-Laufzeiten) Claude Code, Codex, Cursor, Pi und eigene Agenten steuert. Der Harness lässt sich tauschen, ohne alles neu zu schreiben; dazu kommen Richtlinien, Sandboxing und gemeinsames Arbeiten von mehreren Geräten.",
+    "title": "xerj-org/xerj",
+    "what": "Eine in Rust geschriebene Suchmaschine, die mit einem Befehl Code, Dokumente, Logs und PDFs indexiert. Sie ist zu Elasticsearch kompatibel. Laut Beschreibung braucht ein Agent damit rund 40-mal weniger Tokens als mit grep (Textsuche im Terminal), und sie lässt sich auch als Agenten-Gedächtnis nutzen.",
     "importance": 3
    },
    {
-    "title": "topoteretes/cognee",
-    "what": "Open-Source-Plattform für dauerhaftes Langzeitgedächtnis von Agenten, laut Beschreibung auch mit kleinen Modellen nutzbar. Das Projekt gibt es seit 2023 und es hat über 31.000 Sterne.",
+    "title": "garrytan/gbrain",
+    "what": "Garry Tans persönlich zugeschnittenes „Gehirn“ (Gedächtnis- und Wissensschicht) für die Agenten OpenClaw und Hermes. Die Beschreibung ist knapp, näheres ist aus den Angaben nicht ersichtlich.",
     "importance": 2
    },
    {
-    "title": "jonaslsaa/pi-optchat",
-    "what": "Erweiterung für den Agenten Pi mit dauerhaftem Gedächtnis, Profilen, Hintergrund-Agenten und dem Import früherer Unterhaltungen.",
+    "title": "Wrste/pheromone-network",
+    "what": "Ein Gedächtnis-Baustein in TypeScript ohne weitere Abhängigkeiten. Er kommt ohne Training aus: Verbindungen zwischen Einträgen werden bei häufiger Nutzung verstärkt und verblassen, wenn sie ungenutzt bleiben. Grundlage ist ein Paper (arXiv:2606.30669).",
     "importance": 2
    },
    {
-    "title": "obie/auto-handoff",
-    "what": "Plugin für Claude Code, das ein Übergabedokument schreibt, bevor der Prompt-Cache einer ruhenden Sitzung erkaltet.",
+    "title": "strands-agents/box",
+    "what": "Eine Sandbox (abgeschotteter Raum) in Rust, in der Agenten laufen: Was sie ausführen, lesen, schreiben und im Netz erreichen dürfen, wird eingeschränkt. Zugangsdaten werden von außen eingespeist, sodass der Agent sie nie selbst sieht. Läuft derzeit auf macOS mit Apple-Chips.",
     "importance": 2
    }
   ]
  },
  "reddit": {
   "count": 20,
-  "headline": "OpenAI veröffentlicht 722 KI-erzeugte Mathe-Arbeiten, Mistral bringt Large 4, und die Szene misst nach, was Agenten wirklich kosten und leisten.",
+  "headline": "Haiku 5.5 und die Mathe-Ergebnisse von OpenAI bestimmen den Tag; dazu Streit über Kosten, Sicherheit und Harness-Anpassung.",
   "top": [
    {
-    "title": "Sharing AI progress in mathematics",
-    "what": "OpenAI veröffentlicht 722 mathematische Manuskripte zu 372 Ergebnisfamilien, erzeugt von einem unveröffentlichten Modell. Viele haben Lean-Beweise (maschinell geprüfte Beweise), andere sind noch ungeprüft; pro Ergebnis flossen im Schnitt rund drei Stunden ChatGPT-Pro-Rechenzeit.",
+    "title": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released",
+    "what": "Anthropic stellt Claude Haiku 5.5 vor: laut Ankündigung rund 75 % günstiger im Betrieb als Haiku 4.5, gedacht für viele günstige Aufgaben und als Sub-Agent neben Opus 5.5 und Sonnet 5.5 beim Coden.",
     "importance": 3
    },
    {
-    "title": "LE CHATON FAT IS REAL",
-    "what": "Mistral stellt Large 4 vor (Spitzname \"Le Chonk\"): 1 Billion Parameter, 49 Milliarden aktiv, multimodal. Laut Mistral das beste offene Modell aus den USA oder Europa; die offenen Gewichte sollen Ende des Monats folgen.",
-    "importance": 3
-   },
-   {
-    "title": "I gave the 9 most popular Claude Code skills a sugar pill. 2 beat it, 1 did worse than the pill.",
-    "what": "Ein Entwickler testet die neun beliebtesten Claude-Code-Skills gegen einen Platzebo-Text gleicher Länge. Nur zwei schlagen den Platzebo, einer schneidet bei der Erfolgsquote schlechter ab (80 % statt 100 %).",
-    "importance": 3
-   },
-   {
-    "title": "Anthropic Subscriptions Offer 5x+ More Value Than OpenAI",
-    "what": "SemiAnalysis rechnet vor, dass die Anthropic-Abos im Mittelfeld etwa fünfmal so viel API-äquivalenten Wert liefern wie die von OpenAI. Die Methodik steht im verlinkten Newsletter; im Thread wird der Vergleich als womöglich unfair für OpenAI diskutiert.",
+    "title": "I Tested Haiku 5.5 vs Luna vs DeepSeek Flash vs Gemini 3.8 Flash on real-ish work stuff. Basically a tie on quality, big differences in speed",
+    "what": "Ein Nutzer mit eigenem Orchestrierungs-Harness vergleicht Haiku 5.5, Luna, DeepSeek Flash und Gemini 3.8 Flash über 86 Fragen in 11 Kategorien: Qualität praktisch gleichauf, deutliche Unterschiede bei der Geschwindigkeit.",
     "importance": 2
    },
    {
-    "title": "56% of my Claude Code usage was Claude re-reading the conversation",
-    "what": "Jemand wertet sechs Monate eigener Claude-Code-Verläufe zu API-Preisen aus. Nur 20 % der Kosten gingen in nützliche Arbeit, 56 % ins erneute Einlesen des Gesprächs, fast die Hälfte der Aufrufe trug über 200K Tokens Kontext. Getestet werden häufigeres /clear und früheres Kompaktieren.",
+    "title": "Claude Haiku 5.5 cost 12x more than GPT-6 Luna for the same voxel pagoda",
+    "what": "Beim Voxel-Pagoden-Test kostet Haiku 5.5 laut Autor etwa zwölfmal so viel wie GPT-6 Luna für dasselbe Ergebnis, weil es viele Tokens verbraucht. Ein weiterer Beitrag berichtet, Haiku 5.5 sei in Agenten-Szenarien kaum unter 100k Tokens zu halten.",
+    "importance": 2
+   },
+   {
+    "title": "Claude Opus 5.5 Deleted a User’s C Drive",
+    "what": "Ein Blogbeitrag berichtet, Claude Opus 5.5 habe in Claude Code einem Nutzer das C-Laufwerk gelöscht; verwiesen wird auf Anthropics Empfehlung, den Auto-Modus für Berechtigungen zu nutzen. Der Titel nennt Boris Cherny. Details habe ich nur aus Titel und Teaser.",
+    "importance": 2
+   },
+   {
+    "title": "mods is insane. I love it",
+    "what": "Ein Nutzer beschreibt die neuen „mods“ in Claude Code: Sie greifen von innen in den Ablauf ein (was vor Tool-Aufrufen läuft, was das Modell sieht, was angezeigt wird) und ersetzen seine bisher von außen angeflanschten Hooks und Skripte.",
     "importance": 2
    }
   ]

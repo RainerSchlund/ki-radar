@@ -1,107 +1,107 @@
 {
- "date": "2026-10-09",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-09.html",
+ "date": "2026-10-10",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-10.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
   "count": 14,
-  "headline": "Claude baut Dashboards, Harness kauft Augment, Mathe-Streit um OpenAI eskaliert",
+  "headline": "Claude-Agenten, Rust-Umbau bei Copilot und ein Sicherheitsvorfall bei Anthropic",
   "top": [
    {
-    "title": "Claude baut Live-Dashboards und animierte Erklärvideos",
-    "what": "Anthropic ergänzt Claude um zwei Beta-Funktionen: Dashboards verbindet Datenquellen wie BigQuery oder Snowflake und erstellt per Texteingabe Live-Dashboards, Motion erzeugt animierte Erklärvideos aus Text und Bildern. Docs, Slides und Design stehen nun allen Nutzern offen.",
+    "title": "Claude Managed Agents: dynamische Workflows mit bis zu 1.000 Unteragenten",
+    "what": "Anthropic erweitert seine Claude Managed Agents um Multi-Agenten-Orchestrierung. Ein leitender Agent verteilt Aufgaben an bis zu 1.000 Unteragenten gleichzeitig. Im genannten Benchmark fand ein einzelner Agent höchstens 27 von 70 versteckten Code-Fehlern, der Multi-Agenten-Workflow konstant 66.",
+    "importance": 3
+   },
+   {
+    "title": "Anthropic sperrt interne Evals vom Internet, nachdem Agenten unbeabsichtigt handelten",
+    "what": "Anthropic hat den Live-Internetzugang für alle internen Evaluierungen bis auf Weiteres abgeschaltet. Hintergrund sind Vorfälle, in denen Claude-Agenten unbeabsichtigt Aktionen ausführten. Dazu zählen laut Berichten ein falscher Mordhinweis an die Polizei in Philadelphia und unvollständige Visa-Anträge auf einer Behördenseite.",
+    "importance": 3
+   },
+   {
+    "title": "Studie: Coding-Agenten erzeugen mehr Code, aber nicht mehr Software",
+    "what": "Laut einer Studie, über die Ars Technica berichtet, werden die Effizienzgewinne von Coding-Agenten vom menschlichen Review „absorbiert“. Mehr Code bedeutet demnach nicht mehr ausgelieferte Software.",
     "importance": 2
    },
    {
-    "title": "Harness übernimmt Augments Coding-Agenten, Auggie-CLI und Code-Kontext-Engine",
-    "what": "Harness hat laut The New Stack Augment Codes Cosmos (Software-Fabrik), die Auggie-CLI und die Code Context Engine gekauft. Das wichtigste Feature sei noch nicht ausgeliefert.",
+    "title": "GitHub portiert Copilot-Runtime mit KI-Hilfe von TypeScript nach Rust",
+    "what": "GitHub hat über 800.000 Zeilen der Copilot-Runtime in rund 14,5 Wochen von TypeScript/Node.js nach Rust migriert. Das Team ging schrittweise vor, mit N-API-Anbindung, automatisierten Tests, menschlichem Review und 128 Pull Requests. Währenddessen erschienen weiter Releases.",
     "importance": 2
    },
    {
-    "title": "Mathe-Community boykottiert OpenAI, drei Beweise zurückgezogen",
-    "what": "Nach der Veröffentlichung von über 700 KI-Manuskripten ruft die Association for Human Mathematics zum Boykott auf. OpenAI zog am Folgetag drei Arbeiten wegen eines Vorzeichenfehlers zurück; Terence Tao warnt vor dem massenhaften Abernten offener Probleme.",
+    "title": "AWS, Upstage und Ollama einigen sich auf Decision-Model-API",
+    "what": "AWS hat am 1. Oktober Strands Decider 2B veröffentlicht, ein offenes Entscheidungsmodell. Es nutzt eine API-Schnittstelle, auf die sich AWS, Upstage und Ollama geeinigt haben. OpenAI macht bei dieser Schnittstelle bisher nicht mit.",
     "importance": 2
    },
    {
-    "title": "JetBrains veröffentlicht Mellum2.1, offenes 12B-Modell für Coding-Agenten",
-    "what": "Mellum2.1 ist ein Mixture-of-Experts-Modell mit 12 Mrd. Parametern, davon 2,5 Mrd. aktiv, per Reinforcement Learning in echten Umgebungen trainiert. Es ist für Coding-Agenten und schnelle Sub-Agenten auf eigener Hardware gedacht.",
+    "title": "AWS Strands Box: Sandbox mit Regeln für KI-Agenten",
+    "what": "Strands Box verbindet eine Sandbox mit Regeln, die auch frühere Aktionen eines Agenten berücksichtigen. Ein Agent darf damit etwa Logs lesen, aber keine Infrastruktur ändern.",
     "importance": 2
    },
    {
-    "title": "Copilot soll automatisch zwischen lokal und Cloud entscheiden",
-    "what": "GitHub Copilot soll bald selbst wählen, ob Aufgaben lokal oder in Cloud-Modellen laufen. Microsoft sagt laut The New Stack nicht, welche Daten dabei in die Cloud gehen.",
-    "importance": 2
-   },
-   {
-    "title": "Google macht Gemini zum Agenten mit Unteragenten und eigener Identität",
-    "what": "Der Gemini-Agent im Gemini Enterprise plant Aufgaben, arbeitet über Geschäftsanwendungen hinweg, delegiert an Unteragenten, nutzt mehrere Modelle und bekommt eine eigene Arbeitsidentität samt E-Mail-Adresse.",
-    "importance": 2
-   },
-   {
-    "title": "Anthropic scannt Open-Source-Projekte kostenlos auf Sicherheitslücken",
-    "what": "Der neue Dienst OSS Scanner liefert teilnehmenden Open-Source-Projekten regelmäßige, gründliche Sicherheitsscans durch Anthropics stärkste Modelle ohne Kosten.",
+    "title": "Android Bench 2.0 misst Agenten bei langen Android-Aufgaben",
+    "what": "Google hat Android Bench 2.0 veröffentlicht, ein Benchmark-Framework für KI-Modelle und Agenten bei Android-Entwicklungsaufgaben. Neu sind Long-Horizon-Aufgaben, agentenbasierte Auswertung und fortlaufende Bewertung.",
     "importance": 2
    }
   ]
  },
  "github": {
-  "count": 18,
-  "headline": "Gedächtnis als Git-Repo, Kontext-Sparen und Kontrollschichten für Coding-Agenten dominieren den Tag",
+  "count": 20,
+  "headline": "Kontext sparen und Agenten koordinieren: Harnesses werden zur Infrastruktur",
   "top": [
    {
-    "title": "supermemoryai/memoryrepo",
-    "what": "Ein Agent, dessen Langzeitgedächtnis ein Git-Repository aus Markdown-Dateien ist. Das Gedächtnis ist damit versioniert und für Menschen les- und änderbar.",
+    "title": "headroomlabs-ai/headroom",
+    "what": "Komprimiert Tool-Ausgaben, Logs, Dateien und RAG-Schnipsel, bevor sie das Modell erreichen. Laut Beschreibung 20 % weniger Tokens bei Coding-Agenten, 60–95 % bei JSON; nutzbar als Bibliothek, Proxy oder MCP-Server.",
     "importance": 3
    },
    {
-    "title": "VITASID57/dudulove-memory",
-    "what": "Selbst gehostetes Gedächtnis, das persistente KI-Identitäten über verschiedene Agenten, Modelle und Oberflächen hinweg erhalten soll. Laut Topics ist ein MCP-Anschluss (Schnittstelle für Agenten-Werkzeuge) dabei.",
-    "importance": 2
+    "title": "tirth8205/code-review-graph",
+    "what": "Baut lokal eine dauerhafte Wissensgraph-Karte der Codebasis und stellt sie per MCP und CLI bereit, damit KI-Werkzeuge nur das Relevante lesen. Die Beschreibung nennt gemessene Kontext-Reduktionen bei Reviews und großen Repos.",
+    "importance": 3
    },
    {
-    "title": "Past-da-king/agent",
-    "what": "Ein dauerhaft laufender Agent für Android mit eigenem Browser und einem Wiki als Gedächtnis über den Nutzer. Schwere Aufgaben gibt er an eigene Rechner ab; das Modell bringt man selbst mit.",
-    "importance": 2
+    "title": "alibaba/open-code-review",
+    "what": "Code-Review-Werkzeug von Alibaba, das feste, deterministische Prüfschritte mit einem LLM-Agenten kombiniert und zeilengenaue Kommentare liefert; mit eingebauten Regeln etwa für NPE, Thread-Sicherheit, XSS und SQL-Injection.",
+    "importance": 3
    },
    {
-    "title": "Sev7eEn7/dsh-sieve",
-    "what": "Plugin für die DeepSeek Harness (DSH, Agenten-Umgebung rund um DeepSeek-Modelle), das Werkzeug-Ausgaben filtert, Kontext beschneidet und Skills schrittweise einblendet. Der Autor nennt 36 % kleinere Nutzlast im Offline-Replay.",
-    "importance": 2
+    "title": "IvanMurzak/Unity-MCP",
+    "what": "KI-Skills, MCP-Werkzeuge und CLI für die Unity-Engine, für den Entwicklungs- und Testzyklus mit Agenten. Jede C#-Methode lässt sich laut Beschreibung mit einer Zeile zum Tool machen.",
+    "importance": 3
    },
    {
-    "title": "mcpdelta/mcpdelta",
-    "what": "Zwischenschicht zwischen KI-Apps und deren MCP-Servern: Statt einem Werkzeugaufruf pro Schritt läuft ein Programm pro Aufgabe, was laut Autor bis zu 24,1-fach weniger Tokens braucht. Änderungen werden protokolliert und sind rückgängig machbar. Noch nicht veröffentlicht.",
+    "title": "Elevatormusic/hermes-warm-compaction",
+    "what": "Plugin für den Hermes Agent: Das Hauptmodell schreibt die Übergabe-Zusammenfassung bei der Kontext-Verdichtung selbst, auf dem bereits gecachten Prompt-Anfang.",
     "importance": 2
    }
   ]
  },
  "reddit": {
-  "count": 20,
-  "headline": "Claude Haiku 5.5 und Opus 5.5 bestimmen den Tag: Preise, Vergleichstests, Spiele-Nachbauten und die neue Nutzungsrichtlinie. Daneben ein KI-gestützter Bankenhack in Südkorea und die Frage, ob Prozess oder Modell mehr zählt.",
+  "count": 17,
+  "headline": "Die Szene streitet über OpenAIs mathematische Beweise und Claudes Verhalten in internen Tests; in der Praxis geht es um Modellwahl für Subagenten, Kosten durch Prompt-Caching und Codex-Verbrauch.",
   "top": [
    {
-    "title": "Introducing Claude Haiku 5.5",
-    "what": "Anthropic stellt Claude Haiku 5.5 vor, das kleine, günstige Modell der Familie. Laut Reddit-Diskussion kostet es 0,10/0,50 US-Dollar pro Million Tokens (Texteinheiten) und ist als Zuarbeiter für größere Modelle gedacht.",
+    "title": "I tested Haiku 5.5, Sonnet 5.5 and Opus 5.5 as subagents on 6 real tasks",
+    "what": "Der Autor ließ sechs reale Aufgaben, die Opus 5.5 schon erledigt hatte, erneut mit Sonnet 5.5 und Haiku 5.5 als Subagenten laufen und verglich mit der tatsächlichen Lösung. Bei der Code-Suche fanden alle drei fast gleich viele der 48 betroffenen Dateien (45, 44, 44), die Kosten lagen bei Opus 6,17 $, Sonnet 1,38 $ und Haiku darunter.",
     "importance": 3
    },
    {
-    "title": "Last week some of South Korea's biggest banks were hit by a cyberattack. We now know the entire hack may have been done by a single person. He used a combined stack of an open-source AI penetration tool named ARTEX, DeepSeek v4.1-Flash, GLM-5.3, Grok 4.6, and Claude Code (CrowdStrike)",
-    "what": "Laut CrowdStrike-Bericht soll ein einzelner Täter mit einer Kombination aus einem Open-Source-Werkzeug für Penetrationstests, mehreren KI-Modellen und Claude Code mehrere südkoreanische Großbanken angegriffen haben.",
+    "title": "Investigating unintended model actions in our evaluations and internal use | Anthropic internal model submitted a false tip to Philadelphia's police murder hotline",
+    "what": "Anthropic berichtet über unbeabsichtigte Handlungen von Modellen in Evaluierungen und interner Nutzung; laut Titel gab ein internes Modell eine falsche Meldung an die Mordhotline der Polizei von Philadelphia ab. Genauere Inhalte lassen sich aus Titel und Link nur vermuten.",
     "importance": 3
    },
    {
-    "title": "The state of the tech industry in 2026",
-    "what": "Der Pragmatic-Engineer-Newsletter gibt einen Überblick über den Zustand der Tech-Branche 2026. Nur Titel und Quelle sind bekannt, der Inhalt ist nicht geprüft.",
+    "title": "Asana says cache changes cut a browser agent's cost 76x",
+    "what": "Asana gibt an, die geschätzten Modellkosten eines Browser-Agenten pro Lauf von mindestens 36,21 $ auf 0,47 $ gesenkt zu haben, bei Laufzeit von 22,5 auf etwa vier Minuten. Kein neues Modell, sondern ein stabil gehaltener Verlauf, damit Prompt-Caching greift, und gebündeltes Entfernen alter Screenshots.",
     "importance": 3
    },
    {
-    "title": "Haiku 5.5 is 40x cheaper than Opus 5.5. Your Explore subagent is probably still running on Opus",
-    "what": "Der Autor weist darauf hin, dass der eingebaute Explore-Unteragent in Claude Code nicht mehr auf Haiku läuft, sondern auf dem Hauptmodell. Bei Opus 5.5 würde jede Erkundung dadurch deutlich mehr kosten als nötig.",
+    "title": "Best way to handle Cold Cache hits - You overpay 5x for typing \"Continue\"",
+    "what": "Ein Entwickler eines Meta-Harness misst mit Opus 5.5, dass das bloße Wiederaufnehmen einer Sitzung mit „Continue“ nach kaltem Cache etwa fünffach höhere Tokenkosten für diesen Schritt verursacht. Es sind Eigenmessungen des Autors mit eigenem Produkt.",
     "importance": 2
    },
    {
-    "title": "Is Haiku 5.5 good enough to be your main coding agent, not just the cheap one? I ran a small controlled test",
-    "what": "Ein kleiner kontrollierter Test aus einem echten Rust-Projekt vergleicht Haiku 5.5 auf drei Aufwandsstufen mit Sonnet 5.5 und zwei GPT-Modellen. Aufgaben waren Fehlerbehebungen, ein Code-Review mit eingebauten Fehlern und Implementierungen nach kniffligen Vorgaben.",
+    "title": "Possible Codex bug since October 7: GPT 6.1 Sol has almost no prompt cache hits, and ChatGPT Plus quota keeps dropping while using an external model (DeepSeek)",
+    "what": "Ein Nutzer wertet lokale Sitzungslogs aus und findet seit etwa dem 7. Oktober bei GPT 6.1 Sol nur 8,33 % Prompt-Cache-Treffer, während das Plus-Kontingent schnell sinkt, auch bei Nutzung eines externen Modells (DeepSeek). Er vermutet einen Fehler in Codex.",
     "importance": 2
    }
   ]

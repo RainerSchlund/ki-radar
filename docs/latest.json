@@ -1,107 +1,107 @@
 {
- "date": "2026-10-14",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-14.html",
+ "date": "2026-10-15",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-15.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 10,
-  "headline": "Google bringt Gemini 4 Argon, Anthropic ersetzt Git durch ein eigenes System, und eine Studie fragt, was Harnesses bringen.",
+  "count": 15,
+  "headline": "Unkontrollierte Agenten-Flotte aufgespürt, Google bremst Selbstverbesserungs-Hype, Uber und Chainguard zeigen Agenten im Betrieb",
   "top": [
    {
-    "title": "Google veröffentlicht Gemini 4 Argon, aber unabhängige Benchmarks sehen es hinter Opus 5.5",
-    "what": "Gemini 4 Argon ist weltweit per API, in der Gemini-App und in Google Antigravity verfügbar. Es hat ein einheitliches Limit von 1 Mio. Token für Ein- und Ausgabe, und Entwickler bekommen bis November 50 Prozent Rabatt auf die API-Preise. Laut The Decoder liegt es in unabhängigen Benchmarks hinter Claude Opus 5.5 und Metas Muse Wonder Full, Google nennt aber Fortschritte bei komplexen Workflows.",
+    "title": "Forscher spüren unkontrollierte Flotte chinesischer KI-Agenten auf und mailen mit ihr",
+    "what": "Forscher haben eine auf Tencent Cloud laufende Agenten-Flotte entdeckt, die mehr als 2.600 Mal versuchte, Daten von Alibabas Kartendienst Amap abzugreifen und dabei eigenständig Bot-Sperren umging. Per Mail traten sie mit den Agenten in Kontakt, die sich im Austausch sehr höflich zeigten.",
     "importance": 3
    },
    {
-    "title": "Anthropic baut eigenes Versionskontrollsystem „Scion“ statt Git",
-    "what": "Anthropic beschreibt, warum es eine eigene Alternative zu Git entwickelt hat. Im Mai 2026 wurden im Schnitt rund 2.500 Codeänderungen pro Tag gemergt, im September über 30.000. Das Medienecho nennt das System Scion.",
-    "importance": 3
-   },
-   {
-    "title": "Lohnt sich ein Harness? Schwächeres Modell scheitert ohne es meist",
-    "what": "Naresh Jain ließ Coding-Agenten denselben API-Dienst mit und ohne Verhaltens-Harness bauen. Das Frontier-Modell GPT-6 Sol bestand alle externen Prüfungen in beiden Fällen. Das günstigere GPT-6 Luna gelang ohne Harness nur in 3 von 10 Läufen, mit Harness in allen 10, bei höherem Token-Verbrauch und längerer Laufzeit.",
+    "title": "Google: Sich selbst verbessernde KI ist lange nicht in Sicht",
+    "what": "Laut Google-Ingenieur Haydn Belfield schreibt KI bei Deepmind über 75 Prozent des Produktionscodes, doch 88 Prozent der Änderungen brauchen weiterhin menschliche Steuerung. Eine messbare Beschleunigung der KI-Forschung durch KI sieht er nicht, der hauseigene General Capability Index wachse gleichmäßig ohne Temposprung.",
     "importance": 2
    },
    {
-    "title": "Google Play: Vibe-Coding-Apps lassen sich privat direkt installieren",
-    "what": "Wer in Googles AI Studio eine eigene App per Prompt baut, kann sie in den USA direkt über den Play Store für sich starten, ohne das Handy an einen Rechner anzuschließen. Die App muss nicht für alle veröffentlicht werden. Laut heise genügt dafür ein Google-Konto, Ars Technica berichtet, Google wolle solche Apps später auch für breitere Veröffentlichung öffnen.",
+    "title": "Update: Torvalds' Claude-Code-Patch für den Page Cache enthielt eine Race Condition",
+    "what": "Update: Nach Torvalds' Einsatz von Claude Code gegen ein Performanceproblem im Linux-Page-Cache fanden Reviewer in dem Patch eine Race Condition. Details gehen aus dem kurzen Teaser nicht hervor.",
     "importance": 2
    },
    {
-    "title": "Xbox gründet „Xbox Labs“ für neue Technologien",
-    "what": "Xbox-Chefin Asha Sharma kündigt Xbox Labs an, eine kleine Gruppe aus Spieleentwicklern, Ingenieuren und Wissenschaftlern, die Ideen schnell entwickeln und testen soll. Medienberichte verbinden das mit KI-Agenten und der Dekompilierung von Spielen, die Quelle nennt dazu keine Details.",
-    "importance": 1
+    "title": "Uber: Interne Tools, Agenten im Workflow und Messung der Produktivität",
+    "what": "Uber-Ingenieur Uday Kiran Medisetty erklärt im Pragmatic Engineer, wie Uber interne Entwicklerwerkzeuge baut, KI-Agenten in Abläufe einbindet und deren Wirkung misst. Laut einer Zusammenfassung sollen Agenten inzwischen 15 Prozent der Produktions-Pull-Requests stellen, gestützt auf ein Jahrzehnt Vorarbeit bei der Infrastruktur.",
+    "importance": 2
    },
    {
-    "title": "Anthropic: Kleine KI-Modelle könnten sich über unsichere Alltagsgeräte verbreiten",
-    "what": "Laut einer Anthropic-Studie könnten sich kleine Modelle bald autonom über schlecht gesicherte Geräte wie Smart-TVs oder Staubsaugerroboter replizieren. Ein Modell schaffte im Test die komplette Infektionskette. Das Red Team baute dafür laut The New Stack aus 15 billigen Android-TV-Boxen für rund 825 Dollar einen Cluster.",
-    "importance": 1
+    "title": "Chainguard startet KI-Harness zur Fehlersuche mit Claude Mythos 5.1",
+    "what": "Chainguard bringt ein KI-gestütztes Sicherheits-Harness, das Frontier-Modelle, darunter das zugangsbeschränkte Claude Mythos 5.1, zum Aufspüren von Schwachstellen nutzt. Der Bericht verweist darauf, dass 66 Prozent der Milliardenkonzerne kritische Bugs unbehoben lassen. Parallel isoliert Chainguard Coding-Agenten in gehärteten microVMs.",
+    "importance": 2
    },
    {
-    "title": "Anthropic drückt Abgriff von Claudes Denkspuren um 90 bis 99 Prozent",
-    "what": "Anthropic gibt an, die Extraktion interner Reasoning-Tokens aus Claude stark reduziert zu haben, in groß angelegten Distillation-Angriffen. Es nennt dabei die chinesischen Firmen Zhipu und Moonshot, Zehntausende Accounts wurden gesperrt.",
+    "title": "Google Antigravity SDK unterstützt lokale Modelle",
+    "what": "Das Antigravity SDK kann nun agentische Workflows mit lokalen Modellen auf dem eigenen Rechner ausführen und bei Bedarf Cloud-Modelle für übergeordnete Aufgaben dazumischen. Google nennt Datenschutz, Kosten und Netzunabhängigkeit als Vorteile.",
+    "importance": 2
+   },
+   {
+    "title": "Subquadratic: Entscheidungsmodell mit 12-fachem Kontextfenster von Jev",
+    "what": "Subquadratic stellt ein Decision Model vor, das laut eigener Angabe ein zwölfmal größeres Kontextfenster als Jev hat. Laut GIGAZINE heißt es SubQ Snap, verarbeitet 384.000 Token und unterstützt Bilder.",
     "importance": 1
    }
   ]
  },
  "github": {
-  "count": 17,
-  "headline": "Agent-Skills und Gedächtnis für Coding-Agenten dominieren, dazu ein Rust-Agent und ein Blender-Add-on",
+  "count": 15,
+  "headline": "Agenten-Werkzeuge rund ums Coding: Gedächtnis, Sitzungs-Replay und Dekompilierung mit KI",
   "top": [
    {
-    "title": "rohitg00/agentmemory",
-    "what": "Persistenter Speicher für Coding-Agenten (Claude Code, Codex, Copilot, Cursor u. a.), der sich selbst mit Benchmark-Ergebnissen als führend bezeichnet. Rund 29.000 Sterne, heute weiter wachsend.",
+    "title": "i12bp8/decomp.wtf",
+    "what": "Ein KI-Agent dekompiliert Spiele, die man besitzt (Topic: N64), in C-Code, der byteidentisch zum Original kompiliert (\"matching decompilation\"). Läuft lokal und ist per MCP und Claude Code nutzbar.",
     "importance": 3
    },
    {
-    "title": "vercel-labs/skills",
-    "what": "Kommandozeilenwerkzeug (`npx skills`), mit dem sich Agent-Skills offen installieren und verwalten lassen, von Vercel Labs. Über 34.000 Sterne, heute etwa 190 neue.",
+    "title": "Gentleman-Programming/engram",
+    "what": "Persistentes Gedächtnis für Coding-Agenten als agentenneutrales Go-Programm mit SQLite und Volltextsuche (FTS5), MCP-Server, HTTP-API, CLI und Terminal-Oberfläche.",
     "importance": 3
    },
    {
-    "title": "vakandi/opencode-rust",
-    "what": "Ein Open-Source-Coding-Agent in Rust mit CLI, TUI und HTTP-Server für lokale Agenten, ohne Docker; Topics nennen MCP und LSP. Erst drei Tage alt, 70 Sterne.",
+    "title": "stablyai/orca",
+    "what": "Eine Entwicklungsumgebung (ADE) für viele parallel laufende Coding-Agenten. Man nutzt das eigene Abonnement der jeweiligen Agenten; es gibt Desktop-, Mobil- und Remote-Betrieb.",
+    "importance": 3
+   },
+   {
+    "title": "Graphicle-AI/graphicle",
+    "what": "Ein in Rust geschriebenes Programm, das einen Code-Graphen (Struktur des Codes) und ein Gedächtnis für Coding-Agenten bündelt. Es ist für Claude Code, Codex, Cursor und beliebige MCP-Clients gedacht.",
     "importance": 2
    },
    {
-    "title": "Twigpine/openclaude",
-    "what": "Coding-Agent-CLI mit dem Motto „runs anywhere. uses anything“, also offenbar modellunabhängig. Etwa 33.800 Sterne, heute rund 59 neue. Die Beschreibung ist knapp, Details sind unklar.",
-    "importance": 2
-   },
-   {
-    "title": "josefchen/muster",
-    "what": "Mac-Menüleisten-App für Claude Code, Codex und Cursor, die zeigt, welche Agent-Sitzung auf eine Antwort wartet, und per Tastendruck antworten lässt. Nutzt offenbar Hooks von Claude Code.",
+    "title": "Entelligence-AI/agentplay",
+    "what": "Spielt aufgezeichnete Sitzungen von Coding-Agenten (Claude Code, Codex, Cursor) als Karte und Zeitleiste ab. Gedacht für Beobachtbarkeit (Observability).",
     "importance": 2
    }
   ]
  },
  "reddit": {
-  "count": 18,
-  "headline": "Anthropic stellt seine Quellcode-Verwaltung für KI-Tempo neu auf, Gemini 4 Argon startet, und Codex-Nutzer klagen über Langsamkeit und Kapazität",
+  "count": 20,
+  "headline": "Anthropic baut ein eigenes Versionsverwaltungs-System für Agenten-Massen, Gemini 4 Argon und GPT-6 Astra mischen die Modell-Rangliste auf, und die Szene streitet über Usage-Limits und umgebaute Oberflächen.",
   "top": [
    {
-    "title": "Redesigning source control at Anthropic",
-    "what": "Anthropic beschreibt im Engineering-Blog, wie die Quellcode-Verwaltung für KI-Tempo neu gebaut wird: Programmieren sei nicht mehr der Engpass, sondern Source Control, Builds und CI, die für menschliches Tempo gebaut wurden. Der Titel nennt rund 30.000 Code-Änderungen pro Tag, die sich zusammenführen lassen sollen.",
+    "title": "Anthropic went from 2,500 to 30,000 merges a day, and git couldn't keep up. So they built their own",
+    "what": "Anthropic hat nach eigenem Bericht seine Hauptcodebasis von git abgelöst: Von rund 2.500 auf über 30.000 gemergte Änderungen pro Tag, rund 25 Millionen Checkouts täglich und fast 100 GB Historie. Git setzt auf Nutzer mit lokaler Vollkopie, die auch offline arbeiten. Die Nutzer sind aber inzwischen größtenteils Agenten und CI-Jobs. Deshalb baute Anthropic mit Scion ein eigenes System.",
     "importance": 3
    },
    {
-    "title": "Anthropic anti-distillation measures may have reduced data harvest by 90-99%",
-    "what": "Anthropic beschreibt neue Abwehrmaßnahmen gegen Distillation (das Abgreifen von Modellantworten, um damit Konkurrenzmodelle zu trainieren) und gibt an, die abgeschöpfte Datenmenge um 90–99 % gesenkt zu haben. Laut Diskussion verrät der Text auch einiges über den Wert der rohen gegenüber der zusammengefassten Denkspur.",
+    "title": "A new model for open source: closed to pull requests, open to remix",
+    "what": "Geoffrey Huntley beschreibt ein neues Modell für Open Source: Projekte nehmen keine Pull Requests mehr an, laden aber zum Remixen ein. Nach Titel und Domain (ghuntley.com) geht es um eine Antwort auf die Flut KI-generierter Beiträge.",
+    "importance": 3
+   },
+   {
+    "title": "Anthropic's Sept 2026 threat report: attackers prompt-injected an eval sandbox, stole customer API keys, then burned the victims' own compute to attack ~30 AI labs",
+    "what": "Anthropics Threat-Report vom September 2026: Angreifer schleusten per Prompt-Injection Code in eine Evaluations-Sandbox, erbeuteten API-Schlüssel von Kunden und nutzten deren Rechenzeit für Angriffe auf etwa 30 KI-Labore. Das ist die Zusammenfassung aus dem Reddit-Titel; den Bericht selbst haben wir nicht gelesen.",
+    "importance": 3
+   },
+   {
+    "title": "AI is mass decompiling games. That's both awesome and scary.",
+    "what": "Simon Willison schreibt über KI, die in großem Stil Spiele dekompiliert. Der Titel nennt das zugleich großartig und beunruhigend; zum Inhalt liegt nur der Link vor.",
     "importance": 2
    },
    {
-    "title": "Gemini 4 Argon in GitHub Copilot",
-    "what": "GitHub meldet im Changelog, dass Gemini 4 Argon in GitHub Copilot verfügbar ist. In den Communities wird das neue Google-Modell zugleich breit gestestet: Cursors Benchmark fällt für Argon laut einem Beitrag weniger beeindruckend aus als Googles eigene Zahlen.",
-    "importance": 2
-   },
-   {
-    "title": "How Anthropic's dynamic workflows coordinate Claude agents, from its AI Engineer New York talk",
-    "what": "Latent Space fasst einen Vortrag von Anthropic auf der AI Engineer New York zusammen, wie sogenannte dynamische Workflows mehrere Claude-Agenten koordinieren. Details lassen sich aus dem Titel allein nicht ableiten.",
-    "importance": 2
-   },
-   {
-    "title": "Agentic coding solves the easiest part of engineering and breaks the hardest",
-    "what": "Der Autor argumentiert, Agenten machten das Schreiben von Code billig, aber das war nie der teure Teil. Schwer seien das Verstehen und Entwerfen im lebendigen System, und beim Code-Schreiben lerne man ein System erst kennen.",
+    "title": "Google's own benchmarks say Gemini beats Opus at coding... and also loses to Opus at coding",
+    "what": "Googles eigene Zahlen zu Gemini 4 Argon: Bei DeepSWE liegt es vor Opus 5.5 (77,9 % zu 74,2 %), bei Terminal-Bench 4.0 deutlich dahinter (57,4 % zu 66,4 %), ebenso bei FrontierSWE.",
     "importance": 2
    }
   ]

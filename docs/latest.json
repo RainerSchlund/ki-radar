@@ -1,107 +1,107 @@
 {
- "date": "2026-10-20",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-20.html",
+ "date": "2026-10-21",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-21.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 9,
-  "headline": "OpenCode-Plattform gehackt, MiniMax senkt Preise, Hacker-Agenten brechen in 100 Websites ein",
+  "count": 11,
+  "headline": "DeepSeek gibt seine Inference-Software frei, Studie fragt nach dem Nutzen von KI-Ausgaben",
   "top": [
    {
-    "title": "OpenCode-Plattform gehackt: API-Schlüssel gestohlen, Kosten auf Nutzerkonten",
-    "what": "Angreifer drangen in einen Teil der Online-Plattform des Open-Source-Coding-Agenten OpenCode ein und stahlen API-Schlüssel einzelner Nutzer; auf deren KI-Konten liefen Kosten auf. Laut TechCrunch weigerten sich die zu Hilfe gerufenen KI-Werkzeuge zudem wiederholt, den Schadcode anzusehen.",
+    "title": "DeepSeek veröffentlicht DeepInfer, seine interne Inference-Software, als Open Source",
+    "what": "Deepseek stellt das auf vLLM basierende Framework, mit dem es seine Modelle produktiv betreibt, offen zur Verfügung. Es soll Rechenkosten und Energieverbrauch beim Betrieb senken. Das zugehörige GitHub-Repository erreicht auf Hacker News über 2.000 Punkte.",
     "importance": 3
    },
    {
-    "title": "Ein Angreifer bricht mit KI-Agenten in über 100 Websites ein",
-    "what": "Laut der Sicherheitsfirma Norforge hat ein einzelner Angreifer mehr als 100 Websites mit einer Armee weitgehend selbstständiger KI-Agenten kompromittiert; laut Reuters waren unter anderem John Deere, SharkNinja und Cummins betroffen. Nach Berichten lagen die Kosten bei rund 5.000 Dollar.",
+    "title": "Pragmatic Engineer: Was bringen die KI-Ausgaben von Entwicklern wirklich?",
+    "what": "Gergely Orosz wertet Daten von 27 Unternehmen aus. Er fragt, ob die stark gestiegenen KI-Ausgaben Auslieferungstempo und Pull-Request-Menge tatsächlich verändert haben. Über die Ergebnisse im Einzelnen sagt der Teaser nichts.",
+    "importance": 3
+   },
+   {
+    "title": "GitHub startet Package-Firewall in der Public Preview",
+    "what": "Die Firewall soll Angriffe stoppen, die schon bei der Installation von Paketen Zugangsdaten auf CI/CD-Rechnern oder Entwicklerarbeitsplätzen abgreifen, ohne dass der Paketcode läuft.",
     "importance": 2
    },
    {
-    "title": "MiniMax M3.1 Flash: halbe Preise, aber 93 % Halluzinationsrate",
-    "what": "MiniMax bringt M3.1 Flash: 42 Punkte im Intelligence Index von Artificial Analysis (13 mehr als der Vorgänger) bei halbierten Token-Preisen; im Humanity's Last Exam liegt es vor Deepseek V4.1 Flash. Die Halluzinationsrate beträgt 93 Prozent. The New Stack bezweifelt, dass die Agentenrechnung entsprechend sinkt.",
+    "title": "Cloudflare treibt Rust-Portierung von TypeScript voran, geschrieben von Agenten",
+    "what": "Cloudflare will, dass Coding-Agenten ihre Arbeit prüfen können, ohne die Rechenressourcen zu sprengen. Dafür entsteht eine von Agenten für Agenten geschriebene Rust-Portierung von TypeScript. Man wolle TypeScript aber nicht forken.",
     "importance": 2
    },
    {
-    "title": "Amazon TorchNeuron: PyTorch-Modelle sollen leichter auf Trainium-Chips laufen",
-    "what": "Amazon veröffentlicht das Entwicklerwerkzeug TorchNeuron, mit dem sich PyTorch-Anwendungen und Hugging-Face-Modelle einfacher auf Amazons eigenen Trainium-Chips statt auf Nvidia-GPUs betreiben lassen.",
-    "importance": 1
+    "title": "Maxwell: Modell zwischen Code und Hardware soll Programme zur Laufzeit beschleunigen",
+    "what": "Das Start-up doubleAI stellt Maxwell als „Code Execution Model“ vor. Es beobachtet Traces und Profiling-Daten eines laufenden Programms und macht es schneller, ohne eine Codezeile zu ändern. Die Angaben stammen vom Hersteller.",
+    "importance": 2
    },
    {
-    "title": "Microsoft: KI-Agenten sind wie Insider-Bedrohungen, Frontier-Modellen ist nicht zu trauen",
-    "what": "Microsoft rät Unternehmen, Agenten, die Mitarbeiter mit nicht vom Unternehmen kontrollierten Systemen der KI-Labore nutzen, eng zu überwachen, und vergleicht sie mit Insider-Risiken.",
-    "importance": 1
+    "title": "Mistral Voxtral 3: Sprachmodelle für Echtzeit-Sprachagenten",
+    "what": "Die Familie bündelt Speech-to-Text, Text-to-Speech und ein Voice-Agent-SDK, unterstützt über 50 Sprachen und erlaubt Werkzeugaufrufe während des laufenden Gesprächs. Betrieb ist auf eigener Infrastruktur oder in EU-gehosteten APIs möglich.",
+    "importance": 2
    },
    {
-    "title": "Ask HN: Wie umgehen mit ausgeliefertem KI-Code, den man nicht versteht?",
-    "what": "Ein viel diskutierter Hacker-News-Beitrag (332 Punkte) greift den Post eines Meta-Ingenieurs auf, der sich beim Ausliefern von KI-Code wie vor einer Blackbox fühlt.",
-    "importance": 1
-   },
-   {
-    "title": "Inception Mercury 3: Diffusions-LLM mit über 1.000 Tokens pro Sekunde",
-    "what": "Inception veröffentlicht Mercury 3, sein Flaggschiff unter den Diffusions-Sprachmodellen, mit 1.068 Tokens pro Sekunde. Laut Herstellerangaben ist es bis zu achtmal schneller als vergleichbare Modelle.",
-    "importance": 1
+    "title": "Steam Next Fest: Spieler fordern „No AI“-Filter wegen Vibe-Coding-Flut",
+    "what": "Beim Steam Next Fest tauchen deutlich mehr generative KI-Spiele auf als zuvor. Spieler fordern laut IGN einen Filter gegen KI-Titel, andere Medien berichten, die Veranstaltung sei für sie „ruiniert“. Der HN-Beitrag erreicht 173 Punkte.",
+    "importance": 2
    }
   ]
  },
  "github": {
   "count": 18,
-  "headline": "Agenten bekommen Gedächtnis, Werkzeuge und Überwachung drumherum – plus ein 180B-Modell auf Consumer-GPU",
+  "headline": "Parallel laufende Coding-Agenten bekommen eigene Arbeitsumgebungen, und der Skill-Markt wächst weiter",
   "top": [
    {
-    "title": "MemTensor/MemT-1.0",
-    "what": "Offizielles Repository zu MemT-1.0 von MemTensor. Laut Topics geht es um ein Modell mit eingebautem Langzeitgedächtnis (native memory, long-context); Details zur Methode gehen aus den Angaben nicht hervor.",
+    "title": "dominikmartn/harp",
+    "what": "Inoffizieller Fork des Terminals Warp (in Rust). Eine Seitenleiste zeigt mehrere parallel laufende Claude-Code- und Codex-Agenten und markiert, welcher gerade Aufmerksamkeit braucht.",
+    "importance": 3
+   },
+   {
+    "title": "vercel-labs/durable-harness",
+    "what": "Von Vercel Labs: Coding-Agenten (Claude Code, Codex, OpenCode, Pi) laufen als „durable“ Harnesses auf einem Workflow-SDK, also mit dauerhaft gesicherten Abläufen. Das Repo ist neu und hat bisher wenige Sterne.",
+    "importance": 3
+   },
+   {
+    "title": "max-sixty/worktrunk",
+    "what": "Kommandozeilenwerkzeug in Rust, das Git-Worktrees (mehrere parallele Arbeitskopien eines Repos) verwaltet. Gedacht für Arbeitsabläufe mit mehreren KI-Agenten gleichzeitig.",
     "importance": 2
    },
    {
-    "title": "Aoisop/mawoagent",
-    "what": "Lokale Agenten-Laufzeitumgebung (also die Umgebung, in der der Agent läuft), die Rückmeldungen in Skills (wiederverwendbare Anleitungen) umwandelt und diese nur freigibt, wenn Belege und Tests es hergeben. Nachvollziehbar und umkehrbar angelegt.",
+    "title": "kenn-io/agentsview",
+    "what": "Lokale Suche, Auswertung und Token-Statistik über Sitzungen von Claude Code, Codex und über 20 weiteren Coding-Agenten.",
     "importance": 2
    },
    {
-    "title": "leepokai/Codync",
-    "what": "In Rust gebaute Anwendung, mit der man Claude Code, Codex, Cursor, Gemini und weitere Agenten als Bots auf dem eigenen Rechner ansprechen kann, auch vom iPhone aus. Nutzt laut Topics das Agent Client Protocol (ACP, ein Standard für die Verbindung zu Agenten).",
-    "importance": 2
-   },
-   {
-    "title": "iha2/superlite",
-    "what": "Schlankerer Fork des Superpowers-Workflows für Claude Code: nur eine Freigabe-Stelle, parallele Arbeitsschritte, Modellwahl je Aufgabe. Der Autor gibt in einem eigenen Benchmark 3,9-fache Geschwindigkeit bei gleicher Qualität an.",
-    "importance": 2
-   },
-   {
-    "title": "tomtomsatnav/agent-orchestration-standard",
-    "what": "Plugin, Terminal-Oberfläche und MCP-Server (Schnittstelle für Agenten-Werkzeuge), die laufende Claude-Code-Sitzungen live überwachen: Agenten-Graph, Token-Verbrauch, Werkzeugaufrufe, Wiedergabe. Enthält außerdem eine Spezifikation zur Orchestrierung von Agenten (AOS-1).",
+    "title": "uclanlp/OpenVLHarness",
+    "what": "Offizieller Code der Universität UCLA (uclanlp) zu einem Harness für visuelle Agenten, die Werkzeuge in realen Umgebungen bedienen und dabei ein multimodales Gedächtnis nutzen (also Bild und Text).",
     "importance": 2
    }
   ]
  },
  "reddit": {
-  "count": 20,
-  "headline": "Opus 5.5 im Dauereinsatz, Nutzungslimits im Dauerfrust – dazu neue Modelle in Sicht und Zweifel an Hersteller-Benchmarks",
+  "count": 18,
+  "headline": "Fable 5.5 wird erwartet, Limit-Chaos bei Codex und Claude, DeepSeek öffnet seine Inferenz-Engine",
   "top": [
    {
-    "title": "AI labs report benchmark scores 6.4% higher than independent testers, on average",
-    "what": "Ein Betreiber eines offenen Leaderboards (whatmodel.sh) hat 611 Vergleiche zu 180 Modellen auf 103 Benchmarks ausgewertet: Die Labs melden für dieselben Modelle im Schnitt 6,4 % höhere Werte als unabhängige Tester. Datensatz und Code sind offen.",
+    "title": "DeepSeek open sources the inference engine for their models",
+    "what": "DeepSeek hat mit DeepInfer die Inferenz-Engine für seine Modelle als Open Source veröffentlicht (GitHub: deepseek-ai/DeepInfer). Die Community sieht darin Lernmaterial, um eigene Engines zu verbessern.",
     "importance": 3
    },
    {
-    "title": "Agentic Verification",
-    "what": "Addy Osmani schreibt auf Substack über „Agentic Verification“, also wie man die Ergebnisse von Coding-Agenten überprüft. Der Beitrag selbst liegt nur als Link vor; Details sind aus Titel und Quelle nicht ablesbar.",
+    "title": "Linus Torvalds posts his first AI-assisted patch to the Linux kernel, synthetic test clocks 23x performance leap — the bossman makes use of AI tooling himself after issuing clear pro-AI directives",
+    "what": "Laut Tom's Hardware hat Linus Torvalds seinen ersten KI-unterstützten Patch für den Linux-Kernel eingereicht. Ein synthetischer Test soll eine 23-fache Leistungssteigerung zeigen. Zuvor hatte er klare Pro-KI-Vorgaben ausgegeben.",
     "importance": 3
    },
    {
-    "title": "DeepSeek-V4.1-Flash-1017 on AA & Vals index",
-    "what": "Beim Terminal-Bench-4.0-Wert von DeepSeek-V4.1-Flash weichen Herstellerangabe (42,3 %) und unabhängige Messungen (34 % bzw. 31,8 %) stark ab. Der Verfasser vermutet, dass der Unterschied am verwendeten Agenten-Harness liegt (Claude-Code-Harness vs. mini-swe-agent).",
+    "title": "Qwen3.8-Flash-Next vs Opus 5.5: Six-way benchmark on a real Rust feature with Claude Code and Pi",
+    "what": "Sechs Kombinationen aus Modell und Harness (Qwen3.8-Flash-Next lokal gegen Opus 5.5, jeweils mit Claude Code und Pi) wurden zweimal auf dasselbe echte Rust-Feature aus einer Roadmap angesetzt, insgesamt 12 PRs. Es ist die Nachbesserung eines früheren Vergleichs, dem unfaire Bedingungen vorgeworfen wurden.",
+    "importance": 3
+   },
+   {
+    "title": "Eagle-4 Released: Faster than DFlash2 & DSpark",
+    "what": "EAGLE-4 ist eine neue Methode zur Beschleunigung der Textausgabe (Speculative Decoding), bisher nur für Qwen3.8-27B. Sie erreicht laut Angaben 3,59-fache Beschleunigung gegenüber 2,80 bei DFlash 2 und 2,57 bei DSpark.",
     "importance": 2
    },
    {
-    "title": "A bare IPython harness ties production coding agents with Qwen3.5-9B on TB-Lite, and tool-output normalization fixed most of the run-to-run variance",
-    "what": "Ein Test mit Qwen3.5-9B auf TB-Lite zeigt: Ein schlichter Harness mit nur einem IPython-Werkzeug erreicht ähnliche Werte wie schwergewichtige Produktions-Harnesses. Ein großer Teil der Schwankungen zwischen Läufen kam von uneinheitlicher Werkzeugausgabe, die sich durch Normalisierung weitgehend beseitigen ließ.",
-    "importance": 2
-   },
-   {
-    "title": "Anthropic’s internal report: 80% of Claude session time is agents waiting on humans",
-    "what": "Laut einem internen Anthropic-Bericht über die Arbeit der eigenen Mitarbeiter mit Claude entfallen rund 80 % der Sitzungszeit auf Agenten, die auf menschliche Eingaben warten. Das Flaschenhals-Bild kehrt sich damit um.",
+    "title": "Geezuz kernel: Qwen3.8-27B at 190 tok/s (620~ tok/s at 8 requests) on two 3090s",
+    "what": "Mit einem eigenen Kernel läuft Qwen3.8-27B auf zwei 3090ern bei 190 Token/s (Q4_K_M) und rund 620 Token/s bei acht parallelen Anfragen. Das Vergleichs-Setup mit llama.cpp kam auf etwa 100 Token/s.",
     "importance": 2
    }
   ]

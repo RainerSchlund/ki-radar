@@ -1,5 +1,10 @@
 {
 "items": {
+"gh:0x23/micromanipulatorstepper": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "gh:0x4m4/hexstrike-ai": {
 "date": "2026-10-07",
 "first_seen": "2026-10-07",
@@ -85,6 +90,11 @@
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
+"gh:abus-aikorea/voice-pro": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "gh:achillean/shodan-python": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
@@ -146,9 +156,9 @@
 "status": "rejected"
 },
 "gh:agentgateway/agentgateway": {
-"date": "2026-10-04",
+"date": "2026-10-21",
 "first_seen": "2026-10-04",
-"status": "rejected"
+"status": "reported"
 },
 "gh:agentmemoryrepo/agentmemoryrepo": {
 "date": "2026-10-06",
@@ -158,6 +168,11 @@
 "gh:agno-agi/agno": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:agricidaniel/claude-seo": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "gh:ahujasid/mcp-for-blender": {
@@ -174,6 +189,16 @@
 "date": "2026-10-16",
 "first_seen": "2026-10-04",
 "status": "rejected"
+},
+"gh:ai4ai-for-anything/researchboost-agent": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"gh:aicodeking/pandacode": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
 },
 "gh:aindeev/agent-chrome-relay": {
 "date": "2026-10-11",
@@ -575,6 +600,11 @@
 "first_seen": "2026-10-14",
 "status": "rejected"
 },
+"gh:baimuking/ai-jailbreak": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "gh:beeradmoore/dlss-swapper": {
 "date": "2026-10-17",
 "first_seen": "2026-10-17",
@@ -730,6 +760,11 @@
 "first_seen": "2026-10-17",
 "status": "rejected"
 },
+"gh:btcpayserver/btcpayserver": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "gh:btluo1/ccb": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
@@ -791,7 +826,7 @@
 "status": "rejected"
 },
 "gh:catchorg/catch2": {
-"date": "2026-10-11",
+"date": "2026-10-21",
 "first_seen": "2026-10-11",
 "status": "rejected"
 },
@@ -896,7 +931,7 @@
 "status": "rejected"
 },
 "gh:clickhouse/clickhouse": {
-"date": "2026-10-12",
+"date": "2026-10-21",
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
@@ -1070,6 +1105,11 @@
 "first_seen": "2026-10-10",
 "status": "rejected"
 },
+"gh:danepps/legal-research-skills": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "gh:danielmiessler/fabric": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
@@ -1081,7 +1121,7 @@
 "status": "rejected"
 },
 "gh:datadog/datadog-agent": {
-"date": "2026-10-04",
+"date": "2026-10-21",
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
@@ -1235,6 +1275,11 @@
 "first_seen": "2026-10-06",
 "status": "reported"
 },
+"gh:dominikmartn/harp": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
 "gh:dongnguyenvie/bashcut": {
 "date": "2026-10-05",
 "first_seen": "2026-10-05",
@@ -1266,9 +1311,9 @@
 "status": "rejected"
 },
 "gh:dotnet/skills": {
-"date": "2026-10-11",
+"date": "2026-10-21",
 "first_seen": "2026-10-04",
-"status": "rejected"
+"status": "reported"
 },
 "gh:drakkan/sftpgo": {
 "date": "2026-10-08",
@@ -1279,6 +1324,11 @@
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
 "status": "reported"
+},
+"gh:dreamhazesever/meanp-injector-rpocket-team": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
 },
 "gh:dreamscroll-lab/asamana": {
 "date": "2026-10-11",
@@ -1329,6 +1379,11 @@
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
 "status": "rejected"
+},
+"gh:duyongan/dots-agent": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
 },
 "gh:dyad-sh/dyad": {
 "date": "2026-10-09",
@@ -1425,6 +1480,11 @@
 "first_seen": "2026-10-06",
 "status": "reported"
 },
+"gh:emdash-cms/emdash": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "gh:emilk/egui": {
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
@@ -1506,7 +1566,7 @@
 "status": "rejected"
 },
 "gh:fabio-rovai/open-ontologies": {
-"date": "2026-10-08",
+"date": "2026-10-21",
 "first_seen": "2026-10-08",
 "status": "rejected"
 },
@@ -1806,7 +1866,7 @@
 "status": "rejected"
 },
 "gh:gin-gonic/gin": {
-"date": "2026-10-08",
+"date": "2026-10-21",
 "first_seen": "2026-10-08",
 "status": "rejected"
 },
@@ -1858,6 +1918,11 @@
 "gh:gofiber/fiber": {
 "date": "2026-10-20",
 "first_seen": "2026-10-20",
+"status": "rejected"
+},
+"gh:goharbor/harbor": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "gh:golang/go": {
@@ -1945,6 +2010,11 @@
 "first_seen": "2026-10-14",
 "status": "reported"
 },
+"gh:gosom/google-maps-scraper": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "gh:gotenberg/gotenberg": {
 "date": "2026-10-17",
 "first_seen": "2026-10-17",
@@ -1978,6 +2048,11 @@
 "gh:graphiteeditor/graphite": {
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
+"status": "rejected"
+},
+"gh:greenshot/greenshot": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "gh:grit-77/done-is-a-claim": {
@@ -2051,7 +2126,7 @@
 "status": "rejected"
 },
 "gh:harry0703/mangodisk": {
-"date": "2026-10-08",
+"date": "2026-10-21",
 "first_seen": "2026-10-08",
 "status": "rejected"
 },
@@ -2071,7 +2146,7 @@
 "status": "rejected"
 },
 "gh:hashicorp/vault": {
-"date": "2026-10-09",
+"date": "2026-10-21",
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
@@ -2285,6 +2360,11 @@
 "first_seen": "2026-10-20",
 "status": "reported"
 },
+"gh:iliashdz/bismuth": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "gh:imbad0202/academic-research-skills": {
 "date": "2026-10-17",
 "first_seen": "2026-10-17",
@@ -2345,6 +2425,11 @@
 "first_seen": "2026-10-05",
 "status": "reported"
 },
+"gh:istio/istio": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "gh:itsfatduck/optimizerduck": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
@@ -2393,6 +2478,11 @@
 "gh:jakeschincariol/replica-skill": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:jamailar/beav": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "gh:jameshaworthcs/verifiedhandles-mcp": {
@@ -2468,6 +2558,11 @@
 "gh:jesseduffield/lazygit": {
 "date": "2026-10-09",
 "first_seen": "2026-10-09",
+"status": "rejected"
+},
+"gh:jevagentharness/jevagentharness": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "gh:jimoto-no-llm/rustdsh": {
@@ -2630,6 +2725,11 @@
 "first_seen": "2026-10-14",
 "status": "rejected"
 },
+"gh:kenn-io/agentsview": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
 "gh:keploy/keploy": {
 "date": "2026-10-15",
 "first_seen": "2026-10-15",
@@ -2648,6 +2748,11 @@
 "gh:kkkkhazix/aihot": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:knadh/listmonk": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "gh:koala73/worldmonitor": {
@@ -2721,7 +2826,7 @@
 "status": "rejected"
 },
 "gh:larksuite/cli": {
-"date": "2026-10-11",
+"date": "2026-10-21",
 "first_seen": "2026-10-11",
 "status": "rejected"
 },
@@ -2774,6 +2879,11 @@
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
 "status": "reported"
+},
+"gh:lgwrightlab/schematic-figure": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
 },
 "gh:lharries/whatsapp-mcp": {
 "date": "2026-10-12",
@@ -2880,6 +2990,11 @@
 "first_seen": "2026-10-04",
 "status": "reported"
 },
+"gh:lovisdotio/motion2code": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
 "gh:ltaoo/wx_channels_download": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
@@ -2933,6 +3048,11 @@
 "gh:maaassistantarknights/maaassistantarknights": {
 "date": "2026-10-14",
 "first_seen": "2026-10-14",
+"status": "rejected"
+},
+"gh:macro-inc/macro": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "gh:maddada/ghostex": {
@@ -3031,9 +3151,9 @@
 "status": "reported"
 },
 "gh:max-sixty/worktrunk": {
-"date": "2026-10-04",
+"date": "2026-10-21",
 "first_seen": "2026-10-04",
-"status": "rejected"
+"status": "reported"
 },
 "gh:maximhq/bifrost": {
 "date": "2026-10-15",
@@ -3180,6 +3300,16 @@
 "first_seen": "2026-10-16",
 "status": "rejected"
 },
+"gh:midasmatterhorn/artcraft-skills": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"gh:mifi/lossless-cut": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "gh:miftahul-islam-efaz/motion-graphics-skill": {
 "date": "2026-10-10",
 "first_seen": "2026-10-10",
@@ -3189,6 +3319,11 @@
 "date": "2026-10-20",
 "first_seen": "2026-10-20",
 "status": "rejected"
+},
+"gh:mihjy12138/dsh-agent-procedures": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
 },
 "gh:mikamikasuki/forest": {
 "date": "2026-10-04",
@@ -3270,6 +3405,16 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:modernrelay/omnigraph": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"gh:moeblack/moss-image-prompt-skill": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "gh:moonlight-stream/moonlight-qt": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
@@ -3331,9 +3476,9 @@
 "status": "rejected"
 },
 "gh:msitarzewski/agency-agents": {
-"date": "2026-10-06",
+"date": "2026-10-21",
 "first_seen": "2026-10-06",
-"status": "rejected"
+"status": "reported"
 },
 "gh:msitarzewski/agency-agents-app": {
 "date": "2026-10-07",
@@ -3371,7 +3516,7 @@
 "status": "rejected"
 },
 "gh:munique/openmu": {
-"date": "2026-10-09",
+"date": "2026-10-21",
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
@@ -3473,6 +3618,11 @@
 "gh:nestjs/nest": {
 "date": "2026-10-15",
 "first_seen": "2026-10-15",
+"status": "rejected"
+},
+"gh:netdata/netdata": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "gh:nethermindeth/nethermind": {
@@ -3688,6 +3838,11 @@
 "gh:opencut-app/opencut": {
 "date": "2026-10-15",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:opencv/opencv": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "gh:openfilm/openfilm": {
@@ -3971,7 +4126,7 @@
 "status": "rejected"
 },
 "gh:quantumnous/new-api": {
-"date": "2026-10-10",
+"date": "2026-10-21",
 "first_seen": "2026-10-10",
 "status": "rejected"
 },
@@ -3981,7 +4136,7 @@
 "status": "rejected"
 },
 "gh:radarr/radarr": {
-"date": "2026-10-07",
+"date": "2026-10-21",
 "first_seen": "2026-10-07",
 "status": "rejected"
 },
@@ -4035,6 +4190,11 @@
 "first_seen": "2026-10-14",
 "status": "rejected"
 },
+"gh:raywangqvq/bilibilitoolpro": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "gh:razorpay/slashdocs": {
 "date": "2026-10-15",
 "first_seen": "2026-10-15",
@@ -4043,6 +4203,11 @@
 "gh:rclone/rclone": {
 "date": "2026-10-20",
 "first_seen": "2026-10-20",
+"status": "rejected"
+},
+"gh:reacher-z/awesome-rea": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "gh:react/react-native": {
@@ -4116,7 +4281,7 @@
 "status": "rejected"
 },
 "gh:rmyndharis/openwa": {
-"date": "2026-10-13",
+"date": "2026-10-21",
 "first_seen": "2026-10-13",
 "status": "rejected"
 },
@@ -4245,6 +4410,11 @@
 "first_seen": "2026-10-12",
 "status": "reported"
 },
+"gh:samber/cc-skills-golang": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
 "gh:samboycoding/cpp2il": {
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
@@ -4253,6 +4423,11 @@
 "gh:samwhosung/benilla": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
+"status": "rejected"
+},
+"gh:satriyaa67/qwen2api-multilang": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "gh:sauravtom/phone-use": {
@@ -4283,6 +4458,11 @@
 "gh:scrapecreators/social-media-research-skills": {
 "date": "2026-10-18",
 "first_seen": "2026-10-18",
+"status": "rejected"
+},
+"gh:scrapegraphai/scrapegraph-ai": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "gh:scummvm/scummvm": {
@@ -4396,9 +4576,14 @@
 "status": "rejected"
 },
 "gh:shy3130/tick-stock-panel": {
-"date": "2026-10-05",
+"date": "2026-10-21",
 "first_seen": "2026-10-05",
 "status": "rejected"
+},
+"gh:sickn33/agentic-awesome-skills": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
 },
 "gh:silentlake-tech-skillhub/silentagenthub": {
 "date": "2026-10-04",
@@ -4890,6 +5075,11 @@
 "first_seen": "2026-10-05",
 "status": "rejected"
 },
+"gh:touri-ai/touri": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
 "gh:tphakala/birdnet-go": {
 "date": "2026-10-15",
 "first_seen": "2026-10-15",
@@ -4990,6 +5180,11 @@
 "first_seen": "2026-10-08",
 "status": "reported"
 },
+"gh:uclanlp/openvlharness": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
 "gh:ufo-ai/ufo-core": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -5068,6 +5263,11 @@
 "gh:vercel-labs/agent-browser": {
 "date": "2026-10-09",
 "first_seen": "2026-10-09",
+"status": "reported"
+},
+"gh:vercel-labs/durable-harness": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "reported"
 },
 "gh:vercel-labs/scriptc": {
@@ -5168,6 +5368,11 @@
 "gh:vojtaholik/good-css": {
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
+"status": "rejected"
+},
+"gh:volcanodomaintriumph/kahoot-tools-ai-resocket-answer-tool": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "gh:volcengine/openviking": {
@@ -5345,6 +5550,11 @@
 "first_seen": "2026-10-06",
 "status": "reported"
 },
+"gh:yangsir2077/pixel-loom": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
 "gh:yeachan-heo/oh-my-claudecode": {
 "date": "2026-10-11",
 "first_seen": "2026-10-11",
@@ -5520,10 +5730,25 @@
 "first_seen": "2026-10-06",
 "status": "rejected"
 },
+"gh:zseven-w/codex-openpencil": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"gh:zseven-w/openpencil": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "gh:ztt0216/myagent": {
 "date": "2026-10-19",
 "first_seen": "2026-10-19",
 "status": "reported"
+},
+"gh:zufuliu/notepad4": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
 },
 "gh:zzzz7788990213-ops/evovlm": {
 "date": "2026-10-04",
@@ -5538,6 +5763,11 @@
 "nw:80.lv/articles/3d-artist-shows-how-to-make-procedural-fly-swarm-in-blender": {
 "date": "2026-10-07",
 "first_seen": "2026-10-07",
+"status": "rejected"
+},
+"nw:80.lv/articles/3d-modeling-cad-software-plasticity-2026-2-has-been-released": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:80.lv/articles/80-level-contest-win-a-neyyah-steam-key": {
@@ -5683,6 +5913,11 @@
 "nw:80.lv/articles/creating-a-weathered-toolbox-for-s-t-a-l-k-e-r-2-cost-of-hope": {
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
+"status": "rejected"
+},
+"nw:80.lv/articles/creating-realistic-textures-on-an-old-woven-basket": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:80.lv/articles/dayz-creator-presents-brutal-a-free-open-source-development-framework": {
@@ -5840,6 +6075,11 @@
 "first_seen": "2026-10-11",
 "status": "rejected"
 },
+"nw:80.lv/articles/jackbox-esque-social-deduction-game-where-you-help-your-friends-or-betray-them": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:80.lv/articles/jagex-unveils-fourth-runescape-mmo-powered-by-unreal-engine": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
@@ -5853,6 +6093,11 @@
 "nw:80.lv/articles/league-of-legends-music-band-k-da-teases-its-return": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
+"status": "rejected"
+},
+"nw:80.lv/articles/learn-unreal-engine-5-game-development-with-over-24-courses-from-this-bundle": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:80.lv/articles/lego-netflix-presented-a-giant-figure-of-derpy-tiger-from-kpop-demon-hunters": {
@@ -5918,6 +6163,11 @@
 "nw:80.lv/articles/proactive-not-reactive-24-years-of-keeping-games-online": {
 "date": "2026-10-10",
 "first_seen": "2026-10-10",
+"status": "rejected"
+},
+"nw:80.lv/articles/protect-bizarre-stray-animals-in-this-survival-horror-animal-shelter-simulator": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:80.lv/articles/ps6-ram-nand-reportedly-cost-over-usd680": {
@@ -5990,6 +6240,11 @@
 "first_seen": "2026-10-14",
 "status": "rejected"
 },
+"nw:80.lv/articles/taking-a-real-life-hobby-into-digital-spaces-mituhashi-made-a-vrchat-glass-cutting-experience": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:80.lv/articles/the-gta-6-launch-trailer-is-now-live-over-a-month-early": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
@@ -6053,6 +6308,16 @@
 "nw:80.lv/articles/this-weird-forbidden-fruit-looks-like-it-came-from-an-early-nintendo-game": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
+"status": "rejected"
+},
+"nw:80.lv/articles/this-wip-mod-adds-path-tracing-to-fallout-new-vegas": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:80.lv/articles/tower-defense-roguelike-revamp-will-open-its-playtest-on-discord": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:80.lv/articles/turn-photos-3d-renders-into-paintings-with-this-blender-filter": {
@@ -6125,6 +6390,11 @@
 "first_seen": "2026-10-15",
 "status": "rejected"
 },
+"nw:80.lv/articles/yuki-ito-released-a-breakdown-version-of-their-houdini-water-fx-showreel": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:addyo.substack.com/p/agentic-verification": {
 "date": "2026-10-15",
 "first_seen": "2026-10-15",
@@ -6144,6 +6414,11 @@
 "date": "2026-10-14",
 "first_seen": "2026-10-14",
 "status": "reported"
+},
+"nw:anthropic.com/research/claude-scorpion-toxin-binder-design": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
 },
 "nw:anthropic.com/research/designing-efficient-quantum-circuits": {
 "date": "2026-10-17",
@@ -6250,6 +6525,11 @@
 "first_seen": "2026-10-13",
 "status": "rejected"
 },
+"nw:arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google": {
 "date": "2026-10-10",
 "first_seen": "2026-10-10",
@@ -6268,6 +6548,11 @@
 "nw:arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration": {
 "date": "2026-10-13",
 "first_seen": "2026-10-13",
+"status": "rejected"
+},
+"nw:arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store": {
@@ -6293,6 +6578,11 @@
 "nw:arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices": {
 "date": "2026-10-15",
 "first_seen": "2026-10-15",
+"status": "rejected"
+},
+"nw:arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic": {
@@ -6340,9 +6630,19 @@
 "first_seen": "2026-10-16",
 "status": "rejected"
 },
+"nw:arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees": {
 "date": "2026-10-17",
 "first_seen": "2026-10-17",
+"status": "rejected"
+},
+"nw:arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say": {
@@ -6385,6 +6685,11 @@
 "first_seen": "2026-10-13",
 "status": "rejected"
 },
+"nw:aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan": {
 "date": "2026-10-13",
 "first_seen": "2026-10-13",
@@ -6413,6 +6718,26 @@
 "nw:aws.amazon.com/blogs/machine-learning/beyond-hours-saved-building-the-business-case-for-agentic-automation": {
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
+"status": "rejected"
+},
+"nw:aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-atscale-and-amazon-bedrock-agentcore": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-denodo-and-amazon-bedrock-agentcore": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-strategy-mosaic-and-amazon-bedrock-agentcore": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic": {
@@ -6465,6 +6790,11 @@
 "first_seen": "2026-10-20",
 "status": "rejected"
 },
+"nw:aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:aws.amazon.com/blogs/machine-learning/downgrading-user-roles-in-amazon-quick": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
@@ -6473,6 +6803,16 @@
 "nw:aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
+"status": "rejected"
+},
+"nw:aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:aws.amazon.com/blogs/machine-learning/from-data-to-decisions-conversational-supply-chain-intelligence-with-amazon-quick-and-amazon-bedrock-agentcore": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore": {
@@ -6488,6 +6828,16 @@
 "nw:aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium": {
 "date": "2026-10-20",
 "first_seen": "2026-10-20",
+"status": "rejected"
+},
+"nw:aws.amazon.com/blogs/machine-learning/how-eon-built-multi-cloud-investigation-with-an-mcp-gateway-on-amazon-bedrock-agentcore": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock": {
@@ -6600,6 +6950,11 @@
 "first_seen": "2026-10-13",
 "status": "rejected"
 },
+"nw:aws.amazon.com/blogs/machine-learning/securing-ai-agent-identity-with-x-509-pki-on-aws": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod": {
 "date": "2026-10-09",
 "first_seen": "2026-10-09",
@@ -6620,6 +6975,16 @@
 "first_seen": "2026-10-16",
 "status": "rejected"
 },
+"nw:aws.amazon.com/blogs/machine-learning/work-management-context-for-ai-agents-with-smartsheet-mcp-on-aws": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:benjamincongdon.me/blog/2026/10/19/agentic-monitoring": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:biohub.org/news/virtual-biology-initiative-expansion": {
 "date": "2026-10-09",
 "first_seen": "2026-10-09",
@@ -6633,6 +6998,11 @@
 "nw:blog.cloudflare.com/next-git-platform-on-cloudflare": {
 "date": "2026-10-05",
 "first_seen": "2026-10-05",
+"status": "rejected"
+},
+"nw:blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon": {
@@ -6690,6 +7060,11 @@
 "first_seen": "2026-10-15",
 "status": "rejected"
 },
+"nw:bolkunov.com/p/on-ai-writing": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:bsky.app/profile/opinionhaver.bsky.social/post/3mxfo2mdjqs2z": {
 "date": "2026-10-10",
 "first_seen": "2026-10-10",
@@ -6735,6 +7110,11 @@
 "first_seen": "2026-10-14",
 "status": "rejected"
 },
+"nw:code.visualstudio.com/updates/v1_143": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:commandline.microsoft.com/microsoft-decision-1-model-foundry": {
 "date": "2026-10-10",
 "first_seen": "2026-10-10",
@@ -6758,6 +7138,11 @@
 "nw:currentaffairs.org/news/why-were-banning-ai": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
+"status": "rejected"
+},
+"nw:deathplanswitch.com": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:deepmind.google/blog/accelerating-antimicrobial-discovery": {
@@ -6840,6 +7225,11 @@
 "first_seen": "2026-10-14",
 "status": "reported"
 },
+"nw:entropicthoughts.com/nixos-is-making-me-less-afraid": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:epoch.ai/publications/innovationeval": {
 "date": "2026-10-11",
 "first_seen": "2026-10-11",
@@ -6910,6 +7300,16 @@
 "first_seen": "2026-10-08",
 "status": "rejected"
 },
+"nw:gamedeveloper.com/business/griffin-gaming-partners-entertainment-360-jointly-unveil-production-company-hitpoint-entertainment": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:gamedeveloper.com/business/outersloth-co-founder-warns-devs-there-are-some-very-bad-deals-out-there-": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:gamedeveloper.com/business/report-double-fine-s-union-drive-collapsed-under-miscommunications-and-culture-clash": {
 "date": "2026-10-10",
 "first_seen": "2026-10-10",
@@ -6973,6 +7373,11 @@
 "nw:gamedeveloper.com/production/co-dev-case-study-how-blackbird-interactive-and-secret-mode-helped-escape-the-backrooms-ride-the-backrooms-hype-wave": {
 "date": "2026-10-07",
 "first_seen": "2026-10-07",
+"status": "rejected"
+},
+"nw:gamedeveloper.com/production/fuse-games-ceo-breaks-down-codev-framework-for-star-wars-galactic-racer": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:gamedeveloper.com/programming/moonlighter-developer-delays-public-playtest-of-next-game-over-concerns-of-ai-cloning": {
@@ -7145,6 +7550,11 @@
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
+"nw:gamesindustry.biz/gdc-festival-of-gaming-2027-moves-to-four-day-format-to-create-a-higher-quality-more-focused-and-valuable-experience": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:gamesindustry.biz/gdca-2027-moves-away-from-nominations-based-system-publishers-and-devs-can-now-submit-games-for-consideration": {
 "date": "2026-10-20",
 "first_seen": "2026-10-20",
@@ -7158,6 +7568,11 @@
 "nw:gamesindustry.biz/gravity-well-lays-off-more-than-40-developers-after-losing-its-funding": {
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
+"status": "rejected"
+},
+"nw:gamesindustry.biz/griffin-gaming-partners-and-entertainment-360-launch-new-company-to-support-video-game-adaptations-for-film-and-tv": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:gamesindustry.biz/group-behind-gta-6-leaks-threatens-to-release-alleged-full-build-of-game-including-story-mode": {
@@ -7204,6 +7619,11 @@
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
 "status": "reported"
+},
+"nw:gamesindustry.biz/japan-actors-union-announces-guidelines-addressing-unauthorised-use-of-generative-ai-for-voice-acting": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
 },
 "nw:gamesindustry.biz/mixtape-wins-three-awards-at-australian-game-developer-awards-2026-including-goty": {
 "date": "2026-10-09",
@@ -7260,6 +7680,11 @@
 "first_seen": "2026-10-20",
 "status": "rejected"
 },
+"nw:gamesindustry.biz/players-want-to-engage-with-brands-not-just-consume-them-mattel-on-its-new-game-studios-arm-why-its-releasing-on-roblox-and-what-it-learnt-from-netease": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:gamesindustry.biz/reforj-developer-4j-studios-announces-pc-release-date-at-game-republic-new-horizons": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
@@ -7299,6 +7724,11 @@
 "date": "2026-10-07",
 "first_seen": "2026-10-07",
 "status": "reported"
+},
+"nw:gamesindustry.biz/sensor-tower-data-shows-the-yawning-gap-between-gta-6-and-everything-else": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
 },
 "nw:gamesindustry.biz/sony-agrees-to-transfer-over-400-global-vr-patents-to-meta-following-december-2025-agreement": {
 "date": "2026-10-10",
@@ -7413,6 +7843,11 @@
 "nw:github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase": {
 "date": "2026-10-13",
 "first_seen": "2026-10-13",
+"status": "rejected"
+},
+"nw:github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code": {
@@ -7635,6 +8070,31 @@
 "first_seen": "2026-10-20",
 "status": "rejected"
 },
+"nw:github.blog/changelog/2026-10-20-bulk-migrate-branch-protections-to-rulesets-for-a-repository": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:github.blog/changelog/2026-10-20-dependabot-alerts-rest-api-now-includes-dependency-versions": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:github.blog/changelog/2026-10-20-dependabot-now-supports-npm-12-pnpm-11-and-12-and-bun-1-4": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"nw:github.blog/changelog/2026-10-20-updates-to-github-secret-scanning": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:github.com/allenv0/scm": {
 "date": "2026-10-05",
 "first_seen": "2026-10-05",
@@ -7653,6 +8113,11 @@
 "nw:github.com/composo-ai/dishwasherbench": {
 "date": "2026-10-14",
 "first_seen": "2026-10-14",
+"status": "rejected"
+},
+"nw:github.com/deepseek-ai/deepinfer": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:github.com/docker/docker-agent": {
@@ -7765,6 +8230,11 @@
 "first_seen": "2026-10-18",
 "status": "rejected"
 },
+"nw:github.com/xscreensaver-official/xscreensaver": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:githubstatus.com/incidents/8tzbpcnl75jp": {
 "date": "2026-10-20",
 "first_seen": "2026-10-20",
@@ -7793,6 +8263,11 @@
 "nw:golem.de/news/10-euro-per-esim-simsalasim-bietet-internationale-datenflatrate-durch-globalen-cloud-core-2610-213813.html": {
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
+"status": "rejected"
+},
+"nw:golem.de/news/16-milliarden-euro-investition-zweifelhafte-pr-zahlen-und-inszenierung-mit-merz-bei-amazon-2610-214320.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:golem.de/news/25-jahre-luigi-s-mansion-als-der-gruene-klempner-aus-dem-schatten-von-mario-trat-2610-213779.html": {
@@ -7923,6 +8398,11 @@
 "nw:golem.de/news/anzeige-4k-mini-kamera-mit-akku-und-nachtsicht-fuer-unter-36-euro-im-angebot-2610-214257.html": {
 "date": "2026-10-20",
 "first_seen": "2026-10-20",
+"status": "rejected"
+},
+"nw:golem.de/news/anzeige-4k-nachtsichtgeraet-mit-7-stufen-ir-fuer-nur-69-99-euro-bei-amazon-2610-214304.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:golem.de/news/anzeige-500-hz-und-qd-oled-zum-bestpreis-msi-gaming-monitor-faellt-auf-650-euro-2610-213762.html": {
@@ -8090,9 +8570,24 @@
 "first_seen": "2026-10-07",
 "status": "rejected"
 },
+"nw:golem.de/news/anzeige-externe-intenso-premium-ssd-mit-1-tb-zum-bestpreis-unter-100-euro-2610-214294.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:golem.de/news/anzeige-fahrradleuchten-set-mit-stvzo-zulassung-fuer-nur-17-99-euro-bei-amazon-2610-214265.html": {
 "date": "2026-10-20",
 "first_seen": "2026-10-20",
+"status": "rejected"
+},
+"nw:golem.de/news/anzeige-fanttik-a10-pro-laser-entfernungsmesser-mit-massband-zum-amazon-bestpreis-2610-214313.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:golem.de/news/anzeige-fosi-audio-za3-monoblock-verstaerker-mit-xlr-wieder-zum-prime-day-preis-2610-214296.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:golem.de/news/anzeige-fritz-repeater-1200-ax-unter-70-euro-und-die-besten-fritz-deals-am-prime-day-2610-213768.html": {
@@ -8145,6 +8640,11 @@
 "first_seen": "2026-10-13",
 "status": "rejected"
 },
+"nw:golem.de/news/anzeige-internetradio-mit-wlan-bluetooth-dab-reduziert-bei-amazon-2610-214315.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:golem.de/news/anzeige-iphone-18-pro-mit-apple-watch-ultra-4-im-tarif-ohne-datenlimit-bei-o2-fuer-1-euro-2610-213883.html": {
 "date": "2026-10-09",
 "first_seen": "2026-10-09",
@@ -8175,9 +8675,19 @@
 "first_seen": "2026-10-06",
 "status": "rejected"
 },
+"nw:golem.de/news/anzeige-ki-agenten-fuer-bueroaufgaben-mit-claude-einsetzen-2610-214028.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:golem.de/news/anzeige-ki-fuer-pentesting-schwachstellenanalyse-und-reporting-2610-213849.html": {
 "date": "2026-10-13",
 "first_seen": "2026-10-13",
+"status": "rejected"
+},
+"nw:golem.de/news/anzeige-kleines-100-w-usb-ladegeraet-von-baseus-mit-3-ports-und-display-fuer-unter-42-euro-2610-214319.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:golem.de/news/anzeige-kopfhoerer-google-pixel-buds-2a-am-prime-day-reduziert-2610-213767.html": {
@@ -8270,6 +8780,11 @@
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
+"nw:golem.de/news/anzeige-neues-iphone-duo-jetzt-im-tarif-bei-o2-fuer-1-euro-vorbestellen-2610-214307.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:golem.de/news/anzeige-nicht-dyson-nicht-bosch-dieser-133-euro-akkusauger-ist-amazons-bestseller-nr-1-2610-214100.html": {
 "date": "2026-10-15",
 "first_seen": "2026-10-15",
@@ -8288,6 +8803,11 @@
 "nw:golem.de/news/anzeige-nur-7-1-cent-pro-teil-lego-dodge-charger-aus-fast-furious-nie-guenstiger-2610-214111.html": {
 "date": "2026-10-15",
 "first_seen": "2026-10-15",
+"status": "rejected"
+},
+"nw:golem.de/news/anzeige-nur-bis-donnerstag-amazon-verkauft-smarten-luftreiniger-zum-reduzierten-preis-2610-214306.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:golem.de/news/anzeige-pokemon-top-trainer-box-zum-30-jubilaeum-faellt-ueberraschend-unter-50-euro-2610-214005.html": {
@@ -8358,6 +8878,11 @@
 "nw:golem.de/news/anzeige-smarter-wecker-amazon-echo-spot-fuer-prime-mitglieder-erstmals-unter-50-euro-2610-213710.html": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
+"status": "rejected"
+},
+"nw:golem.de/news/anzeige-smartes-tuerschloss-mit-gesichtserkennung-zum-sparpreis-bei-amazon-2610-214293.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:golem.de/news/anzeige-smartes-tuerschloss-von-yale-mit-dots-bei-tink-zum-sparpreis-sichern-2610-214009.html": {
@@ -8460,6 +8985,11 @@
 "first_seen": "2026-10-15",
 "status": "rejected"
 },
+"nw:golem.de/news/anzeige-zwei-aufladbare-mini-taschenlampen-von-blukar-fuer-unter-15-euro-bei-amazon-2610-214300.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:golem.de/news/anzeigeit-jobs-rund-um-daten-security-u-it-jobs-rund-um-daten-security-und-anwendungsbetreuung-2610-213643.html": {
 "date": "2026-10-05",
 "first_seen": "2026-10-05",
@@ -8473,6 +9003,11 @@
 "nw:golem.de/news/apple-und-meta-kooperieren-bei-ki-lokale-modelle-fordern-mehrere-high-end-macs-2610-214188.html": {
 "date": "2026-10-17",
 "first_seen": "2026-10-17",
+"status": "rejected"
+},
+"nw:golem.de/news/arbeit-bmw-muss-abfindungsprogramm-wegen-zu-hoher-nachfrage-frueher-beenden-2610-214317.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:golem.de/news/arbeit-was-koennen-wir-von-den-ki-superusern-im-job-lernen-2610-213718.html": {
@@ -8745,6 +9280,11 @@
 "first_seen": "2026-10-16",
 "status": "rejected"
 },
+"nw:golem.de/news/erdgas-statt-h2-reiches-wasserstofffoerderung-koennte-die-energiewende-ausbremsen-2610-214292.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:golem.de/news/erneuerbare-energie-viele-gewinner-einige-verlierer-durch-klimaschutz-2610-214160.html": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
@@ -8860,6 +9400,11 @@
 "first_seen": "2026-10-20",
 "status": "rejected"
 },
+"nw:golem.de/news/garmin-edge-1060-neues-rad-routing-vermeidet-steigungen-und-unnoetige-stopps-2610-214302.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:golem.de/news/garmin-enduro-4-outdoor-fenix-haelt-bis-zu-90-tage-durch-2610-213773.html": {
 "date": "2026-10-07",
 "first_seen": "2026-10-07",
@@ -8915,6 +9460,11 @@
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
+"nw:golem.de/news/gesichtserkennung-einmal-erfasst-immer-erkennbar-2610-214297.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:golem.de/news/gods-don-t-give-gifts-ein-ki-film-mit-ueberraschend-viel-traditioneller-technik-2610-213932.html": {
 "date": "2026-10-10",
 "first_seen": "2026-10-10",
@@ -8953,6 +9503,11 @@
 "nw:golem.de/news/hackerangriff-schweizer-onlinemagazin-republik-verliert-nutzerdaten-2610-214269.html": {
 "date": "2026-10-20",
 "first_seen": "2026-10-20",
+"status": "rejected"
+},
+"nw:golem.de/news/hausstich-wir-bekommen-telekom-ftth-bevor-glasfaser-in-der-strasse-liegt-2610-214301.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:golem.de/news/herzfrequenz-studie-untersucht-messgenauigkeit-von-sportuhren-2610-214245.html": {
@@ -9003,6 +9558,11 @@
 "nw:golem.de/news/kein-test-im-regen-softwarebug-legt-formel-1-autos-lahm-und-verzoegert-rennstart-2610-213719.html": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
+"status": "rejected"
+},
+"nw:golem.de/news/kent-walker-google-manager-weist-europas-sorgen-ueber-us-dominanz-bei-ki-zurueck-2610-214312.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:golem.de/news/ki-agenten-claude-gibt-polizei-falsche-hinweise-2610-213954.html": {
@@ -9185,6 +9745,11 @@
 "first_seen": "2026-10-05",
 "status": "reported"
 },
+"nw:golem.de/news/megarechenzentren-hochtief-und-vodafone-planen-bewerbung-fuer-ki-gigafactory-2610-214311.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:golem.de/news/mehr-reichweite-elektrobus-kann-ueber-reifen-geladen-werden-2610-213880.html": {
 "date": "2026-10-09",
 "first_seen": "2026-10-09",
@@ -9233,6 +9798,11 @@
 "nw:golem.de/news/militaerischer-satellitendienst-usa-beschraenken-zugang-der-ukraine-zu-starshield-2610-214140.html": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
+"status": "rejected"
+},
+"nw:golem.de/news/millionen-router-angreifbar-16-jahre-alter-broadcom-bug-gefaehrdet-wlan-netze-2610-214298.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:golem.de/news/mini-pcs-im-ki-test-apple-vs-amd-und-intel-mit-lokalen-llms-2610-213894.html": {
@@ -9290,14 +9860,29 @@
 "first_seen": "2026-10-19",
 "status": "rejected"
 },
+"nw:golem.de/news/nvidia-kooperation-deutschland-hat-seinen-retter-gefunden-2610-214305.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:golem.de/news/nvidia-pascal-modder-entwickelt-gtx-1080-treiber-fuer-windows-xp-2610-213720.html": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
 "status": "rejected"
 },
+"nw:golem.de/news/oepnv-bundesweite-smartphone-zahlung-mit-automatischer-preisberechnung-soll-kommen-2610-214299.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:golem.de/news/oepnv-hamburg-kommt-mit-wasserstoffbussen-nicht-voran-2610-213965.html": {
 "date": "2026-10-12",
 "first_seen": "2026-10-12",
+"status": "rejected"
+},
+"nw:golem.de/news/onlinebank-revolut-meldet-probleme-wegen-ausfall-von-google-cloud-2610-214308.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:golem.de/news/open-radioss-siemens-loescht-open-source-projekt-nach-uebernahme-2610-213724.html": {
@@ -9403,6 +9988,11 @@
 "nw:golem.de/news/reform-des-nachrichtendienstrechts-bitkom-und-gff-wollen-nachrichtendiensten-grenzen-setzen-2610-214212.html": {
 "date": "2026-10-18",
 "first_seen": "2026-10-18",
+"status": "rejected"
+},
+"nw:golem.de/news/revamp-entwickler-streichen-public-beta-wegen-ki-kopien-2610-214295.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:golem.de/news/reverse-engineering-ki-zerstoert-community-fuer-alte-spiele-2610-214201.html": {
@@ -9550,6 +10140,11 @@
 "first_seen": "2026-10-12",
 "status": "rejected"
 },
+"nw:golem.de/news/solarstrom-aus-afrika-photovoltaik-mit-hohem-ertrag-und-wenig-verschleiss-2610-214318.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:golem.de/news/speicherkrise-intel-plant-offenbar-neue-cpus-fuer-den-sockel-lga-1700-2610-213956.html": {
 "date": "2026-10-11",
 "first_seen": "2026-10-11",
@@ -9655,6 +10250,11 @@
 "first_seen": "2026-10-13",
 "status": "rejected"
 },
+"nw:golem.de/news/super-mario-galaxy-entwickler-portiert-wii-spiel-auf-den-game-boy-advance-2610-214289.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:golem.de/news/telekom-disney-und-netflix-beliebter-magenta-tv-tarif-kostet-mehr-2610-214048.html": {
 "date": "2026-10-14",
 "first_seen": "2026-10-14",
@@ -9683,6 +10283,11 @@
 "nw:golem.de/news/total-war-das-remaster-von-shogun-2-ueberlebt-nur-zwei-tage-2610-214176.html": {
 "date": "2026-10-17",
 "first_seen": "2026-10-17",
+"status": "rejected"
+},
+"nw:golem.de/news/toyota-neuer-corolla-wird-auch-elektrisch-und-kommt-aus-china-2610-214291.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:golem.de/news/transurane-superschweres-element-mit-kohlenstoffmonoxid-gebunden-2610-214197.html": {
@@ -9785,6 +10390,11 @@
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
+"nw:golem.de/news/web-zertifikate-kompromittierte-schluessel-gefaehrden-tls-verbindungen-2610-214314.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:golem.de/news/website-monitoring-http-statuscode-200-und-trotzdem-kaputt-2610-213670.html": {
 "date": "2026-10-05",
 "first_seen": "2026-10-05",
@@ -9820,6 +10430,11 @@
 "first_seen": "2026-10-17",
 "status": "rejected"
 },
+"nw:golem.de/news/xodus-nexus-nachgebaute-xbox-app-ermoeglicht-xbox-game-pass-auf-linux-2610-214310.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:golem.de/news/zink-luft-batterie-leistungsstarker-akku-statt-wegwerfzelle-2610-214053.html": {
 "date": "2026-10-14",
 "first_seen": "2026-10-14",
@@ -9828,6 +10443,11 @@
 "nw:golem.de/news/zwei-dekaden-mit-linux-eine-liebe-mit-startschwierigkeiten-2610-214191.html": {
 "date": "2026-10-17",
 "first_seen": "2026-10-17",
+"status": "rejected"
+},
+"nw:golem.de/news/zweite-staffel-cyberpunk-edgerunners-diese-fortsetzung-tut-richtig-weh-2610-214282.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:golem.de/news/zweites-update-in-einer-woche-google-schliesst-erneut-kritische-luecke-in-chrome-2610-214175.html": {
@@ -9848,6 +10468,11 @@
 "nw:heise.de/blog/software-testing-testhardware-reservieren-ohne-dass-kollegen-dazwischenfunken-11477507.html": {
 "date": "2026-10-07",
 "first_seen": "2026-10-07",
+"status": "rejected"
+},
+"nw:heise.de/blog/software-testing-zap-als-proxy-regressionstests-werden-zu-sicherheitstests-11493529.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:heise.de/blog/werkzeugwahl-teil-1-wenn-agenten-schreiben-verlieren-sprachen-an-bedeutung-11473479.html": {
@@ -9985,6 +10610,11 @@
 "first_seen": "2026-10-18",
 "status": "rejected"
 },
+"nw:heise.de/news/digital-health-podcast-von-cyberrisiken-bei-krankenhaeusern-und-medizinprodukten-11479196.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:heise.de/news/digitalministerium-stellt-klar-kein-rueckzug-bei-ki-projekt-mit-sap-und-mistral-11487212.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag": {
 "date": "2026-10-15",
 "first_seen": "2026-10-15",
@@ -10018,6 +10648,11 @@
 "nw:heise.de/news/esa-testet-galileo-schutz-gegen-gnss-spoofing-erstmals-unter-realbedingungen-11476634.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
+"status": "rejected"
+},
+"nw:heise.de/news/everpure-aka-pure-storage-von-storage-zur-datenintelligenz-11493950.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:heise.de/news/fbi-wirft-nach-datenausleitung-aus-jobportal-dienstleister-raus-11479242.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag": {
@@ -10100,6 +10735,11 @@
 "first_seen": "2026-10-07",
 "status": "rejected"
 },
+"nw:heise.de/news/linux-7-3-verbessert-dateisysteme-und-scheduling-11494072.html": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:heise.de/news/linux-kennzeichnung-von-ki-code-soll-entfallen-auch-torvalds-nutzt-llms-11490345.html": {
 "date": "2026-10-17",
 "first_seen": "2026-10-17",
@@ -10114,6 +10754,11 @@
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
 "status": "reported"
+},
+"nw:heise.de/news/massenhaft-afd-daten-widerrechtlich-migriert-11493666.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
 },
 "nw:heise.de/news/mastercard-fuehrt-ab-2027-offline-zahlungen-in-europa-ein-11481144.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag": {
 "date": "2026-10-10",
@@ -10250,6 +10895,11 @@
 "first_seen": "2026-10-08",
 "status": "rejected"
 },
+"nw:heise.de/news/revolut-banking-und-support-nicht-erreichbar-11493640.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:heise.de/news/rueckblick-openssf-datenbank-erweitert-githubs-malware-warnungen-11492599.html": {
 "date": "2026-10-20",
 "first_seen": "2026-10-20",
@@ -10320,9 +10970,24 @@
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
+"nw:heise.de/news/werbeblocker-pi-hole-update-stopft-befehlsschmuggel-luecke-und-mehr-11493503.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:heise.de/news/xbox-nano-controller-microsoft-schrumpft-gamepad-auf-13-zentimeter-11489263.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
+"status": "rejected"
+},
+"nw:heymaxwell.ai": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"nw:huggingface.co/blog/allenai/fairstress": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:huggingface.co/blog/allenai/hiro-acev2": {
@@ -10333,6 +10998,11 @@
 "nw:huggingface.co/blog/allenai/impactful-scheduling": {
 "date": "2026-10-10",
 "first_seen": "2026-10-10",
+"status": "rejected"
+},
+"nw:huggingface.co/blog/anylanguagemodel-1-0": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:huggingface.co/blog/building-with-ml-intern": {
@@ -10350,10 +11020,20 @@
 "first_seen": "2026-10-20",
 "status": "rejected"
 },
+"nw:huggingface.co/blog/hf-torchtpu": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:huggingface.co/blog/ibm-granite/granite-switch-4-1": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
 "status": "rejected"
+},
+"nw:huggingface.co/blog/ibm-research/altk-evolve-bc": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
 },
 "nw:huggingface.co/blog/liquidai/lfm25-24b-a2b": {
 "date": "2026-10-14",
@@ -10373,6 +11053,16 @@
 "nw:huggingface.co/blog/microsoft/thinkingbox": {
 "date": "2026-10-05",
 "first_seen": "2026-10-05",
+"status": "rejected"
+},
+"nw:huggingface.co/blog/mps-pytorch-2-15": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:huggingface.co/blog/nvidia/cosmos3-h-dreams": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026": {
@@ -10399,6 +11089,11 @@
 "date": "2026-10-07",
 "first_seen": "2026-10-07",
 "status": "rejected"
+},
+"nw:ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
 },
 "nw:importai.substack.com/p/import-ai-475-swarm-scaling-google": {
 "date": "2026-10-06",
@@ -10565,6 +11260,11 @@
 "first_seen": "2026-10-08",
 "status": "reported"
 },
+"nw:infoq.com/news/2026/10/tornadovm-7-gpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=ai%2c+ml+%26+data+engineering": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:infoq.com/podcasts/future-web-apps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=ai%2c+ml+%26+data+engineering": {
 "date": "2026-10-20",
 "first_seen": "2026-10-20",
@@ -10605,6 +11305,11 @@
 "first_seen": "2026-10-10",
 "status": "rejected"
 },
+"nw:infoq.com/presentations/scale-llm-agents-production-ray/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=ai%2c+ml+%26+data+engineering": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:infoq.com/presentations/spotify-multi-agent-ai-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=ai%2c+ml+%26+data+engineering": {
 "date": "2026-10-09",
 "first_seen": "2026-10-09",
@@ -10619,6 +11324,11 @@
 "date": "2026-10-10",
 "first_seen": "2026-10-10",
 "status": "reported"
+},
+"nw:interconnects.ai/p/latest-open-artifacts-25-deepseek": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
 },
 "nw:interconnects.ai/p/meta-shakes-up-the-frontiers-open": {
 "date": "2026-10-18",
@@ -10643,6 +11353,11 @@
 "nw:jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on": {
 "date": "2026-10-19",
 "first_seen": "2026-10-19",
+"status": "rejected"
+},
+"nw:kaba.cx/posts/20261020_tor": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:karagila.org/2026/openai-pp": {
@@ -10710,6 +11425,11 @@
 "first_seen": "2026-10-05",
 "status": "rejected"
 },
+"nw:latent.space/p/ainews-not-much-happened-today-f09": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:latent.space/p/ainews-quasi-riemann-hypothesis-openai": {
 "date": "2026-10-07",
 "first_seen": "2026-10-07",
@@ -10760,6 +11480,11 @@
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
+"nw:latent.space/p/sfcompute2": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:latent.space/p/stacklok": {
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
@@ -10775,6 +11500,11 @@
 "first_seen": "2026-10-12",
 "status": "rejected"
 },
+"nw:leaddev.com/ai/ai-buries-engineering-teams-in-security-fixes?utm_source=leaddev&utm_medium=rss": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:leaddev.com/ai/ai-code-causes-real-world-production-outages?utm_source=leaddev&utm_medium=rss": {
 "date": "2026-10-13",
 "first_seen": "2026-10-13",
@@ -10783,6 +11513,11 @@
 "nw:leaddev.com/ai/ai-coding-tools-could-be-breaking-the-junior-engineer-pipeline?utm_source=leaddev&utm_medium=rss": {
 "date": "2026-10-05",
 "first_seen": "2026-10-05",
+"status": "rejected"
+},
+"nw:leaddev.com/ai/engineers-lose-17-days-a-year-to-ai-rework?utm_source=leaddev&utm_medium=rss": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:leaddev.com/ai/software-developers-are-becoming-agent-builders?utm_source=leaddev&utm_medium=rss": {
@@ -11170,6 +11905,11 @@
 "first_seen": "2026-10-13",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmi1gfbvv95cuxnv0dlcda5tl8tnjrqlw56bjatb1pmau5yrnrpsuc4z3ews1vvzfbmcxbpvxfjt3dkrgnpa3zzefdcugjxtxa1axpxrexws3nlwwjdzmvmwkmtbtr0ufpwlvewuk5rmgkwbxflvff2nko5tlbzus1tsgpodnlqwk9uz0rwvvhyrm9rwhhszmvruejgmxvjts1mc284ovpsbfc2twnuqmytd3lvyjdnvlvgtekysdc1y3v0m0vryvq5yzlxckttagzkqvi5ytnevvformz4ekj3?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmi1gfbvv95cuxnvtbvavfnzs1qbhdkexk1sm5nbgr0suzzszztbu5yb0vxcjbaumtgwdr4nzktntdlmknwnevom2heswroahjuwudbtlawodvhslrnow8xqkjwyvv3cvbrdnexczu0mgfvcwnhbznrb1h5zkrsujjmotr5ejy0a3hsd1loujjrvkdtegzftxozrxm5anhuwdhsytnjnty4ztzfznrhohf5nui2euncohvoq2l3t1pctehzcgpkam1hqwr1bk1uug1tru9sdwtydnd0efrkz2lr0ghbaufvx3lxtfa5yms0ckrask1vzdfjyxvlc2w2s1fsq3noztvcrvmyutrdlu1ov1hlt2dnbw11blrfzxe1n1exvzjsb0nrwe5valdkdmrvrjfxcuz0luw3mjkya1nta3hnrvo4mdfpodhqrjzatgjloxnmwvpusdhxchpnuhrgyxnirw5lrmj6ajnqa3lqlwzfwmnkdjdrtnp3nffeueczthhuvm1ommryzulgovh1wlnwb1a0mf9sa2t0enfls3nrmkvzadj6whnsmwzic21bdwjjbffzrhrebjf3wq?oc=5": {
 "date": "2026-10-07",
 "first_seen": "2026-10-07",
@@ -11208,6 +11948,11 @@
 "nw:news.google.com/rss/articles/cbmi1gfbvv95cuxqykhylvjxc1rgrnizdultcffyr2j5ym1fa1k2rmzctwvoduxwqlhmzjl4ehvqlv9rukw5ce5rb3otalnqcw5dcufhrvneoupezwgxwvfamvlhwflnsevaqxvinvrkbfvpr0xtbkpfyvfxykvmxzffekpisxdrsxdrmvbld29prjzfsjeztetwei1dbwtvcfnmdzczmujetwfozc1qnlvqbgoxvmlpz0djcl9xukdvt2rmmnbbskjhetnjbkv0uthzcjh3z0npc1hsaupud0zr?oc=5": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmi1wfbvv95cuxnzhvxc1zsrm1xrulfylbjbhhxmu4tzvlpmnlnu29scgfxeurtai1bwnraqzvidnhrewhgtzrnnnflltnna1lgyu1knvjry0dwd3pmeg5utut5s01msm40sdhyn0s1we1gdwntahlratnoy0y5wm9mng1utkxcq1jst1jxz1fvbvpomwfodv9fnxjpyk1dzdjgr2zic0fjzvrrug1hzwxlywjrajk1z1j1wnrrbfq2azixdtlwmkfgsxbazgrnztnoq3hpawiwmwf2cernnmq1sq?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmi2afbvv95cuxomxhianbeefdtnudkmxlxx3dpcffymfd0nvhruznyvljunzvldjuxnzi5segxq1b5ywdtrzbva01iewtjtkx6yw5lbjnqdvbvt2libzfzmmfoq2d5t2oxm2twwdjez1blbfrimvoxs3pvewwxvxrnohdjeu11c1zsbemyrxpvynzuqudhshbyzwo2rf9qvl9wd1nwrhzeu0fbb3drsvq2uzjid1rjaeyxcm9ack5xumgxstljv1bnz2lrdgpgylbldduxaedbawh5d2zjnhdiymy?oc=5": {
@@ -11335,6 +12080,16 @@
 "first_seen": "2026-10-13",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmi4afbvv95cuxoblhoaejynxh4ugxubljzzk9sbe9mwfnyculaaw1bu3jbwtfxzxr2u3pna2truhpss2zctxhyewe3v1ppblfytkdjvkrxunpkmudlyzzzavrisfhhvxm0n1vsyzvpmlnmt1y0tfziqjm0c0rkdlfzntgxymvgbjvxmk9zukw0ek9vcwxet3ruwjhabvntajvyc2s4d3f1bdbxdhrxzg5mmzgtmkuyae55zk5vn1vyu1lsu2lveknnnhbpnlfvbhzhofz0snlrtzh5eu9ldgzlu25jbtl2ynetnw?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmi4afbvv95cuxomly0zw5tznvuwfzcrkt4yzz1yjzbt05oy3hpb2zgevnlq1rqblzewvbnnmrknmh3zucxyum0vu9va1zpb2ftwtrqzhcxbxzjs1peq3vkufn4zzznwwztuhbrltzswgvlexzodkxmmgmzcgl6be83n1puvvp5dervagdgcjzdzwdgdjfiy0u5zwhmczhwznzub0jlsepxwdlgdgd6ouhjmg96n05pnexkvmxzntvsdutnnzlzmxnrt2y5ck95uw9wuvh2muxuvu0xa2jvd2zfavjpuug3sdn3yq?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmi4afbvv95cuxosgvhoxhfaxjzeddty21azm1ubwnhudnpr0rxuuzkogrxunpivgviclbzdevymldiukfnuxdbthm0t01xc1mzvv9cm0huvfcztxzpq3bktvfycwdnrhl4dxf4t2l6nunjz0fucdk5z3f6m0u2ttbasg1lsnpxowrpcxrnme04cgnfsejuckf2tgp3oegwt05jrwdvzlnnykvydtdnelzvamvfwlbpqjluqzllznbfsxhsqjfavndqrgvvowdxqlpomnyxv2s3efdjmuhwznrqrnm2zy1dawpqsa?oc=5": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
@@ -11383,6 +12138,11 @@
 "nw:news.google.com/rss/articles/cbmi4wfbvv95cuxnbwdvswrhqmroa0xhcze3bjg2dhpys21pn0nrbhpjnhpxqxoxzktqr2xbehjjltzts0e3r3dznziyugjbn3nlnenax1jlnww3vmriv2lfrffns09lr2r5bxnkr3f4d2jzcmh6z2lnd2p1tfq2a2hqu0stmg1eaktzbknsrgtny3l3ndjsd2zgzffldmptq3rfvtn4wli4qneztm01sfrtund0cha5c284vwhtner4zvdowursveeztnhhnxywyw5hvlj1y3djb0g4tvzxcunsrv9ceurwvgvooem0na?oc=5": {
 "date": "2026-10-11",
 "first_seen": "2026-10-11",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmi4wfbvv95cuxqsjqxohhrb2didlyzz1bltdjwngxdovzfmnvanku3cwtut1jjsetrclfcx3nncnvod2jtyji5vxvnnvleuxpfuemtegpolvg3evjvamz0c2jjshdxrdvnvudlwgqtmhpmzfnhn2izevn3axnubtg1q0d6buixuhjfdk0zrnpfzdf3azfjmhpfq2jylvlrv3vzrxbubwdlsk12blvhmwhoy1dwdlvqdgp0wge3whpqc29jddzyx1bnnll2c3jqx1psceizdmlszktmutrvmufya1lqqxy4evrmcu5ryw?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmi5afbvv95cuxnath2a05dsglhmet3cgf0wxhxdlzrb2y1m3lfq3flmxizvvmyrudfwnpvyu5msmphsgfntnvhrxlzewxhyllknkytx2tirmozr1cwzujinzjmvektqjzru0eylwlcmmnpszetowt0rdrtc2t2r0nwodjddtzsvi1ryjvorlr6wxdpddh2agetc1i3ovniq2vmukdnym84stlfsva0vk5mlvznxznlatrxtzlzajlsdu15btvurjvmcertbhdsm2pqtdi1ztfdq0h1njlpnxjfchvxrgflwe5uzlgtbxa?oc=5": {
@@ -11475,6 +12235,11 @@
 "first_seen": "2026-10-07",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmi7afbvv95cuxpmurplw5htmj1retlq1zmd013quyys2n0qm9as19mnm9vwhzkbgpds3n5nvc5zmq4ddq5as1bem0wdmrtv181y2xrvkjqszryshfzne9qrxrsrjixzhrorla2u2xuqzc5bkuycthzd0njm29ys0nnrhp2awsyrwtwm01qwla4zmgzc3pzmlq4qlnwrmhjmlhuzflfzdjfnudlnknjedbrwnjja0rczkxflvgyblnlzs00agnxsevpu2huxy1ccgrqbmu4z3dlwg5icw1yofdzmujksthra0zfltyxnvzlq0n0nef1cw?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmi7afbvv95cuxpyw01xzj6nmrmanrnqxrzswdzos12yunscc1votvmanbsujn3edrqs0pmzwtim1k2y202nmvxumnkz2rnvkwtcwphqkvmt3g3a0i2ytgyvllla00wwlbtaedoctezt3plcerewwpfrnbru0dfdu9qov80snfuqw0tnuiwngs1ohh2cepdcdjhtndzsdnpzvp1wnaynhq3zk80ze81cna2t0thwupyukd3yzltdwdwywtmukt3anzxsmvmrnq1y0dndk12u0nnz3a0zenznmk3me9inwpxc0tsnhf6zhn3murgn1dztg?oc=5": {
 "date": "2026-10-11",
 "first_seen": "2026-10-11",
@@ -11515,6 +12280,11 @@
 "first_seen": "2026-10-13",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmi8wfbvv95cuxpbvaza3zotwzjsfpkc3c1oe1in1bnudmxdvphz2pfc1nnz2xtowtocjzeweytz0lfqxlpcnnhbhptexd4uzn4owvqznhpawlysemzuzltnxpvz0ppb01pdm14utfsegvfc1zryjbru2sxa0rtcjziuhb2a1fxlwcttdros19qohjwewzwnndnvnfhznrizu04uhdfa055ltfxswftwwprttrxzkfpak1udnfgvk1urf9ns3hpsgf6t2g3nkhzvdllexrcwhjosu1qcdjlnkvaeuhzwvr6rzvubhrusvbmug1xthmtaud1bkw5cza?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmi8wfbvv95cuxqwxnlzuxiufitzmprsndiu1hfr0nbdwu2t3hor3hztxvfwmxbednsqw1patfjawlmes1lumvbcjbrcmtgwe5zvfrisjv0bmxsyxnkvuzhcuhnsnpfwkc2wxo3n2o1y3h5mnk1wno3exn3czjwn1fcmtqwa25ioc1kegllcg95vmzsmhrxohdqv1p6mdlfwmnzrlc0wmdssjhwvzkyrun4lvrhtdjtbm9drenkmjrjuflocevpbtbwnxrycdf1vkhmuhzlumvvwhnkulluvwnraklrsvnsahfna2vpc0ptow43s3zinkriy24wwxpsafmbqvvfexfmuflzzwvmylbslwzqa0p3ylnyx0ddqxvlnk94aed4c011rvpsqxgzukftt2kxswlpthktzvjlqxiwa3jrrlhowvruyko1dg5sbgfzzfvgyxfiz0p6rvphnll6nzdqnwn4etj5nvp6n3lzd3myvjdrqje0mgtuyjgtsnhps3bvevzmujb0cth3aldaeja5rvpjwuzxnfpnuko4vlc5mkvdec1ur0wyu25vq0rdsji0y1bzahbft20wvjv0whaxdvzitfb2zvjlb1hzzfjzblvja2pja0ltumhxz2tlt3nkuzlun0t2yjzesgnumflz?oc=5": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
@@ -11523,6 +12293,11 @@
 "nw:news.google.com/rss/articles/cbmi9afbvv95cuxnlunodktya1pnsdl5smpdai0tsw5yymzlm2jwamwxverntuhhrtjxdepkrgffrhjjb2zrcdhqzezln3o2ellawk45tmrvszjovwdleuthyu9wt1bln0wxvkeztklslurezuznuly2vtjxzkxoz19kvtd6quryzte4otnxvkz3ufvfd25cvuvmzwkwow1jywzuv1vlewdurvktsxv5ywjlazdpbg1iqnv2rxbwt1lunljbwflutwywztfmt1zrekfxclv1unblnnjfyjb4adjarzu0x0jfrm5uafq0muv6qwthwgxqchl5exzovelb?oc=5": {
 "date": "2026-10-18",
 "first_seen": "2026-10-18",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmi9gfbvv95cuxnzvjfymfzwnq1qwxcv19tc1bza2hls1bqakxmaxzhnjrtvuq0xzcwde9jdkrdsglvyndvenuzqks5b0yyrdjealbpvfjkwfpoznyycgowehrxoex0nmlcoxnicgl1z19lwhhmvk5nx2fat0xyulrlcfrmzliyowtptmnnumdicgwxvzhjxzj3eev3dnrbzmzdtxfycxl6djhpz2thn0ppnk1rr1jty1itewfbagpud2jkvglvr2xkrgutzxbod1pxtghqvkrredj6sjvfcfbwv01lcnrna1l3ou14m2tjy0n3u0wtrjqzbjrtnjhxele?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmi9wfbvv95cuxnqnvynmzit2xfufvhbgprb2rmtu40re5wrzlorkfzqk9jq3ffsljflvnfdjblrwt0quf2dvotvfzwdhvuyulwwlpndwnar1vtatnuu2plshatujextfdtwwvgawjpv1nprxdkrfpjb1jhzhn3ddbmsuizwu4wsjhkuvdfblfjcerwbte5c1j5ngg0tuhuevziugk4dnllneiywvfcoxbyndlvshziduoxvuthrw50nvfwbe1qz1bnt1djrmxucf9nss0tzljfskthu1fcu2lnvhvhsexickjmcgd6nkq5oe5ncnfuc25pnepmuvdywxv3?oc=5": {
@@ -11860,6 +12635,11 @@
 "first_seen": "2026-10-19",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmibkfvx3lxte80qmdvdknvt3d3tu0xwej3net4twrgx3jmdzzbr1bfshjjqkhptzrnrldoymxyuurta1jozdnfcnjnvjhrclj6enhfdgftrwfoytbvu0pfnxpcr2xmwfi0cezyzwnis2vvzvc4y3z3?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmibkfvx3lxte93mxj0dxphahb4ajnhb0ptedg3sdfnwnhivxdmajfonvrfqxrmmxhjvdfiwmm2bk9iv1dsr0lpdkh2c193a0xkbeppn3c3tkrvlvn1bklqa3bfznrpzmhmri1szfpbrg0tsxbmywjn?oc=5": {
 "date": "2026-10-19",
 "first_seen": "2026-10-19",
@@ -11928,6 +12708,11 @@
 "nw:news.google.com/rss/articles/cbmic0fvx3lxte8yrfg5affxmvffy0vamlbftkdor0vma2rfbuqwzlhfx3axrfn6yzjjvznznjrerw5edmswsgy2affqs1uwofiyy3pha0xncnzqodzpyml3rhjtnmdktedibu92snbpx1pwd1b3nwyyy20yteu?oc=5": {
 "date": "2026-10-11",
 "first_seen": "2026-10-11",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmic0fvx3lxte9sbhd1muriwxfrv2lwvfdmv2hoemn0dwkzcmpmt1bsx21vtwxksm5sazrjtmkxwgk1vjfrbjlxu2ntbfvnvdn3vkhhauhrcnbrrtzzwdzpyjzgbdv6alitrmdyy2jvym5sovbuvvpwb2x6t1u?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmic0fvx3lxtfatzghfwlvzoernsgnmwurbutjroufrc1lqnzlqbzkxstn2t1cyvju1btbynwjuukl4b3u5alp5owfuslvwz3hhbefwynrlzgl1dwntqv9uvk85awdwm0nvuunptxfrvzf0ttlgttlwv2nnueu?oc=5": {
@@ -12035,6 +12820,11 @@
 "first_seen": "2026-10-08",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmicefvx3lxte9suw41dkf1afftbhotcmjualhbvnlnwmhfy2oxmnpvnfywtflxa2mtwmp5n3bydwvdb2owrmlitvpsu3hiyvhvdf96twtzsm1kqkutwnlhruvpwnhmwuluslpkyutsuy1tz3jhyxf3czc?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmicefvx3lxte9uvjb0v3f0eedwbzm4wus5qlbyrnfsnm1fodrqyzzvougywvnqsgqxng42cjrjvudyqw5srkfiums5mlz3dzu3wepznf9kzth5qy1qnlburep3ahvrymxwngi1wnn5dxa4nw5xz0ziztk?oc=5": {
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
@@ -12135,6 +12925,11 @@
 "first_seen": "2026-10-15",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmid0fvx3lxte5xswz5mtbdcdaxte9rv29ysdm1m18zltnzbnbdq195otbzrxj1t3bix3nzmlo5z3zhzghoofzms2vsamx1btk0qvrgb2v0smd1n2nltujvcfb2cg5hotf3y0j1aze5awduvdk0c0rxqkr6d0lymlpn?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmid0fvx3lxte9ktmrkvmtqrxbyqknfdmr2vknszjhteff6dgvju2vmlvzhzv9pb0z3uky5wgg2v3i4ykdgytm5y2jxadbprknzculmm09tbhhwuwtiuw83vgewzu1hauhaajvqrgpvu1pvmuj4ehv0yxzuyxdibtnj?oc=5": {
 "date": "2026-10-14",
 "first_seen": "2026-10-14",
@@ -12158,6 +12953,11 @@
 "nw:news.google.com/rss/articles/cbmid0fvx3lxtfbrujd1tvuwlvphngpmy1ffc2hoafzvblhksuj1sxhiejvenl8zazd5cly5z2prmvjmmvdldxbhzfrtwfveykkzew9nauy2r3v2x1hennhfte1mbljpntzmvxlzbmu3d05fcvdswxdkds1ouwxvz29z?oc=5": {
 "date": "2026-10-05",
 "first_seen": "2026-10-05",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmidefvx3lxte1nue9hmjvgn01jtehtvwvlzxbftdn4sfpjs01fte5tbetaunrrt29pmxd6otlwctrkcg5fs1czntn5x2fiwthnrnn0ajzieddrcfzfmjbsblprzs1fetdiclbzovmzmjfhv0vmmmvsnvbec2fk?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmidefvx3lxte1pue14uuq4mxnjdffdn3zds3pqytbna0zptmvswhrmrmrfwgtdyjfrzzlfvmv2tupmcm1lvw02rg9slum5ueh6nkhsek9gqvnhrk4tdfphzu9goxfgazjyb3vuyjzatnz0sfltzwd0rda5dwp1?oc=5": {
@@ -12230,6 +13030,11 @@
 "first_seen": "2026-10-13",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmidefvx3lxte9vtkswt1nibm1xc3lmn3bsqw4ws2g5zxlxq1zqx3p5ctlcsm9buxzroxvhelhnegywwjzsvjdrn1lizez2q1k4reyyu3rwotzznmdztkfmcjbgm2vaywnxcdjvnjhgouoxeepncws4y1e5tmj5?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmidefvx3lxtfbdz045vjbnd3zodndrr3i1a0c2ctlqmlbquffab3vyruvvyvm3dm9lzkv0t1butupmvi1lb1zfnxh5tzc3qtewclvnbhvicwvjcw5iq2lhs09kql9ardnia2xcdzdus2rsmnbfqvnqzhrhlxdk?oc=5": {
 "date": "2026-10-15",
 "first_seen": "2026-10-15",
@@ -12258,6 +13063,11 @@
 "nw:news.google.com/rss/articles/cbmidkfvx3lxte16blz6nmfma0pqmnzyqm00eg1xrzholvk0oxz1nu9tvhr5vvhza0vjdzzduvrcnxffmgjsmlpubgjus2vweglfovm1u3k3mjzkdgnlsfbhtvjretvhujgwc2fmm19xcflkrurlt3f1cvnvvnbqbgc?oc=5": {
 "date": "2026-10-09",
 "first_seen": "2026-10-09",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmidkfvx3lxte1anuoxcxdyqnhvekdhyudwavg3offurdzwqwv4ztfhcvvqvu1bt2xydzned3rbvm8xzmp5tfpxzwxuedzrmtkwby1lukryrg42rujkr3ryc1dblxrhceewoxhpa0oxdwl3n3lxzuvjbnbiu1dix3c?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmidkfvx3lxte1hr05stvbmelpqdzn0nnfung9kedg1v3vnb1y5evdtt0ctrxawsuntzgewdhlyqm9qn0twbgrgsk9mzzrnm0jilvpwwmplwknyv1ftdflsbehznvizv0rucnfemui2n0zkztn6cxzcvgvjogjrswc?oc=5": {
@@ -12340,9 +13150,19 @@
 "first_seen": "2026-10-07",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmidkfvx3lxte9dbmjucdrszdrwves3v3ffrwhkyjzmmvnkvdbqcgnyr1jfcwzubupmzehiexpuqjk1qk9evjfryzhgrlgytwdyvxuztulmaetvm09rrjc5a2owazh3ukpvd01urjzyve8zcgjkaujurjlsq2lqn1e?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmidkfvx3lxte9gy0q3mwjfvfnozjvfthznnejirs1pznn6ehznougwb196cwiwu3hnek5wa24yt0rtekjucvnicdndzhftcwutzjbsutdnohrdsv9frhkyu0xlvvrcx3jzvghhtjczugjam1vsamu5blfhuwdnrgc?oc=5": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmidkfvx3lxte9udulzs29uu2nwy0dddjfndll3vjhawuvyn0mzvke1qmlpqni1zwjxd1zjowfnyuverlraale3vjfpajk2medtq0htvgvwc0hkv1dnoge0dgnwbwr4axvyejdqnhpwmtjietnnvmxtrzfkx3jhenc?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmidkfvx3lxtfa3bgvhrxvqefzvtvjxaupxu1poag1mwnbnzhd3dvzzugfmywswrxltww5jds03vno0vxrmrl9gemizqudfa19lourkrtrcwvbtdehwx0dhyv9vaupastfkte15s0p0zmw0df9ic1vnnlzxavdvvgc?oc=5": {
@@ -12375,6 +13195,11 @@
 "first_seen": "2026-10-08",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmidkfvx3lxtfbvzxjtv25yb0hwukjyqklbrmfvq24yx2pfvwyzcfhmef9ywe9lym5at0joane2bhlgovpoumtoyu5dtkliuzg4bgh5vxbsvfpvwm1hbvnsumlndxrould1tw9fvxhnavuxqupnqjzsx2fms2cxthc?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmie0fvx3lxte13swtfzvhku3vfavjft1zrrs13by1uuhlsazy4edbuz1k0x0fmaelhuhptmnm1s3pemgvyodjtaxdazzvqajburmjmndy5egp0ltnhqzhwzmldaxoyazjnwmfrnlrfdthqqw9unjrgcxlqv0npredjcnzvyw?oc=5": {
 "date": "2026-10-18",
 "first_seen": "2026-10-18",
@@ -12403,6 +13228,11 @@
 "nw:news.google.com/rss/articles/cbmie0fvx3lxte4zeg5nyzbrnwxxofreagl1ddh4stvtn1zqlvbhd29alvdqsm0tyzazafvls2vqmuixcm1xmxfldfvfbvrfdu9jv1nxz1rbt09pnmpddljnyxjtcjfxqvpxegn3btbgvwpmxzhuzxh6qtexyufhxzluxzzfzw?oc=5": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmie0fvx3lxte5lmvb6s3dttg9hvthwvwy1s3k3cthqvktvc1dqc3d3rzbwb3d3dfzfow5yrhq5vlqws08zmeezmwd6tu5hnkm3avexoxdrs0tnzu9oemfgv0tuulryekzzdlfdndryy1jfefvfruhwnuitouexm0vkwk1mqq?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmie0fvx3lxte5ncg90skiwttbiuje4mvc2qlb5ntjbu2f3vfg1svzgzdrqxzu0afbmdk1csejmqxl3bg5yehzhuja0otewm0pxu3fnq3nuxzvlcghvu1v6tzdcz2rtngjnugkwzef2cjrldg1zcmd0r28tqs1vc2fwnwn6tq?oc=5": {
@@ -12438,6 +13268,11 @@
 "nw:news.google.com/rss/articles/cbmie0fvx3lxtfbvrdj6eg9jvhfduve5mkplrkjrxzdrte1hz3lkee85zgvhykt5dexitzhkcmxwazbjq1m1b0vovtlkwda0tktyr1nizudzmhbmluuwu2ryqufmvnhoenz4r2hyzlzbz3vxmgvqstbpetb6nlq0bjyxbwhdwq?oc=5": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmie0fvx3lxtfbvzewywvj6szfkexfjsxkysfrlcxjob1gtbhcwog5ztlnioxbaalz1b040slhdnmfczwvlwdfkekvmrg9yswfgvmywwkyymnlfqm9tow1rx3vvwvjwqvbswghxmtdtmxh0b3phnugzu1d0ady4u2tvel9kcw?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmie0fvx3lxtfbwqlq2uwn5rhy5tlzqv3zqvjv0tvk0b2djzktqsfpxmulywxfxdv8wzxowoefrt0zja0njq05sm19va3nzbhfwuvr6ohlvdjfltmviwmzorgh0bjllz1dnm2vntvzlvjzzyxgtddzgcnctterdtfjwzkm5cw?oc=5": {
@@ -12540,6 +13375,11 @@
 "first_seen": "2026-10-16",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmiekfvx3lxte1fal9ozfl6y0yyys1oqutft1vwmli3dnlhdkpvv2jpn0pjmw9xsdntmwlqutf3sfdzsk4zowvsrwvvdtrlwm5rnefdtkvqewdbzm1wqjrhmxhvmktmuehyothsuznvytn4d1hhmun0dwr4ckhacjlqm3d3?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmiekfvx3lxte1nev9yv2vnsmw5exdgtk1tve55stdyc2pvtw0tx3pxwk1ha3dgdxd5nudyzflwwf9qq29iog9vsmx3dxhcn1ffdwf6mc1kdufqtgxwugi5r0zctjf2cgtos09gwmoydxhgz25qvtfjuhvdzg5utmrybg5n?oc=5": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
@@ -12590,6 +13430,11 @@
 "first_seen": "2026-10-14",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmiekfvx3lxte9vnkrtqvc2uuzvvmgywujoqu5rsjdcmjq0v1juczvkvmxome1pq295lwz5a3j1m21swk1ywutgq01pbtn3bfvldvvmc01qlxnyylbqri04unz4vwr5nzu1dtzuyzfxrva5enzobvvfee1svurivfp1ngvn?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmiekfvx3lxte9wqkzesupiuuzjeuvluuq0zjbsuzrjwkr3ow5iav9ewenmnfnpelgzrmeztxvsu3dmd3ney3fjwufvaulnrhvkt1jduwmztkn0zucwwwnvsdveuw9qv3htywezrjj3cevmynlqmuliqjktzer3czzfzuhr?oc=5": {
 "date": "2026-10-13",
 "first_seen": "2026-10-13",
@@ -12598,6 +13443,11 @@
 "nw:news.google.com/rss/articles/cbmiekfvx3lxtfa0mkhhcutqalc4mwxkc3rub25vmzl1c1hanknonkdksnjuy1jsrfzvdjlxwddha25lz0r2xznbslfmazm2efjoamstmnc2wgljrhhud2tedeffuuxhwfnlswrknnzubnhtbutddurvevlrevh1vvhkntl3?oc=5": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmiekfvx3lxtfa5cl9stuhwvjjnshnqeedwtjdium9cbm8xdue0yzrituk0yujqbnnybgdwc1fpmmltr25aqm9tdmhtqktmvxpftuctwuc0wffgrtrkt3axzm9zddbxsxjlzglpvfvqa1r4tvhlcw5wvxzumuvsrerrzgvn?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmiekfvx3lxtfbrmxu1ams3zhlmae4yvnnklufkueremjjgrkvjq09uvhrybzbixzdqslfqs2lsy3dtswzmlupozfrkb0tezhh4ylbvbuvvqvbccufqmlvyntjuovdschhabw5sy1oyrzzlu2zst1bwsljouhriyvnrsmlr0gf_qvvfexfmuflncv9mdtfcd3zgsvzqegveuvvfvl9mrzc0uzheq2dncnnrn1y0ne9lwhpvrefycvljsg90rxl3ugrivnvhaec3nldusjlzstddthjsrgxeekzxqujaejvwsgtiow45rhzuzha0rlfzvzdga3m4neiysjjewwdidw?oc=5": {
@@ -12633,6 +13483,11 @@
 "nw:news.google.com/rss/articles/cbmif0fvx3lxte1xrzjbrkxcr0pzt1vrxzn3cuxfzzhurtvxclj1d2tgoe1hwkz1owvlmgdqulc0twrpq1y5smhwaudzotn4nxlmm3q0rfzjamvfumzvwgdps1pwzevrvzbgvvd0mumwz1lredngnur5m1qxus0ttxdkuhrtn3dhohm?oc=5": {
 "date": "2026-10-09",
 "first_seen": "2026-10-09",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmif0fvx3lxte1yrxpobwfnawvosm1ami0xdmtqblgycnlwm3zldxf2thcxvloxdvjztjg2cthks0w1mlnhzmnmtfvdzmnqqtffqunsmvllnmjyqwz2blhwnlvovkxrrlziyxfwzs11wwuwcu9xrnnjwe55tfo0cg5qtl9ivvbyrgm?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmif0fvx3lxte5gbxpfbxvdnkszbffua0jjtmpvzuhtamjnu3lmeknpb0g5bxlzdmliaettzgfoutn0vuk4bkdfaxfimhjywhzledbwewzbyuncy0q4zetjy3ppa2dvqxl2ywdyse5sdvaxbfbra3ninlzxbki2qxbfunlrv3dqdhc?oc=5": {
@@ -12690,6 +13545,11 @@
 "first_seen": "2026-10-14",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmif0fvx3lxte9yvkzry0pmzy1hntfkywx0of9prtcxv3fscfhrbjzmwuy1nfbzykw3x0dir0nyejfvekzwul83a05uvgfbyxfrnhpuz0h1nxhiwe1us1hqyzy3ry15c3ktmxvpr1dwztdkq2xmb2tklunfy01mwmfedgfuegvhufe?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmif0fvx3lxtfb3qjribmptz2mymzn5cg5ezlnez0z5ukhxwdreuwwtvuz4yxq4tgdlsu1mtl9azkxnu1fqd3lqnzzqdlryne9zq2w1ovy2mlczaenxqznwa1lpzfzlrhv2ddlqsfbuwdi0rm5qb2e3qlbyy1pvv2jgqvrzrv96tza?oc=5": {
 "date": "2026-10-12",
 "first_seen": "2026-10-12",
@@ -12725,6 +13585,11 @@
 "first_seen": "2026-10-05",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmifefvx3lxte51uux1yzbrclreuutiqlnhblprtnpjcjz3whracxjxzvffzm0zmmlewjhuvwvscu1zdez2dc1yutq2n2tstmxra2k1stvdefhmynp4s0jqrxc3vkiwvfetrnpymnhavxhzadcwn0y1ohezctznz0djazqxvg0?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmifefvx3lxte5gzvdtatu2lxlgltvwwmvzu2ftttnzmmlubnv3duhwywlfteftstjddc1bc0vkt1hndlfvbxjvsmwyre01tjvzcjrmd21truwwexdeyzayogzrbdc0evdrae1ddlfqbtu0ql90uu1jcecxvmrzb191rmw2akc?oc=5": {
 "date": "2026-10-19",
 "first_seen": "2026-10-19",
@@ -12736,7 +13601,7 @@
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmifefvx3lxte5uzghkzwhrwun1qwvnwv84awdqywn4cw5oqk4yn1hmqjn0vevirdjkq1vhaxzwddhrowpmlvdky2rgt21lbhpxnvpmyug0ujheu19ic3rad1qtstbgtgswrfrpnmxxrgw1vehnyku5ege3d3dgmf9iyudirkc?oc=5": {
-"date": "2026-10-08",
+"date": "2026-10-21",
 "first_seen": "2026-10-08",
 "status": "rejected"
 },
@@ -13180,6 +14045,11 @@
 "first_seen": "2026-10-06",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmihafbvv95cuxpufbkq1budwi4zuxpbjj2tdjretezvw5svktrdk5juvoxu1jvbe1fn0t4m3q0uy1ednfjagvyvxk3unldr2nmajvjqmlpa0pfdty4qwflquh1chf3vxjybhfmoexhb0xyt2hnrlpvbtv4rzdeendeuvpcnwpqzznrzdjbbgi?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmihafbvv95cuxpwdd5wgx1zzzpqu5xblflr1vxukziexq2nu9qb3vicezzadjlakjrvho3cnflu21zlvkzahnhwfpwrvu2cwzisflvafprner1offsyvlsuwdwm19puwf5r090ctvyouitcw5fa1etnufmv0n3y0ppqxrvmliwzgnea2lreufsayobqvvfexfmty05szv2efh0vedumkrbqtdmbkrtss0wltdbbdlqudj6y1vtohpitljim3utaxm2zwtrneflu0e5bff5u1b0aunrclu3cu10ukljvwljc3rsalbvvdjzyu5hwuzfbkzboxzmmnpuevbkbkxtt1vtz0twquhgnky3yur5b1j5dzl5s0fn?oc=5": {
 "date": "2026-10-11",
 "first_seen": "2026-10-11",
@@ -13255,6 +14125,11 @@
 "first_seen": "2026-10-19",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmihgfbvv95cuxqafnfr1pjx1ntq1ria1e1u1uyzu9hme1tnnrlbkfxdtbbdw5wbkf3u2fpowpsx1b0z0rpnw9xwgr3u3pwndnrtfbxdxbkow04sjm5u1drrjnju2xyeuv0dk5zx3nfnlfrzlfmb0w4wv9wx25py3zfejfpvwfbbkeynelcehhxdw?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmihgfbvv95cuxqaxzntjzqbtvmz3rwcvvxchhhuxhsvgexd0dwclryq0ptvvmtdjrbnhzlu05quevix0fqvhlccmdbdk1jqxu2c1dtbkrdselqrgk2y3bzugfjym9ic0d3vdjsq3biwk9lrnbsrzlovjvkyldldu1tn21mnxpfnfn5c1bfz0vfqq?oc=5": {
 "date": "2026-10-20",
 "first_seen": "2026-10-20",
@@ -13288,6 +14163,11 @@
 "nw:news.google.com/rss/articles/cbmihgjbvv95cuxoyutzdutkym1fm0w1rdqxbfbjc2itd3rnru5zyzhirgdtdlf6emutehrbbhjrqtztmktucdbqnmjmaelldmr3afbxwmqtakfsmfctzvzhdfdozkvkuxd3ethuwnnqwux5r3p4wmvuq1ayaut2vuntyu5sekjzutfoetc2n29uymjjanq4atc5ynldugfuehy4ce53uwo5eexyv0nddwv1num4wvn6bw1eb010zmlxrxp0s2ldwdgxsvnputboewpzam1ievkzbxvwvhbxmvpqwtetuhb5y1zmm3z5qs1udkw5dut2n3doeeuzwnvqujv0ohrcawu2of9nrg8zbdzr?oc=5": {
 "date": "2026-10-20",
 "first_seen": "2026-10-20",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmihwfbvv95cuxnatvztlhyrufqnxnvwldzstn5ehlheg11zhhpaznlrhvwrnfsnzgydnrpae1xekczotlamglmbudxbefqwnlmn0lqdvp6yndhyjdzs0plztewajytnjhcs2djoeruz01mblpwn2fkvvzrm1fboxdkczd1cwhpb0o5t1izuelnyza?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmihwfbvv95cuxnqmhpdkmymme0y0xqakvcwnbyczzqz29uyufpdeqxowfutdg3zmn6oe02wxb0yu1uevb0rtrir19uwnoxck84wtllu2j3aznuetnpmzreemhsqxllclhsq1dpyw1drgm0oxfutf94zux5su1jcmt4nfhwd25ty01snvnqm21qcfu?oc=5": {
@@ -13333,6 +14213,11 @@
 "nw:news.google.com/rss/articles/cbmihwfbvv95cuxouwlyem54dgv1ahvibez0egldvkflcjhwohnwy3huqvbrzexrss1lohvkeefrdwp6twl1mlfvagxmr2mzdw9wvnfvdwgtau10ak9wazjyckdxsenyx1rmzkpfvu9hrwhguw1xynvmewhxs1biohljqvc5bum3ef9es2ffmzvhyk0?oc=5": {
 "date": "2026-10-12",
 "first_seen": "2026-10-12",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmihwfbvv95cuxptui0r3lztgpcvdllnueta3axwvnpbufhbdh2nelrzm5uovp3ctvvzhngue5kd0nyyxrxm0lkwffkrlrjytb1nwlnazfprepkotnaagfxdedlzi1mzkp2dzveou1vlu5ht0tjvg83ds1fx2jzttrrslfeqzrkavfvzgl6vkxfovk?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmihwfbvv95cuxpuznov2powfhlltzosmpwewvechz3nerznv9hczixyva4cwfrnwhmtxituc1nylpxbnb3lxbhdwctr3dytwm0qww0muxbwly3nxp2egnftmdhutzob3jqndlvafrsz1l1nugty0gwazm1euncaxltztnfnm1uugmyvth0qll1nlu?oc=5": {
@@ -13385,6 +14270,11 @@
 "first_seen": "2026-10-12",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmiiafbvv95cuxnn3e2ykxxzfhgcy1kawfutfrzeenwa29qaw56y3vjwwt6tejsdzzjvejwotbpndjnawlprgdqzxptu2jlenzpyw1jykhls0y2bvfysllnn2v5eutiqnzpu1bqnfzrrufftmppbemyr1pdathraepucg9tc3dtr1uzqy1icgltrw1f?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmiiafbvv95cuxnoe5zztfcnu9uvu9oyk9zagdnqvplv2vfzjktotb6r09aewdcbgk4tzlmcy16vkfocdnxwndezvllt05hu3pmq0n3qtcxwkw3wglnbk9kctbyamnrs1bpczlibej3r2rzzl9qofayvkj3tg91z3nsrk9zc1bdvmfvrjv5wflwnulx0ggiaufvx3lxte04tlllmui1t1rvt2hit3noz01bwmvxzuvmos05mhpht1p5z0jsathpouxzlxpwqwhwm1dad0rlwutptmftekxdq3dbnzfatddyau1ut0pxmfhqy1flue9zowjsqndhzhnmx2o4udjwqndmb3vnc2xgt1lzuenwyvvgnxlywxa1sxe?oc=5": {
 "date": "2026-10-12",
 "first_seen": "2026-10-12",
@@ -13398,6 +14288,11 @@
 "nw:news.google.com/rss/articles/cbmiiafbvv95cuxntxpmzkhzt3het1pdy01uqmlqawndmde4lxztzuxpwk01y1rwcehqeehaltbix3hzyxoxdkzxy0l6ae1muvm4nxd1ze1gtgzhovvpmwdgexhnttlkvwc4bnpfqny3r0foz2jcwnvpvtzvlwfcm3pvmk9kd0vhufuxcfpedxbnm0zn?oc=5": {
 "date": "2026-10-14",
 "first_seen": "2026-10-14",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmiiafbvv95cuxnuvy5ztfgtlrcsdrja0g5snpyt2p2nhpgndhoa25xtdhxd2zmukfbnevdludfsdr1ufvtbkpfyzrwtmraqwdlslhtrnffqkxaqvpku1zetmzrck03czvxnhdwcnjjqu13auw1stjnzvhouv8xwhdyzjdgnmnkzhlnnwuytgvxvtdn?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmiiafbvv95cuxnx3bzbdh4oepxtwg3qjvfy2zrcerkdfv5wdrpz1fnmw1mzwdknwhryxcyvvbjcxlxaljjwvrlrk41cmlqugz0snluvjnnadduzznmsu5pm2llbi1owhototm4ztjhcl9ltlr0s3vpmhdvbevbswrkaketexpmali0bndpamdmvxju?oc=5": {
@@ -13630,9 +14525,19 @@
 "first_seen": "2026-10-11",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmiiwfbvv95cuxpcktbvnv3tm5obnhqnm9gmdjhudliogtmd0hfzettmk13neftzljfmmvpdtbhrfdvbhu1mhrzuzfjyxk1eevnvjnurvzsuknfbnlsaw5mtkppatn1ve9orlgwltrittf3mm94zlrytzbdcw5nmzh0qldiewp0mdb2szi5dwhzetnoethn?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmiiwfbvv95cuxpcndjrnb1wjm2mevnmvrvbdfncnpsodloztftltnfcw5qx2drovgzyzhgtvkyb3rks2zgogdgrul3tvbxr3jqbutwtljnalk0dkdhcgtvympzswrnmzlelvp0mlv3cv9rtnnttddyzxlyceziwg5qale3v3bpvnnqu0thtdbfy1rhbtqw0ggqaufvx3lxte9zcgdjdkhmtwvpslzmawxhmvjtqmxqru9kthdmskdcunb1skleejdcbkjhtk14r2jkaxdhmvnhr2ztbmpps1pius1qczd3uupwz3rjcjvcmxa1ctrrahz1n0pvyv9lcglusdftnjlnnvq2c0lodwnuwehwymlizjzqt2nquwxvwu4yrjixcmzsoa?oc=5": {
 "date": "2026-10-20",
 "first_seen": "2026-10-20",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmiiwfbvv95cuxpdlktse9nc1nrdmzzrfu5r3vdcxmtendjvnjwtnkwt2ffqudxylpneutba051qu02mexluf9nru53m2phdzbarhy1qwddmmhuckzkzkdkyuhyn3uyehfsrfrfm1bpy1jws2xovkzsbk9welh4q3ljmxfvq2l2tmq0zgk2zvlflwx1tfvr?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmiiwfbvv95cuxprg1bmejwczmzzwfbshdwajljwvrgyxzbq0n5r0thb1vqu0hyd0xjmmp5lxb4bevhehd4su9ub1vrq0qxm2c2z1c2cgfbwvjvr0q3a1h3vtczelpocm5tnnaty2lwa2ywwmuxagted2viquv6d2duwtnqcfrmdtf3r2nhcehwavfcrxnv?oc=5": {
@@ -13795,6 +14700,11 @@
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmijafbvv95cuxqcxrwmultwkdbm3ntwfnccjjkvtc0bc1hnwl3lumycc00svnjywflskhovfo0qzvpuf9wnulocvjot1zhcxdoz0xpcmo4slzslw1scmvcz2c0dhljndi2v2hybvfvcnptm2d0nznqltzysk40vlkxc3danzv5rknivwlld0hob002m1j0sg?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmijafbvv95cuxqrlvwvuoxaepss3jtdxjym2ziauo4zw9qrvhlwmhrqvfwnzc0ulhimxnlq3j1rxmwz0tmrvq4blqyr2h6buhhszblyxrfztnyr2nnqlo0ckflcetxbze4d2djrus0euvnaufqwk9sr095uhlyyxfkujnwm0k4zzzabhbpn0xjnvg1buzmuq?oc=5": {
 "date": "2026-10-12",
 "first_seen": "2026-10-12",
@@ -13848,6 +14758,11 @@
 "nw:news.google.com/rss/articles/cbmijgfbvv95cuxnzv9jnjjxeeq5slditddadwfrvw1xvnheaw1grxgzbgjveudwcnpazzn6ms1ocwr0d1jayzrksghounbga2heudlyuuhjsmw0c01xrlbqdfnhnul5uvzirhpqedfvcdbcmvzultrtulprlwfonvr0betqtnpqugt3wuxfrk9zbmhprkf6m1rb?oc=5": {
 "date": "2026-10-19",
 "first_seen": "2026-10-19",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmijgfbvv95cuxocm5rmhi4vms0tmjowxdtwnp1zm1mr0lletzkrmpnagdpv3fjs1r5uwhxr0xjx0gxdglhnwpwaxl3zlnha0fltmuwafc2a3b6nunrdzjqr0ruzmy1swrszkvmrldutddmodluouvazlrkbjvmvmjlnznjs2hmvv91ujbaa1lsy3lbwnhywv9n?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmijgfbvv95cuxoefbxquffzmjpbkjxsujkrfc5y0f3zfpqvxa3y3zfnvpiumxpyvnnbfdkcw9mvwzdrgljrtz3yvvxewlqcgi0oux1dzitvur6ntdjegjvm1rsdfnpbngymxbaymridhg5wwozqldndws0xzlseuris2nvwdhzduvlzulragzqqu1dugj3wmtb?oc=5": {
@@ -14100,6 +15015,11 @@
 "first_seen": "2026-10-17",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmikafbvv95cuxnnhvxnfd6c3jxbmhzrldlzvjdwxzusdzsdvrbbth4ndvwyuk3b2fktzdqt3phb0phazhdmfqxwfhbtgnuz2dvand3ahplnhribuvycnzisutqrs12mmh3ruuzenlwzvznb3q4n2l3mwjpcxl4mtbyehlqqlj4qzcyaev3y1nlvu1ruwu0dlq1vtm?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmikafbvv95cuxnsmzin09kowdlovmxmwtcmuf3uuxos1kzoefsmm9iu0stzzcxy3pnm1vzwvzznut2y0vjbgd6bfflynvvlxbmoe5qanlirfr0bv8tsnb5anozmu1ralfzbda1rklzrzizef9azvlwv19ooxh3n3jstlotqnlna3a4uwjkagzyewqwuzncy2vaemw?oc=5": {
 "date": "2026-10-17",
 "first_seen": "2026-10-17",
@@ -14300,6 +15220,11 @@
 "first_seen": "2026-10-20",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmikgfbvv95cuxps3rswxutemffcdfwbuhdrwnrmer3dnjybxr2mgyxnmlcnznhbmdgqjc5eejuvvrpdjj3njztuxjjsvpjylpablrpvvl3lujjrdg3szjyv2zpyktnd3pfwvq1dml4wxrtmhpiajh0m01uyu1mmdnpmvdvngfylv85suplodrzcnfzmm9vsgyzdzlyqq?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmikgfbvv95cuxpztzorwq3vjdzwhhsdurodfutekpsznlhz09awfrft1hjvgnfa3czu21ea3bqoehqunvxukzasmvkaudvofljt3rvu040azktuvjxrjbpsf8xnk96otlrwunwm21xng42twjrzms0dumxbut0luhhmjdietrllu9cmxjubhi4sw52bmrregjlehftuq?oc=5": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
@@ -14480,6 +15405,11 @@
 "first_seen": "2026-10-12",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmilafbvv95cuxov3hox1p3tkrqdfpmthdiuurmbdv5y1jkql9swm9tegq4swuymu56vwxdx0h3ceryrtvmuwctevnxtghbqzvyouxzy3lnwne3dujsmm9vukhsbvjhmffkegr3uvbhaddmsg1sbwdrzmg0qw5fww9kv0yymkxnu0djtln2ws15cetiuklnnfzktvq0rhb4?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmilafbvv95cuxoytbyvlzbem5vy2qwmu9lrmtzc2pirwzhmhdwugxkskton0xunms4b2ktx3jut2k5lthlc3pqyurqq1g1surkvuxwvhd0nmnfne5hsxnzt2tlejhrctlpeexlq2qym2tftxjysvzzeulztvytafuxtefequpsuwzzv3ngogrsmzdrzuw0bf9bz21itzbf?oc=5": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
@@ -14535,6 +15465,11 @@
 "first_seen": "2026-10-15",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmilgfbvv95cuxnv0vvr1bnnni4yjzovzlymg1umfprqw1oqkd4vl9hsxl0mgoxafk2axrln05lc05kb3ftvxbizgrzofrlamzrztzid3jft3axenkyyzlhogoycxfoy19oakj1aujfqlz3zjb2thryvtf1ngvxv0vmog9mnhhnqw5zsjnfyme3zutfyulvoulhefboq2nfrwc?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmilgfbvv95cuxnwhprc3nyzlvzrkrnqxrlcg9fnxl4rfvisndrv0q1y1jrduxxzehmn1jmwhnqz0laykhlmtrneljpztriclzoumlpb0zra2szrmzsuvztshv2xzayqkzovxu2v2vzugfhog9cbtfmyjnttwryseeynw9regzmytlrc00yt2ndqtllehvmuu02zw5wajy0nke?oc=5": {
 "date": "2026-10-17",
 "first_seen": "2026-10-17",
@@ -14543,6 +15478,11 @@
 "nw:news.google.com/rss/articles/cbmilgfbvv95cuxnzxvfcxnlehrya295smlra0fiyvzommyzenbyy25hwmdgrvuxu2rtukrms2e0unjyr1jybenjwjmwoxhsx2jyemrqt3lxnwfkvkjwoevwwklqmgdnyxrhcnrtu3niry0xuzfwuedvzwh3r3vszwlrmfvlewp3ngvnczzjbdnnr0liwnnseurvu005b083swc?oc=5": {
 "date": "2026-10-12",
 "first_seen": "2026-10-12",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmilgfbvv95cuxocec1n0m3dupjslpznhlhs0dvmxzfbxkytlnddffxnvv3cvllcnrkvtuxa1kyeu41effkdjhnoepza2hhaxhzmglhbjdhytbxu2w4dldlrdfsedlcq3lsy01ostzszg9blw5rdmp2efritkoxqunrd1vtmhhjnw1wrkrvcvhfz1a3dww4tjdxegjuddztcgc?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmilgfbvv95cuxocfvsbkm3uejjbmtsy1jzzwfrc3c0bmp5yjzsdvzwqzhktlq5m1vkbzddeurprgr0bklrtwdqr0s1ckw2qxl3tgrsrtnbwfjwelzmc3zyzehhcffsm05fn3fjnwdyavjwwnk2c0dcb01rnjd4tu9msnkxngeyvkdxbhjqqxq1swhuagznuw8zzjved3ncdfe?oc=5": {
@@ -14735,6 +15675,11 @@
 "first_seen": "2026-10-18",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmimafbvv95cuxoqkiyvujsvhfjchlfvhaxnuvan0jot3rny0xack9sd1hlyjz0yxhlmvljyxn2vfjisvvvafntmdgwtknitdlwa2jznlbvqm1on2nazzfpuupoumjkrejzdwg2bxjimjfetepps3v6avlvcuvtwdrbm2rcnkdlzc1sbzfntddwr1rkvgdwbdzrywttdv93ynpnzg?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmimafbvv95cuxoy0n5outicetlowpoylo1cnzntxnybedpunbzudlsee5idxrbcxbmnljbz010qjfkouxvyunrclkzsgnrewv4tkd0vuprt2dzue9owuwybjdqylkxafbiuvrzuhgtbxh1a18zee1bx3vku1c5bhazaxj4a2tstw5mbgm3dvnnejbgehltnwfeujzinvjfogtueq?oc=5": {
 "date": "2026-10-10",
 "first_seen": "2026-10-10",
@@ -14743,6 +15688,11 @@
 "nw:news.google.com/rss/articles/cbmimafbvv95cuxoylpvbmv6bxlhogc1cf9sverzdg1cnzz3vhhtugz5cwlpq1r2sghxslfucvu5vgnhs2r6vnbxs2mxbfnvd2tqywetyjjttnd5r0jwaehosulvttytcnn1n3jpyxbkves3muzjohhiogrwd2twmed3zljpullmoxzitvpfznlemzfrmmgyrtzovdblqmnqcxu2zq?oc=5": {
 "date": "2026-10-14",
 "first_seen": "2026-10-14",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmimafbvv95cuxoyus4ugzotmfqn3hmdzzooenky2y3ylpndfpwq042dnlhlwe4dxdfejz3wglgcnaxovjmm3hdmm55enn0x1q0ythuuxhjszfom1phyvjjdkl4tv9xngdqce1yamnites3vu80sgyyntu2nnl0axyxbzdln3fmltnrrk5nsvozthnvu2fcvgpib1p4dzh0sffqzw?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmimafbvv95cuxpeuf3wlpdwdvzqvnvrc1innrsbvleu0petkx0slb2mvbtafhhofa4aly2emfgy0r2v2xmrlvfd2lqq1vormj4mdndnmrhegpocu9oahnqbzvps01qrgncufbvlutsquvtr2xvujrtugdfq0vny0hxz3joejc2tl9xd3u1m0tuqljhuzhsy040ykhiyu1iqnlztq?oc=5": {
@@ -14850,9 +15800,19 @@
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmimgfbvv95cuxocjlpukswqzjwveppmvnqb3rbdktjrmv3d3g0mtbhedjfmupkq281ywd5zjrmulgxn09pls1irvi2aefozezsqviwcuk4dmd2ceznejk5cm5xvgdorlhfze4xmjgzsnzqdfvfvu1lueztdwnvrfrhvzluungzawtgvldkbzn2ze5vahexcmnhsehvnklqmmk4aglr?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmimgfbvv95cuxonf9hnmlyrwfnsvpzlxpltnfqqnh5detduvpun3pyv3vzzjvtz1j3x2xiof8zynrxlwz0x1pialdzajbbddj0rgraavljctnxd0xsdvpgcfjbellqd3ztdnlhavi2mlzmughnwjjfqxqxvhhya2rcqm5xr2fyudrwumcwc3o2a0sxsflbbdzjn1znwxoxt09bnjln0ggfaufvx3lxte9wnwdwlu1zv1pqrde0sffob2rktg9fzhg5ckr5vgribhzanw5iunh0blzbvxjwcglgekrlvvlmd2f5blo2vgz1t0vzb05pr1cwvghkufc5z1bsbzuxwgplb0zrden0dfkznxb3mknedjc2whzumnjgenz3sg9luwlxzxporzleeg9zc2txntbcb0o3dejvq04zzgvsqtn6bw?oc=5": {
 "date": "2026-10-11",
 "first_seen": "2026-10-11",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmimgfbvv95cuxou3hsa3nxb2t1muxcznrmd29ovkrzwwp4quhjakhicc0yv3jlcuk2oexbmwztquhgs1nmq0xubzziswtssfq1nwtyc21nts1oce1ndhhnajljn1fnbezxoxrqegtzuwh0q2djyxbpcevdtl8zrzlrtwota1qtbehittfqzlhps25zs2s4zmt2smzku1vhbm1amzvr?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmimgfbvv95cuxpadjmn3bwbwpouvz1owzxbhhkajvhadfyn0xfy3bnqna4znmysxfvuxhgajfoowdxtlbdc0x4rgyybvb0m004uwtkn0lwcvvkazdud2roq3pjwxh2b0rgzs03ywrxmejickrmm1nncgfvvfb1se54duphlwo3s1d2btfslwq3vmficdy5yzltbenjb3pkd3fqn2p3?oc=5": {
@@ -15060,6 +16020,11 @@
 "first_seen": "2026-10-11",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbminafbvv95cuxnyu5rvfzmzfvwampvuun1r2otwuvocgpsawnvb0lxlvzxrg8wrmeztlhfaep3zna0slotuknlvjlfndrfcklfnvpxlun4bhm2tkjpb1hcuxiwstf5b2xkefhot1zmntztmvrtsw50qmhydkvmahfpd1zpukltn3rmltb1x2g2wldnuml4amxibec2vg1uoxvtvflcmu8?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbminafbvv95cuxodlj3ahnamlhxudn5umq2dzfhqzjnvwxiy3mzcxlns1q4ekriskrrqvjlx0d2tzbir0gttnlxbkplmlpjedjqqjzkutmyvvrfmuzxngdxz1ozdu5abg5uyurgm3q1ohntcu94wxnxced2umjxnhn5z1bdn200nkiwmhhntwe3eutgtldzlxhpr2cwnwxcrnhmsfrlmva?oc=5": {
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
@@ -15103,6 +16068,11 @@
 "nw:news.google.com/rss/articles/cbminafbvv95cuxqt2fwcnzfbwxwady4tkzimwrsrw40dw5yz1d6dfe1nu1newdqwnjlyzdjyzzky0xldexbudvvahaxv3c0rmjtrhjymzbgqzi5ymj0enfunxdtu2zdb2tzvkkzsxgtx0rrddnzyk9jvdi2qlnxehpsbjrtq3j1qvvurjrytkt2mnvrufy1bfphrfjjtljmclnkrlbdwec?oc=5": {
 "date": "2026-10-18",
 "first_seen": "2026-10-18",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbminafbvv95cuxqulrlsvrtn0t1zez5v3vhxzv1ngprwxp4werqvvbpcvlkee5wywllynjizxm3btdwdtvyrgotd2zeqky3cjk2rdroefbiswz6s2vqmzgwsmjzewu2nhnsaghpzzh2bteyuxrluetlumdfbky0muy4dk9pr2ttuvdlofplsljmtzlvm2p4lxjinmhfngfobzl0bk8xuve?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmingfbvv95cuxna28ttl93wvb4vlnsannwbtjpaffyvzfqv1ponkftrkc2cg93zdvmatzkddhnstcxdzntzml3nw9nlxnuc3vizlzptkztc0tgzmfcrgkwoxpyb0g0ag1zvzrurvjfytfdwmroqm5lsmlfd0zrd19kblfbczmyskj3rfnnekricwldcxnzc1nvcvzvofz1tk93clhbyvf4dw?oc=5": {
@@ -15170,6 +16140,11 @@
 "first_seen": "2026-10-13",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmingfbvv95cuxozk9ruelivgnpdkl2dkn2n1v4owu4exllztvnrmh1sk5buvmxzjlwzu1fvvnpa2hvaglkegpxr0nix0dvbni4m0xvbejpt0dmzkhysnllltc5qzlnnnbgrgxvbkphevr5cufoefzkdm14emjyyllcqm8zy2stlw5sadlrtwpdqmu2nhvnbghzcfb4qwjjywlvodrlchrfdw?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmingfbvv95cuxpaw4zv0jbc1l0r3dxoxdmvmsyafc1oedncdzlx1awswdmowhgzmxynzfst3jzymruv2zizmc1bwhqvgrjylfzrhjznwtuc1njr0foskuwuzzwc0jgtjfetdn2tfh6b0zpvlo4uerjuvfzovfvbxbtqtdqcnmyexd4tkt6mkr6ylfpnddfc0oyaddpuv9ws0vmal8wrxlnuq?oc=5": {
 "date": "2026-10-19",
 "first_seen": "2026-10-19",
@@ -15183,6 +16158,11 @@
 "nw:news.google.com/rss/articles/cbmingfbvv95cuxpn1f5ttfsc0nzvfrzewpgrkttutuxwtrceefetkg1nkxmcuntukplzuxqres0dujqmthhbfrfcnnbnwfgqkk5ukd1mgdsdktsrhbrzu5qwhnoevb6rfi5oxqxws01bhi4d0fimdvxu29zrhdyael3ti1tn0k3bdhgsnnqtgw0udffzkr2uhlynnj5d3llbdhrz1lywxljqq?oc=5": {
 "date": "2026-10-09",
 "first_seen": "2026-10-09",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmingfbvv95cuxprgdvm08zbzu2rmxzc3d3njnzbg9vc0v1bfitcknuug9dt3nlwkfpdek2yktur2x0efdrcfncvxfqenvwv3vxb0liu0ziwutztfl2t0h4nullv3ldvum3qmfjng83evdatflwdkl2ymrztvhbc1btnzu3y0xibtlonedrdwxdn0pjz29rt0lgsjraau0ysnpqou8wqmlpd9ibowfbvv95cuxnz1npm25ctmeyudvlmfbav1uxexa2ek5nzny2dmrzx3nute9yvflgm2pcsnpxbtbwy3rta0hwyllabtznwmheovvnrnayri1hd0pidfz5wvlotu1duwpuythauxjktlvfmnhunvzqsk5rq3nmtxjoymphauruylvacfn3owstskzid0fivfzkb0dsagm0dvv2lvutzzl4dlvsatjj?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmingfbvv95cuxpslfkmlhzcg9wew9acxfau053vhlkmwxfm29intdlsnjysgtmnklolxbpvfnktuw3oetsn05ontiymwi1ukreahfdu1hlymnsb2lwttfotjlktxlgbw9gntzxctetd1jpcmfkymwxcxg0bwnmb2znv0x2y1nxynzplw4tzgw2qvayynj4znvmetrob1hfbu5iwm5fadfeqq?oc=5": {
@@ -15465,6 +16445,11 @@
 "first_seen": "2026-10-12",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmiogfbvv95cuxnagm5x1dar3hln21cc2dkcfdqsjvark1js2dncwptm0jkvuxvntawzfvurdfhdm9gutlfshryu0vtz0zmzc1kzmrume9fdeput2rxcwvsyw1adlzvsnboovqxmndrcglfvnd4r1b5vjnxndrndglnv2nfzkpcawlldex0yvg2uzledkfowklzvnv5mjlizkh3whutczltr2o5qve?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmiogfbvv95cuxnaktlq24twxhjzgjpmxjzzvp0ynbymnhubkzvnlz6bfntchqzvlzfofjvd3dsm0zbdwxya0lkt1eyti1asi13lwkwcdbts1htcjnywthwsw5mugvvczlha3rtbkvyovpjvgzfc1jzympbt0jhallty0rtdddjdk1kr3dxmm9bzmrhq1zqse15n0wyohrxx2eytkxrwkrlyvh4d1e?oc=5": {
 "date": "2026-10-11",
 "first_seen": "2026-10-11",
@@ -15478,6 +16463,11 @@
 "nw:news.google.com/rss/articles/cbmiogfbvv95cuxnndrhatliwwngvjfmr2zzs0nfsnztyy02m1znbtdmzvpsne82r0i5qjneqxjqce9jr1nqwletcjnsz1dvvv9iqkhaauzkb3nztfvrrzhmddldetlkvgq0tfc3njaynmxtwme4azvlyvzcwjfpzg9ex0pqzud4dgvmy05plwr4adnrsnpzys1btl9bctdwzu9uskvindgwaevwcwc?oc=5": {
 "date": "2026-10-05",
 "first_seen": "2026-10-05",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmiogfbvv95cuxnotnzsk1urxjyyzdwa1lscnjux2jilwxuc3dxbnz0cmq2aly0zkvqqkc0rwxbnkj4t2fqqlhyn05kzms1z0u5dhvrmtgznwxkx1iwyxnsm2q0cvzkyknfvvddmxnpadzhrkt4bgmtqnlsvfh1m0duwfdjxzz4t183nlrxqmzawetwzzfywjmxuefpww12r3pjt1o4nfrymzvllue?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmiogfbvv95cuxnx1b6tvrgeg5bls0yd3pbtznnb1hqcg5ntw1wsndcn2stukffvvktzvzrdktcm0dwr29iu2thbetfumnkqjhgrgfjt1vtegjpteh3avd0ofpaqkdctgjkzmlvq3vtv1fzzew3rdvkqtl3chdunwrmszcymzlqqxqwy0jiawtkumjmmvloogpqtzi3qxztvvbwa1zyu0ppqk5mbwc?oc=5": {
@@ -15558,6 +16548,11 @@
 "nw:news.google.com/rss/articles/cbmiowfbvv95cuxncfbfcxoyou51vlbktdnvq1v6eus5aujvaekxqwrpenvqnulvvjdqwwctx0qxmhjdnvplwmc0y1pomwtvm0dfnjm1uu9rohfytfrdcnety3otcu42nnz4z0jcmnnvnlngqju4agxwqtv5ywg2q2wzd3e3a0jit1ottjj3luitvufxq09lslkyqxfkm0q4shzpv0vjnez0x2i2eetv?oc=5": {
 "date": "2026-10-12",
 "first_seen": "2026-10-12",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmiowfbvv95cuxnng9sqkztcmlxvs1lvfy5u2dwbww5m05rng4xu1pjrzc4duveav9ktgdicurluhdtwtlkvdd2oe5votzlm05majnzwjfkognoownenfjfvxrjbmuxu2h1nupmwhhozufuylfjsxzvd0d6cc1eudfrnfnjbhbtmkdadeg5skz5zjhqde40dge1s3zunlnmcezjsvzorkzksha5chpr?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmiowfbvv95cuxnrzg4ow4zbu9mmexznznuekriuhlgvs1mrgexbgtus01isei1n2s5wethb0vstnnicknyt2rav3bhv3d2ltliuhp6bg9ywlhrmwhsbxk2ykvutun6mkqylwrotjrbnv9edkh1nxfxa2hnmnrftmxbdu9pow9mthdkogfvnhrnyxnxcdjorjnhszrmrgx5rkxcrjrkdfjaq2n1eeww?oc=5": {
@@ -15650,6 +16645,16 @@
 "first_seen": "2026-10-10",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmiowfbvv95cuxqx01wbxczq1dmuvzxzkrinkvjanlnowrqvjzhawvttxrfas1hvhpxofuyrwk2nwg5cna0n0k5og5cdvdkukzsoxlvweqyduvcz0nrclg0cuzkt1blqkx3yu10wldtu3oxenljndu3nhhfsupwt3pyb19lwjdknhi3wm1kvmjzdffyzwo3qkznmxznx0iyexjszdvpnvhgqnm5afhr?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmiowfbvv95cuxqzhhxsnixafq4thrbalatcki4tuprskdzqzdit0i4c2jxrelgmhjysxdor1putlhusxneaknkrxvnz3p3tdg5v29vaknumuu5s213v1dywwrfmldttvl5cv9xuktuvxlenlz6sxb3u0yydejldfhnugnewg9vrtjzmg5onln4ek1istrpq2vhd2fty1i5qkmzbknrd3k3bmfja3jb?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmiowjbvv95cuxqbuphck03nufvvmhosgnpy0e5tnbtbfv3vwnkq1frmwrfsjzsq0prcgxjmml1rdg0vjhmswzerlv4qmfyegl1u01nym9plxq2u3zachg4v0lwbzncbhrnbfl6snoxcm9nmhflqliywu1xvhhvz3zzmgrodvzssgg2ce1ocexblw1vofnxow1ht2yyuxbfmxhiqk41emdrq0vhnfewburjnzrarwc1udreadmtem5yqlvslxzqmxl1tvjlmta0akrvt1rvdeg5twc0wem0ttrfalpkevrqd2hbd2hvczhlc2lmcgqxr2hlberqb25ktvduvg04amh2zlncdjzasglvmvh4wtc3rdjrwf83sufalxdewgrzctvnsxdjcdq?oc=5": {
 "date": "2026-10-20",
 "first_seen": "2026-10-20",
@@ -15658,6 +16663,16 @@
 "nw:news.google.com/rss/articles/cbmipafbvv95cuxnd0g1qk9jszlzwwfrrxnseflimzzobgr5rhbacnpoejc2wkvcdun0mw5osejidxvgv0njrvhmemnoaurcd1nxbtzsr055nvrelxjds3nenno2wdzoclc4cxngmus2rjfjugnvdzf5yjh1qzdyagxfazbwdhexzxppstb3tlrkug5hswnxdjnzohbvzhb0cunsq2n6b2vzmzdryxnmbq?oc=5": {
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmipafbvv95cuxnv3jgx2dwsulectjia0jprfbfz21lvtywy0zkq1fsvlryzufhd2ppbzjdlwvemm9ztwffrzjirjzwzzqxewnwsez1dmnqnwxloflwmvvvzlpsnmhzdg5sdgxisy1pmg9esljzd0xqyzblzznjsxnaqjuwqldlwkrwu2jonnjknepncfvlu0rsbzywcmnudgl4eg41svlrmhowq1zurw?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmipafbvv95cuxobfq4expdqwlndwvna0fsnfy5bkxvdwhjq2l6svbly2tybxdub0txbudxyzexmmnyqk1gmjbjmhrjoeyxawpqwlvvu28xcvdlnnzkafjsym1vefriawsxuwxnqtrhmupwdei0vmv0t2rabxfnzlhqswrnqtnxx3u5sgf3zzlfywdhb05vs2r3tjc1qkmwdtmtvfpcunyxbtvybfh5za?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmipafbvv95cuxorwtplwlhb1r6a2syegjuzvlzvlnsvfkttkx1mvrfn213tvm4rfe0vk9yclzdyks5vnboatzxoellngxnn1j3ry1zb2fjvgz1tnb5s2ntrm1vm1jnqwpxudfybkv6zfvidfmzzdrgvzkxcdvwc2jzt0zruhp4adfrn3d4vxdnylzmcmdiaudqqjbivvbacxbxrtffzktur2c3dnffzq?oc=5": {
@@ -15878,6 +16893,11 @@
 "nw:news.google.com/rss/articles/cbmiqafbvv95cuxnbuqzskvqemf6clnquwjny19icgm3sxi2bvd2czbtbzjdyw1pcffpognrzu5wmjzxmtdrvdluc0yttlbnmi1loe04ug5xehlprnp4av8tskuxmvu2lxfrv1r4vlm4amdwdxcwtlgwnwk0mjbwczvackvwofjvz1pou003b3juc2vzty01rkjvt01ftmctmjlsv0pktg04zhaxdgp3wv9otng?oc=5": {
 "date": "2026-10-05",
 "first_seen": "2026-10-05",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmiqafbvv95cuxncghtvlrzzwxvs2sxefrtdfqyzvpycfjmz3r2wkjsn25zzxnrchlmzfzmbxi3sddwqkd3zwwwrzrwaxpob3narlexv19xy0xlqmpfzej6qxh6uevjv3fxrmm0vuz3buznampkvunau2vomhpazw1jytlrvvjoou0yzgwzck9kttzirm0wrkfoa2fnv2m1z3nnvzhcwle0ovnsmejhwhrvzkvsaawbqvvfexfmt1b1v3dienfgakjzmdr4rdv5zud1vnnhyxfyd0pjbfvqmu1lmu40otblnzj5bhbuwfrmdzbkoxjjb3rjzurutk45odnhnudpvepyym1pemfkwwexafhlmjv5num4vnldwlrqs3pcvhvuazzwy2tqzw9mmfvkne4wwwhudwrjrgdydg9fzlvsoe9hvjv3ugzis3psandswvn5rfrpxznly3k2re9loa?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmiqafbvv95cuxnsdhzewvdy0pnswz3nwzrb1rhnletdjjimuzyemftagndcuy4m0jhn0timxbssfbyc21rvtrgz2dydwfjn3zsn28wrgffcnu3mlnpwdnhnxqxqvjktkpebmt6zzjyc0vdtnlevtlstfpglvdnz0taynz4tmjrsfzvde12svptc084v1zpblheeuttc1dsmnl4d0l4yufendfwvedcwvlram0?oc=5": {
@@ -16120,6 +17140,11 @@
 "first_seen": "2026-10-10",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmirafbvv95cuxnujhseulxvvnqzmfodwnvvvcxmvvdmnrib1rwshrjmurdcnjlsvnkytyxnnzevnrumwrftuxzq3brd0ryaznisfducwg3ztrmego3rghjvm1tejdndejatepkv0p5clrivlb4tk1abjutrlrjv2djtxnvseszwerkmww1q3cyzlr6ctjkwtvkmmpxt2xor0ixb05ya1vtltztd0h5qxbta0vyx2p1?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmirafbvv95cuxochhju0xfztrrrlloew9lx0njwhjsrlowy0tbyvdkber1muh3mjnabxb1dgs3dkuzcfnloc1md080wtgzmlz4butjwheyqupxtwfrckstawf5rjr3ru9xzhi4smitvzzpdel2dkduts00nuxrbm9xdhi0a1rvzy1qr3bywjjhyuu1u1h6tjjxyzf6bhfhceu2rdvsr2g3v3e3ukgzoe1hvmfjddzo0ggsaufvx3lxte5weelttf9lngtgwwh5b0tfq2nycmxgwjbjs0fhv0psrhuxshcym1ptchv0azd2rtnwu2u4lux3tzrzodmyvnhts0lyctjbsldnywtysy1pyxlgnhdft3fkcjhkyi1xnml0sxz2r1rnltq1tgtub1d0cjrrvfvnlvbhcfhamkdhrtvtwhpomldjmxpscwfwrtzenvjhaddxctdssdm4tudwywn0nmg?oc=5": {
 "date": "2026-10-12",
 "first_seen": "2026-10-12",
@@ -16180,6 +17205,11 @@
 "first_seen": "2026-10-18",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmirafbvv95cuxqnentejhlc3uyowloa2fxuhrvb2pfbxd5lxryejnwd3l3c0lwnjdoadhfufd5dwj0sgvxyxd3ywizwg9hbnhivzritfpcd1debuv1qms3d3fizgnft3pbzmjnmdf6zg53oenazertvxvhmhnyzurps21dqwr2empysllrmen2tuk0amjrn1cxy0hkuedxunvgvhlwtg1ky2ppytfclvzymglnx1a4?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmirafbvv95cuxqrxhic01vtkfyv1jvze5hwnvkqmlqevrvrhfitffmuy02bjrotvvnemm0ymz3c3bjn00znvfwell0emzyylnsamlacs0tt3bdt2vnvjnlz01sd1iyvwjrzdvbqk8xwhvqa1lxy3ayemjknmjfnmyxuvlonfrhev9brxpvb1zstglxcm5ysw1jnlfuss15u01zt2ffwmnmmf9cs1ldclpldkdhwvbx?oc=5": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
@@ -16229,6 +17259,11 @@
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
 "status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmirgfbvv95cuxnzxi4b3zov1vvruixdmjxrtrlvvlux2viquwxdv8yznlqcgxfak5qewv2mnhvbutvq3n4sdzhm3d2dhzwr1r4m1ffzmnrzwo1cxrsre5ntdjttja0r19izffps2xnyxzfbzr1auxgunvfq19ndvo5rtrunglnn0flrnb1ewtda1nszfo5bxfru1l0c1uzzjbwvhdsvxv2wvficfmxqjq0ee1tckhwyle?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
 },
 "nw:news.google.com/rss/articles/cbmirgfbvv95cuxoag9malhawlhacdjwslj0cmj5nnc3tku3uvdzuzhowwg1dxfwampbwhhrs3nsytfht0xbofvrt0pxstnsx0x0axpjm0xqdmtvavddqmxgm0dktupuelfjrzhwbdjqcmhqazl2emjeewntc3flyvowwk9nwuxfnkfrylrkcnhdrvfhbjdsegh3b1lsrnfsudhydk5xuzk3wmhezzdjnm10wurttmtzque?oc=5": {
 "date": "2026-10-20",
@@ -16365,6 +17400,11 @@
 "first_seen": "2026-10-14",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmirwfbvv95cuxoy2voz1itwxvhqk5fuezcr1k0tkizn1rrnus5blhjc25uexk4rty5d2rdul9eautnzkvgr1u2cljiejl4uk1xqw90vdfxv1vky09uoep0n1frndzgn1vqmwnxnfjkuvnkm2syb0fuu0vfvkpid0x6qmdpwtvdy3fucknlcvl5s2vpyzatcndzuhnum0jzykfiog1yv1b5n2cyrhhssdv2vxfmdhbucji0?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmirwfbvv95cuxpd2hnx28zmgtun3jsodhkqvddyxg0bi1lz3vrdwpwdnz6vtlzrw83mva0v3bvcknwnuflsniztuxnmuz4s3nzexdaegxtmv9yegdkeezpb2fzrgfdmuvrqk95rxn0ehnpq0jxzxridkdfdergm1vvnzjftfpxaeo2s2rsukm5wjnlwuh1z2prmwzwue9jvelkehhctzh4qxjmwu9fngk0au1vtudoyjc4?oc=5": {
 "date": "2026-10-15",
 "first_seen": "2026-10-15",
@@ -16418,6 +17458,11 @@
 "nw:news.google.com/rss/articles/cbmirwfbvv95cuxqwulzavo0v0dscjy1szbbmg5qdvjrevbymgdqmtrhwkrtbufsy1gtz1nbvnziczrfaudkvnrrrfpvcwllvu9klwxrnhjhmdy0zufbmktmdw96uk1keex1ts1wdjm2wnbzm3nzuvbjeem0betywhndwu5ub3uyutdqu0zsrhdum1dcqznrytbqtjzwatjkwmthnfk3q3c4sxfwrjfybedfs1jptdlnmegw?oc=5": {
 "date": "2026-10-18",
 "first_seen": "2026-10-18",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmirwfbvv95cuxqwwtzzxrfvjhpnmhknxe4vufsyk1ybu1eu3fczzqybvjqwwjasnvwx0hztgv0yurhskdeshmywdnawk9vulv1tfhiczzgsjnjs1vjwtjmquzhznlmwuxjr3nlckm4y2g1blvrwnduzxhqy2sxxzvmugu1z0h5buldstjqmklzam50ze4tbks4sekwthryngjdbejynu5ha0r6r3nyz1d6eklizlg0bvpv?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmirwfbvv95cuxqx1j4tmrzum9zdme2sklyotzttjdwwtnlqthkqwiwakh2mtdnrva2mwhpogp3nxboszgwqvbsnkc0quftswfja2utae1pskvadkpmsejjdtlawfprnedkwet6dvrans1uv0tedwj6ujhryw11ohi2axvqrdvcnezurzn2wevnagyxvwowsnbtt202oxz4muzyshbgdulovehfwwnzugm5di1dzzvwzefz?oc=5": {
@@ -16515,6 +17560,11 @@
 "first_seen": "2026-10-05",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmisgfbvv95cuxnoc1uog5oc190atlpn0hauwpjwnddrjhbczrlrflqvevjswfkuvbeaudvtm5rwjj0wu4zrxuxvgi5ae1uatfkmzgxz3zkz29tshzvtwrvzjdkudqwytbzbtdlbnfwu2jfcwfuc2dzmerbcxrorhrtsknkckpsnwytq1lkc25smjg2unnevmhqtjfgv0p3chv4nwk3uenyuwm2ruvdvmvmdvdxexhctvfqsejb?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmisgfbvv95cuxnsxhcyjlxwdnfb1ltvfftvtkxdjdis2p0rlb2uju1a3blavnqbum0wvlis2dodv9jave0zhi3vffzvkzjzu5pzhvietrmvu1mwfnitznuzvg4zhrrq3z4cthuulpqehz0qnrsb3m2rjr0oxhnbnhqbhbix1etrnbktjzful9entroz0e1aerqof9zcuxuduf4tl9ywkx0vkutqnrwadvovwzmrethbfjmynj3?oc=5": {
 "date": "2026-10-10",
 "first_seen": "2026-10-10",
@@ -16595,9 +17645,24 @@
 "first_seen": "2026-10-20",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmiswfbvv95cuxnsmx4m0fhsjdxrw94r0t5x1bosdu0nvdjsjd3zehdrgi2ogrvdwzrwdkxbufjc2rkzdlvdtrjvuk5atrwenfzdmrqyv9jvfbbueo0affxlxv3ylpzy1zgmupmevdubwtmemfmbhvjrulkquhtrupraldfdwt2bhjsvzl5mwpmredwcmc3q2y5mv9psw10ceu5qlnvrksyeerozutfwkswnxv1zmxhu1p6rktpdw?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmiswfbvv95cuxnx3j4nuzvc2vcenn1afn6nffwrfhns3rct3pwbhrawnq2nfrws3niaf9vlxzpywhdtkpcnmvodm1fejjnqkvkrfdzcjf1ulhnq1fxrdy3bhh3odbzqtz6tfv4rwtveldotmvztjztqxfgwdr3ogpmujzitjnjcvlgn2fzmfvhewrgmxktaznqvklmltdvqthyx0jmos1hbevbuzjqrxhowexrn3dxzmgtnlnivq?oc=5": {
 "date": "2026-10-15",
 "first_seen": "2026-10-15",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmiswfbvv95cuxosxpcsfvtmjvqadrrs0tyz3dfn1a3oxjyedzgrla0cvdcwhhkcfgwcxpua240vfaxvxe0r0lvrzrvuvfjuehqcuvhqxdbownzotv0vfe0z2j1zm5bnzeza3bulxdfnjbirkx6lvc4whnqwtzczkrca29lr1b6ddrvzjdrsnrqmenrv2c3qtdlcdbgx19osnraa3nbew9unhr5q015ofz5sf9hehvbdwdprnfgc9ibswfbvv95cuxosxpcsfvtmjvqadrrs0tyz3dfn1a3oxjyedzgrla0cvdcwhhkcfgwcxpua240vfaxvxe0r0lvrzrvuvfjuehqcuvhqxdbownzotv0vfe0z2j1zm5bnzeza3bulxdfnjbirkx6lvc4whnqwtzczkrca29lr1b6ddrvzjdrsnrqmenrv2c3qtdlcdbgx19osnraa3nbew9unhr5q015ofz5sf9hehvbdwdprnfgcw?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmiswfbvv95cuxougzowllocnv5ulrbnvzrt0rjsfc2aza5ywg4uezzrlo2nmtioddvousxvzzyzddpahdkmhzhmza4rlz2ckjidui5v2thn19ismzjzzhyug9odmq3ada5qknhy2sws1ptmexwafdjbwstmnlwmnfhrllwudkxy1gzczq4tmtlbg9zn1f3ag9ltnpysuu3wlpzevfwymdeskg0swiysk12cjnuzm5srxaztnpecw?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmiswfbvv95cuxous1xyvppnnm5bwfysue0zev3blzztzjcawlbuu5suxzvcnz0mnlbbeqwunpolw45wgtfthvny3lqnvh5ww9baec3njbybxf0wdfxmgvoothja3azu3bluurneulqmdg0rmldanjrx0dka0hzmuizbwdveefrofp1ec1kyuvyunhyre5mv0kxs1vczxlxqlm2ejdqvnl2smv5unr3s09lnzzxm2u3tksxswhqbw?oc=5": {
@@ -16755,6 +17820,16 @@
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmitafbvv95cuxnsvrumxjssy1dzhu4wflrmgo1nu94zfpyyll6rtf0zmhzceqxb2vkltlovevywum2uggyqus5rlr4efftd29wndrwt1bfdunnbhptmvdhmu5oqu1ddtu0ejk4sm9jb0mwadhgznltemfmb3dou01sdwtztkvibzdjqjjpyzhftu5rs3qznlnjbgotae1qugrseku5exmtsf9hv2hkzhl5lw1xy0nqz096m1nrvtdsabqbqvvfexfmtuluvdfyukstq2r1ofhzutbqntvpegracmjzekuxdgzoc3bemw9lzc05tlrfwfldnlbomkflouzuehhrbxdvcdq0vk9qrxvdtwx6btfxytfotkfnq3u1nho5oepvy29dmgg4rmz5bxphtg93afnnbhvrc05fsg83suiyawm4x01oa0t0mzzty2xqlwhnufbkbhpfoxlzluhfyvdozgr5es1tcwndamdpejnta1uw?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmitafbvv95cuxomkw2egetvg9tbkiymhz1ngpvodqtntvjc0u5n0dnqvpdtufywk5lm3ywcdnzeu45dw5wmgg0de1lzgxprk1zbjhqbjdrsl9ezfpzztnluvvfmgr1smy1q2lms3njaexvmzuxy0zftgtnv1m5q1izuucxz0f4d0vinurzunq5ulr2q3zru2fpohz2dhi3nmpebwdtwku1cuvom0w3tmjmcmpvnnncsektms01c0k?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmitafbvv95cuxos1cttu5sz2ctsjbobhzly3vpyuvqnzbfufplvudmvk9wwnvcr3ftwhruuhjtcfpdwwpamnbqq3vyt2tgzwztctrvuhjfb0tjt0q1mu52vvzndmzhvgcxmfncdwzyserhdjzmuwfqtutmv216dmytaw5hvevnbhzmqzb0nu92d0lftgpay0p1szdzntn4yk5vulb1q0tfmxvtcuitrkrrnkm0tk92bddgbmo0owk?oc=5": {
 "date": "2026-10-13",
 "first_seen": "2026-10-13",
@@ -16793,6 +17868,11 @@
 "nw:news.google.com/rss/articles/cbmitafbvv95cuxqcfi1rnptx1pfzgrhckm5v3vwvmrfnmvpnhrocetddvrgnwuxsunwm2e0wlpaunfqwi15tdrxqtjgckpkz0wxu2jvrzvhmw95szjdofzvrhl2v0vymvlkqwrwzlhicm1lr0npv0s2ohvqehlkbwx5chnuuy01mndfetbqr3fmwjlptmw0vwrprwhtvmpotxrnsunzbw11n21kswronmjtdne1ztr2rjnquxfzcxm?oc=5": {
 "date": "2026-10-09",
 "first_seen": "2026-10-09",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmitafbvv95cuxqdhfdcejmtxzkcnn4mktaaetwsgpmetqtmeructjwsng2tktkmvrzctzvquvkmnjwcxa0be44ueh3z0piefponnp3njy2rvf5dwfqq3m2r3a0cu9va25kmvnswkrzderuz1vvzkrfvknnsvu5d2xnzjlqug05etfvaursc2jsv0ytrjkynezgrkppvlvpwkdtcjnydhltoxzknnzltdzrqjlevdbmwg1zue82b0_sabobqvvfexfmtvdrwdzkuvrcdejvnfjhq0y2txvox0l5sdy5ew1rbulsoedrs1ducm9fznc3mtlpb2lxewy2dwnxwlrxturrym1abkezcwvstvnlyuhcz09xshi5s0lqczdsnnrwrwu3re54stbzcg5kafzhsmrlajbbvhndz3b3awoxr05cbxfoy2kzc3hymgn2ohfprhp3sgw2b1jbbhlnbkjqs3plshpqtgk0zdhntgtvy3blshjiluf3?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmitafbvv95cuxqm0jzy2tscktva0u2dgmwquzpx3zzow15chrpm09bckvyd1pmsvfjnnfvsvy0ewe4t2j0czvcy1fyse45vfdzow55euf3dujengrhq1jzs1rqdghhvf85og1yqkzqdjvty0rlbmnsdvzuewfzd2xpqjzuqxrnnhjpcmn0wevfa1bzoxk0mm5vow1pn1jnahz2bmd0t2gtrwk3dl9nqtdfcvhxdf96qwxlcm5eqxxsabqbqvvfexfmudncc2nrbhjlvwtfnnrjmefgav92wtltexb0tznpqxjfwhdatelrstzxvulwnhlhoe9idhm1qmnrwehoovrxwtluexlbd3vcrdrkr0nsc0tuuhroyvrfothtckjguhy1bwnezw5jbhvwbnlhwxdst0i2bkf0ttryt3jjdfhfx2tqwtl5ndjuvtltatdsz2h2dm5nde9oluvpn3zftue3rxfyv3rfekfss3juref1?oc=5": {
@@ -17095,9 +18175,19 @@
 "first_seen": "2026-10-07",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmiuafbvv95cuxnndq2ski0r0fcajbutm1eyzjhekntdkdzyulunzetdzg3vmxvslpgevplvgkwntfmagxpu3rzoermdl9jekvjuxa5tgpxevrdrvi1tdhjmti0d2l5tjzxaxlgwlp4ted1zddtoe5dvhvpa2hmuzzyrgnmoud4ufmydui1zhlpeg1enxgwdzqwd2xay1pqqmfju0zumg9pnjhsmfbizlc1bjhhy005ufr4otl5slvos0h3?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmiuafbvv95cuxntgl3lwrqt3rlwxptyuzobwvnmvfttv9tswfimdd6evz0czvsehrzskjpwfzvshk4mgfbem8tcjdqsdc3clexwufetc1uavr5v28zb3hbehhnmw5cnxjoc2jmx2u5whbfbmr4tvzlx2x1amxiden4cgftqxnyv3gzc2rtvk9yqmvprlhqtje4vkk5ou9uanljltdnc0rkyve2rkdnq0zmwnditnz0ehvmewdewepnyu5h0gg4aufvx3lxte1maxctzgppdetzem1hrmhtzu0xuvnnx21jywiwn3p5vnrznwx4dflkqk9yvlvietgwyuf6by1yn2pinzdyutfzqurmlw5pvhlxbznveef4ee0xbki1ck5zymzfztlycf9uzhhnvktfbhvqbgj0q3hwyw1bc3jxednzzg1wt1hczwlgwfbomthwstk5t1rqewmtn2dzrgrhutzgr2ddrmzad0hodnr4dux5z0rysk1htkc?oc=5": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmiuafbvv95cuxoaks0sk1jrxziywrtcmpjmhnscgw3nvpiu3jgyk80adzxb0i3d0z4ajewltfgnkjcmxf2ddnkvmzwnhdzti1lodg2zfvmvfrxnwnzsefgau5gx3habtjsbnjaemrguhfoclfmewvvb1vdvvzsn0pbbhhmexi4c3zbqul6bjbpztjruvdeufpqv3hxt1q2sxa4dlptre90vxdzqjz3nnddujvhr2dxunbjthdtsjzvvelt?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmiuafbvv95cuxom3bndktvwermrznxngx3ehnyt2p5mhmzauhsmldkqwo2qxrur0k3ullosmuwm2trzjdtaei2uzv4sedzz3j0zgljr2o3v1htugizsvm5dzjlrfdrugtdrhvunkpmmejcz1zmq0qwzffdamrtbhzmotiyawz2sknfa3bmtzbfrvdjeenmcfyzek8wc2nutesxbvfvthhgvniwyjdscfribetkqwj3b1k5znzibi01q2xf?oc=5": {
@@ -17113,6 +18203,11 @@
 "nw:news.google.com/rss/articles/cbmiuafbvv95cuxou3jnd2tluwtibw9bbujzzla5zu9kdkg1nwjjs2s4rejws2pmv2izaktlcv9uwxjpb0tpdg5zvvftu0yzce5izedyxzd0tlvmwvhky1vdykzzt1e2emp1vu9nbuc1z1n3b1dla2xrmexwuthyoee0nzjwyndtemrmvgmyz2rjxzblvgpcqjzpn0twczjtvnhxz3ffqwpcvflhadnyrmg3qlnfavrllvdrts1wx2jxqwjw?oc=5": {
 "date": "2026-10-18",
 "first_seen": "2026-10-18",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmiuafbvv95cuxox195cfz2mlpwqtlplujylvrazvewnhdmlwjgt21nsgzyn2zfzthtoudpugjfq04tbvfbr0vibmnjuwxidddregtwywzjanitmjf4s3ppv0e0t2vjrjhzrlfmwfbsr2hlczf3awy4mzvybko0vhftbnzvampnzndmeu50ulf3q09zdmf1n3vuu2lsnlpzclnhzec0b3nnedfhn21tbwjkcmtwahjvmuvtyxf1yujjve85?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmiuafbvv95cuxpdvpnthj3clp6mlawcu95bmzcqtfwdetka0u1sms4z2d6ufzkcnbmredhz1vxx0zpewthag9ocw5znvr2tdbuzehlzxnjbwr2nlputjlmemx1c216lu5tqkfsvtfsufbbltjyu3ctwlfiajr5qm56vglnegnlumlycnpss2mtqk1zsjbkz1qxrffjejfza1lnzutolul0yzbsa2hfcxa4xzdluzj6luc2txrtshbkrlro?oc=5": {
@@ -17178,6 +18273,11 @@
 "nw:news.google.com/rss/articles/cbmiugfbvv95cuxnrho4bzrmwvpjmw1nqvcwu0c4zjlbsjvdm1bwttl2zdljy3c5v2hybfd4r0pls28ytwjxtzlhuln3r3ranfdrvuvicwy5ewfoavjsnui1muhsqmdon0jgntlmzlk1skiyr2nhdtfcenrsyjnic0jrse1am2lzoe0ttm1lrgo3udhsq0t5vjjtz2y2mnf6v19urg9ssknqze9pc0dfczhtctg1v2ftaxrxvjbkqxfpn09xugc?oc=5": {
 "date": "2026-10-13",
 "first_seen": "2026-10-13",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmiugfbvv95cuxocvn6bel3mxzore5jwm94vfjvs1b6ewrusevmcuxzu1dutwh0x3lfyxfjou9ucur3d0lqceuyd2dtyu92qmjmmluwzfpqnvnga3n5vljosnmzt3rcc3jrz01kylg3bvgtce5xbnjou2k0n1gzwg1lwgvmcfrywmjny0x0ejjxalbfely1eu5vawlibelvxzhrakvcq2hfdtc4qkwzdm5xvuu2slrvsep2czzqadbczfvob3fsabobqvvfexfmtnftemxjdzf2aeroy1pvefrsvutqenlkvehfznfmc1nxve1odf95x2fxyzlpbnfed3djanbfmndnu2fpdkjizjjvmgraajvtrmtzevzsaepzm090qnnya2dnzgjyn21ylxbocw5yafnpnddym1htzvhlthbuclpitwnmdhoycwpqrxpwnxlovwlpsgxjb184uwpfqknorxu3oejmm3zucvvfnkpub0hkdnm2uggwqmrvtm93?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmiugfbvv95cuxodmjldug3mkvyrlb6a0xfztqzsjzvyi1vvlnacju4c1fpmjjxbtq4s29jtefurtj5x0h2z3lfnem4qnruutdxaeznnw1soevwrdbxzvpkdhdhu0utovz6edjcq3lhttbiczltt05puhhsr1l5rgxwa2xzsmozu09qauv3t3zoltuzblroduzgterlcmvedmpdqtr6cjftrunksefoatnowdhxqmhxafddue0wztbptna4umc?oc=5": {
@@ -17325,6 +18425,11 @@
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmiv0fvx3lxte1tyvhkzmnhqnhcmhpatnvrnmlnn0jva2otqvn6wkhwn2hoyjrkmgnhwkxra1nra2thuveylvz5m25tvdrraufzddriednjakfvamhmnhmtbw?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmiv0fvx3lxte1zqtnwztlfukvznhlyc0gxvvhxr1hintr4rkjdsff1uznswnl2ddi2odd0ythfaddwwdb0defbtzzqswroylnsz1l2zevtvkpexzj4vznkvq?oc=5": {
 "date": "2026-10-15",
 "first_seen": "2026-10-15",
@@ -17455,6 +18560,11 @@
 "first_seen": "2026-10-14",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmivgfbvv95cuxobxixmtromm0xdln5u1g0xzbrblpjodv3nhuxnlvvc0xwqtcwu2zhv3v3yzhzbtjsn3zbek9fbfnymehvylrqbu9uttgxd1a3ni02mm82senbbwdvvustdtgttg5amwnzq1norjnwetkwq2dwt3pcxzl3t3jqvu1dtfj2wnvwadz4lta3bnk4skowmlbrclbllwxvue5gunz3u0m4rhhqavv1b2rdthy0owxqv293nhbkrhbotw9r?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmivgfbvv95cuxon0pjala1aju5txjoew93cti4c01fckr6mf9kuhjxd3hpag9zbe54dmjudw5vz1zswwnbsvezr0dnudg1mdduuzqyx0tftnj5t3lfugd2tvhfwutstva3sm1fn1zbqzkzuly0exzmmu9jzkjgrflgzvpltfpkwkhoewc3umnrblhutw1iald0dwdya2dou2l2qmpmmue0czl2dgx3ced4etfkx3jhq01mdtzuovh1bvbozfyyulfb?oc=5": {
 "date": "2026-10-05",
 "first_seen": "2026-10-05",
@@ -17515,6 +18625,11 @@
 "first_seen": "2026-10-15",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmivkfvx3lxte9rql85rzbfx1k4n2o5cerpd0oztg11cwdsr200zxyxx1lxqzfyzdm2ouzhvmplrtffuk1gc1y3zzrtuglnng1smg5tcwjgvji4rwrndf9n?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmivkfvx3lxte9svlnzrgzxcg5xzkutdg5esxbjohm5tdvfym51su5zx2xit2hbutiyeg1nt3l1nupaufzuc0veqvbmbk5zukcyewhsyvzwzzzbwc1psm9r?oc=5": {
 "date": "2026-10-09",
 "first_seen": "2026-10-09",
@@ -17538,6 +18653,16 @@
 "nw:news.google.com/rss/articles/cbmivwfbvv95cuxnzvbdovpcquxpd1nnmfdtn2d6n1bxvhfkqlgzdgxfsnpyy3nydmp5ndd5sgznwc1izdfknktqqupft2tgdtbir0znwk9gtmtfofbobmxzqkc3de1zytdtthgzqmf3zgdqa2njszz3rfpizdjxzlhbwnzgwkvbx1fmmw5zdxnpswtuagmtek9ncmdcmlpezlg5u01ulvh6oxburldfzdc5ztczvkc5se1vvm1gekf4ek96rnp0be5qoa?oc=5": {
 "date": "2026-10-12",
 "first_seen": "2026-10-12",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmivwfbvv95cuxoaehjb3lxukxndmzamfrrwuv0t05aanddn1hzlwj5x3flaxvtstfhlwkxzvj1q2pxtthushj1akx2aumwejnxadd3czcxrhjzbku1d0jxref0sdy3czfbq3itbwxtrzlpcdlozxrzc2dvme5inxlpmllxagjnmdzswffouu02rjjfwm1xvw51sgpxulvjwhbpzdn5s001b2jyt09bq0zozfbaejjwmkjpskllrzndqmx1mnzndvjmyw?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmivwfbvv95cuxpmuhsz1fdy0vpv3latnfrtddlyujlmdf0rlluz2u5n2voclb1rgj2ewlkuvowamxdblhylu02rfvzdkpys0ttoeflaflxtve1uklpmfu4rgtocgrqus1czwpbogwwwmzhwedkowtkclrjbuxyukv2mmytywq1qvbdqjlplxvms0zwewdaedzrntluzgppdjboyuw3nzjjvujsvdk0lu1tq3pzttl6bllfdwwtmfb1v29uadi1bmjlwq?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmivwfbvv95cuxqags5zxzft3hazkttvexgt0h3yw1xdeddte5rujbirzzydfjqqndoahu5owdzlu5nrl81uwf4mkdwnjm3sgtwetytr2uytvzfndyxueuyrv9sb0vkt2fzd1zzqlrjzuzlrnv4dxvfzgzzrzlmwvu3xzm4sfplvnjzoe9ymjl3yu5nuc1bq04znfzmtk12v0t1ank1amjlr2jqeuxuvxjyqvbxwkyxnmxpx2syanryzfmywnlaql94uq?oc=5": {
@@ -17585,6 +18710,11 @@
 "first_seen": "2026-10-11",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmiw0fvx3lxte16enc1mc1xu3v3mxvaovy4zwjwyla1m2rlbkstlxe0neqzdhhnd0xjznhjwgc2vm9mmv85a0dqawpgb2fxwdjzzg5jqlh6chbkbeznetuwwhbobnm?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmiw0fvx3lxte16tc1bak9sukreshnmafjsm001ukm3sffncepvdvzvdudtqwq3bvrgbk8zagnzlw53atbirdj6tm5lvk1uzghite1dwnj4cgl4bknjohl4cgvxne0?oc=5": {
 "date": "2026-10-15",
 "first_seen": "2026-10-15",
@@ -17620,6 +18750,11 @@
 "first_seen": "2026-10-20",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmiw0fvx3lxte1mue1huc0zze1tewperuhlb3davzffutdhm2vdstqxog1ovxh5mjvflwl2vwtuy2f1b2izz2nlshbfdlgwqvfsnlfbzllztzd6d21ey2vjdusyuws?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmiw0fvx3lxte1qmdjoehbfx2ziae5demgyzc1rz1hgtuzrbnvxymw0re1bt0fuwdbic0jxvnvywmjncdjhzgxitna5udvjs0mythpgq2pnqwi0sxdtekx4m1o1svk?oc=5": {
 "date": "2026-10-12",
 "first_seen": "2026-10-12",
@@ -17643,6 +18778,16 @@
 "nw:news.google.com/rss/articles/cbmiw0fvx3lxte54envwtvjmufveu0zwnldore1jthdyu2zlul9fm3lsymxvbgh5xzn6wm4xnnzuxzjzdvp0lurntuhmwwrizfbotkvyqm5ha19hltv2rkrfndlwcfu?oc=5": {
 "date": "2026-10-10",
 "first_seen": "2026-10-10",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmiw0fvx3lxte55zmzwvellve9svfduvdrdwhdquvdbvhc0ntrlngfuwwxcrm5wbm5yz29tc2r5vjvtmk1uetniwvhklxjjnkn1ugx4yla4slnwbhjvu3ktn09vm1u?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmiw0fvx3lxte5hqnnhaurmmwvicvrumwrgugrmaxhbblhpdlzpegw4zc1nzjdyvhppzmz5d1venda3nkp1bzlgagh6q3nlq2xjov9zzth1bg1sthr3nw1am1g1bg8?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmiw0fvx3lxte5ilu5ubwc0nddjseowdm9pae14nkl1mjlpsej4djdrqulhvwnocfaymxpxn0pxouznqk1yq3jiznd5mvpgcknklu5nu1fxtjzzs2eywdu0rnb3n1u?oc=5": {
@@ -17768,6 +18913,11 @@
 "nw:news.google.com/rss/articles/cbmiwafbvv95cuxotefvdvnabmpzbwdhsgnkv0zdbgl3rgrjejbmrnrprzrtquxmqvdlx1ztb0vwn0hivvzpstbjrkfydkqzzf9oyw45zg5nqxu0tejmagxobwnyykktbwfvq1rjsm1ts1fimwjtbmfzs3vtwfm1ekfkcewtzxvrdjj6n0nzb0lkrzdmml9qr0ntymlisurhuwdzvdzln2zsr0yxyi11zwqycllwx0o3cmdqyvfhtzbpzvpdws1ycnnpzfc?oc=5": {
 "date": "2026-10-10",
 "first_seen": "2026-10-10",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmiwafbvv95cuxpbtu2qwtmrmz0tdlfnkxryvhftfutr2fiowpzrgxzbzrqamntqwdkttboowm1wuncvk1wavv5q29qtvg4au1paja1m3lay2zzr01pnhfvrnjon181ckyxauk4d21unjfpexjqeuvjc1jyb0ttlvqyczk2vfvhclgxrwk1sgvsywrsc3r1u3fox0xqckr3vzdou05lcm1pn2vzmwy5awpqclqzcvpjt1npadbox2zvzzl5mujgcne4tfy?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmiwafbvv95cuxpchhmauvsaxv0agfsmvd4ehlvnvmwnlrbzkpxnvlemzlrcufwmwndy09jzunnweetrwnmzmjubhjzzkutmeqwotnbbepidfjwum16mc1astj1ehbim3ftnl9xck1qs3j1ajljwk9zv0nqz1v3amdmtwzwunn1t29zvm5yauuwmunuunfodndbnl82ltdhnwz5udfttmfiq25qdnjxutz2szn4buz1oe9vsmtqb281v2xnwvlkqjniwwq?oc=5": {
@@ -18130,6 +19280,11 @@
 "first_seen": "2026-10-19",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmixefvx3lxte1jywtxlxjeugz1enzwou4tzhqybw16egnfwwpacdnewun1slltzul1qxhmnm0zsndruk1lzzzishutdzkyczc3sexhwnrhdnlomu5yzko1n01neuje?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmixefvx3lxte44ndgyuf9ca2h1ltntlvm4yvpkdui5ennpujjtwxbjyvlirtzfd0nftufpdudis0o2r0jyvk83v0qtn3lbd08xztjtnllwempjdlzpwhdrsg0zdmdr?oc=5": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
@@ -18195,6 +19350,11 @@
 "first_seen": "2026-10-13",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmixgfbvv95cuxptmpdludcsde3wlhxym5enkm5mwkxcurpwhrst1fdy3phmkgxstvcrlprb0rhlwtmx3b5vfczogqtzc1rdtg3we1jvjvvmufpa3fmefrfngjerg92sfhivgtks216ckvgdgdqel9naffzt19yvdbrrfbobjjtluvfuu1pyjjkrfnaajvwa3v0sfdsudnkq1qwvjv5vfj6zw8zmzgxaxhfue1bnmm2cuzybhl4nnlmrdmtownpmxbiwdfmlw4teve?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmixgfbvv95cuxptuxtwvrzuc1yythgwkjkvlqzanvuvnfmdevaduzeu3vwvkfeue1vcnztykx4twjacxpfmll3u2nwbgw1utn4mw1tcud6y255ovnynnv5ytrtsmy0y1dxvew5evzrtufwr2dbbnlgmdbjrlndvzrywffvmkfdclfvlwrdrwhfc1rmoed1whc0yvvqbdnqrzdwzg1lyum1zvhnt08wmmjou1rxngfia3r1ofy2sxbyehf3bglwvgvyd2lxsgfps0e?oc=5": {
 "date": "2026-10-14",
 "first_seen": "2026-10-14",
@@ -18235,6 +19395,11 @@
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmixwfbvv95cuxnmf9zuu5mawthsnveu3lsuddtzjdmn3jns3czthzxc0jtumzyufrvbzfbrhp6rnhomghyu0nbs0vuzs1dowfky2dvtvzobu5hee9ysvf6znriowtjnv9zx1nwa296cwzns20wvkzhsexywuyybvj3chpvluztr3vdd05zehb4sgzvqxj3sgdxdg1oq2z3shu3ohdiu2rfow5vnjr5ow1aa3rtavjztglgy3huvfu1q09kwkpyzwxyltfzbjdhekiw?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmixwfbvv95cuxolu5ftmtktkm2ywl2dgxuaenbsjgzcfluoeyxdljvvtdplvrvcgtqbkq0elbgn0i4uvjvsji1rzntogtkngpau2dot3nuedvrmfu5cwjfltzzdkx1uu9hndrxmvf2rfhfwdrvwklwm1psdlrfmnjiy3fkegcyrm1svk1ueejymtu4sl9asljet280nldyovpptkdyu3hnzgf0n1vmnfrir1j2stvvtdlmsjvowf9hwgpzwjjvt21otedua1vtu1rn0ghmaufvx3lxtfbnd1f2ddlyn0qxsfpnrnrvaffmv29hbmxzt1njzxh0bjzjt1zvytiyvi1oall3z3fetfg1sxmycwhvy3d4meeyvu5nuzlgnelzytezzujhtwnynjdcvgttaxfhshhjv0fdr3howjrptvpsaff1b0v4su1tsdlirnhpuxqtvm1vshfnbmxmwhdns0vvndvqeuftwgitqwhprevls2gzbvjvovr0vg40ukfsmfgwz1pfzzztcxhnze9iuza2us1mmexdv2dfug?oc=5": {
 "date": "2026-10-11",
 "first_seen": "2026-10-11",
@@ -18253,6 +19418,11 @@
 "nw:news.google.com/rss/articles/cbmixwfbvv95cuxpzke3cdh1ewxtdznxnzm1zjblrm1nvfi0vglsx25tsm5nanm3mfpuuhlongqwotljzejldwjjbnnuvfzfdw1hqwzcrkc0rkk1ujnlnvk4tlv0cva5dwnpd1m3smtknxn6nlnbt1bxzdrxetrsd245ude3sm5ommprqxh5rwjpejnfskf4uxj1mznqrhp4nkhku3vldepnt1p6yvljtxfjturjzkoxx2zpx2o0yurxt3v3ehcxctfvyjktanrswxrn?oc=5": {
 "date": "2026-10-10",
 "first_seen": "2026-10-10",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmixwfbvv95cuxqbwlidejpsmtwouvevujxsmjqsmnzztc1nu9voe9rugrjc2o4nla2x0qxx09czvzratvhrlytnvlqzu9owjitv0e1yxgzq0rhtzriwxhfsfm4mfp5vgnlemvmaddgqtvjahzgv1vpqjhwvlhas2dsme9fcniwwwm0t3cyczfpwup2egnkmzk2yvf5tm9mwdhvblzttkwzzmtswvrvzfjlvuldcmletgktc2ndy3rxmmh3ywfscnywrnvksmg5nwhn?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmixwfbvv95cuxqcgxpoujuqw9nzlvkrvj4cu9fvwjgyktjzvd5cs10y2dpq3hndy1krxhfqkr4t2q1efpab293zmtfdjhpcurptnlec3jwt1pwavzmlw5wtkwzvxr0dzbydze3z0cxz0rjcexbchzgakpyz1vqqvk2mk95y2j1otcyzlzfouhzr0hszwjmwjfqtwvkykhyyug5auteu18wam5lemphmhljrnvkadazt3disdetvmdqmdrqyjgwwgn2zvjrcm1mcup30ghmaufvx3lxte4xzufobzd2uxv6chgwcelhaedxnnltnu5mbmjfnhyzohflqwjxnudfwdeyq1hizwdzqknnqkdmwwzosjrksnj0aln0vk9kwfpuzmhtqwc5mw0xythjbljatzdhzffcwdn6n1bkn1kwqkprrwlpbhnkcwnryxfhz0v4elaxwwxzvdhauwzetvhma25ntzhetc14b0fpzha2r2xtck5dy3zusfzqx3dbx08yquxqaflwuhfoy0xjwjbnzjvotfzrthldbuexsg?oc=5": {
@@ -18405,6 +19575,11 @@
 "first_seen": "2026-10-12",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmiygfbvv95cuxqempltmmysxjyewzft2vjdwrscmjxy3focg9hnxjnrddws014lw41yuxrzjvnvxqxdgpusvpjnvvqdegwzlnlsfzmoutmx0k0uzhxtzvcwvbkcghltvphme9hexhwanutwgpqtxfzyu5oahdtwdrtvfp5tnzkutdkrwsyvw1rvwpbwlham2vhx3fjewdpqzqws25fsejdbthgyu15mjvzn2jsrzlyujc5bzawm2phzhp2dgrrs2tqmlhqtuhewfb0ymhn?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmiygfbvv95cuxqls16ogzdlxzjc1fluuv1ngy1blzmq3rtmw1obvbadhflmg9fru1wbzd2x2ner1zvm0zuajftddq0c0dwwmxlzwtrqlqwotbjuc0yszzjvfvnmetgweh5znk4uvpgque2atrmuzrfv1lnykj1dnk1t1etcthvsm85wedxnfu1bmpvejn5wlr2twzlm0rtdhzitxjqdhrjduo0vnvxaxrortd1uhzhmehywjn0nmxkowphz0pbaegzc2thwgzvevnnrmnb?oc=5": {
 "date": "2026-10-14",
 "first_seen": "2026-10-14",
@@ -18445,6 +19620,11 @@
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmiykfvx3lxtfbmnhzcvwrsr2rkcghhnkfmbw03twvbvjvcm3fkq3fob21mbl9uwulknfzqn0lxynfzof9oagnpsnfondziwnnfwkvdeev5c0ptnfp4zw92yvrloevxn1dade9n?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmiywfbvv95cuxnaktjceexegf2zmdrm292vultogsywjzxowmwrkvrnxvhmnp3etjotzvouuvlnmhune1rwew2wfr0c3lfnmp0n3dszy1py3rdewxonnhuodzlm3hjqjq2rnhtz3hrdutmqxcwqmlbqkxkx0ljulvcvutnogd6eunjmgpzndlkb2zkumktyzvzvvpuu1juwnbfc1lkv25vddjmcws4wxl4tlhfdw4zsthct2xomwhylw9fwm5osnllcev1zk9mymc5cwtjma?oc=5": {
 "date": "2026-10-14",
 "first_seen": "2026-10-14",
@@ -18480,6 +19660,11 @@
 "first_seen": "2026-10-05",
 "status": "rejected"
 },
+"nw:news.google.com/rss/articles/cbmiywfbvv95cuxqx3lvz0n6dxpyvk1seenyu1c0a1hyblfoqkzfshrrewlhyxowwljgcwkwluhimgdtuvrxovjwy3demmjibu1rvgjnnkvtn1jrrepnsdl6vgd5t0dwv21vx2dylw9wthbsm1etdmn5alhpsdvfn1lqzhfizg9jvwtvd0jos0xgm3rsm1rhemrhddeymvlvdzmxvfi4qwrzthgtyjh2qjqzzmjps1vpzvjyu0rfeuj4cs1ca0n4nla0cmfutxffmzk3y290zw?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:news.google.com/rss/articles/cbmiywfbvv95cuxqzk1ndfoyddbwbhjiywu3r3jsltkxtfzwajiylu4tu0kzc2xktmfen05vwxbdngvomtbldvvtmwhsstytt3ftvwpomjhnqzb5agrhqndmumnxrhj0t3lyythnm25xnm44egnwv0hnoud0mvm2ujjpcw9zdzctse9tbhrfywjjctv1dehrodv5znu5bg9dc0ktehkycmtnuwxlltf4ei1oeufxthboc0nkoxy4qwnfq0tpttbomuvownlpvvv6dlvlsthevq?oc=5": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
@@ -18488,6 +19673,11 @@
 "nw:news.google.com/rss/articles/cbmiz0fvx3lxte0xeevqoxjrmfpfd0mzm2tieghzyvztmnrpqwn0quxvakg2yllws0ppq21onxviewnnyvptvffrawrsrth2tknomxbxmuzfzi1um2fnwjzuvndnskvkend3dk56dv9wskk?oc=5": {
 "date": "2026-10-13",
 "first_seen": "2026-10-13",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmiz0fvx3lxte12cnjnmddzbnfumfpurdlhs1ntzwp5uwvtr0dgbgxgmzhruzbndtbxtzhzwxronehqce1stlu4mzhmz1jwdjgzwmrkota4ugreyw8wmf9foezktg5qa2fvswnac1otdgs?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmiz0fvx3lxte1ubnqxtzzntdf6cgrgrgpqdhdotvlmzm53eup5luuxz05jb25kmzl3bxlftwpcou1fvm9jztb2luviqtrmwhnobnhbr1q1rdryekrpulzswtvxrwnpzdvyskp0zxvncmc?oc=5": {
@@ -18538,6 +19728,11 @@
 "nw:news.google.com/rss/articles/cbmiz0fvx3lxtfa0rkxrae52ownqtxnqchztb0wxn2gtu3zjrg0xmdrac0focwtbumldywjnctnjd1jhyxdrdwzix1llejcytkkza2rsqullntbbsufithkznemwuflsoxhrblhgavq2v0e?oc=5": {
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
+"status": "rejected"
+},
+"nw:news.google.com/rss/articles/cbmiz0fvx3lxtfaxmmvrskrbujn6wwkwqllormxlvzhsn04zsei2bznttvhpuep4auo4ywp2txpzuujhnwcyls1ydwlddffdzdhxdzu5ew05ahhcv2m3vlltrlrjr0zvr1i1m1fxyujzlve?oc=5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:news.google.com/rss/articles/cbmiz0fvx3lxtfbinmx3t2dkovv3ztryredvne9atwf5yvgwvujhci1jyvc4rfpbcmvtb01mstjoewpvaehrmkzwrnposksyce5nbvltoc1qc1bhu2xlvnk0sddfexjnrdc5lw1uwvztufu?oc=5": {
@@ -18790,6 +19985,11 @@
 "first_seen": "2026-10-15",
 "status": "reported"
 },
+"nw:newsletter.pragmaticengineer.com/p/whats-the-roi-of-software-engineers": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
 "nw:newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x": {
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
@@ -18808,6 +20008,11 @@
 "nw:nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html": {
 "date": "2026-10-05",
 "first_seen": "2026-10-05",
+"status": "rejected"
+},
+"nw:oneusefulthing.org/p/30-months-on-the-exponential-in-charts": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:openai.com/index/advancing-computer-use-with-ironclad": {
@@ -18885,6 +20090,11 @@
 "first_seen": "2026-10-06",
 "status": "rejected"
 },
+"nw:openai.com/index/openai-to-acquire-orchestra-bio": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:openai.com/index/oracle": {
 "date": "2026-10-09",
 "first_seen": "2026-10-09",
@@ -18930,9 +20140,19 @@
 "first_seen": "2026-10-16",
 "status": "rejected"
 },
+"nw:openai.com/index/ted-taylor-restaurant": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:openai.com/index/teens-learn-and-plan": {
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
+"status": "rejected"
+},
+"nw:openai.com/index/terminal-x": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:openai.com/index/the-eus-next-chapter-in-ai-is-agentic": {
@@ -18953,6 +20173,11 @@
 "nw:pdftomp3.com/connect-ai": {
 "date": "2026-10-14",
 "first_seen": "2026-10-14",
+"status": "rejected"
+},
+"nw:peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:penguin-mail.com": {
@@ -18985,6 +20210,11 @@
 "first_seen": "2026-10-15",
 "status": "rejected"
 },
+"nw:projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:pulseos.finance": {
 "date": "2026-10-14",
 "first_seen": "2026-10-14",
@@ -19013,6 +20243,11 @@
 "nw:respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
+"status": "rejected"
+},
+"nw:reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14": {
@@ -19163,6 +20398,16 @@
 "nw:simonwillison.net/2026/oct/19/my-obituary-for-programming": {
 "date": "2026-10-20",
 "first_seen": "2026-10-20",
+"status": "rejected"
+},
+"nw:simonwillison.net/2026/oct/20/battledrones": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:simonwillison.net/2026/oct/20/emudhra-certificates": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:simonwillison.net/2026/oct/3/default-hard-budget-caps": {
@@ -20035,6 +21280,86 @@
 "first_seen": "2026-10-20",
 "status": "rejected"
 },
+"nw:techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card": {
 "date": "2026-10-10",
 "first_seen": "2026-10-10",
@@ -20180,6 +21505,16 @@
 "first_seen": "2026-10-10",
 "status": "reported"
 },
+"nw:the-decoder.de/cloudflares-clairic-soll-daten-schneller-und-guenstiger-auslesen-als-llms": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:the-decoder.de/deepinfer-deepseek-gibt-die-betriebssoftware-hinter-seinem-schnellen-ki-modell-frei": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
 "nw:the-decoder.de/deepmind-forscher-sehen-ki-zukunft-in-agentenschwaermen-statt-in-einer-super-ki": {
 "date": "2026-10-05",
 "first_seen": "2026-10-05",
@@ -20193,6 +21528,11 @@
 "nw:the-decoder.de/deepseeks-naechste-finanzierungsrunde-wohl-groesser-als-geplant-boersengang-anfang-2027": {
 "date": "2026-10-07",
 "first_seen": "2026-10-07",
+"status": "rejected"
+},
+"nw:the-decoder.de/elevenlabs-stellt-eleven-realtime-vor-speech-to-speech-modelle-mit-unter-einer-sekunde-latenz": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:the-decoder.de/embeddinggemma-2-googles-kleinstes-embedding-modell-schlaegt-doppelt-so-grosse-konkurrenz": {
@@ -20380,6 +21720,11 @@
 "first_seen": "2026-10-20",
 "status": "reported"
 },
+"nw:the-decoder.de/mistral-ai-stellt-voxtral-3-vor-neue-sprachmodelle-sollen-echtzeit-sprachagenten-ermoeglichen": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
 "nw:the-decoder.de/mistral-large-4-soll-das-staerkste-offene-ki-modell-aus-europa-und-den-usa-sein": {
 "date": "2026-10-07",
 "first_seen": "2026-10-07",
@@ -20460,6 +21805,11 @@
 "first_seen": "2026-10-05",
 "status": "rejected"
 },
+"nw:the-decoder.de/openai-chef-altmans-radikalstes-ki-szenario-ein-einzelnes-unternehmen-schmilzt-die-gpus-aller-anderen-ein": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:the-decoder.de/openai-deckt-russische-und-iranische-einflussoperationen-auf-und-sperrt-beteiligte-chatgpt-konten": {
 "date": "2026-10-10",
 "first_seen": "2026-10-10",
@@ -20469,6 +21819,11 @@
 "date": "2026-10-18",
 "first_seen": "2026-10-18",
 "status": "reported"
+},
+"nw:the-decoder.de/openai-macht-gpt-6-fit-fuer-alte-programmiersprachen-wie-cobol-und-fortran": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
 },
 "nw:the-decoder.de/openai-mitgruender-ueber-ki-fortschritt-die-oeffentlichkeit-kennt-nur-die-vorschau": {
 "date": "2026-10-13",
@@ -20590,6 +21945,16 @@
 "first_seen": "2026-10-06",
 "status": "rejected"
 },
+"nw:the-decoder.de/us-armee-will-ki-agenten-als-autonome-cyberwaffen-gegen-gegner-losschicken": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:the-decoder.de/us-heimatschutzministerium-verbannt-deepseek-aus-zivilen-bundesbehoerden": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:the-decoder.de/vier-gemini-4-argon-agenten-spielen-minecraft-ohne-menschliche-hilfe-durch": {
 "date": "2026-10-19",
 "first_seen": "2026-10-19",
@@ -20638,6 +22003,11 @@
 "nw:theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5u_uzutothfwxspxtvnvah7eswtomrd6xnbxmc5wga": {
 "date": "2026-10-05",
 "first_seen": "2026-10-05",
+"status": "rejected"
+},
+"nw:thebeliever.net/the-other-epidemic": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1": {
@@ -20705,6 +22075,11 @@
 "first_seen": "2026-10-16",
 "status": "rejected"
 },
+"nw:thenewstack.io/ai-commoditizes-software-value": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:thenewstack.io/ai-data-lakes-storage": {
 "date": "2026-10-09",
 "first_seen": "2026-10-09",
@@ -20726,7 +22101,7 @@
 "status": "rejected"
 },
 "nw:thenewstack.io/ai-sre-agent-autonomy-phases": {
-"date": "2026-10-09",
+"date": "2026-10-21",
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
@@ -20768,6 +22143,11 @@
 "nw:thenewstack.io/autonomous-cloud-context-layer": {
 "date": "2026-10-09",
 "first_seen": "2026-10-09",
+"status": "rejected"
+},
+"nw:thenewstack.io/beam-mac-mini-agents": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:thenewstack.io/becoming-an-ai-company": {
@@ -20820,6 +22200,11 @@
 "first_seen": "2026-10-10",
 "status": "rejected"
 },
+"nw:thenewstack.io/cloudflare-rust-typescript-tsrs": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
 "nw:thenewstack.io/cloudflare-voidzero-void-vibe-coding": {
 "date": "2026-10-17",
 "first_seen": "2026-10-17",
@@ -20845,10 +22230,20 @@
 "first_seen": "2026-10-05",
 "status": "rejected"
 },
+"nw:thenewstack.io/datadog-propolis-agentic-testing": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:thenewstack.io/decision-models-system-one": {
 "date": "2026-10-10",
 "first_seen": "2026-10-10",
 "status": "reported"
+},
+"nw:thenewstack.io/deepseek-deepinfer-huawei-nvidia": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
 },
 "nw:thenewstack.io/deepseek-web-search-api": {
 "date": "2026-10-20",
@@ -20868,6 +22263,11 @@
 "nw:thenewstack.io/dynatrace-arize-ai-observability": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
+"status": "rejected"
+},
+"nw:thenewstack.io/elevenlabs-voice-agent-tradeoffs": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:thenewstack.io/gemini-4-argon-live": {
@@ -21000,6 +22400,11 @@
 "first_seen": "2026-10-16",
 "status": "reported"
 },
+"nw:thenewstack.io/open-model-benchmarks-production": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:thenewstack.io/open-source-ai-kubernetes": {
 "date": "2026-10-07",
 "first_seen": "2026-10-07",
@@ -21058,6 +22463,16 @@
 "nw:thenewstack.io/red-hat-guardrail-benchmark": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
+"status": "rejected"
+},
+"nw:thenewstack.io/respan-rust-ai-gateway": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"nw:thenewstack.io/review-decisions-not-code": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:thenewstack.io/rogue-ai-agent-fleet-tencent": {
@@ -21365,6 +22780,11 @@
 "first_seen": "2026-10-20",
 "status": "rejected"
 },
+"nw:theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
 "nw:theverge.com/column/1005697/we-cant-just-change-the-definition-of-recording": {
 "date": "2026-10-07",
 "first_seen": "2026-10-07",
@@ -21388,6 +22808,11 @@
 "nw:theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
+"status": "rejected"
+},
+"nw:theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:theverge.com/games/1004418/capcom-ai-game-development": {
@@ -21603,6 +23028,21 @@
 "nw:theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites": {
 "date": "2026-10-18",
 "first_seen": "2026-10-18",
+"status": "rejected"
+},
+"nw:theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"nw:theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"nw:theverge.com/tech/1014999/google-gemini-ai-cars-android-auto": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
 "status": "rejected"
 },
 "nw:tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model": {
@@ -54364,57 +55804,1974 @@
 "date": "2026-10-20",
 "first_seen": "2026-10-20",
 "status": "rejected"
+},
+"rd:t3_1xajfgh": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xajjao": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xajvz6": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xak0tb": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xak880": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xak9ks": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xak9u9": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaki84": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xakl7o": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaknz5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xakpl1": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xakrd7": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaku71": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xakuaz": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xakw2a": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xakw9m": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xakwro": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaky06": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xakzfm": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xal2kc": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xal2xh": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xal38m": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xal7sc": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xal893": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xald86": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaldfw": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xalh1z": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"rd:t3_1xalj26": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xalksg": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xallxv": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaluos": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xalwou": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xalzpa": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xam9hz": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xamefr": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xamf6u": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xamhwt": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xamlnb": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xamphp": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xamrvy": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xamryy": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xamvzd": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xan1rt": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"rd:t3_1xan46y": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xan5ky": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xan65r": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xan9vx": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xana1l": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xandbj": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xandjx": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xanetz": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xangcv": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xanj5i": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xanm55": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xanm9s": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xanpeo": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xanr5c": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xanw5h": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xao1wy": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xao3ng": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xao5u5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xao716": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xao7kx": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaoa8h": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaoew5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaogds": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaohgp": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaoi6k": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaojci": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaomu1": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaoob5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaos52": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaot23": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaotg0": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaow4h": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaow6n": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaoxj7": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xap2aq": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"rd:t3_1xap9ha": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xapakf": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xapayu": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xapcja": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xapdfy": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xapgbp": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xapids": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xapj0y": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xapnx1": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xapon0": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaps2x": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xapsqs": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xapu35": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xapuea": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xapusg": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xapvvc": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"rd:t3_1xapyga": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xapytg": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xapz4n": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaq0vb": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaq1ts": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaq1yl": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaq2rq": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaqcgn": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaqj0d": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaqlya": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"rd:t3_1xaqqwc": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaqr7o": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaqrpg": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaqtdp": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaqtkn": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaqum8": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaqyzu": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xar0m0": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xar2yi": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xar9ha": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xara4q": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xarfxg": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xarm9a": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xarnm4": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xarnog": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xarq3w": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xarts0": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xarugt": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xarz3i": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xarz9e": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xarzjw": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xas4o6": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xas8mz": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xas9h8": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xasbmg": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaslfk": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"rd:t3_1xaslmh": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xasomp": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xasop5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xasp90": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"rd:t3_1xasq06": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xasr5x": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xassxy": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xasvfc": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xasvw7": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xasztg": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xat05a": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xat1rs": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xat6o7": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xat6wo": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xat7dv": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xat7xn": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xat8qq": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xat8xp": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xat9d5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xat9xe": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xata1o": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xata3l": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xatalr": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xatb44": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xatdkz": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xatebw": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xatedp": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xatejd": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xatgpc": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xatiyg": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xato0b": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"rd:t3_1xatwpw": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"rd:t3_1xatxqk": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"rd:t3_1xatzdk": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xau2yt": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xauanf": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaucgm": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xauekr": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xauf3s": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"rd:t3_1xauf4u": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xauhp8": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xauiqk": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xauqzz": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaur97": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xausmc": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xausvp": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xauuig": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xauyvr": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xav00t": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xav0au": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xav3jo": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xav42w": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xav73d": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xav92u": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xavf2t": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xavfzc": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xavgaj": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xavhns": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xavke4": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xavkjp": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xavljj": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xavny3": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xavo5m": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xavthu": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xavx10": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xavxig": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xavy8t": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xavzra": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaw2j5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaw2vt": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaw48m": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaw5hr": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaw6cy": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaw86t": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xawa17": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xawecs": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xawmjr": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xawuwy": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xawwg2": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xax2x8": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaxaea": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaxbp3": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaxcnq": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaxffx": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaxhe2": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaxm11": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaxm6m": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaxm6u": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaxmhn": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaxnz8": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaxozr": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaxp70": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaxv4z": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaxz80": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaxzqv": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xay01g": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xay69c": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xay9mi": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xayilj": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xayoa4": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaypur": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"rd:t3_1xayrln": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xayt9l": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"rd:t3_1xayter": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xayuo8": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xayy6s": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaz06x": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaz0fj": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaz1rx": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaz1ux": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaz5ur": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaz8i7": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaz9cs": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xaz9nc": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xazh3d": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xazko7": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xazqxz": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xazrvd": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xazs8l": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xazy8i": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb00lj": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb00ry": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb02ld": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb04oi": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb085y": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb08pw": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb0e47": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb0i3d": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb0nr9": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb0ntp": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb0p1f": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb0s4d": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb0ty2": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb0vez": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb0ycm": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb0z30": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb10z0": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb12pg": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb15rf": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb188l": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb1aqf": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb1css": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb1ef4": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb1gsb": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb1swy": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb1udi": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"rd:t3_1xb1vpl": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb1wk3": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb1xym": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb21yp": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb2833": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb2alp": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb2baa": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb2bs4": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb2cf6": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb2kyr": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb2oep": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb2ohc": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb2pme": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb2so3": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb2w0b": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb2xku": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb2y23": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb2zco": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb32yj": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb345g": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb34av": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb34h4": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"rd:t3_1xb39hj": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"rd:t3_1xb3ae5": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb3ars": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb3d18": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb3hgg": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb3k2l": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb3o5i": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb3orm": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb3wht": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb41jt": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb45bq": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb45s4": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb481m": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb4c0v": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb4cc4": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb4dgf": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb4eou": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb4mwr": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb4sjw": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb4uak": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb531c": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb58g9": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb5a4x": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb5ftl": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb5iu6": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb5j0e": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb5ts6": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb5y6q": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb5ytd": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb66ex": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb67yx": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb68pp": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb6bfc": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb6h8u": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb6iz8": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb6k9k": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb6kod": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb6zds": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
+},
+"rd:t3_1xb6zfo": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb6zkj": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb70r1": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb7284": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb73q4": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb783i": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb7a1x": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb7k73": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb7pue": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb7qtc": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb7rz2": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb7rz8": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb7sbl": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb7t0x": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb7vec": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb7vtp": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb7xiz": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb85jc": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb8gfc": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb8hly": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb8imr": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb8lnk": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb8qd0": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb8r4p": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb8tqj": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb8wi7": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb9391": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb96bs": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb9ax1": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb9d43": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb9j8g": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb9prz": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb9r6b": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xb9z8e": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xba832": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xba8sr": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbaepz": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbal1y": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbarjz": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbb4dr": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbbkuq": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbbnox": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbbxva": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbc00t": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbc5xv": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbc9og": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbcir1": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbcka3": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbcnrf": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbcq2y": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbcr04": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbcr6e": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbcrn3": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbcv7y": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbcvi9": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbd1hp": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "rejected"
+},
+"rd:t3_1xbdbig": {
+"date": "2026-10-21",
+"first_seen": "2026-10-21",
+"status": "reported"
 }
 },
 "titles": [
-{
-"date": "2026-10-13",
-"title": "Meta Muse Wonder: zwei Frontier-Modelle, Top drei in sechs von zehn Benchmarks"
-},
-{
-"date": "2026-10-13",
-"title": "Epic Games: „Kein handgeschriebener Code mehr“, Disney-Shooter verschoben"
-},
-{
-"date": "2026-10-13",
-"title": "Torvalds: Claude-Code-Patches verdreifachen Durchsatz bei kleinen Lesezugriffen"
-},
-{
-"date": "2026-10-13",
-"title": "Codex CLI installiert standardmäßig einen dauerhaften, selbstaktualisierenden Hintergrunddienst"
-},
-{
-"date": "2026-10-13",
-"title": "OpenCode 2.0: Terminal, Desktop und Web teilen sich einen gemeinsamen Dienst"
-},
-{
-"date": "2026-10-13",
-"title": "Fork-and-Flush: Agenten arbeiten besser, wenn man ihren Chat-Verlauf löscht"
-},
-{
-"date": "2026-10-13",
-"title": "Spotify: Mit KI mehr als doppelt so viele Änderungen pro Monat, Kontrollen angepasst"
-},
-{
-"date": "2026-10-13",
-"title": "LeadDev: KI-Code verursacht reale Produktionsausfälle"
-},
-{
-"date": "2026-10-13",
-"title": "AlphaProof Nexus löst neun Erdős-Probleme, Ergebnisse in Science peer-reviewed"
-},
-{
-"date": "2026-10-13",
-"title": "Sakana MASS: Selbstverbesserndes Modell, aber Fehler gehen leicht als Erfolg durch"
-},
-{
-"date": "2026-10-13",
-"title": "QGIS verhängt Moratorium für KI-Beiträge"
-},
-{
-"date": "2026-10-13",
-"title": "xAI bündelt Grok, Cursor und X Premium in „The X Subscription“"
-},
 {
 "date": "2026-10-14",
 "title": "Google veröffentlicht Gemini 4 Argon, aber unabhängige Benchmarks sehen es hinter Opus 5.5"
@@ -54742,6 +58099,50 @@
 {
 "date": "2026-10-20",
 "title": "OpenAI verbessert Coding in seltenen Programmiersprachen, auch COBOL-Migration"
+},
+{
+"date": "2026-10-21",
+"title": "DeepSeek veröffentlicht DeepInfer, seine interne Inference-Software, als Open Source"
+},
+{
+"date": "2026-10-21",
+"title": "Pragmatic Engineer: Was bringen die KI-Ausgaben von Entwicklern wirklich?"
+},
+{
+"date": "2026-10-21",
+"title": "GitHub startet Package-Firewall in der Public Preview"
+},
+{
+"date": "2026-10-21",
+"title": "Cloudflare treibt Rust-Portierung von TypeScript voran, geschrieben von Agenten"
+},
+{
+"date": "2026-10-21",
+"title": "Maxwell: Modell zwischen Code und Hardware soll Programme zur Laufzeit beschleunigen"
+},
+{
+"date": "2026-10-21",
+"title": "Mistral Voxtral 3: Sprachmodelle für Echtzeit-Sprachagenten"
+},
+{
+"date": "2026-10-21",
+"title": "Steam Next Fest: Spieler fordern „No AI“-Filter wegen Vibe-Coding-Flut"
+},
+{
+"date": "2026-10-21",
+"title": "Meta pausiert Teilen-Funktion in Muse, Chats waren öffentlich auffindbar"
+},
+{
+"date": "2026-10-21",
+"title": "ALTK-Evolve: Gelerntes Gedächtnis führt τ²-bench ohne Spitzenmodell an"
+},
+{
+"date": "2026-10-21",
+"title": "llm-d 1.0: IBM-gestütztes Framework für verteilte Inferenz erreicht Hauptversion"
+},
+{
+"date": "2026-10-21",
+"title": "Respan veröffentlicht Rust-KI-Gateway, nachdem ein LiteLLM-Upgrade zum Neustart zwang"
 }
 ],
 "urls": {
@@ -54791,8 +58192,11 @@
 "ghuntley.com/underclass": "2026-10-18",
 "github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot": "2026-10-14",
 "github.com/curvedinf/dev-skills": "2026-10-15",
+"github.com/deepseek-ai/deepinfer": "2026-10-21",
+"github.com/eagle-hq/eagle-4": "2026-10-21",
 "github.com/eokahya/claude-audits-quantum-gravity": "2026-10-20",
 "github.com/perplexityai/space": "2026-10-20",
+"github.com/pingdotgg/t3code/pull/20424/commits/35d1dc9a610ca5900d170d1174dfa5ef16f59b64": "2026-10-21",
 "huggingface.co/collections/jetbrains/mellum21": "2026-10-09",
 "huggingface.co/deepseek-ai/deepseek-v4.1-flash-1017": "2026-10-18",
 "huggingface.co/liquidai/lfm2.5-24b-a2b": "2026-10-14",
@@ -54813,6 +58217,7 @@
 "i.redd.it/8oqiiu6909vh1.png": "2026-10-14",
 "i.redd.it/8x7k2en6ffvh1.png": "2026-10-15",
 "i.redd.it/d4j3ywip3dwh1.png": "2026-10-20",
+"i.redd.it/eg6b7xjcjmwh1.png": "2026-10-21",
 "i.redd.it/f27ia14yyrvh1.jpeg": "2026-10-17",
 "i.redd.it/fibdhxdhtuuh1.gif": "2026-10-12",
 "i.redd.it/gg249jayw8vh1.png": "2026-10-14",
@@ -54829,6 +58234,7 @@
 "i.redd.it/srew5pra0ovh1.png": "2026-10-16",
 "i.redd.it/tvq6d9wz9mvh1.jpeg": "2026-10-16",
 "i.redd.it/ux2v3rt62gvh1.png": "2026-10-15",
+"i.redd.it/wi76citsokwh1.png": "2026-10-21",
 "i.redd.it/wsahdvsa39wh1.png": "2026-10-19",
 "i.redd.it/wxzcur82ssvh1.png": "2026-10-17",
 "i.redd.it/x2lzsosvlivh1.gif": "2026-10-15",
@@ -54864,12 +58270,14 @@
 "oneusefulthing.org/p/the-dot-and-the-swarm": "2026-10-04",
 "openai.com/index/eu-text-provenance": "2026-10-06",
 "openai.com/index/gpt-6-for-everyone": "2026-10-08",
+"openai.com/index/low-resource-programming-languages": "2026-10-21",
 "openai.com/index/practical-guide-building-gpt-6": "2026-10-04",
 "openai.com/index/sharing-ai-progress-in-mathematics": "2026-10-07",
 "phoronix.com/news/linus-torvalds-assoc-array": "2026-10-13",
 "platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices": "2026-10-06",
 "projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned": "2026-10-07",
 "pub.sakana.ai/mass": "2026-10-12",
+"red.anthropic.com/oss-scanner": "2026-10-21",
 "registerspill.thorstenball.com/p/ownership": "2026-10-05",
 "runtimewire.com/article/replit-anthropic-partnership-masad-claims": "2026-10-17",
 "scientificamerican.com/article/openais-blockbuster-navier-stokes-proof-isnt-what-we-thought-it-was": "2026-10-14",
@@ -54882,8 +58290,10 @@
 "survey.stackoverflow.co/2026": "2026-10-07",
 "techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead": "2026-10-11",
 "theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude": "2026-10-09",
+"tomshardware.com/software/linux/linus-torvalds-posts-his-first-llm-assisted-patch-to-the-linux-kernel-after-issuing-clear-pro-ai-directives-the-bossman-makes-use-of-ai-tooling-himself": "2026-10-21",
 "tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next": "2026-10-12",
 "tomshardware.com/tech-industry/artificial-intelligence/ai-agent-deletes-tv-shows-entire-edit-weeks-before-release-backup-failure-means-production-team-needs-to-re-edit": "2026-10-16",
+"tomshardware.com/tech-industry/artificial-intelligence/google-deepmind-claims-four-gemini-4-agents-beat-minecraft-in-27-hours-by-writing-2-783-programs-of-their-own-the-ai-team-died-605-times-on-easy-difficulty-and-ran-up-an-estimated-usd520-in-tokens": "2026-10-21",
 "unexcitedneurons.substack.com/p/i-used-openai-dots-as-an-agent-swarm": "2026-10-06",
 "v.redd.it/04tv1b2xogth1": "2026-10-05",
 "v.redd.it/0tez5y8i7guh1": "2026-10-10",

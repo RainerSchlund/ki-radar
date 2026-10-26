@@ -1,107 +1,107 @@
 {
- "date": "2026-10-25",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-25.html",
+ "date": "2026-10-26",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-26.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 8,
-  "headline": "Kimi K3.1 Pro im Fokus, Harness-Studie dämpft Agenten-Aufwand, Google-Agent optimiert eigenen Code",
+  "count": 9,
+  "headline": "Anthropic rät zum Einzel-Agenten, Google und Meta öffnen TorchTPU, Agent-Hijacking per AGENTS.md",
   "top": [
    {
-    "title": "Aufwendige Harnesses machen Coding-Agenten teurer, aber nicht besser",
-    "what": "Eine kontrollierte Studie vergleicht Harnesses (Laufzeit-Umgebungen um ein Modell) wie Claude Code, OpenCode und mini-SWE-agent. Der Wechsel ändert die Erfolgsquote kaum stärker als eine bloße Wiederholung desselben Durchlaufs, die Kosten pro Aufgabe schwanken aber um das Dreifache, vor allem wegen des System-Prompts, der bei jedem Schritt mitgeschickt wird.",
+    "title": "Anthropic rät: ein Hauptagent statt vieler Subagenten",
+    "what": "Anthropic empfiehlt Unternehmen, Multi-Agent-Architekturen zugunsten eines einzelnen Hauptagenten aufzugeben, der Kontext bei Bedarf nachlädt. In einem Kundenfall habe sich die Geschwindigkeit verdoppelt; ein Migrations-Kit liegt auf GitHub.",
     "importance": 3
    },
    {
-    "title": "Kimi K3.1 Pro und schnelle Variante Highspeed erscheinen, 1M Kontext, offene Gewichte",
-    "what": "Moonshot AI stellt Kimi K3.1 Pro und eine Highspeed-Variante vor, laut Berichten mit rund 3 Billionen Parametern, 1 Million Token Kontext und offenen Gewichten. Latent Space nennt eine Highspeed-API mit 2–3-fachem Tempo; VentureBeat berichtet zugleich über Vorwürfe bezahlter Influencer-Werbung.",
+    "title": "Coding-Agenten per AGENTS.md im Downloads-Ordner gekapert",
+    "what": "BleepingComputer berichtet, dass KI-Coding-Agenten über eine in den Downloads-Ordner gelegte AGENTS.md-Datei gekapert werden konnten. Die Details gehen aus der Überschrift nicht hervor.",
     "importance": 3
    },
    {
-    "title": "Gemini 4 Argon optimiert über Nacht die 200.000-Zeilen-Codebasis des Google ADK",
-    "what": "Google beschreibt einen 11-stündigen, unbeaufsichtigten Lauf von Gemini 4 Argon auf dem Agent Development Kit. Zwei Optimierungen wurden akzeptiert: etwa 40 % weniger Overhead bei der Sitzungsvorbereitung in langen Sessions und 21 % schnellerer kalter Paketimport.",
+    "title": "Google und Meta machen TorchTPU als Open Source verfügbar",
+    "what": "Auf der PyTorch Conference 2026 haben Google und Meta TorchTPU veröffentlicht, ein natives PyTorch-Backend für Googles TPUs. Meta will größere LLM-Lasten damit auf TPUs verlagern; Entwickler fragen nach TPU-Verfügbarkeit und Lock-in.",
     "importance": 2
    },
    {
-    "title": "Google Data Agent Kit allgemein verfügbar: MCP-Tools und 37 Skills",
-    "what": "Das kostenlose Kit bündelt MCP-Tools und 37 Open-Source-Skills, die Coding-Agenten mit mehr als fünfzehn Google-Data-Cloud-Diensten verbinden. Es bringt zwei Arten von Leitplanken mit: Skills, die den Agenten bitten aufzuhören, und IAM-Deny-Richtlinien, die den Aufruf tatsächlich verweigern.",
+    "title": "OpenAI und Anthropic senken LLM-Preise um bis zu 80 Prozent",
+    "what": "Minimaxir fragt in einem viel diskutierten Beitrag (236 Punkte auf Hacker News), warum beide Anbieter ihre Preise binnen weniger Monate um bis zu 80 Prozent gesenkt haben. Ergänzend berichtet The Decoder von Rabatten bis 90 Prozent, mit denen OpenAI Anthropic-Kunden abwirbt.",
     "importance": 2
    },
    {
-    "title": "Corgi: Multiplexer für Agenten und Terminals mit Aktivitäts-Feed",
-    "what": "Show HN: Corgi ist ein Agent-Multiplexer nach dem Vorbild von Herdr, der zeigt, was die Agenten gerade tun, mit laufendem Aktivitäts-Feed und Kurztaste F1. Der Autor nutzt ihn seit einigen Wochen täglich.",
+    "title": "Google gibt Elephant-Goldfish-Plugin gegen KI-Codefehler frei",
+    "what": "Google hat das Elephant-Goldfish-Model-Plugin als Open Source veröffentlicht, mit dem seine Ingenieure Fehler von KI-Coding-Agenten aufspüren. Mehr geht aus der Überschrift nicht hervor.",
+    "importance": 2
+   },
+   {
+    "title": "Google ML Drift: offene GPU-Engine für KI-Inferenz auf Geräten",
+    "what": "Google hat ML Drift unter Apache 2.0 veröffentlicht, eine plattformübergreifende GPU-Rechenengine für Inferenz auf dem Gerät. Sie unterstützt OpenGL ES, OpenCL, Metal und WebGPU.",
     "importance": 1
    },
    {
-    "title": "Fünf Qwen3.8-27B-Modelle sollen mit GVS5H-Harness Fable 5 erreichen",
-    "what": "Ein GitHub-Projekt behauptet, dass fünf zusammengeschaltete Qwen3.8-27B-Modelle mit dem Harness GVS5H das Niveau von Fable 5 erreichen. Der Text liegt nur als Titel vor, Belege sind nicht prüfbar.",
-    "importance": 1
-   },
-   {
-    "title": "Raschka: 11-Stunden-Videokurs zum Bau von Reasoning-Modellen",
-    "what": "Sebastian Raschka veröffentlicht einen Videokurs mit über 11 Stunden Code zu Evaluation, Inference-Time-Scaling, Reinforcement Learning und Destillation, umgesetzt in Python und PyTorch.",
+    "title": "Cerebras betreibt Billionen-Parameter-Modelle",
+    "what": "Cerebras meldet den Einsatz von Modellen mit einer Billion Parametern auf seiner Hardware. Der Beitrag erreichte auf Hacker News 355 Punkte; Details liegen nicht vor.",
     "importance": 1
    }
   ]
  },
  "github": {
-  "count": 14,
-  "headline": "Agenten-Werkzeugkasten wächst: Sandbox, Dashboards und Gedächtnis im Trend",
+  "count": 15,
+  "headline": "Agenten-Skills, Harness-Werkzeuge und Memory-Server dominieren den Tag",
   "top": [
    {
-    "title": "vectorize-io/hindsight",
-    "what": "Hindsight ist ein Gedächtnis-System für Agenten, das laut Beschreibung aus Erfahrung lernt (\"Agent Memory That Learns\"). Es steht in Python vor und hat heute rund 330 neue Sterne.",
+    "title": "JetBrains/thinkrail",
+    "what": "`thinkrail` von JetBrains ist eine leichtgewichtige IDE, in der man mit dem Agenten `pi` programmiert und die sich nach eigener Beschreibung an den Arbeitsstil anpasst.",
     "importance": 3
    },
    {
-    "title": "anthropics/sandbox-runtime",
-    "what": "Das `sandbox-runtime` von Anthropic beschränkt Dateizugriff und Netzwerk beliebiger Prozesse auf Betriebssystem-Ebene, ohne dass ein Container nötig ist.",
-    "importance": 3
-   },
-   {
-    "title": "khanhtq29vn/contextcraft",
-    "what": "contextcraft komprimiert eine Codebasis für Sprachmodelle: Es liest den Code als Syntaxbaum, gewichtet Teile per Personalized PageRank und füllt ein festes Token-Budget mit den wichtigsten Stellen.",
+    "title": "Xenox-developer/invariant",
+    "what": "`invariant` bietet Coding-Agenten dauerhafte, isolierte Umgebungen (vergleichbar mit einem venv), in denen parallele Experimente laufen und gemeinsame Prüfungen geteilt werden können. Das Repo wurde vor wenigen Tagen angelegt, Topics fehlen.",
     "importance": 2
    },
    {
-    "title": "herdrdev/herdr",
-    "what": "herdr ist laut Beschreibung die Laufzeit-Umgebung, in der Coding-Agenten leben. Es ist in Rust geschrieben und verwaltet mehrere Agenten wie Claude Code und Codex.",
+    "title": "t3dotgg/tstack",
+    "what": "Die Sammlung `tstack` enthält die Agent-Skills, die Theo (t3dotgg) täglich nutzt, lauffähig mit Claude Code und Codex.",
     "importance": 2
    },
    {
-    "title": "Gaurav-Gosain/tuios",
-    "what": "tuios ist ein Terminal-Fenstermanager mit Kacheln, Workspaces und Sitzungen, die Neustarts überleben, plus einem gemeinsamen Eingang für alle Coding-Agenten.",
+    "title": "kdlbs/kandev",
+    "what": "`kandev` ist eine Kanban-Oberfläche und Entwicklungsumgebung, die mehrere Coding-Agenten verschiedener Anbieter orchestriert, Änderungen zur Prüfung vorlegt und Pull Requests öffnet. Selbst hostbar, ohne Telemetrie.",
+    "importance": 2
+   },
+   {
+    "title": "nightly-labs/openbot",
+    "what": "`openbot` ist ein lokaler Desktop-Arbeitsplatz für dauerhafte KI-Teammitglieder: Codex, Claude und Grok laufen mit eigenen Arbeitsbereichen, Aufgabenwarteschlangen, Dateiaustausch, Browsersteuerung und Zusammenarbeit der Agenten untereinander.",
     "importance": 2
    }
   ]
  },
  "reddit": {
-  "count": 10,
-  "headline": "Szene ringt mit Nutzungslimits und Kimi K3.1, DeepSeek V4.1 Flash zieht lokal Aufmerksamkeit; dazu Debatten über Agenten-Workflows und Benchmark-Aussagekraft.",
+  "count": 13,
+  "headline": "Szene diskutiert Nanbeige4.3-33B als neues offenes Modell, Opus-5.5-Qualität und Limits sowie Sicherheitsrisiken durch Agenten und Modelle",
   "top": [
    {
-    "title": "Simon Willison built a fun mobile RTS game with Claude Code over 321 agent commits and shares what he learned",
-    "what": "Simon Willison baute mit Claude Code in 321 Agent-Commits ein mobiles Echtzeitstrategiespiel (Battledrones) und beschreibt, was er dabei über die Arbeit mit Coding-Agenten gelernt hat.",
+    "title": "Nanbeige releases Nanbeige4.3-33B, an Apache 2.0 teacher model for smaller agents [N]",
+    "what": "Nanbeige veröffentlicht Nanbeige4.3-33B unter Apache 2.0 mit 512K Kontext, gedacht als Lehrermodell für kleinere Agenten (u. a. ein 3B-Modell). Laut Modellkarte 80,9 auf Terminal-Bench 2.1 gegenüber 73,0 für Qwen3.8-27B, gewinnt aber nicht überall (z. B. bei SWE-Bench Pro anders).",
     "importance": 3
    },
    {
-    "title": "Artificial Analysis Index is non-representative of real-world performance. Tested Kimi 3.1 Pro through OpenRouter, the number 4 model in AAI, it's not even close to MiMo 2.6 or DeepSeek 4.1 Flash",
-    "what": "Ein Nutzer testete Kimi 3.1 Pro über OpenRouter und findet es trotz Platz 4 im Artificial Analysis Index im Alltag deutlich schwächer als MiMo 2.6 oder DeepSeek 4.1 Flash; der Index sei leicht zu manipulieren.",
+    "title": "Opus 5.5 writes slop code, but succeeds anyways. A research project inspired by SlopCodeBench",
+    "what": "Ein Nutzer überträgt die Idee von SlopCodeBench (Agent erweitert schrittweise eigenen Code, gemessen werden strukturelle Erosion und Aufblähung) auf Opus 5.5. Titel: Opus 5.5 schreibe unsauberen Code, sei aber trotzdem erfolgreich.",
     "importance": 2
    },
    {
-    "title": "Kimi K3.1 removes cyberattack training data from open weight release",
-    "what": "Laut Reuters hat Moonshot für die Open-Weight-Veröffentlichung von Kimi K3.1 Trainingsdaten zu Cyberangriffen entfernt, offenbar wegen neuer chinesischer Exportregeln und wachsender Sicherheitsbedenken.",
+    "title": "Same game built twice: Opus alone vs Opus planning + local Qwen coding. 16 min vs 42 min, $2.52 vs $0.62",
+    "what": "Gleiches Spiel zweimal gebaut: Opus 5.5 allein (16 Min, 2,52 $) gegen Opus als Planer und Prüfer plus lokales Qwen 3.8 27B als Coder (42 Min, 0,62 $).",
     "importance": 2
    },
    {
-    "title": "model: DSV4.1 flash by am17an · Pull Request #31086 · ggml-org/llama.cpp",
-    "what": "DeepSeek-V4.1-Flash (763 Mrd. Parameter, Mixture-of-Experts, 1M Kontext) ist mit Tech Report erschienen; in llama.cpp gibt es bereits einen Pull Request für die Unterstützung.",
+    "title": "Stop paying to polish AGENTS.md / CLAUDE.md: keep it lean, move rules into hooks, and test it with 5 probe tasks",
+    "what": "Plädoyer, AGENTS.md/CLAUDE.md schlank zu halten, Regeln in Hooks zu verlagern und die Datei mit fünf Probeaufgaben zu testen; stützt sich nach eigenen Angaben auf die Dokumentation von Claude Code und Codex.",
     "importance": 2
    },
    {
-    "title": "Was Spec Driven Development a failure?",
-    "what": "In r/ExperiencedDevs fragt jemand, ob Spec-Driven Development (Spezifikationen vor dem Code, etwa mit Kiro) gescheitert ist, weil niemand tausende Specs sinnvoll reviewen kann.",
+    "title": "FixProof: Makes Codex prove a bug is actually fixed by checking if it comes back when the fix is reverted",
+    "what": "FixProof (Skill plus kleines Python-CLI) lässt Codex belegen, dass ein Fehler wirklich behoben ist, indem geprüft wird, ob er bei zurückgenommenem Fix wiederkehrt.",
     "importance": 2
    }
   ]

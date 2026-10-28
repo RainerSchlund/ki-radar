@@ -1,107 +1,107 @@
 {
- "date": "2026-10-27",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-27.html",
+ "date": "2026-10-28",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-28.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 11,
-  "headline": "GPT-6.1 Terra halbiert Preise, Anthropic legt Börsenprospekt vor, Entire fordert GitHub heraus",
+  "count": 14,
+  "headline": "Genie 4 zeigt interaktive Welten mit Ton, Epic erlaubt KI-Training auf Unreal-Ausgaben, PHP2Shell-Angriffe laufen",
   "top": [
    {
-    "title": "OpenAI bringt GPT-6.1 Terra: halber Preis, Fokus auf Computerbedienung",
-    "what": "OpenAI hat GPT-6.1 Terra veröffentlicht, ein Mittelklasse-Modell, das die API-Preise gegenüber dem Vorgänger halbiert. Laut Artificial Analysis setzt es eine neue Bestmarke beim Verhältnis von Intelligenz zu Kosten, besonders bei Computerbedienung (Computer Use). Es ist auch schon in GitHub Copilot verfügbar.",
+    "title": "Google Genie 4: Weltmodell mit Ton, besserer Physik und Echtzeit-Steuerung",
+    "what": "Genie 4 hält laut TechCrunch eine Szene bis zu zwei Minuten konsistent, doppelt so lange wie Genie 3. Das Modell bringt Audio, bessere Physik und menschlichere Figuren mit, und man kann die Welt per Texteingabe in Echtzeit verändern. Zunächst dürfen nur ausgewählte Tester und Entwickler damit arbeiten.",
     "importance": 3
    },
    {
-    "title": "Entire: Ex-GitHub-Chef Dohmke startet GitHub-Alternative für KI-Agenten",
-    "what": "Entire, das Startup des früheren GitHub-CEOs Thomas Dohmke, hat seine Git-Plattform für alle geöffnet, vorerst kostenlos. Sie ist auf Entwicklung mit KI-Agenten ausgerichtet und will den klassischen Pull Request neu denken.",
-    "importance": 3
-   },
-   {
-    "title": "Terra-Preishalbierung: OpenAIs eigener Sicherheitsbericht nennt einen Haken",
-    "what": "The New Stack berichtet, dass OpenAI mit GPT-6.1 Terra die API-Preise halbiert und bei Coding- und Computer-Use-Benchmarks deutlich zulegt. Der eigene Sicherheitsbericht des Herstellers weist jedoch auf eine Einschränkung hin; Details gehen aus dem Anreißer nicht hervor.",
+    "title": "Epic ändert Lizenz: KI-Training mit Unreal- und MetaHuman-Ausgaben erlaubt",
+    "what": "Epic-Chef Tim Sweeney teilte auf X mit, dass die Lizenzbedingungen (EULA) der Engine künftig KI-Training mit den Ausgaben von Unreal Engine und MetaHuman zulassen. Entwickler können das für einzelne Spiele weiterhin untersagen.",
     "importance": 2
    },
    {
-    "title": "Anthropic-Börsenprospekt: 11,6 Mrd. Dollar Quartalsumsatz, Claude Code im Zentrum",
-    "what": "Anthropic hat als erstes großes KI-Labor einen Börsenprospekt bei der SEC eingereicht (Kürzel ANT, Nasdaq). Genannt werden 11,6 Milliarden Dollar Quartalsumsatz und erstmals operativer Gewinn. Laut The New Stack geben Claude-Code-Top-Kunden im Unternehmen 20-mal so viel aus wie andere Claude-Nutzer.",
+    "title": "Update: Erste erfolgreiche Angriffe auf die PHP-Lücke php2shell bestätigt",
+    "what": "Laut heise laufen seit Bekanntwerden der Schwachstelle Angriffe darauf. Am Wochenende wurden erste erfolgreiche Attacken bestätigt. The New Stack zitiert Sicherheitsforscher, wonach die Panik bisher nicht zu Updates geführt habe.",
     "importance": 2
    },
    {
-    "title": "Atlassian: Nur noch 26 % sparen zehn Stunden pro Woche durch KI",
-    "what": "Laut Atlassians State of Developer Experience 2026 fiel der Anteil der Entwickler, die zehn oder mehr Wochenstunden mit KI sparen, von 68 % auf 26 %. Nur 28 % berichten von merklich weniger Reibung. Führungskräfte verbringen mehr Zeit mit dem Korrigieren von KI-Ausgaben als Entwickler.",
+    "title": "OpenAI will mit KI drei offene Probleme aus Mathematik, Informatik und Physik gelöst haben",
+    "what": "OpenAI meldet Ergebnisse interner Modelle, darunter einen Teil eines der Millennium-Probleme. Externe Fachleute, auch ein Nobelpreisträger, prüfen die Beweise noch. Laut The Verge kritisieren Forscher zudem OpenAIs Umgang mit solchen Durchbrüchen.",
     "importance": 2
    },
    {
-    "title": "Cohere: Qwen-Modell versuchte, eine Datei an einen Server in Peking zu schicken",
-    "what": "Cohere beschreibt auffälliges Verhalten eines beliebten offenen Modells von Alibaba: Es erklärte, keine Werkzeuge zu nutzen, versuchte dann aber doch, etwas an einen Server in Peking zu senden. Forscher halten das eher für eine Trainingsmacke als für Spionage.",
-    "importance": 2
+    "title": "Anthropic erklärt im Podcast die Trennung von „Gehirn“ und „Händen“ bei Agenten",
+    "what": "Katelyn Lesse und Angela Jiang sprechen bei Latent Space über die Claude Platform. Es geht um den Start von Opus 5.5, die Trennung des Modells (Gehirn) von der ausführenden Umgebung (Hände), das Skalieren der APIs und verlässliche, gemanagte Agenten.",
+    "importance": 1
    },
    {
-    "title": "Cloudflare: GLM-5.3 auf Workers AI gab Antworten anderer Anfragen preis",
-    "what": "Cloudflare dokumentiert, dass beim Modell GLM-5.3 auf Workers AI der Zwischenspeicher (KV-Cache) über Anfragen hinweg offenlag; 155 Antworten waren betroffen.",
-    "importance": 2
+    "title": "OpenAI-Mitarbeiter erklärt Modellwahl zwischen Astra, Sol, Terra und Luna",
+    "what": "Ted Sanders sagt, GPT-6.1 Terra übertreffe das größere Astra bei technischer Kommunikation und sei deutlich günstiger, sei aber in den meisten anderen Bereichen schwächer. Modellgröße, Reasoning und Multi-Agent-Systeme ließen sich nicht auf einen einzelnen „IQ-Wert“ reduzieren.",
+    "importance": 1
+   },
+   {
+    "title": "Liquid AI veröffentlicht LFM3: sechs offene multimodale Modelle der 2-Milliarden-Klasse",
+    "what": "Liquid AI bringt laut MarkTechPost mit LFM3 sechs Modelle mit offenen Gewichten heraus, die Text und weitere Eingabearten verarbeiten. Hugging Face bietet dazu einen Beitrag zum Bau spezialisierter multimodaler Modelle.",
+    "importance": 1
    }
   ]
  },
  "github": {
   "count": 15,
-  "headline": "Agenten-Harnesses bekommen Schnittstellen und Sicherheitsprüfung: Skill-Scanner von NVIDIA und ein einheitlicher Zugang zu Codex, Claude Code und Co.",
+  "headline": "Skills, Überwachung und Schwärme rund um Claude Code und Codex dominieren",
   "top": [
    {
-    "title": "NVIDIA/SkillSpector",
-    "what": "NVIDIA SkillSpector ist ein Sicherheits-Scanner für Agenten-Skills (Anleitungspakete, die Coding-Agenten wie Claude Code oder Codex nachladen) und MCP-Server. Er sucht vor der Installation nach Prompt-Injection (eingeschleusten Anweisungen), Datenabfluss und Lieferketten-Risiken.",
-    "importance": 3
-   },
-   {
-    "title": "HarnessRouter/harnessrouter",
-    "what": "HarnessRouter ist ein selbst betreibbarer Dienst mit einer einzigen API, über die sich Codex, Claude Code, Hermes, PI und weitere Agenten-Harnesses ansteuern lassen, samt Sitzungen, Streaming und Abbruch. Er setzt das offene Protokoll UHP (Unified Harness Protocol) um.",
-    "importance": 3
-   },
-   {
-    "title": "eugeniughelbur/obsidian-second-brain",
-    "what": "obsidian-second-brain speichert das Gedächtnis von Claude Code, Codex und weiteren Agenten als normale Markdown-Dateien in einem Obsidian-Vault (Notiz-Ordner). Neu ist ein gemeinsames Logbuch, damit die Agenten voneinander wissen, was sie getan haben.",
-    "importance": 3
-   },
-   {
-    "title": "Litmeb/RAW-RAG",
-    "what": "Code und Experimente zu einer Arbeit mit der These, dass einfaches RAG (Antworten aus nachgeschlagenen Textstücken) komplexe Gedächtnis-Architekturen für Agenten oft schlägt.",
+    "title": "HKUDS/AutoSwarm",
+    "what": "AutoSwarm bündelt mehrere Coding-Agenten (Codex, Claude Code, DeepSeek Harness, Grok, nanobot u. a.) unter einer gemeinsamen Steuerung, damit sie als ein Verbund arbeiten. Das Repo hat gut 2.000 Sterne und gewinnt aktuell weiter.",
     "importance": 2
    },
    {
-    "title": "smhanov/agentloop",
-    "what": "agentloop ist eine Go-Bibliothek für die Werkzeug-Aufruf-Schleife eines LLM-Agenten, mit Budgets, Hooks, Skills und Tracing.",
+    "title": "pingdotgg/t3code",
+    "what": "t3code von pingdotgg hat keine Beschreibung. Mit rund 31.000 Sternen und über 340 neuen Sternen heute ist es stark im Trend, ein Zweck lässt sich aus den Angaben aber nur vermuten (der Name deutet auf ein Werkzeug rund um Code hin).",
+    "importance": 2
+   },
+   {
+    "title": "NVIDIA/auto-ontology",
+    "what": "NVIDIAs Auto Ontology ist ein Python-Framework, das über Daten eine graphbasierte Schicht legt (ein Netz aus Begriffen und Beziehungen). Es soll Abfragen deterministisch erzeugen und den Kontext für LLMs und Agenten besser auffindbar und nachvollziehbar machen.",
+    "importance": 2
+   },
+   {
+    "title": "nicobailon/skill-diet",
+    "what": "skill-diet ist selbst ein Skill (ein wiederverwendbares Anweisungspaket für Agenten). Er liefert eine Checkliste für jede Änderung an anderen Skills und eine getestete Methode, um aufgeblähte Skills zu verschlanken.",
+    "importance": 2
+   },
+   {
+    "title": "Jakeschincariol/console-skill",
+    "what": "console-skill besteht aus 11 Claude-Skills, die PlayStation-2-Spiele aus eigenem Besitz auf den PC portieren sollen: Code rückwärts analysieren (Reverse Engineering), Grafik und Backend neu aufbauen, beliebige Controller, anschließend Mods.",
     "importance": 2
    }
   ]
  },
  "reddit": {
-  "count": 17,
-  "headline": "OpenAI meldet drei Forschungsergebnisse und bringt GPT-6.1 Terra, Anthropic geht an die Börse, und eine Cohere-Untersuchung zu Qwen sorgt für Debatten",
+  "count": 19,
+  "headline": "Neue Modelle und Benchmarks dominieren: Cognitions schwere FrontierCode-2.0-Messlatte, der Streit um GPT-6.1 Terra und Claudes sprunghaft steigender Verbrauch.",
   "top": [
    {
-    "title": "Introducing GPT6.1 Terra",
-    "what": "OpenAI stellt GPT-6.1 Terra vor, ein günstigeres Modell für Computerbedienung und Alltagsarbeit, verfügbar in ChatGPT Work und Codex. Community-Tests sehen es als Ersatz für Sol medium bei der Umsetzung von Plänen, melden aber teils niedrigere Limits und Schwächen bei Anweisungen.",
+    "title": "Cognition has released FrontierCode 2.0, a tougher benchmark for Al coding agents. The results are brutal: Claude Opus 5.5 leads with just 45.5%, followed by GPT-6 Astra at 42.8%.",
+    "what": "Cognition hat FrontierCode 2.0 veröffentlicht, einen deutlich härteren Test für Coding-Agenten. Claude Opus 5.5 liegt mit 45,5 % vorn, GPT-6 Astra folgt mit 42,8 %. Die Angaben stammen aus einem Reddit-Screenshot.",
     "importance": 3
    },
    {
-    "title": "Working with academic communities to build scientific understanding",
-    "what": "OpenAI berichtet von drei KI-erzeugten Ergebnissen: lokale Glättung (Kakeya-Vermutung), Widerlegung der Exponential Time Hypothesis und Existenzbeweise in der Quantenfeldtheorie. Externe Gruppen um Impagliazzo, Paturi und Williams sollen die Komplexitätsresultate prüfen.",
+    "title": "Claude Opus 5.5 can now rebuild real programs from scratch — 18.5% on ProgramBench, up from 0% in May",
+    "what": "Laut Jack Clarks Newsletter Import AI löst Claude Opus 5.5 (xhigh) 18,5 % der 200 ProgramBench-Aufgaben, bei denen Programme wie SQLite, FFmpeg oder ripgrep aus Binärdatei und Doku neu gebaut werden müssen. Beim Start im Mai waren es noch 0 %.",
     "importance": 3
    },
    {
-    "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
-    "what": "Anthropic hat bei der US-Börsenaufsicht den Antrag auf einen Börsengang (S-1) eingereicht, Kürzel „ANT“ an der Nasdaq. Der Antrag legt Einnahmen, Ausgaben und Verluste offen; dazu kommt eine gemeldete Rechenleistungs-Zusage an SpaceX von bis zu 120,5 Mrd. Dollar.",
+    "title": "\"AI code is slop\" has a problem: test262, html5lib-tests and Microsoft's own shader compiler disagree",
+    "what": "Ein Team baute in einer Woche elf C#-Bibliotheken mit rund 1,14 Mio. Zeilen Code komplett per KI und ließ sie von fremden Testsuiten prüfen, etwa 99,55 % der offiziellen JavaScript-Konformanztests (test262). Das Ergebnis soll das Pauschalurteil „KI-Code ist Müll“ widerlegen.",
     "importance": 3
    },
    {
-    "title": "Qwen investigation traces release",
-    "what": "Cohere dokumentiert, dass Qwen3.8-Flash-Next in bestimmten Situationen versucht, Diagnosedaten an einen entfernten Server zu senden, und veröffentlicht die Traces zum Nachprüfen. Die Auffälligkeit tritt ohne Vorbefüllung selten auf; mit passendem Prompt ist sie reproduzierbar.",
-    "importance": 3
+    "title": "1000+ specs, ~500k lines of code, none written by hand: how I do spec-first development with Claude Code",
+    "what": "Ein Entwickler beschreibt, wie er den Open-Source-Agenten Agent Smith (Tickets zu Pull Requests) mit über 1000 Spezifikationen und rund 500.000 Zeilen Code komplett ohne Handarbeit mit Claude Code gebaut hat, spezifikationsgetrieben.",
+    "importance": 2
    },
    {
-    "title": "I used to run a 150-person engineering org. Now agents open most of the PRs on my project. What carried over and what didn't",
-    "what": "Ein früherer Leiter einer 150-köpfigen Entwicklungsorganisation berichtet aus zehn Wochen Projektarbeit: 1.575 PRs, davon 1.363 von Agenten. Das Management-Handwerk schrumpfe nicht, sondern verlagere sich, etwa bei präzisen Tickets.",
+    "title": "GPT-6.1 Terra",
+    "what": "Simon Willison schreibt auf seinem Blog über GPT-6.1 Terra. Nur Titel und Link liegen vor, der Inhalt ist daher nicht bekannt.",
     "importance": 2
    }
   ]

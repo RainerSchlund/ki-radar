@@ -1,107 +1,107 @@
 {
- "date": "2026-10-28",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-28.html",
+ "date": "2026-10-29",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-29.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 14,
-  "headline": "Genie 4 zeigt interaktive Welten mit Ton, Epic erlaubt KI-Training auf Unreal-Ausgaben, PHP2Shell-Angriffe laufen",
+  "count": 11,
+  "headline": "Gemini 4 Carbon an der Spitze, GitHub Universe bringt Copilot Fusion und Agent-Werkzeuge, Epic setzt KI im Unreal-Code ein",
   "top": [
    {
-    "title": "Google Genie 4: Weltmodell mit Ton, besserer Physik und Echtzeit-Steuerung",
-    "what": "Genie 4 hält laut TechCrunch eine Szene bis zu zwei Minuten konsistent, doppelt so lange wie Genie 3. Das Modell bringt Audio, bessere Physik und menschlichere Figuren mit, und man kann die Welt per Texteingabe in Echtzeit verändern. Zunächst dürfen nur ausgewählte Tester und Entwickler damit arbeiten.",
+    "title": "Gemini 4 Carbon: Googles neues Spitzenmodell führt den Intelligence Index v5",
+    "what": "Nur zwei Wochen nach Gemini 4 Argon veröffentlicht Google DeepMind Gemini 4 Carbon, das mit 59 Punkten den Artificial Analysis Intelligence Index v5 anführt. Es zielt auf lange Agenten-Workflows und Cyberabwehr; der Zugang ist zunächst auf vertrauenswürdige Verteidiger beschränkt.",
     "importance": 3
    },
    {
-    "title": "Epic ändert Lizenz: KI-Training mit Unreal- und MetaHuman-Ausgaben erlaubt",
-    "what": "Epic-Chef Tim Sweeney teilte auf X mit, dass die Lizenzbedingungen (EULA) der Engine künftig KI-Training mit den Ausgaben von Unreal Engine und MetaHuman zulassen. Entwickler können das für einzelne Spiele weiterhin untersagen.",
+    "title": "GitHub Copilot Fusion: Modellwahl und Orchestrierung automatisch, jetzt allgemein verfügbar",
+    "what": "Copilot Fusion wählt und kombiniert pro Aufgabe selbst die Modelle, statt dass der Nutzer eines festlegt. Laut The New Stack schlägt das System Claude Code bei halben API-Kosten; eine experimentelle Vorschau routet auch zwischen lokalen und Cloud-Modellen.",
+    "importance": 3
+   },
+   {
+    "title": "Epic: KI-Code-Werkzeuge beseitigen jahrealte Cooking-Bugs in der Unreal Engine",
+    "what": "Ein Epic-VP bestätigt nach dem KI-Pivot, dass KI-Werkzeuge am Unreal-Engine-Code mitarbeiten und alte, nicht deterministische Fehler im Cooking (Aufbereitung der Spielinhalte) behoben haben.",
     "importance": 2
    },
    {
-    "title": "Update: Erste erfolgreiche Angriffe auf die PHP-Lücke php2shell bestätigt",
-    "what": "Laut heise laufen seit Bekanntwerden der Schwachstelle Angriffe darauf. Am Wochenende wurden erste erfolgreiche Attacken bestätigt. The New Stack zitiert Sicherheitsforscher, wonach die Panik bisher nicht zu Updates geführt habe.",
+    "title": "Android Studio öffnet sich für über 40 fremde Coding-Agenten",
+    "what": "Über „Bring Your Own Agent“ laufen in Android Studio mehr als 40 Agenten, darunter Claude und Codex. Neue Terminal-Werkzeuge sollen UI-Aufgaben laut Google 77 Prozent schneller und mit bis zu dreimal weniger Tokens erledigen.",
     "importance": 2
    },
    {
-    "title": "OpenAI will mit KI drei offene Probleme aus Mathematik, Informatik und Physik gelöst haben",
-    "what": "OpenAI meldet Ergebnisse interner Modelle, darunter einen Teil eines der Millennium-Probleme. Externe Fachleute, auch ein Nobelpreisträger, prüfen die Beweise noch. Laut The Verge kritisieren Forscher zudem OpenAIs Umgang mit solchen Durchbrüchen.",
+    "title": "GitHub Octoverse 2026: Merged Pull Requests haben sich verdreifacht",
+    "what": "GitHub nennt im Octoverse-Bericht eine Verdreifachung der gemergten Pull Requests 2026; heise meldet 3,5 Millionen Merges pro Tag, TypeScript bleibt die populärste Sprache. The New Stack berichtet von 7,4 Milliarden Commits im September.",
     "importance": 2
    },
    {
-    "title": "Anthropic erklärt im Podcast die Trennung von „Gehirn“ und „Händen“ bei Agenten",
-    "what": "Katelyn Lesse und Angela Jiang sprechen bei Latent Space über die Claude Platform. Es geht um den Start von Opus 5.5, die Trennung des Modells (Gehirn) von der ausführenden Umgebung (Hände), das Skalieren der APIs und verlässliche, gemanagte Agenten.",
-    "importance": 1
+    "title": "Microsoft Copilot-Harness im Foundry Agent Service",
+    "what": "Microsoft stellt einen einheitlichen Harness (Laufzeitumgebung um das Modell) für Agenten in Foundry vor. BornCity nennt eine um bis zu 47 Prozentpunkte höhere Genauigkeit.",
+    "importance": 2
    },
    {
-    "title": "OpenAI-Mitarbeiter erklärt Modellwahl zwischen Astra, Sol, Terra und Luna",
-    "what": "Ted Sanders sagt, GPT-6.1 Terra übertreffe das größere Astra bei technischer Kommunikation und sei deutlich günstiger, sei aber in den meisten anderen Bereichen schwächer. Modellgröße, Reasoning und Multi-Agent-Systeme ließen sich nicht auf einen einzelnen „IQ-Wert“ reduzieren.",
-    "importance": 1
-   },
-   {
-    "title": "Liquid AI veröffentlicht LFM3: sechs offene multimodale Modelle der 2-Milliarden-Klasse",
-    "what": "Liquid AI bringt laut MarkTechPost mit LFM3 sechs Modelle mit offenen Gewichten heraus, die Text und weitere Eingabearten verarbeiten. Hugging Face bietet dazu einen Beitrag zum Bau spezialisierter multimodaler Modelle.",
-    "importance": 1
+    "title": "GitHub Agentic Workflows allgemein verfügbar",
+    "what": "Das Open-Source-Projekt von GitHub Next automatisiert denkintensive Aufgaben wie Issue-Triage, Analyse fehlgeschlagener CI-Läufe und Doku-Updates. Dazu kommen gemeinsam nutzbare Copilot Automations für Teams.",
+    "importance": 2
    }
   ]
  },
  "github": {
-  "count": 15,
-  "headline": "Skills, Überwachung und Schwärme rund um Claude Code und Codex dominieren",
+  "count": 20,
+  "headline": "Agenten bekommen Aufsicht, Gedächtnis und Werkzeugkästen: Orchestrierung, Memory und Skills dominieren",
   "top": [
    {
-    "title": "HKUDS/AutoSwarm",
-    "what": "AutoSwarm bündelt mehrere Coding-Agenten (Codex, Claude Code, DeepSeek Harness, Grok, nanobot u. a.) unter einer gemeinsamen Steuerung, damit sie als ein Verbund arbeiten. Das Repo hat gut 2.000 Sterne und gewinnt aktuell weiter.",
+    "title": "ParadevAI/Paradev",
+    "what": "Eine Entwicklungsumgebung (Paradev, früher Superset), die viele Coding-Agenten wie Claude Code oder Codex parallel steuert. Jeder Agent läuft mit dem eigenen Abo des Nutzers.",
+    "importance": 3
+   },
+   {
+    "title": "macro-inc/macro",
+    "what": "Ein gemeinsamer Arbeitsplatz für Teams (Mail, Chat, Dokumente, Aufgaben, Agenten, CRM), in dem alles per @​-Verweis verknüpft ist und ein gemeinsames KI-Gedächtnis darüber liegt. In Rust geschrieben.",
     "importance": 2
    },
    {
-    "title": "pingdotgg/t3code",
-    "what": "t3code von pingdotgg hat keine Beschreibung. Mit rund 31.000 Sternen und über 340 neuen Sternen heute ist es stark im Trend, ein Zweck lässt sich aus den Angaben aber nur vermuten (der Name deutet auf ein Werkzeug rund um Code hin).",
+    "title": "cocoindex-io/cocoindex",
+    "what": "Eine Engine, die Daten nur inkrementell (nur das Geänderte) neu verarbeitet und so Agenten mit langen Laufzeiten aktuellen Kontext liefert. Themen laut Repo: Codebase-Intelligenz und Context Engineering.",
     "importance": 2
    },
    {
-    "title": "NVIDIA/auto-ontology",
-    "what": "NVIDIAs Auto Ontology ist ein Python-Framework, das über Daten eine graphbasierte Schicht legt (ein Netz aus Begriffen und Beziehungen). Es soll Abfragen deterministisch erzeugen und den Kontext für LLMs und Agenten besser auffindbar und nachvollziehbar machen.",
+    "title": "oceanbase/seekdb",
+    "what": "Eine Datenbank (seekdb von OceanBase), die Vektor-, Volltext- und strukturierte Daten in einer Engine vereint und ausdrücklich als Speicher für Agenten gedacht ist. Läuft auch eingebettet.",
     "importance": 2
    },
    {
-    "title": "nicobailon/skill-diet",
-    "what": "skill-diet ist selbst ein Skill (ein wiederverwendbares Anweisungspaket für Agenten). Er liefert eine Checkliste für jede Änderung an anderen Skills und eine getestete Methode, um aufgeblähte Skills zu verschlanken.",
-    "importance": 2
-   },
-   {
-    "title": "Jakeschincariol/console-skill",
-    "what": "console-skill besteht aus 11 Claude-Skills, die PlayStation-2-Spiele aus eigenem Besitz auf den PC portieren sollen: Code rückwärts analysieren (Reverse Engineering), Grafik und Backend neu aufbauen, beliebige Controller, anschließend Mods.",
+    "title": "DAgogo04/gogo-agent",
+    "what": "Ein lokaler Agent-Harness (die Laufzeit-Umgebung um ein Modell) in Python mit Agent-Loop, Memory und Evaluation. Das Projekt betont, dass man ihn selbst besitzt. Mit 55 Sternen noch sehr jung.",
     "importance": 2
    }
   ]
  },
  "reddit": {
-  "count": 19,
-  "headline": "Neue Modelle und Benchmarks dominieren: Cognitions schwere FrontierCode-2.0-Messlatte, der Streit um GPT-6.1 Terra und Claudes sprunghaft steigender Verbrauch.",
+  "count": 17,
+  "headline": "Gemini 4 Carbon schiebt Google an die Spitze eines Benchmark-Rankings, während ein Schwarm Agenten 15.000 Seiten Gruppentheorie formalisiert und Simon Willison den Oktober als Wendepunkt für Spiele-Entwicklung mit Coding-Agenten beschreibt.",
   "top": [
    {
-    "title": "Cognition has released FrontierCode 2.0, a tougher benchmark for Al coding agents. The results are brutal: Claude Opus 5.5 leads with just 45.5%, followed by GPT-6 Astra at 42.8%.",
-    "what": "Cognition hat FrontierCode 2.0 veröffentlicht, einen deutlich härteren Test für Coding-Agenten. Claude Opus 5.5 liegt mit 45,5 % vorn, GPT-6 Astra folgt mit 42,8 %. Die Angaben stammen aus einem Reddit-Screenshot.",
+    "title": "Simon Willison on the October inflection point for vibe game development with coding agents",
+    "what": "Simon Willison beschreibt in einem Blogpost, wie weit das 'Vibe Coding' von Spielen mit Coding-Agenten inzwischen gekommen ist, und sieht im Oktober einen Wendepunkt. Der Text stammt von einem Entwickler, der kein Spieleentwickler ist, und ist daher eine Außensicht mit Praxisbezug.",
     "importance": 3
    },
    {
-    "title": "Claude Opus 5.5 can now rebuild real programs from scratch — 18.5% on ProgramBench, up from 0% in May",
-    "what": "Laut Jack Clarks Newsletter Import AI löst Claude Opus 5.5 (xhigh) 18,5 % der 200 ProgramBench-Aufgaben, bei denen Programme wie SQLite, FFmpeg oder ripgrep aus Binärdatei und Doku neu gebaut werden müssen. Beim Start im Mai waren es noch 0 %.",
+    "title": "An agent swarm formalized the 15,000-page classification of finite simple groups in 24 days — the bottleneck was the checker, not the models",
+    "what": "Axiom hat die Klassifikation der endlichen einfachen Gruppen (rund 15.000 Seiten Mathematik) in 24 Tagen mit einem Schwarm von Agenten in Lean formalisiert: 43,1 Millionen Zeilen, koordiniert über GitHub-Issues und Slack. Der Bericht betont, dass der Engpass nicht die Modelle waren, sondern das Prüfprogramm, das die Beweise abnahm, und enthält ein Fehlerprotokoll.",
     "importance": 3
    },
    {
-    "title": "\"AI code is slop\" has a problem: test262, html5lib-tests and Microsoft's own shader compiler disagree",
-    "what": "Ein Team baute in einer Woche elf C#-Bibliotheken mit rund 1,14 Mio. Zeilen Code komplett per KI und ließ sie von fremden Testsuiten prüfen, etwa 99,55 % der offiziellen JavaScript-Konformanztests (test262). Das Ergebnis soll das Pauschalurteil „KI-Code ist Müll“ widerlegen.",
+    "title": "Gemini 4 Carbon",
+    "what": "Google DeepMind hat Gemini 4 Carbon vorgestellt; laut mehreren Beiträgen steht es auf Platz 1 des neuen Artificial-Analysis-Index v5. Die Quelle ist ein Screenshot eines Beitrags von Google DeepMind auf X, Details zu Preis und Leistung sind hier nicht erkennbar.",
     "importance": 3
    },
    {
-    "title": "1000+ specs, ~500k lines of code, none written by hand: how I do spec-first development with Claude Code",
-    "what": "Ein Entwickler beschreibt, wie er den Open-Source-Agenten Agent Smith (Tickets zu Pull Requests) mit über 1000 Spezifikationen und rund 500.000 Zeilen Code komplett ohne Handarbeit mit Claude Code gebaut hat, spezifikationsgetrieben.",
+    "title": "AA is getting ridiculous now. Zero open weights in the Most Attractive Quadrant.",
+    "what": "In der lokalen KI-Szene wird kritisiert, dass der Artificial-Analysis-Index in Version 5 keine Modelle mit offenen Gewichten mehr im attraktivsten Quadranten führt. Mehrere Beiträge (r114, r116, r129) suchen Alternativen, eine Liste für kleine Modelle hat Artificial Analysis bereits aufgegeben und misst jetzt die Effizienz des KV-Caches.",
     "importance": 2
    },
    {
-    "title": "GPT-6.1 Terra",
-    "what": "Simon Willison schreibt auf seinem Blog über GPT-6.1 Terra. Nur Titel und Link liegen vor, der Inhalt ist daher nicht bekannt.",
+    "title": "Release dates to not get fooled by benchmaxxing",
+    "what": "Ein Nutzer hat die Veröffentlichungsdaten der im Artificial-Analysis-Index verwendeten Benchmarks recherchiert und argumentiert, dass Tests, die älter als drei bis vier Monate sind, durch gezieltes Optimieren auf die Aufgaben ('Benchmaxxing') nicht mehr aussagekräftig seien.",
     "importance": 2
    }
   ]

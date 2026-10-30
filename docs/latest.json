@@ -1,107 +1,71 @@
 {
- "date": "2026-10-29",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-29.html",
+ "date": "2026-10-30",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-30.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 11,
-  "headline": "Gemini 4 Carbon an der Spitze, GitHub Universe bringt Copilot Fusion und Agent-Werkzeuge, Epic setzt KI im Unreal-Code ein",
-  "top": [
-   {
-    "title": "Gemini 4 Carbon: Googles neues Spitzenmodell führt den Intelligence Index v5",
-    "what": "Nur zwei Wochen nach Gemini 4 Argon veröffentlicht Google DeepMind Gemini 4 Carbon, das mit 59 Punkten den Artificial Analysis Intelligence Index v5 anführt. Es zielt auf lange Agenten-Workflows und Cyberabwehr; der Zugang ist zunächst auf vertrauenswürdige Verteidiger beschränkt.",
-    "importance": 3
-   },
-   {
-    "title": "GitHub Copilot Fusion: Modellwahl und Orchestrierung automatisch, jetzt allgemein verfügbar",
-    "what": "Copilot Fusion wählt und kombiniert pro Aufgabe selbst die Modelle, statt dass der Nutzer eines festlegt. Laut The New Stack schlägt das System Claude Code bei halben API-Kosten; eine experimentelle Vorschau routet auch zwischen lokalen und Cloud-Modellen.",
-    "importance": 3
-   },
-   {
-    "title": "Epic: KI-Code-Werkzeuge beseitigen jahrealte Cooking-Bugs in der Unreal Engine",
-    "what": "Ein Epic-VP bestätigt nach dem KI-Pivot, dass KI-Werkzeuge am Unreal-Engine-Code mitarbeiten und alte, nicht deterministische Fehler im Cooking (Aufbereitung der Spielinhalte) behoben haben.",
-    "importance": 2
-   },
-   {
-    "title": "Android Studio öffnet sich für über 40 fremde Coding-Agenten",
-    "what": "Über „Bring Your Own Agent“ laufen in Android Studio mehr als 40 Agenten, darunter Claude und Codex. Neue Terminal-Werkzeuge sollen UI-Aufgaben laut Google 77 Prozent schneller und mit bis zu dreimal weniger Tokens erledigen.",
-    "importance": 2
-   },
-   {
-    "title": "GitHub Octoverse 2026: Merged Pull Requests haben sich verdreifacht",
-    "what": "GitHub nennt im Octoverse-Bericht eine Verdreifachung der gemergten Pull Requests 2026; heise meldet 3,5 Millionen Merges pro Tag, TypeScript bleibt die populärste Sprache. The New Stack berichtet von 7,4 Milliarden Commits im September.",
-    "importance": 2
-   },
-   {
-    "title": "Microsoft Copilot-Harness im Foundry Agent Service",
-    "what": "Microsoft stellt einen einheitlichen Harness (Laufzeitumgebung um das Modell) für Agenten in Foundry vor. BornCity nennt eine um bis zu 47 Prozentpunkte höhere Genauigkeit.",
-    "importance": 2
-   },
-   {
-    "title": "GitHub Agentic Workflows allgemein verfügbar",
-    "what": "Das Open-Source-Projekt von GitHub Next automatisiert denkintensive Aufgaben wie Issue-Triage, Analyse fehlgeschlagener CI-Läufe und Doku-Updates. Dazu kommen gemeinsam nutzbare Copilot Automations für Teams.",
-    "importance": 2
-   }
-  ]
+  "count": 0,
+  "headline": "Keine neuen Kandidaten.",
+  "top": []
  },
  "github": {
   "count": 20,
-  "headline": "Agenten bekommen Aufsicht, Gedächtnis und Werkzeugkästen: Orchestrierung, Memory und Skills dominieren",
+  "headline": "Agenten telefonieren, chatten untereinander und tummeln sich in Minecraft – und Sicherheit rückt nach",
   "top": [
    {
-    "title": "ParadevAI/Paradev",
-    "what": "Eine Entwicklungsumgebung (Paradev, früher Superset), die viele Coding-Agenten wie Claude Code oder Codex parallel steuert. Jeder Agent läuft mit dem eigenen Abo des Nutzers.",
+    "title": "Donchitos/Claude-Code-Game-Studios",
+    "what": "Eine Sammlung für Claude Code, die ein Spielestudio nachbildet: 49 Agenten-Rollen und 72 Workflow-Skills (wiederverwendbare Arbeitsanweisungen), angeordnet wie die Hierarchie in einem echten Studio.",
     "importance": 3
    },
    {
-    "title": "macro-inc/macro",
-    "what": "Ein gemeinsamer Arbeitsplatz für Teams (Mail, Chat, Dokumente, Aufgaben, Agenten, CRM), in dem alles per @​-Verweis verknüpft ist und ein gemeinsames KI-Gedächtnis darüber liegt. In Rust geschrieben.",
+    "title": "huggingface/safeagents",
+    "what": "Ein Projekt von Hugging Face, mit dem sich Agenten mit beliebiger Coding-Harness (Laufzeit-Umgebung um das Modell) sicher ausführen lassen. Laut Topics geht es um Sicherheit; Details gibt die Beschreibung nicht her.",
+    "importance": 3
+   },
+   {
+    "title": "milind-soni/OpenMausBot",
+    "what": "Eine quelloffene Alternative zum Grok-Bot, ausgestattet mit einer virtuellen Maschine, die der Bot selbst bedienen kann (Computer Use).",
+    "importance": 3
+   },
+   {
+    "title": "agent-substrate/substrate",
+    "what": "Der Kern des Systems 'Agent Substrate', laut Topics zu Agenten und Sandboxing (abgeschottete Ausführungsumgebungen), mit gut 5.900 Sternen und 50 neuen heute.",
     "importance": 2
    },
    {
-    "title": "cocoindex-io/cocoindex",
-    "what": "Eine Engine, die Daten nur inkrementell (nur das Geänderte) neu verarbeitet und so Agenten mit langen Laufzeiten aktuellen Kontext liefert. Themen laut Repo: Codebase-Intelligenz und Context Engineering.",
-    "importance": 2
-   },
-   {
-    "title": "oceanbase/seekdb",
-    "what": "Eine Datenbank (seekdb von OceanBase), die Vektor-, Volltext- und strukturierte Daten in einer Engine vereint und ausdrücklich als Speicher für Agenten gedacht ist. Läuft auch eingebettet.",
-    "importance": 2
-   },
-   {
-    "title": "DAgogo04/gogo-agent",
-    "what": "Ein lokaler Agent-Harness (die Laufzeit-Umgebung um ein Modell) in Python mit Agent-Loop, Memory und Evaluation. Das Projekt betont, dass man ihn selbst besitzt. Mit 55 Sternen noch sehr jung.",
+    "title": "hydro-project/infinity",
+    "what": "Eine in Rust geschriebene Laufzeit samt Tool-Protokoll für 'prinzipielle Agenten-Nebenläufigkeit', also dafür, dass viele Agenten und Tool-Aufrufe geordnet parallel laufen. Kommt aus dem Hydro-Projekt (verteilte Systeme).",
     "importance": 2
    }
   ]
  },
  "reddit": {
-  "count": 17,
-  "headline": "Gemini 4 Carbon schiebt Google an die Spitze eines Benchmark-Rankings, während ein Schwarm Agenten 15.000 Seiten Gruppentheorie formalisiert und Simon Willison den Oktober als Wendepunkt für Spiele-Entwicklung mit Coding-Agenten beschreibt.",
+  "count": 16,
+  "headline": "Mistral Large 4 geht als offenes 1-Billionen-Modell raus, Qwen4 steht vor der Tür – und Anbieter-Updates, Benchmark-Streit und Agenten-Alltag bestimmen die Debatte.",
   "top": [
    {
-    "title": "Simon Willison on the October inflection point for vibe game development with coding agents",
-    "what": "Simon Willison beschreibt in einem Blogpost, wie weit das 'Vibe Coding' von Spielen mit Coding-Agenten inzwischen gekommen ist, und sieht im Oktober einen Wendepunkt. Der Text stammt von einem Entwickler, der kein Spieleentwickler ist, und ist daher eine Außensicht mit Praxisbezug.",
+    "title": "mistralai/Mistral-Large-4-1T-A52B · Hugging Face",
+    "what": "Mistral veröffentlicht Mistral Large 4 mit offenen Gewichten: ein natives multimodales Mixture-of-Experts-Modell mit 1 Billion Parametern, davon rund 49–52 Milliarden pro Token aktiv. GGUF-Quantisierungen von ggml-org und unsloth liegen bereits vor.",
     "importance": 3
    },
    {
-    "title": "An agent swarm formalized the 15,000-page classification of finite simple groups in 24 days — the bottleneck was the checker, not the models",
-    "what": "Axiom hat die Klassifikation der endlichen einfachen Gruppen (rund 15.000 Seiten Mathematik) in 24 Tagen mit einem Schwarm von Agenten in Lean formalisiert: 43,1 Millionen Zeilen, koordiniert über GitHub-Issues und Slack. Der Bericht betont, dass der Engpass nicht die Modelle waren, sondern das Prüfprogramm, das die Beweise abnahm, und enthält ein Fehlerprotokoll.",
+    "title": "Why you can't trust cloud API endpoints: 40 days of coding-agent telemetry showing the exact day providers silently overwrote deepseek-v4.1-flash with -1017 (\"faster execution, shorter answers\" = 3x more swearing and 6.7x more model switches)",
+    "what": "Ein Nutzer wertet 40 Tage lokale Sitzungslogs seines Coding-Agenten aus und verortet den Qualitätsknick von deepseek-v4.1-flash auf das Update -1017 vom 17. Oktober: mehr aggressive Tool-Aufrufe, deutlich mehr Fluchen und Modellwechsel. Die Zahlen stammen aus einem einzelnen Setup.",
     "importance": 3
    },
    {
-    "title": "Gemini 4 Carbon",
-    "what": "Google DeepMind hat Gemini 4 Carbon vorgestellt; laut mehreren Beiträgen steht es auf Platz 1 des neuen Artificial-Analysis-Index v5. Die Quelle ist ein Screenshot eines Beitrags von Google DeepMind auf X, Details zu Preis und Leistung sind hier nicht erkennbar.",
+    "title": "10 coding agents, one Qwen 3.8 27B, same llama-server: tokens and cache reuse differ more than pass rates",
+    "what": "Zehn Coding-Agenten laufen mit demselben Qwen 3.8 27B auf demselben llama-server, bei fünf kleinen Aufgaben mit je einer Falle. Die Bestehensquoten liegen nah beieinander, Tokenverbrauch und Cache-Wiederverwendung unterscheiden sich deutlich.",
     "importance": 3
    },
    {
-    "title": "AA is getting ridiculous now. Zero open weights in the Most Attractive Quadrant.",
-    "what": "In der lokalen KI-Szene wird kritisiert, dass der Artificial-Analysis-Index in Version 5 keine Modelle mit offenen Gewichten mehr im attraktivsten Quadranten führt. Mehrere Beiträge (r114, r116, r129) suchen Alternativen, eine Liste für kleine Modelle hat Artificial Analysis bereits aufgegeben und misst jetzt die Effizienz des KV-Caches.",
+    "title": "New AA intelligence index v5 with “Private tests” conveniently upranks GPT, Google’s models, while open weights chinese models downrank",
+    "what": "Der neue Artificial-Analysis-Intelligence-Index v5 führt private Tests auf nicht öffentlichen Datensätzen ein; offene chinesische Modelle fallen dadurch zurück, Googles neues Gemini 4 Carbon steht an der Spitze. Kritiker halten das für intransparent. Dazu passt der Beitrag zur aktualisierten HLE-Diamond-Wertung (r79).",
     "importance": 2
    },
    {
-    "title": "Release dates to not get fooled by benchmaxxing",
-    "what": "Ein Nutzer hat die Veröffentlichungsdaten der im Artificial-Analysis-Index verwendeten Benchmarks recherchiert und argumentiert, dass Tests, die älter als drei bis vier Monate sind, durch gezieltes Optimieren auf die Aufgaben ('Benchmaxxing') nicht mehr aussagekräftig seien.",
+    "title": "Google unveils Gemini 4 Carbon, a cybersecurity-focused frontier model — and vetted defenders get it first",
+    "what": "Google stellt Gemini 4 Carbon vor, ein auf Cybersicherheit und lange Engineering-Aufgaben ausgerichtetes Modell, das zuerst an geprüfte Verteidiger geht. Genannt werden 88,2 % auf SEC-bench Pro, 54,8 % auf ExploitGym und 71,0 % auf CWE-bench – Herstellerangaben.",
     "importance": 2
    }
   ]

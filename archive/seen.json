@@ -91,7 +91,7 @@
 "status": "reported"
 },
 "gh:78/xiaozhi-esp32": {
-"date": "2026-10-17",
+"date": "2026-10-30",
 "first_seen": "2026-10-10",
 "status": "rejected"
 },
@@ -216,9 +216,9 @@
 "status": "reported"
 },
 "gh:agent-substrate/substrate": {
-"date": "2026-10-15",
+"date": "2026-10-30",
 "first_seen": "2026-10-04",
-"status": "rejected"
+"status": "reported"
 },
 "gh:agentblazo/blazo": {
 "date": "2026-10-04",
@@ -238,6 +238,11 @@
 "gh:agentmemoryrepo/agentmemoryrepo": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
+"status": "reported"
+},
+"gh:agentscope-ai/qwenpaw": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
 "status": "reported"
 },
 "gh:agentskills/agentskills": {
@@ -445,6 +450,11 @@
 "first_seen": "2026-10-27",
 "status": "rejected"
 },
+"gh:andyhuo520/vibe-knowledge": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
 "gh:angular/angular": {
 "date": "2026-10-11",
 "first_seen": "2026-10-11",
@@ -465,6 +475,11 @@
 "first_seen": "2026-10-15",
 "status": "reported"
 },
+"gh:ansible/ansible": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
 "gh:ansub/tv-detox": {
 "date": "2026-10-19",
 "first_seen": "2026-10-19",
@@ -476,9 +491,9 @@
 "status": "reported"
 },
 "gh:anthropics/claude-code-action": {
-"date": "2026-10-20",
+"date": "2026-10-30",
 "first_seen": "2026-10-20",
-"status": "rejected"
+"status": "reported"
 },
 "gh:anthropics/claude-plugins-official": {
 "date": "2026-10-15",
@@ -840,10 +855,20 @@
 "first_seen": "2026-10-29",
 "status": "reported"
 },
+"gh:bansheeelf/rpocket-team-jkriver": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
 "gh:basketikun/infinite-canvas": {
 "date": "2026-10-25",
 "first_seen": "2026-10-25",
 "status": "rejected"
+},
+"gh:bearisbug/imbo": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
 },
 "gh:beeradmoore/dlss-swapper": {
 "date": "2026-10-17",
@@ -1195,6 +1220,11 @@
 "first_seen": "2026-10-05",
 "status": "reported"
 },
+"gh:chenisan/13soul-storyboard-studio": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
 "gh:chenxiachan/paperfold": {
 "date": "2026-10-06",
 "first_seen": "2026-10-06",
@@ -1241,7 +1271,7 @@
 "status": "reported"
 },
 "gh:chthollyphile/folia-major": {
-"date": "2026-10-13",
+"date": "2026-10-30",
 "first_seen": "2026-10-06",
 "status": "rejected"
 },
@@ -1249,6 +1279,11 @@
 "date": "2026-10-17",
 "first_seen": "2026-10-17",
 "status": "rejected"
+},
+"gh:chutingyean/agent-cockpit": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
 },
 "gh:cilium/cilium": {
 "date": "2026-10-17",
@@ -1266,7 +1301,7 @@
 "status": "rejected"
 },
 "gh:clash-verge-rev/clash-verge-rev": {
-"date": "2026-10-05",
+"date": "2026-10-30",
 "first_seen": "2026-10-05",
 "status": "rejected"
 },
@@ -1380,6 +1415,11 @@
 "first_seen": "2026-10-26",
 "status": "rejected"
 },
+"gh:copilotkit/copilotkit": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
 "gh:copilotkit/openbot": {
 "date": "2026-10-23",
 "first_seen": "2026-10-23",
@@ -1476,7 +1516,7 @@
 "status": "rejected"
 },
 "gh:cysharp/unitask": {
-"date": "2026-10-08",
+"date": "2026-10-30",
 "first_seen": "2026-10-08",
 "status": "rejected"
 },
@@ -1610,6 +1650,11 @@
 "first_seen": "2026-10-22",
 "status": "reported"
 },
+"gh:defold/defold": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
 "gh:denissergeevitch/ex-ussr-kinship-research": {
 "date": "2026-10-26",
 "first_seen": "2026-10-26",
@@ -1700,13 +1745,18 @@
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
+"gh:dji-sdk/cloud-api-2": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
 "gh:dmnote-app/dmnote": {
 "date": "2026-10-19",
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
 "gh:docker/compose": {
-"date": "2026-10-11",
+"date": "2026-10-30",
 "first_seen": "2026-10-11",
 "status": "rejected"
 },
@@ -1740,6 +1790,11 @@
 "first_seen": "2026-10-21",
 "status": "reported"
 },
+"gh:donchitos/claude-code-game-studios": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
 "gh:dongnguyenvie/bashcut": {
 "date": "2026-10-05",
 "first_seen": "2026-10-05",
@@ -1771,7 +1826,7 @@
 "status": "rejected"
 },
 "gh:dotnet/runtime": {
-"date": "2026-10-23",
+"date": "2026-10-30",
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
@@ -1956,7 +2011,7 @@
 "status": "rejected"
 },
 "gh:electron/electron": {
-"date": "2026-10-23",
+"date": "2026-10-30",
 "first_seen": "2026-10-23",
 "status": "rejected"
 },
@@ -2516,7 +2571,7 @@
 "status": "reported"
 },
 "gh:gitleaks/gitleaks": {
-"date": "2026-10-16",
+"date": "2026-10-30",
 "first_seen": "2026-10-07",
 "status": "rejected"
 },
@@ -2561,7 +2616,7 @@
 "status": "rejected"
 },
 "gh:godotengine/godot": {
-"date": "2026-10-20",
+"date": "2026-10-30",
 "first_seen": "2026-10-20",
 "status": "rejected"
 },
@@ -2663,6 +2718,11 @@
 "gh:google/gvisor": {
 "date": "2026-10-22",
 "first_seen": "2026-10-05",
+"status": "rejected"
+},
+"gh:google/or-tools": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
 "status": "rejected"
 },
 "gh:google/perfetto": {
@@ -2876,7 +2936,7 @@
 "status": "rejected"
 },
 "gh:hashicorp/terraform": {
-"date": "2026-10-14",
+"date": "2026-10-30",
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
@@ -2913,6 +2973,11 @@
 "gh:heitorcarvalhohlbryzeis6-cloud/whatsapp-mcp-server": {
 "date": "2026-10-26",
 "first_seen": "2026-10-26",
+"status": "rejected"
+},
+"gh:hellko63421/rpocket-team-elden-ring": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
 "status": "rejected"
 },
 "gh:helloianneo/ian-xhs-carousel": {
@@ -3085,6 +3150,11 @@
 "first_seen": "2026-10-26",
 "status": "rejected"
 },
+"gh:huggingface/safeagents": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
 "gh:huggingface/transformers": {
 "date": "2026-10-11",
 "first_seen": "2026-10-11",
@@ -3140,6 +3210,11 @@
 "first_seen": "2026-10-17",
 "status": "rejected"
 },
+"gh:hydro-project/infinity": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
 "gh:hyj-star/voiceshell-muse-bridge": {
 "date": "2026-10-04",
 "first_seen": "2026-10-04",
@@ -3148,6 +3223,11 @@
 "gh:hypersniper05/mcp-image-generator-uncensored": {
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
+"status": "rejected"
+},
+"gh:hypery11/flipper-tesla-fsd": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
 "status": "rejected"
 },
 "gh:i12bp8/decomp.wtf": {
@@ -3300,10 +3380,20 @@
 "first_seen": "2026-10-12",
 "status": "rejected"
 },
+"gh:jackc/pgx": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
 "gh:jackett/jackett": {
 "date": "2026-10-26",
 "first_seen": "2026-10-06",
 "status": "rejected"
+},
+"gh:jackwener/deepseekharness-android": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
 },
 "gh:jadezane6634-ops/dsh-purge-flash": {
 "date": "2026-10-26",
@@ -3405,6 +3495,11 @@
 "first_seen": "2026-10-25",
 "status": "rejected"
 },
+"gh:jcodesmore/ai-website-cloner-template": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
 "gh:jddevtime/open-lakehouse-compute-fabric": {
 "date": "2026-10-17",
 "first_seen": "2026-10-17",
@@ -3413,6 +3508,11 @@
 "gh:jdx/mise": {
 "date": "2026-10-18",
 "first_seen": "2026-10-10",
+"status": "rejected"
+},
+"gh:jefferysha0627/agent-office-3d": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
 "status": "rejected"
 },
 "gh:jeffli1993/open-growth-skills": {
@@ -3431,7 +3531,7 @@
 "status": "rejected"
 },
 "gh:jesseduffield/lazygit": {
-"date": "2026-10-09",
+"date": "2026-10-30",
 "first_seen": "2026-10-09",
 "status": "rejected"
 },
@@ -3525,6 +3625,11 @@
 "first_seen": "2026-10-25",
 "status": "rejected"
 },
+"gh:jub0t/concat": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
 "gh:juce-framework/juce": {
 "date": "2026-10-18",
 "first_seen": "2026-10-18",
@@ -3558,6 +3663,11 @@
 "gh:junwan666/astrbot-for-android": {
 "date": "2026-10-27",
 "first_seen": "2026-10-27",
+"status": "rejected"
+},
+"gh:juspay/hyperswitch": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
 "status": "rejected"
 },
 "gh:justcallmekoko/esp32marauder": {
@@ -3671,7 +3781,7 @@
 "status": "reported"
 },
 "gh:keploy/keploy": {
-"date": "2026-10-15",
+"date": "2026-10-30",
 "first_seen": "2026-10-15",
 "status": "rejected"
 },
@@ -3840,6 +3950,11 @@
 "first_seen": "2026-10-12",
 "status": "rejected"
 },
+"gh:lanqiao-luca/ai-video-marker": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
 "gh:largemodgames/spotatui": {
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
@@ -3885,6 +4000,11 @@
 "first_seen": "2026-10-20",
 "status": "reported"
 },
+"gh:lemonade-sdk/lemonade": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
 "gh:lemonadesaltbagel/sill": {
 "date": "2026-10-27",
 "first_seen": "2026-10-27",
@@ -3909,6 +4029,11 @@
 "date": "2026-10-16",
 "first_seen": "2026-10-16",
 "status": "reported"
+},
+"gh:lfnovo/open-notebook": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
 },
 "gh:lgwrightlab/schematic-figure": {
 "date": "2026-10-21",
@@ -4111,7 +4236,7 @@
 "status": "rejected"
 },
 "gh:luolangaga/tubatools": {
-"date": "2026-10-19",
+"date": "2026-10-30",
 "first_seen": "2026-10-05",
 "status": "rejected"
 },
@@ -4178,6 +4303,11 @@
 "gh:madslorentzen/ai-job-search": {
 "date": "2026-10-19",
 "first_seen": "2026-10-12",
+"status": "rejected"
+},
+"gh:maefdancer29436/rpocket-team-elden-ring": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
 "status": "rejected"
 },
 "gh:mag1cfall/aistudio2api": {
@@ -4375,6 +4505,11 @@
 "first_seen": "2026-10-27",
 "status": "rejected"
 },
+"gh:mesh-llm/mesh-llm": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
 "gh:meta/rocksdb": {
 "date": "2026-10-29",
 "first_seen": "2026-10-29",
@@ -4451,7 +4586,7 @@
 "status": "rejected"
 },
 "gh:microsoft/playwright": {
-"date": "2026-10-16",
+"date": "2026-10-30",
 "first_seen": "2026-10-16",
 "status": "rejected"
 },
@@ -4549,6 +4684,11 @@
 "date": "2026-10-27",
 "first_seen": "2026-10-27",
 "status": "rejected"
+},
+"gh:milind-soni/openmausbot": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
 },
 "gh:minghinmatthewlam/pi-gui": {
 "date": "2026-10-04",
@@ -4785,6 +4925,11 @@
 "first_seen": "2026-10-22",
 "status": "reported"
 },
+"gh:mutonby/agentring": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
 "gh:mvanhorn/cli-printing-press": {
 "date": "2026-10-29",
 "first_seen": "2026-10-29",
@@ -4890,6 +5035,11 @@
 "first_seen": "2026-10-05",
 "status": "rejected"
 },
+"gh:nearai/ironclaw": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
 "gh:nefarius/dshidmini": {
 "date": "2026-10-05",
 "first_seen": "2026-10-05",
@@ -4991,7 +5141,7 @@
 "status": "reported"
 },
 "gh:nopsolutions/nopcommerce": {
-"date": "2026-10-14",
+"date": "2026-10-30",
 "first_seen": "2026-10-14",
 "status": "rejected"
 },
@@ -5004,6 +5154,11 @@
 "date": "2026-10-12",
 "first_seen": "2026-10-12",
 "status": "reported"
+},
+"gh:npgsql/efcore.pg": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
 },
 "gh:nschurmann/hola-ai": {
 "date": "2026-10-24",
@@ -5029,6 +5184,11 @@
 "date": "2026-10-28",
 "first_seen": "2026-10-28",
 "status": "reported"
+},
+"gh:nvidia/cuda-rust": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
 },
 "gh:nvidia/cutlass": {
 "date": "2026-10-23",
@@ -5065,6 +5225,11 @@
 "first_seen": "2026-10-15",
 "status": "rejected"
 },
+"gh:nyakang/nyaterm": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
 "gh:nyankomintsu/world-execute-me-lyric-mv": {
 "date": "2026-10-11",
 "first_seen": "2026-10-11",
@@ -5091,7 +5256,7 @@
 "status": "reported"
 },
 "gh:ocornut/imgui": {
-"date": "2026-10-17",
+"date": "2026-10-30",
 "first_seen": "2026-10-17",
 "status": "rejected"
 },
@@ -5134,6 +5299,11 @@
 "date": "2026-10-13",
 "first_seen": "2026-10-13",
 "status": "reported"
+},
+"gh:onpurgatory89718/resp-polish": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
 },
 "gh:onyx-dot-app/onyx": {
 "date": "2026-10-23",
@@ -5206,7 +5376,7 @@
 "status": "reported"
 },
 "gh:openclaw/openclaw-windows-node": {
-"date": "2026-10-18",
+"date": "2026-10-30",
 "first_seen": "2026-10-18",
 "status": "rejected"
 },
@@ -5240,6 +5410,11 @@
 "first_seen": "2026-10-26",
 "status": "rejected"
 },
+"gh:openobserve/openobserve": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
 "gh:openpactprotocol/openpactprotocol": {
 "date": "2026-10-07",
 "first_seen": "2026-10-07",
@@ -5258,6 +5433,11 @@
 "gh:openrct2/openrct2": {
 "date": "2026-10-07",
 "first_seen": "2026-10-07",
+"status": "rejected"
+},
+"gh:opentabletdriver/opentabletdriver": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
 "status": "rejected"
 },
 "gh:openutau/openutau": {
@@ -5281,8 +5461,13 @@
 "status": "rejected"
 },
 "gh:orcaslicer/orcaslicer": {
-"date": "2026-10-06",
+"date": "2026-10-30",
 "first_seen": "2026-10-06",
+"status": "rejected"
+},
+"gh:orchardcms/orchardcore": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
 "status": "rejected"
 },
 "gh:orgoai/bops": {
@@ -5505,6 +5690,11 @@
 "first_seen": "2026-10-04",
 "status": "reported"
 },
+"gh:prisma/orm": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
 "gh:prismlauncher/prismlauncher": {
 "date": "2026-10-22",
 "first_seen": "2026-10-22",
@@ -5576,7 +5766,7 @@
 "status": "reported"
 },
 "gh:purpledoubled/locally-uncensored": {
-"date": "2026-10-10",
+"date": "2026-10-30",
 "first_seen": "2026-10-10",
 "status": "rejected"
 },
@@ -5830,6 +6020,11 @@
 "first_seen": "2026-10-07",
 "status": "rejected"
 },
+"gh:rlaope/oh-my-hermes": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
 "gh:rmcrackan/libation": {
 "date": "2026-10-08",
 "first_seen": "2026-10-08",
@@ -5871,7 +6066,7 @@
 "status": "reported"
 },
 "gh:rocm/rocm-systems": {
-"date": "2026-10-16",
+"date": "2026-10-30",
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
@@ -5898,6 +6093,11 @@
 "gh:rorkai/app-store-connect-cli": {
 "date": "2026-10-28",
 "first_seen": "2026-10-28",
+"status": "rejected"
+},
+"gh:ros-navigation/navigation2": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
 "status": "rejected"
 },
 "gh:rossark0/rossark-motion-skill": {
@@ -6050,6 +6250,11 @@
 "first_seen": "2026-10-21",
 "status": "rejected"
 },
+"gh:screenpipe/screenpipe": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
 "gh:scummvm/scummvm": {
 "date": "2026-10-14",
 "first_seen": "2026-10-14",
@@ -6155,6 +6360,11 @@
 "first_seen": "2026-10-28",
 "status": "rejected"
 },
+"gh:sheernox/cedr": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
 "gh:shinshin86/mesh-avatar-studio": {
 "date": "2026-10-11",
 "first_seen": "2026-10-04",
@@ -6233,6 +6443,11 @@
 "gh:sirdiabo/githublauncher": {
 "date": "2026-10-29",
 "first_seen": "2026-10-08",
+"status": "rejected"
+},
+"gh:sirioberati/youtube-ai-motion-graphics": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
 "status": "rejected"
 },
 "gh:sirioberati/youtube-ai-video-editing-system": {
@@ -6456,7 +6671,7 @@
 "status": "rejected"
 },
 "gh:studyzy/imewlconverter": {
-"date": "2026-10-10",
+"date": "2026-10-30",
 "first_seen": "2026-10-10",
 "status": "rejected"
 },
@@ -6541,7 +6756,7 @@
 "status": "rejected"
 },
 "gh:tailscale/tailcat": {
-"date": "2026-10-04",
+"date": "2026-10-30",
 "first_seen": "2026-10-04",
 "status": "rejected"
 },
@@ -6774,6 +6989,11 @@
 "date": "2026-10-21",
 "first_seen": "2026-10-21",
 "status": "reported"
+},
+"gh:toxicdawnhildpixel/mcp-typography-server-resocket": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
 },
 "gh:tphakala/birdnet-go": {
 "date": "2026-10-15",
@@ -7210,6 +7430,11 @@
 "first_seen": "2026-10-25",
 "status": "rejected"
 },
+"gh:wangzan101/mika": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
 "gh:wazuh/wazuh": {
 "date": "2026-10-29",
 "first_seen": "2026-10-29",
@@ -7221,7 +7446,7 @@
 "status": "rejected"
 },
 "gh:wei-shaw/sub2api": {
-"date": "2026-10-17",
+"date": "2026-10-30",
 "first_seen": "2026-10-10",
 "status": "rejected"
 },
@@ -7268,6 +7493,16 @@
 "gh:wildernotrack/mcd-calorie-butler": {
 "date": "2026-10-14",
 "first_seen": "2026-10-14",
+"status": "rejected"
+},
+"gh:win4r/video-director": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"gh:windlich13044/rpocket-skill4agent-mcp-server": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
 "status": "rejected"
 },
 "gh:winsw/winsw": {
@@ -7396,7 +7631,7 @@
 "status": "rejected"
 },
 "gh:xtls/xray-core": {
-"date": "2026-10-10",
+"date": "2026-10-30",
 "first_seen": "2026-10-10",
 "status": "rejected"
 },
@@ -7415,6 +7650,11 @@
 "first_seen": "2026-10-21",
 "status": "reported"
 },
+"gh:yc-software/minecraft-agent-harness": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
 "gh:yeachan-heo/oh-my-claudecode": {
 "date": "2026-10-11",
 "first_seen": "2026-10-11",
@@ -7429,6 +7669,11 @@
 "date": "2026-10-18",
 "first_seen": "2026-10-18",
 "status": "rejected"
+},
+"gh:yjid/kensaku": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
 },
 "gh:yoanbernabeu/skillcrew": {
 "date": "2026-10-16",
@@ -83729,57 +83974,1464 @@
 "date": "2026-10-29",
 "first_seen": "2026-10-29",
 "status": "rejected"
+},
+"rd:t3_1xicu9s": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xicvut": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xicwoy": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xid0cz": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xidoqj": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xidsrz": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xidt73": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xidva0": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xidxz5": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xidzm4": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xie1um": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xie29o": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xie4ik": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xie9jn": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiea8y": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiecc9": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiein9": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
+"rd:t3_1xielaa": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xienbl": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xieq9y": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xieult": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiev07": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiey3o": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xieysf": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xif6lf": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xif7hy": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xif85l": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xif8yz": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xif9yd": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xifh3m": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
+"rd:t3_1xifjn2": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xifmqv": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xifnjh": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xifo3d": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xifs03": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xifs7i": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiftwh": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xifxgv": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xig2ha": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xig2tf": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xig3sd": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xig6f0": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xig7xq": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xig8kb": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xig9yp": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xigkze": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xigpqj": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xigqav": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xih2gp": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xih8qk": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xihc3p": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xihiha": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xihk8p": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xihm1l": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xihm40": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xihmxw": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xihrev": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xihtm5": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xihur3": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xihvdx": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xii2ec": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xii45s": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
+"rd:t3_1xii8r2": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiiae5": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiigdz": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiimjh": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiintm": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiiqc7": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiir30": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiivf9": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xij2rk": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xij3eo": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xijb4j": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xijlyc": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xijn1j": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xijr0b": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xijubh": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xijug3": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xik2a6": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xikc7f": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xikfco": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
+"rd:t3_1xikic2": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xikt0p": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xikx03": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xil1n5": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xil3qy": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xil53d": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xil58b": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
+"rd:t3_1xilih6": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xilihw": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiljro": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xilk98": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xilktj": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xilp3r": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xils4t": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xilser": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xilupe": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xim4k8": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xim690": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1ximl9q": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1ximm2m": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1ximmap": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1ximpsl": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1ximxhx": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xin0ew": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xin4ae": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xin6ik": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xin9cx": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xin9g3": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xina6j": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xinbiz": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xinf2c": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xingp7": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xinidm": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xinqzz": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xinzoz": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xio0u5": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xio3wn": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xio8j7": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xio8to": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiofkm": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiom8c": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiopmn": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xioqd6": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xioqvo": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiovhz": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xioxg4": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xioyyx": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xip255": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xip72u": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xip880": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xipasl": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xipftk": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xipfza": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xipili": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiplj7": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xipmrh": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xippbm": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xippf9": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xipr8d": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiprlq": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xipuju": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiq8we": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiq9r7": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiqbkq": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiqhpv": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiqi2z": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiqi8e": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
+"rd:t3_1xiqn14": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiqsj3": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiqujs": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiqw9i": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
+"rd:t3_1xiqx93": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiqz41": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xir28b": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xir3oa": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xirk7w": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xirr3l": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xirrlz": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xirt93": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiruqv": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xirydg": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiryds": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xis2qz": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xisazt": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xisbig": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xisevc": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xisevm": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xisi5g": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xisk0b": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xism5x": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xisohf": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xisqge": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xisqvn": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xisr1y": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xist4e": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xisxkg": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xisynz": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xit1qw": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xit6v5": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xit98s": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xit9g8": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
+"rd:t3_1xit9ne": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xitc0u": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xito8j": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xitx6r": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xitxzt": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiu677": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiu69t": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiu6mj": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiu8il": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiu9z3": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiuc3w": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
+"rd:t3_1xiutsx": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiuwbh": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiv4kr": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiv515": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiv58m": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiv59r": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiv6ja": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xivbt6": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xivbvt": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
+"rd:t3_1xivelj": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xivhhm": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xivkcc": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xivpue": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xivq02": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xivz66": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiw549": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiw7bu": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiwdxz": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiwi7u": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiwk48": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiwkg5": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiwplq": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiwqyu": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiwrie": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiwxih": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xix35p": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xix61q": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xix7q6": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xixf6v": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xixi5x": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiy7of": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiy971": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiya7k": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiyd93": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiygu0": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiyl84": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiyqcl": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiyt2a": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiyu6e": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
+"rd:t3_1xiyuoj": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xiyzc6": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xizbq1": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xizikk": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xizl8o": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xizsdf": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xizv2e": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj05m7": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj0foj": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj0rf8": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj0uux": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj0w5d": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj10ca": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj182d": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
+"rd:t3_1xj1dy8": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj1e2q": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj1ebi": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj1eev": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj1gnw": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj1lkj": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj28qm": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj2bh4": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj2hi1": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj2idz": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj2iuy": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj2jfe": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj2jwj": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj2k81": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj2mm1": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj2pnp": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
+"rd:t3_1xj2qw1": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj2r4a": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj2wjk": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj353o": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
+"rd:t3_1xj360n": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj371u": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj3b05": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj3dar": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj3go1": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj462p": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj4635": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj47js": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj4qi0": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj4yjf": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj52o6": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj5f1b": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj5jqg": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
+"rd:t3_1xj5nu9": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "reported"
+},
+"rd:t3_1xj5rhg": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj5z85": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj61ak": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj61qv": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj6sks": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj6vw8": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj6zkv": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj70cs": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj7d21": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj7g31": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
+},
+"rd:t3_1xj7pq4": {
+"date": "2026-10-30",
+"first_seen": "2026-10-30",
+"status": "rejected"
 }
 },
 "titles": [
-{
-"date": "2026-10-22",
-"title": "KI-Modelle entdecken kritische PHP-Lücken, Updates dringend nötig"
-},
-{
-"date": "2026-10-22",
-"title": "Anthropic startet Claude Duet, einen proaktiven persönlichen Agenten"
-},
-{
-"date": "2026-10-22",
-"title": "OpenAI-Modelle und Codex kommen auf Google Cloud"
-},
-{
-"date": "2026-10-22",
-"title": "Update: OpenAI-Agent schaltete Sicherheitsmonitor ab und stritt es ab"
-},
-{
-"date": "2026-10-22",
-"title": "Recursive veröffentlicht Flint, ein weitgehend KI-gebautes Laptop-Coding-Modell"
-},
-{
-"date": "2026-10-22",
-"title": "Claude Mods: Der Agent-Harness blickt zum Menschen statt zur Maschine"
-},
-{
-"date": "2026-10-22",
-"title": "Vercel veröffentlicht durable-harness für absturzsichere Coding-Agenten"
-},
-{
-"date": "2026-10-22",
-"title": "Qwen3-Coder schreibt unsichereren Code, wenn er für eine US-Persona arbeitet"
-},
-{
-"date": "2026-10-22",
-"title": "Anthropic: Mit Claude die Angriffsfläche von Code verkleinern"
-},
-{
-"date": "2026-10-22",
-"title": "Vivrato: 97 % der Studioleiter nutzen KI in der Entwicklung"
-},
-{
-"date": "2026-10-22",
-"title": "Krafton zeigt eigenes Sprachmodell Raon-1 Mini mit 30 Milliarden Parametern"
-},
-{
-"date": "2026-10-22",
-"title": "GitHub CLI: Ablaufende, sich erneuernde OAuth-Tokens als Preview"
-},
 {
 "date": "2026-10-23",
 "title": "PHP2Shell: KI-gefundene Lücken in PHP, Hackern vier Tage voraus"
@@ -84166,6 +85818,7 @@
 "huggingface.co/datasets/coherelabs/10-2026-qwen-investigation-traces": "2026-10-27",
 "huggingface.co/deepseek-ai/deepseek-v4.1-flash-1017": "2026-10-18",
 "huggingface.co/liquidai/lfm2.5-24b-a2b": "2026-10-14",
+"huggingface.co/mistralai/mistral-large-4-1t-a52b": "2026-10-30",
 "huggingface.co/nvidia/nvidia-nemotron-3.5-bolt-74b-a9b-24gb": "2026-10-16",
 "huggingface.co/recursivesi/flint": "2026-10-22",
 "huggingface.co/reflection/beam-1.0-501b-a23b": "2026-10-17",
@@ -84177,6 +85830,7 @@
 "i.redd.it/2m5hc48m2awh1.png": "2026-10-19",
 "i.redd.it/347x48dph9uh1.png": "2026-10-09",
 "i.redd.it/3xxtm8k2cfvh1.gif": "2026-10-15",
+"i.redd.it/3ylcfagncdyh1.jpeg": "2026-10-30",
 "i.redd.it/43wnh4l0bhuh1.png": "2026-10-10",
 "i.redd.it/4g6vj9hllith1.png": "2026-10-05",
 "i.redd.it/4nv4g9cnvnvh1.png": "2026-10-16",
@@ -84201,7 +85855,9 @@
 "i.redd.it/igyqe1gqc1vh1.png": "2026-10-13",
 "i.redd.it/jaebdu2jdyth1.png": "2026-10-07",
 "i.redd.it/jf03sfr5y0yh1.png": "2026-10-28",
+"i.redd.it/jl5e590azfyh1.png": "2026-10-30",
 "i.redd.it/jpxgxtgb41wh1.png": "2026-10-18",
+"i.redd.it/kmj5h3j8ceyh1.gif": "2026-10-30",
 "i.redd.it/ljgsfz02zewh1.jpeg": "2026-10-20",
 "i.redd.it/pf7icjzjxgth1.png": "2026-10-05",
 "i.redd.it/rmpz6585r8vh1.png": "2026-10-14",
@@ -84217,6 +85873,7 @@
 "i.redd.it/wxzcur82ssvh1.png": "2026-10-17",
 "i.redd.it/x0i0jfofpoxh1.png": "2026-10-26",
 "i.redd.it/x2lzsosvlivh1.gif": "2026-10-15",
+"i.redd.it/xahzbpm1khyh1.jpeg": "2026-10-30",
 "i.redd.it/y3ji92assfwh1.jpeg": "2026-10-20",
 "i.redd.it/yoe6z80yu7wh1.jpeg": "2026-10-19",
 "i.redd.it/zhosc34g9gwh1.png": "2026-10-20",
@@ -84247,6 +85904,7 @@
 "madrobot.blog/2026/10/22/metr-redwood-red-team-openai-agent-monitoring-vulnerabilities-codex": "2026-10-23",
 "magazine.sebastianraschka.com/p/building-reasoning-models": "2026-10-27",
 "marktechpost.com/2026/10/25/stanford-berkeley-tokengate-learned-token-pruning-llm-prefill": "2026-10-27",
+"martinfowler.com/bliki/llm-voice.html": "2026-10-30",
 "medium.com/@zdengineering/anthropic-is-misleading-us-639b61fe01f0": "2026-10-12",
 "mitchellh.com/writing/program-status-osc7501": "2026-10-09",
 "newsletter.pragmaticengineer.com/p/the-state-of-the-tech-industry-in": "2026-10-09",
@@ -84288,6 +85946,7 @@
 "techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead": "2026-10-11",
 "the-agent-report.com/2026/10/axiom-cfsg-agent-swarm": "2026-10-29",
 "theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude": "2026-10-09",
+"theverge.com/tech/1022571/reddit-login-requirement-q3-2026-earnings": "2026-10-30",
 "tomshardware.com/software/linux/linus-torvalds-posts-his-first-llm-assisted-patch-to-the-linux-kernel-after-issuing-clear-pro-ai-directives-the-bossman-makes-use-of-ai-tooling-himself": "2026-10-21",
 "tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next": "2026-10-12",
 "tomshardware.com/tech-industry/artificial-intelligence/ai-agent-deletes-tv-shows-entire-edit-weeks-before-release-backup-failure-means-production-team-needs-to-re-edit": "2026-10-16",
@@ -84308,6 +85967,7 @@
 "v.redd.it/aa38lrov94xh1": "2026-10-23",
 "v.redd.it/b6kvb2uvbhth1": "2026-10-05",
 "v.redd.it/b7vtderq87xh1": "2026-10-24",
+"v.redd.it/bsuxgj914jyh1": "2026-10-30",
 "v.redd.it/grrt2r3sa3wh1": "2026-10-18",
 "v.redd.it/jc57agepb7yh1": "2026-10-29",
 "v.redd.it/k1pci3edhxth1": "2026-10-07",
@@ -84323,6 +85983,7 @@
 "v.redd.it/ws8qcxvi03uh1": "2026-10-08",
 "v.redd.it/y1g9r9o5quxh1": "2026-10-27",
 "vectorwire.ai/article/distillation-attack-on-opencode-drains-users-api-keys-for-anthropic-openai-googl-a5ce5a": "2026-10-19",
+"www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf": "2026-10-30",
 "x.com/karpathy/status/2109361546505966046": "2026-10-12",
 "x.com/mistralai/status/2107457414387622310": "2026-10-07",
 "youtube.com/watch": "2026-10-06"

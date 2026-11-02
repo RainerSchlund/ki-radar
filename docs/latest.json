@@ -1,6 +1,6 @@
 {
- "date": "2026-10-30",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-10-30.html",
+ "date": "2026-11-02",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-02.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
@@ -10,62 +10,62 @@
  },
  "github": {
   "count": 20,
-  "headline": "Agenten telefonieren, chatten untereinander und tummeln sich in Minecraft – und Sicherheit rückt nach",
+  "headline": "Skills-Flut und Agenten-Werkzeug: Harnesses, Memory und Spieleffekte dominieren die neuen Repos",
   "top": [
    {
-    "title": "Donchitos/Claude-Code-Game-Studios",
-    "what": "Eine Sammlung für Claude Code, die ein Spielestudio nachbildet: 49 Agenten-Rollen und 72 Workflow-Skills (wiederverwendbare Arbeitsanweisungen), angeordnet wie die Hierarchie in einem echten Studio.",
+    "title": "Balanov/uncut",
+    "what": "`uncut` ist ein Coding-Agent-Harness (die Laufzeit-Umgebung um ein Modell) in Go: eine statische Binärdatei von 7 MB, vier Tools, einfache stdin/stdout-Schnittstelle. Laut Beschreibung schneidet es nichts still ab und ist auf lokale Modelle ausgelegt.",
     "importance": 3
    },
    {
-    "title": "huggingface/safeagents",
-    "what": "Ein Projekt von Hugging Face, mit dem sich Agenten mit beliebiger Coding-Harness (Laufzeit-Umgebung um das Modell) sicher ausführen lassen. Laut Topics geht es um Sicherheit; Details gibt die Beschreibung nicht her.",
+    "title": "patch-gg/pixelfx",
+    "what": "`pixelfx` sammelt 244 Pixel-Art-Effekte, jeweils als kleines Stück Code, plus einen Claude-Code-Skill, mit dem man eigene Effekte erzeugt. Es ist mit gut 2900 Sternen in wenigen Tagen stark gewachsen.",
     "importance": 3
    },
    {
-    "title": "milind-soni/OpenMausBot",
-    "what": "Eine quelloffene Alternative zum Grok-Bot, ausgestattet mit einer virtuellen Maschine, die der Bot selbst bedienen kann (Computer Use).",
-    "importance": 3
-   },
-   {
-    "title": "agent-substrate/substrate",
-    "what": "Der Kern des Systems 'Agent Substrate', laut Topics zu Agenten und Sandboxing (abgeschottete Ausführungsumgebungen), mit gut 5.900 Sternen und 50 neuen heute.",
+    "title": "gh9ko8y/graphmemory",
+    "what": "`graphmemory` ist ein Gedächtnissystem für Agenten mit zwei Zeitachsen (bitemporal), Verfallslogik, zeitgestuftem Abruf, Duplikaterkennung und Ablauffristen. Es setzt auf Neo4j, PostgreSQL und Redis.",
     "importance": 2
    },
    {
-    "title": "hydro-project/infinity",
-    "what": "Eine in Rust geschriebene Laufzeit samt Tool-Protokoll für 'prinzipielle Agenten-Nebenläufigkeit', also dafür, dass viele Agenten und Tool-Aufrufe geordnet parallel laufen. Kommt aus dem Hydro-Projekt (verteilte Systeme).",
+    "title": "eduwxyz/tucano",
+    "what": "`tucano` ist eine lokale Desktop-App, in der ein Team aus KI-Agenten in Kanälen kommuniziert, Code schreibt und sich gegenseitig prüft. Es nutzt vorhandene Claude Code, Codex, OpenCode oder Pi; alles mit Außenwirkung wartet auf menschliche Freigabe.",
+    "importance": 2
+   },
+   {
+    "title": "muaaz9329/cheap-ag",
+    "what": "`cheap-ag` ist ein MCP-Server für Claude Code: Opus plant, ein sehr billiges Modell schreibt den Code, und Tests entscheiden, was übernommen wird. Das Versprechen, das Nutzungslimit damit um das 50-Fache zu strecken, stammt vom Autor und ist ungeprüft.",
     "importance": 2
    }
   ]
  },
  "reddit": {
-  "count": 16,
-  "headline": "Mistral Large 4 geht als offenes 1-Billionen-Modell raus, Qwen4 steht vor der Tür – und Anbieter-Updates, Benchmark-Streit und Agenten-Alltag bestimmen die Debatte.",
+  "count": 12,
+  "headline": "Gedächtnis-Lücken, Nutzungslimits und lokale Inferenz-Engines: OpenAI verschmilzt die Kontingente von ChatGPT und Codex, DeepSeek veröffentlicht einen Super-Agenten-Entwurf, Claude Code bekommt eine Regel gegen Spiele-Klone.",
   "top": [
    {
-    "title": "mistralai/Mistral-Large-4-1T-A52B · Hugging Face",
-    "what": "Mistral veröffentlicht Mistral Large 4 mit offenen Gewichten: ein natives multimodales Mixture-of-Experts-Modell mit 1 Billion Parametern, davon rund 49–52 Milliarden pro Token aktiv. GGUF-Quantisierungen von ggml-org und unsloth liegen bereits vor.",
+    "title": "DeepSeek: Exploring Super-agent Design: Towards a More Autonomous Agent System",
+    "what": "Das DeepSeek-Harness-Team hat einen Design-Essay zu einem autonomeren Agentensystem veröffentlicht, dazu den MIT-lizenzierten Prototyp dsh-superagent-prototype. Laut Beschreibung (r82) steuert ein dauerhafter Router mehrere Worker für ein einzelnes GitHub-Repository, mit möglichst wenig menschlicher Aufmerksamkeit.",
     "importance": 3
    },
    {
-    "title": "Why you can't trust cloud API endpoints: 40 days of coding-agent telemetry showing the exact day providers silently overwrote deepseek-v4.1-flash with -1017 (\"faster execution, shorter answers\" = 3x more swearing and 6.7x more model switches)",
-    "what": "Ein Nutzer wertet 40 Tage lokale Sitzungslogs seines Coding-Agenten aus und verortet den Qualitätsknick von deepseek-v4.1-flash auf das Update -1017 vom 17. Oktober: mehr aggressive Tool-Aufrufe, deutlich mehr Fluchen und Modellwechsel. Die Zahlen stammen aus einem einzelnen Setup.",
+    "title": "How Anthropic ships Claude with Claude, a Latent Space interview on Opus 5.5 and the Claude Platform",
+    "what": "Latent-Space-Interview darüber, wie Anthropic Claude mit Claude entwickelt, mit Fokus auf Opus 5.5 und die Claude Platform. Inhalt nur aus Titel und Domain erschlossen.",
     "importance": 3
    },
    {
-    "title": "10 coding agents, one Qwen 3.8 27B, same llama-server: tokens and cache reuse differ more than pass rates",
-    "what": "Zehn Coding-Agenten laufen mit demselben Qwen 3.8 27B auf demselben llama-server, bei fünf kleinen Aufgaben mit je einer Falle. Die Bestehensquoten liegen nah beieinander, Tokenverbrauch und Cache-Wiederverwendung unterscheiden sich deutlich.",
+    "title": "GLM-5.3-Flash on our H200s does most of my coding now while GPT-6.1 Sol orchestrates (OpenCode setup)",
+    "what": "Der Autor betreibt GLM-5.3-Flash (MoE, 320B gesamt, 18B aktiv, 512K Kontext) auf eigenen H200-Servern als Haupt-Coder, während GPT-6.1 Sol per OpenCode orchestriert. Ziel ist, Abo- und API-Kosten zu senken; der Aufbau läuft seit einigen Wochen besser als erwartet.",
     "importance": 3
    },
    {
-    "title": "New AA intelligence index v5 with “Private tests” conveniently upranks GPT, Google’s models, while open weights chinese models downrank",
-    "what": "Der neue Artificial-Analysis-Intelligence-Index v5 führt private Tests auf nicht öffentlichen Datensätzen ein; offene chinesische Modelle fallen dadurch zurück, Googles neues Gemini 4 Carbon steht an der Spitze. Kritiker halten das für intransparent. Dazu passt der Beitrag zur aktualisierten HLE-Diamond-Wertung (r79).",
+    "title": "The Pulse: Anthropic kills the coding interview",
+    "what": "Der Pragmatic-Engineer-Newsletter greift unter dem Titel 'Anthropic kills the coding interview' das Ende des klassischen Programmier-Vorstellungsgesprächs bei Anthropic auf. Details nur aus dem Titel bekannt.",
     "importance": 2
    },
    {
-    "title": "Google unveils Gemini 4 Carbon, a cybersecurity-focused frontier model — and vetted defenders get it first",
-    "what": "Google stellt Gemini 4 Carbon vor, ein auf Cybersicherheit und lange Engineering-Aufgaben ausgerichtetes Modell, das zuerst an geprüfte Verteidiger geht. Genannt werden 88,2 % auf SEC-bench Pro, 54,8 % auf ExploitGym und 71,0 % auf CWE-bench – Herstellerangaben.",
+    "title": "Researchers show how ChatGPT's HTML previews could be exploited to take over accounts",
+    "what": "Forscher zeigen laut Simon Willisons Blog, wie sich HTML-Vorschauen in ChatGPT ausnutzen ließen, um Konten zu übernehmen. Details nur aus Titel und Domain bekannt.",
     "importance": 2
    }
   ]

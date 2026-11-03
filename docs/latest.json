@@ -1,71 +1,107 @@
 {
- "date": "2026-11-02",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-02.html",
+ "date": "2026-11-03",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-03.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 0,
-  "headline": "Keine neuen Kandidaten.",
-  "top": []
- },
- "github": {
-  "count": 20,
-  "headline": "Skills-Flut und Agenten-Werkzeug: Harnesses, Memory und Spieleffekte dominieren die neuen Repos",
+  "count": 12,
+  "headline": "Claude Code sperrt Spiele-Klone, OpenAI baut eigenes Git-Backend und führt ChatGPT- und Codex-Kontingent zusammen",
   "top": [
    {
-    "title": "Balanov/uncut",
-    "what": "`uncut` ist ein Coding-Agent-Harness (die Laufzeit-Umgebung um ein Modell) in Go: eine statische Binärdatei von 7 MB, vier Tools, einfache stdin/stdout-Schnittstelle. Laut Beschreibung schneidet es nichts still ab und ist auf lokale Modelle ausgelegt.",
+    "title": "Anthropic stoppt Nachbau bestehender Spiele in Claude Code",
+    "what": "Anthropic hat den System-Prompt von Claude Code ergänzt, damit das Werkzeug keine existierenden Videospiele nachbaut. Laut Tom's Hardware und 80 Level blockiert Opus 5.5 auch manche Reverse-Engineering-Aufgaben, und Entwickler berichten, dass eigene Projekte betroffen sind.",
     "importance": 3
    },
    {
-    "title": "patch-gg/pixelfx",
-    "what": "`pixelfx` sammelt 244 Pixel-Art-Effekte, jeweils als kleines Stück Code, plus einen Claude-Code-Skill, mit dem man eigene Effekte erzeugt. Es ist mit gut 2900 Sternen in wenigen Tagen stark gewachsen.",
+    "title": "OpenAI baut mit Pando ein Git-kompatibles Backend für Codex-Last",
+    "what": "OpenAI beschreibt Pando, ein Git-kompatibles Backend für sein Monorepo, ausgelegt auf die Menge an Entwicklung, die Codex erzeugt. The New Stack ordnet es als weiteres selbstgebautes Git-Backend ein.",
+    "importance": 2
+   },
+   {
+    "title": "OpenAI legt ChatGPT- und Codex-Nutzungskontingent zusammen",
+    "what": "OpenAI führt die Tabs Chat und Work in ChatGPT zusammen; ChatGPT und Codex ziehen danach aus demselben Kontingent. Laut Unite.AI gilt die gemeinsame Zuteilung für Dezember.",
+    "importance": 2
+   },
+   {
+    "title": "Coding-Agenten laufen zunehmend mit Budget und können mitten in der Aufgabe stoppen",
+    "what": "The New Stack beschreibt, dass KI-Coding-Agenten inzwischen unter Kostenlimits laufen und Aufgaben abbrechen können, wenn das Budget aufgebraucht ist.",
+    "importance": 2
+   },
+   {
+    "title": "DeepSeek stellt Super-Agent-Harness als Open-Source-Prototyp vor",
+    "what": "DeepSeek hat einen Prototyp eines Super-Agents (dsh-superagent-prototype) als Forschungscode veröffentlicht; Techzine nennt ihn eine offene Alternative zu Claude Code. Bloomberg berichtet zusätzlich von einem neuen Creator-Modus.",
+    "importance": 2
+   },
+   {
+    "title": "GitHub Actions blockiert pull_request_target ab 2. Dezember standardmäßig",
+    "what": "Ab dem 2. Dezember 2026 blockiert GitHub Actions pull_request_target-Ereignisse in allen öffentlichen Repositories, sofern keine passende Event-Richtlinie sie erlaubt. Die Durchsetzung war zuvor für einen anderen Termin geplant.",
+    "importance": 2
+   },
+   {
+    "title": "Uber verwaltet über 5.000 Agenten-Werkzeuge mit eigenem MCP-Gateway",
+    "what": "Uber hat ein MCP-Gateway gebaut, das über 800 MCP-Server und mehr als 5.000 Werkzeuge bündelt. Es trennt Registrierung und Ausführung und bietet Zugriffskontrolle, Schwärzung sensibler Daten und schrittweise Werkzeugentdeckung.",
+    "importance": 1
+   }
+  ]
+ },
+ "github": {
+  "count": 17,
+  "headline": "Agenten bekommen Aufpasser und Werkzeuge: Prüfer, Review-Oberflächen, Bildschirmzugriff – dazu starke Signale bei Inferenz auf Alltags-Hardware",
+  "top": [
+   {
+    "title": "vercel-labs/agent-desktop",
+    "what": "Eine Kommandozeilen-Schnittstelle von Vercel Labs, mit der KI-Agenten einen Rechner über Bedienungshilfen-Schnittstellen steuern (Computer Use). In Rust geschrieben, heute mit rund 2.300 neuen Sternen.",
     "importance": 3
    },
    {
-    "title": "gh9ko8y/graphmemory",
-    "what": "`graphmemory` ist ein Gedächtnissystem für Agenten mit zwei Zeitachsen (bitemporal), Verfallslogik, zeitgestuftem Abruf, Duplikaterkennung und Ablauffristen. Es setzt auf Neo4j, PostgreSQL und Redis.",
+    "title": "JustVugg/colibri",
+    "what": "Eine kleine Inferenz-Engine in reinem C ohne Abhängigkeiten, die große Mixture-of-Experts-Modelle (nur ein Teil der Experten ist pro Token aktiv) auf vorhandener Hardware laufen lässt. Die Experten werden von der Festplatte nachgeladen.",
+    "importance": 3
+   },
+   {
+    "title": "Balanov/shim",
+    "what": "Ein kleines, lokal laufendes Agenten-Harness in Go ohne Abhängigkeiten: beliebiges Modell, MCP und Agent Skills, Bedienung per Kommandozeile in natürlicher Sprache. MIT-Lizenz.",
+    "importance": 3
+   },
+   {
+    "title": "Balanov/verdict",
+    "what": "Ein 197 KB kleiner, lokaler Prüfer, der Werkzeugaufrufe von KI-Agenten inhaltlich verifiziert. Leitidee laut Beschreibung: Ein Exit-Code 0 beweist nichts.",
     "importance": 2
    },
    {
-    "title": "eduwxyz/tucano",
-    "what": "`tucano` ist eine lokale Desktop-App, in der ein Team aus KI-Agenten in Kanälen kommuniziert, Code schreibt und sich gegenseitig prüft. Es nutzt vorhandene Claude Code, Codex, OpenCode oder Pi; alles mit Außenwirkung wartet auf menschliche Freigabe.",
-    "importance": 2
-   },
-   {
-    "title": "muaaz9329/cheap-ag",
-    "what": "`cheap-ag` ist ein MCP-Server für Claude Code: Opus plant, ein sehr billiges Modell schreibt den Code, und Tests entscheiden, was übernommen wird. Das Versprechen, das Nutzungslimit damit um das 50-Fache zu strecken, stammt vom Autor und ist ungeprüft.",
+    "title": "Balanov/skein",
+    "what": "Orchestrierung für Agenten-Schwärme in Go, die im Zweifel blockiert statt weiterzulaufen (fail-closed). Arbeit wird mit Epochen-Token abgesichert, verspätete Ergebnisse werden abgewiesen.",
     "importance": 2
    }
   ]
  },
  "reddit": {
-  "count": 12,
-  "headline": "Gedächtnis-Lücken, Nutzungslimits und lokale Inferenz-Engines: OpenAI verschmilzt die Kontingente von ChatGPT und Codex, DeepSeek veröffentlicht einen Super-Agenten-Entwurf, Claude Code bekommt eine Regel gegen Spiele-Klone.",
+  "count": 20,
+  "headline": "Die Szene diskutiert Anthropics neue Sperren in Claude Code (Spiel-Klonen, Reverse Engineering), die Nutzungslimits bei Claude und OpenAI sowie das Experiment, dass ein KI-Modell Gewichte eines kleinen Modells direkt umschreibt.",
   "top": [
    {
-    "title": "DeepSeek: Exploring Super-agent Design: Towards a More Autonomous Agent System",
-    "what": "Das DeepSeek-Harness-Team hat einen Design-Essay zu einem autonomeren Agentensystem veröffentlicht, dazu den MIT-lizenzierten Prototyp dsh-superagent-prototype. Laut Beschreibung (r82) steuert ein dauerhafter Router mehrere Worker für ein einzelnes GitHub-Repository, mit möglichst wenig menschlicher Aufmerksamkeit.",
+    "title": "Anthropic confirms new Claude Code limits to prevent game cloning",
+    "what": "Laut Tom's Hardware bestätigt Anthropic neue Einschränkungen in Claude Code, die das Klonen von Spielen verhindern sollen. Offenbar greift die Sperre nur bei der Kombination aus Claude Code und Opus 5.5; Berichte sprechen auch von Blockaden bei Reverse-Engineering-Aufgaben.",
     "importance": 3
    },
    {
-    "title": "How Anthropic ships Claude with Claude, a Latent Space interview on Opus 5.5 and the Claude Platform",
-    "what": "Latent-Space-Interview darüber, wie Anthropic Claude mit Claude entwickelt, mit Fokus auf Opus 5.5 und die Claude Platform. Inhalt nur aus Titel und Domain erschlossen.",
+    "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+    "what": "Ein Blogpost beschreibt, dass GPT-6 Astra Gewichte eines kleinen Qwen-Modells direkt editiert hat: Nur 0,016 % der Gewichte wurden geändert, ohne Gradienten oder Training. Laut Beitrag stieg der Mathe-Score von 7,9 % auf 48,1 %.",
     "importance": 3
    },
    {
-    "title": "GLM-5.3-Flash on our H200s does most of my coding now while GPT-6.1 Sol orchestrates (OpenCode setup)",
-    "what": "Der Autor betreibt GLM-5.3-Flash (MoE, 320B gesamt, 18B aktiv, 512K Kontext) auf eigenen H200-Servern als Haupt-Coder, während GPT-6.1 Sol per OpenCode orchestriert. Ziel ist, Abo- und API-Kosten zu senken; der Aufbau läuft seit einigen Wochen besser als erwartet.",
+    "title": "Claude Code took our company from ~65 to 694 PRs a week and our CI couldn't keep up",
+    "what": "Ein Team berichtet, dass seit Opus 5.5 die meisten PRs von Claude-Code-Agenten stammen und die Zahl von etwa 65 auf 694 pro Woche stieg. Die CI auf GitHub-Runnern kam nicht mehr hinterher, deshalb zog man auf einen gemieteten Server mit GARM um.",
     "importance": 3
    },
    {
-    "title": "The Pulse: Anthropic kills the coding interview",
-    "what": "Der Pragmatic-Engineer-Newsletter greift unter dem Titel 'Anthropic kills the coding interview' das Ende des klassischen Programmier-Vorstellungsgesprächs bei Anthropic auf. Details nur aus dem Titel bekannt.",
-    "importance": 2
+    "title": "Official Claude Code Extension Compromise: Security Advisory",
+    "what": "Ein Sicherheitshinweis von phorion.io meldet, dass die offizielle Claude-Code-VS-Code-Erweiterung in den Versionen 2.1.312 und 2.1.313 kompromittiert war. Der Reddit-Beitrag selbst nennt nur diese Versionen.",
+    "importance": 3
    },
    {
-    "title": "Researchers show how ChatGPT's HTML previews could be exploited to take over accounts",
-    "what": "Forscher zeigen laut Simon Willisons Blog, wie sich HTML-Vorschauen in ChatGPT ausnutzen ließen, um Konten zu übernehmen. Details nur aus Titel und Domain bekannt.",
+    "title": "I ran the same browser job 216 times with Claude Code and Codex. A script beat every agent run, and the best browser tool depended on the agent",
+    "what": "Ein Entwickler ließ Claude Code und Codex denselben Browser-Job 216 Mal mit verschiedenen Browser-Werkzeugen ausführen. Ein einfaches Skript schlug jeden Agentenlauf, und das beste Werkzeug hing vom Agenten ab.",
     "importance": 2
    }
   ]

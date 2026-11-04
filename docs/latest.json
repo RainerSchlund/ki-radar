@@ -1,108 +1,108 @@
 {
- "date": "2026-11-03",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-03.html",
+ "date": "2026-11-04",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-04.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 12,
-  "headline": "Claude Code sperrt Spiele-Klone, OpenAI baut eigenes Git-Backend und führt ChatGPT- und Codex-Kontingent zusammen",
+  "count": 17,
+  "headline": "Heute dominieren Vertrauensfragen bei Coding-Agenten: Postman installiert unaufgefordert Agenten-Plugins, und OpenAI soll das Codex-Training still wieder aktiviert haben. Dazu kommt ein Tempogewinn für lange Claude-Code-Sitzungen. Im Spielebereich fällt auf, dass fast die Hälfte neuer Steam-Spiele KI-Inhalte offenlegt und Nexus Mods Angaben dazu verpflichtend macht.",
   "top": [
    {
-    "title": "Anthropic stoppt Nachbau bestehender Spiele in Claude Code",
-    "what": "Anthropic hat den System-Prompt von Claude Code ergänzt, damit das Werkzeug keine existierenden Videospiele nachbaut. Laut Tom's Hardware und 80 Level blockiert Opus 5.5 auch manche Reverse-Engineering-Aufgaben, und Entwickler berichten, dass eigene Projekte betroffen sind.",
+    "title": "Anthropic: „Message Threads“ beschleunigen lange Agenten-Sitzungen um rund 35 Prozent",
+    "what": "Anthropic führt für die Messages-API „Message Threads“ ein: Agenten schicken pro Schritt nur noch die neuen Nachrichten, statt jedes Mal das ganze Gespräch erneut zu senden. Bei Anfragen mit 500.000 bis einer Million Token sinkt die Wartezeit bis zum ersten Token laut Bericht um etwa 35 Prozent. Die New Stack weist darauf hin, dass die Token-Rechnung gleich bleibt.",
     "importance": 3
    },
    {
-    "title": "OpenAI baut mit Pando ein Git-kompatibles Backend für Codex-Last",
-    "what": "OpenAI beschreibt Pando, ein Git-kompatibles Backend für sein Monorepo, ausgelegt auf die Menge an Entwicklung, die Codex erzeugt. The New Stack ordnet es als weiteres selbstgebautes Git-Backend ein.",
+    "title": "Postman soll ungefragt Plugins in Claude Code und Codex installiert haben",
+    "what": "Ein Entwickler berichtet, dass die Desktop-App von Postman (Werkzeug zum Testen von Schnittstellen) ohne Erlaubnis Plugins in Claude Code und OpenAI Codex eingerichtet hat. Die Überschrift des verlinkten Hacker-News-Beitrags geht weiter und spricht davon, dass die App versuche, API-Daten weiterzugeben. Das ist bisher die Darstellung des Entwicklers, eine Stellungnahme von Postman geht aus den Quellen nicht hervor.",
+    "importance": 3
+   },
+   {
+    "title": "Nutzer: OpenAI schaltet Modelltraining auf Codex-Chats still wieder ein",
+    "what": "Ein Hacker-News-Nutzer berichtet, dass in seiner Firma die Einstellung zur Datenweitergabe in Codex plötzlich wieder aktiv war, obwohl alle sie bewusst abgeschaltet hatten. Es ist ein Erfahrungsbericht ohne Bestätigung von OpenAI, der Beitrag erreichte über 450 Punkte.",
+    "importance": 3
+   },
+   {
+    "title": "Fast die Hälfte der neuen Steam-Spiele legt KI-Nutzung offen",
+    "what": "Laut Auswertungen für Oktober 2026 enthalten fast 50 Prozent der neuen Steam-Spiele KI-Inhalte, nach nur 1,7 Prozent zu Beginn der Erhebung. Die Zahlen stammen aus Medienberichten über die Offenlegungen der Entwickler.",
     "importance": 2
    },
    {
-    "title": "OpenAI legt ChatGPT- und Codex-Nutzungskontingent zusammen",
-    "what": "OpenAI führt die Tabs Chat und Work in ChatGPT zusammen; ChatGPT und Codex ziehen danach aus demselben Kontingent. Laut Unite.AI gilt die gemeinsame Zuteilung für Dezember.",
+    "title": "Nexus Mods verlangt bei neuen Mods Angabe zum KI-Einsatz",
+    "what": "Die größte PC-Mod-Plattform macht Angaben zu KI verpflichtend: Autoren müssen beim Hochladen neuer Mods erklären, ob KI in ihrer Arbeit verwendet wurde. Die Regel ist Teil eines größeren Beitrags der Seite zu KI-generierten Inhalten.",
     "importance": 2
    },
    {
-    "title": "Coding-Agenten laufen zunehmend mit Budget und können mitten in der Aufgabe stoppen",
-    "what": "The New Stack beschreibt, dass KI-Coding-Agenten inzwischen unter Kostenlimits laufen und Aufgaben abbrechen können, wenn das Budget aufgebraucht ist.",
+    "title": "Schadhafte Claude-Code-Erweiterung über Cursor-Lieferkette verteilt",
+    "what": "SecurityWeek berichtet von einem Angriff über die Software-Lieferkette, bei dem eine bösartige Claude-Code-Erweiterung in Cursor ausgeliefert wurde. Details gehen aus der Überschrift nicht hervor.",
     "importance": 2
    },
    {
-    "title": "DeepSeek stellt Super-Agent-Harness als Open-Source-Prototyp vor",
-    "what": "DeepSeek hat einen Prototyp eines Super-Agents (dsh-superagent-prototype) als Forschungscode veröffentlicht; Techzine nennt ihn eine offene Alternative zu Claude Code. Bloomberg berichtet zusätzlich von einem neuen Creator-Modus.",
+    "title": "Docker Sandboxes: Lücke lässt Agenten aus ihrer Sandbox auf Dateien zugreifen",
+    "what": "Endor Labs meldet eine Sicherheitslücke (CVE-2026-103916) in Docker Sandboxes, durch die KI-Agenten auf sensible Dateien außerhalb ihres abgeschotteten Bereichs zugreifen können. Näheres ist der Überschrift nicht zu entnehmen.",
     "importance": 2
-   },
-   {
-    "title": "GitHub Actions blockiert pull_request_target ab 2. Dezember standardmäßig",
-    "what": "Ab dem 2. Dezember 2026 blockiert GitHub Actions pull_request_target-Ereignisse in allen öffentlichen Repositories, sofern keine passende Event-Richtlinie sie erlaubt. Die Durchsetzung war zuvor für einen anderen Termin geplant.",
-    "importance": 2
-   },
-   {
-    "title": "Uber verwaltet über 5.000 Agenten-Werkzeuge mit eigenem MCP-Gateway",
-    "what": "Uber hat ein MCP-Gateway gebaut, das über 800 MCP-Server und mehr als 5.000 Werkzeuge bündelt. Es trennt Registrierung und Ausführung und bietet Zugriffskontrolle, Schwärzung sensibler Daten und schrittweise Werkzeugentdeckung.",
-    "importance": 1
    }
   ]
  },
  "github": {
-  "count": 17,
-  "headline": "Agenten bekommen Aufpasser und Werkzeuge: Prüfer, Review-Oberflächen, Bildschirmzugriff – dazu starke Signale bei Inferenz auf Alltags-Hardware",
+  "count": 18,
+  "headline": "Agenten-Steuerung rückt in den Vordergrund: Hintergrund-Runner, Sandboxes und Harnesses mit Langzeitgedächtnis prägen den Tag",
   "top": [
    {
-    "title": "vercel-labs/agent-desktop",
-    "what": "Eine Kommandozeilen-Schnittstelle von Vercel Labs, mit der KI-Agenten einen Rechner über Bedienungshilfen-Schnittstellen steuern (Computer Use). In Rust geschrieben, heute mit rund 2.300 neuen Sternen.",
+    "title": "KKKKhazix/agent-autoloop",
+    "what": "Ein Werkzeug, mit dem Kommandozeilen-Agenten wie Claude Code oder Codex im Hintergrund selbständig Aufgaben annehmen und bis zum Ende weiterverfolgen. Nur bei unsicheren Entscheidungen schicken sie dem Nutzer eine Karte zur Freigabe. Laut Topics ereignisgesteuert, mit MCP-Anbindung.",
     "importance": 3
    },
    {
-    "title": "JustVugg/colibri",
-    "what": "Eine kleine Inferenz-Engine in reinem C ohne Abhängigkeiten, die große Mixture-of-Experts-Modelle (nur ein Teil der Experten ist pro Token aktiv) auf vorhandener Hardware laufen lässt. Die Experten werden von der Festplatte nachgeladen.",
+    "title": "mattpocock/sandcastle",
+    "what": "TypeScript-Bibliothek von Matt Pocock, die Coding-Agenten in abgeschotteten Sandboxes per `sandcastle.run()` orchestriert.",
     "importance": 3
    },
    {
-    "title": "Balanov/shim",
-    "what": "Ein kleines, lokal laufendes Agenten-Harness in Go ohne Abhängigkeiten: beliebiges Modell, MCP und Agent Skills, Bedienung per Kommandozeile in natürlicher Sprache. MIT-Lizenz.",
+    "title": "lexmount/moli",
+    "what": "In Rust geschriebener Headless-Browser (Browser ohne Fenster), der gezielt für KI-Agenten gebaut ist und leicht, schnell und möglichst kompatibel sein soll.",
     "importance": 3
    },
    {
-    "title": "Balanov/verdict",
-    "what": "Ein 197 KB kleiner, lokaler Prüfer, der Werkzeugaufrufe von KI-Agenten inhaltlich verifiziert. Leitidee laut Beschreibung: Ein Exit-Code 0 beweist nichts.",
+    "title": "jordan-gibbs/hyperresearch",
+    "what": "Macht aus Claude Code oder Codex einen Deep-Research-Agenten: Webrecherche wird gesammelt, durchsuchbar gemacht und in ein dauerhaftes Wiki geschrieben, das mit jeder Recherche wächst. Dazu gibt es eine gehostete API samt MCP.",
     "importance": 2
    },
    {
-    "title": "Balanov/skein",
-    "what": "Orchestrierung für Agenten-Schwärme in Go, die im Zweifel blockiert statt weiterzulaufen (fail-closed). Arbeit wird mit Epochen-Token abgesichert, verspätete Ergebnisse werden abgewiesen.",
+    "title": "beipo-ai/NorthCUA",
+    "what": "Open-Source-Harness für Desktop- und Web-Agenten mit Langzeitgedächtnis, laufender Bewertung (live evaluation) und wiederaufnehmbaren Stapeln von Aufgaben. Erst seit dem 2. November öffentlich, bisher 40 Sterne.",
     "importance": 2
    }
   ]
  },
  "reddit": {
-  "count": 20,
-  "headline": "Die Szene diskutiert Anthropics neue Sperren in Claude Code (Spiel-Klonen, Reverse Engineering), die Nutzungslimits bei Claude und OpenAI sowie das Experiment, dass ein KI-Modell Gewichte eines kleinen Modells direkt umschreibt.",
+  "count": 19,
+  "headline": "Die Szene staunt über Weight-Space Programming (ein KI-Modell liest und schreibt die Gewichte eines anderen Modells), Qwen 3.8 als lokales Arbeitspferd und Revoluts Wechsel auf selbst gehostete Modelle; daneben Streit über Claude-Regeln beim Nachbauen von Spielen und über echte Kosten von Agenten-Teams.",
   "top": [
    {
-    "title": "Anthropic confirms new Claude Code limits to prevent game cloning",
-    "what": "Laut Tom's Hardware bestätigt Anthropic neue Einschränkungen in Claude Code, die das Klonen von Spielen verhindern sollen. Offenbar greift die Sperre nur bei der Kombination aus Claude Code und Opus 5.5; Berichte sprechen auch von Blockaden bei Reverse-Engineering-Aufgaben.",
+    "title": "Like GPT-6 Astra, Qwen 3.8 27B can interpret model weights",
+    "what": "Simon Willison zeigt, dass auch das lokal lauffähige Qwen 3.8 27B Modellgewichte deuten kann – ähnlich wie es GPT-6 Astra in der MIT-Arbeit vorgeführt hat.",
     "importance": 3
    },
    {
-    "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
-    "what": "Ein Blogpost beschreibt, dass GPT-6 Astra Gewichte eines kleinen Qwen-Modells direkt editiert hat: Nur 0,016 % der Gewichte wurden geändert, ohne Gradienten oder Training. Laut Beitrag stieg der Mathe-Score von 7,9 % auf 48,1 %.",
+    "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+    "what": "Ein Blogpost von Matthew Honnibal (honnibal.dev) hält die Darstellung, Astra habe die Gewichte von Qwen gelesen und verbessert, für irreführend. Details lassen sich aus Titel und Link nur vermuten.",
     "importance": 3
    },
    {
-    "title": "Claude Code took our company from ~65 to 694 PRs a week and our CI couldn't keep up",
-    "what": "Ein Team berichtet, dass seit Opus 5.5 die meisten PRs von Claude-Code-Agenten stammen und die Zahl von etwa 65 auf 694 pro Woche stieg. Die CI auf GitHub-Runnern kam nicht mehr hinterher, deshalb zog man auf einen gemieteten Server mit GARM um.",
+    "title": "[Paper] Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+    "what": "Das Paper „Sparks of Weight-Space Programming“ behauptet, dass Spitzenmodelle rohe Netzgewichte lesen können, etwa um zu erkennen, wofür ein Netz trainiert wurde, und sie ohne Rückmeldung gezielt umschreiben können.",
     "importance": 3
    },
    {
-    "title": "Official Claude Code Extension Compromise: Security Advisory",
-    "what": "Ein Sicherheitshinweis von phorion.io meldet, dass die offizielle Claude-Code-VS-Code-Erweiterung in den Versionen 2.1.312 und 2.1.313 kompromittiert war. Der Reddit-Beitrag selbst nennt nur diese Versionen.",
+    "title": "British fintech Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted",
+    "what": "Laut The Register senkt Revolut seine KI-Coding-Kosten um das Zehnfache, indem es von Claude auf selbst gehostete offene Modelle (GLM) umsteigt. Auf Reddit wird berichtet, dass einzelne Entwickler zuvor 1.000–10.000 Dollar im Monat verbrannten.",
     "importance": 3
    },
    {
-    "title": "I ran the same browser job 216 times with Claude Code and Codex. A script beat every agent run, and the best browser tool depended on the agent",
-    "what": "Ein Entwickler ließ Claude Code und Codex denselben Browser-Job 216 Mal mit verschiedenen Browser-Werkzeugen ausführen. Ein einfaches Skript schlug jeden Agentenlauf, und das beste Werkzeug hing vom Agenten ab.",
-    "importance": 2
+    "title": "I tried to make Opus 5.5 cheaper with a cheap coding subagent, but It got worse and more expensive",
+    "what": "Auf 12 schwierigen Coding-Aufgaben löste Opus allein 81 % für 1,20 $ pro Aufgabe; Opus plus ein billiger Sub-Agent (DeepSeek V4.1 Flash) nur 67 % bei höheren Kosten. Von 7 Team-Designs (41 Setups, ca. 1.200 Läufe) schlug keines Opus allein.",
+    "importance": 3
    }
   ]
  }

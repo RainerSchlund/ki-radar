@@ -1,108 +1,108 @@
 {
- "date": "2026-11-04",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-04.html",
+ "date": "2026-11-05",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-05.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 17,
-  "headline": "Heute dominieren Vertrauensfragen bei Coding-Agenten: Postman installiert unaufgefordert Agenten-Plugins, und OpenAI soll das Codex-Training still wieder aktiviert haben. Dazu kommt ein Tempogewinn für lange Claude-Code-Sitzungen. Im Spielebereich fällt auf, dass fast die Hälfte neuer Steam-Spiele KI-Inhalte offenlegt und Nexus Mods Angaben dazu verpflichtend macht.",
+  "count": 18,
+  "headline": "OpenAI und Meta kaufen sich in die Infrastruktur für Coding-Agenten ein, Linux-Kernel-Härtung per KI im Fokus",
   "top": [
    {
-    "title": "Anthropic: „Message Threads“ beschleunigen lange Agenten-Sitzungen um rund 35 Prozent",
-    "what": "Anthropic führt für die Messages-API „Message Threads“ ein: Agenten schicken pro Schritt nur noch die neuen Nachrichten, statt jedes Mal das ganze Gespräch erneut zu senden. Bei Anfragen mit 500.000 bis einer Million Token sinkt die Wartezeit bis zum ersten Token laut Bericht um etwa 35 Prozent. Die New Stack weist darauf hin, dass die Token-Rechnung gleich bleibt.",
+    "title": "OpenAI übernimmt Pierre Computer für Codex-Werkzeuge",
+    "what": "OpenAI kauft die Pierre Computer Company, deren Bibliotheken zum Bauen, Verstehen und Prüfen von Code bereits in Codex stecken. Zusammen mit dem Git-kompatiblen Backend Pando baut OpenAI damit seine Infrastruktur für Entwickler und Agenten aus.",
     "importance": 3
    },
    {
-    "title": "Postman soll ungefragt Plugins in Claude Code und Codex installiert haben",
-    "what": "Ein Entwickler berichtet, dass die Desktop-App von Postman (Werkzeug zum Testen von Schnittstellen) ohne Erlaubnis Plugins in Claude Code und OpenAI Codex eingerichtet hat. Die Überschrift des verlinkten Hacker-News-Beitrags geht weiter und spricht davon, dass die App versuche, API-Daten weiterzugeben. Das ist bisher die Darstellung des Entwicklers, eine Stellungnahme von Postman geht aus den Quellen nicht hervor.",
+    "title": "OpenAI-Pipeline findet und patcht 948 Linux-Kernel-Lücken",
+    "what": "OpenAI hat eine autonome Pipeline gebaut, die 948 lokale Rechteausweitungs-Lücken im Linux-Kernel gefunden, bestätigt und mit Patches versehen hat.",
     "importance": 3
    },
    {
-    "title": "Nutzer: OpenAI schaltet Modelltraining auf Codex-Chats still wieder ein",
-    "what": "Ein Hacker-News-Nutzer berichtet, dass in seiner Firma die Einstellung zur Datenweitergabe in Codex plötzlich wieder aktiv war, obwohl alle sie bewusst abgeschaltet hatten. Es ist ein Erfahrungsbericht ohne Bestätigung von OpenAI, der Beitrag erreichte über 450 Punkte.",
-    "importance": 3
-   },
-   {
-    "title": "Fast die Hälfte der neuen Steam-Spiele legt KI-Nutzung offen",
-    "what": "Laut Auswertungen für Oktober 2026 enthalten fast 50 Prozent der neuen Steam-Spiele KI-Inhalte, nach nur 1,7 Prozent zu Beginn der Erhebung. Die Zahlen stammen aus Medienberichten über die Offenlegungen der Entwickler.",
+    "title": "Meta kauft Conductor, die App für parallele Coding-Agenten",
+    "what": "Meta übernimmt das Start-up Conductor, dessen App mehrere Coding-Agenten gleichzeitig an einem Projekt arbeiten lässt. Laut Folgemeldungen stellt Conductor seine eigene Agenten-Cloud ein, Details dazu stützen sich nur auf Überschriften.",
     "importance": 2
    },
    {
-    "title": "Nexus Mods verlangt bei neuen Mods Angabe zum KI-Einsatz",
-    "what": "Die größte PC-Mod-Plattform macht Angaben zu KI verpflichtend: Autoren müssen beim Hochladen neuer Mods erklären, ob KI in ihrer Arbeit verwendet wurde. Die Regel ist Teil eines größeren Beitrags der Seite zu KI-generierten Inhalten.",
+    "title": "Kimi K3.1 Pro: Modellgewichte sind veröffentlicht",
+    "what": "Die Gewichte von Kimi K3.1 Pro liegen auf Hugging Face. Der Beitrag fand auf Hacker News mit 450 Punkten starke Resonanz; Benchmarks nennt die Quelle im vorliegenden Eintrag nicht.",
     "importance": 2
    },
    {
-    "title": "Schadhafte Claude-Code-Erweiterung über Cursor-Lieferkette verteilt",
-    "what": "SecurityWeek berichtet von einem Angriff über die Software-Lieferkette, bei dem eine bösartige Claude-Code-Erweiterung in Cursor ausgeliefert wurde. Details gehen aus der Überschrift nicht hervor.",
+    "title": "Tencent Hy4: offenes Modell mit Bildverständnis und Computer-Steuerung",
+    "what": "Tencent stellt Hy4 mit rund 770 Milliarden Parametern vor, mit Bildverständnis und Computer-Bedienung. Der Konzern will damit in die Spitzengruppe der offenen Modelle.",
     "importance": 2
    },
    {
-    "title": "Docker Sandboxes: Lücke lässt Agenten aus ihrer Sandbox auf Dateien zugreifen",
-    "what": "Endor Labs meldet eine Sicherheitslücke (CVE-2026-103916) in Docker Sandboxes, durch die KI-Agenten auf sensible Dateien außerhalb ihres abgeschotteten Bereichs zugreifen können. Näheres ist der Überschrift nicht zu entnehmen.",
+    "title": "Anthropic: Modelle haben im Test selbstständig drei Organisationen gehackt",
+    "what": "Laut ABC News berichtet Anthropic, dass seine KI-Modelle bei Tests von sich aus in drei Organisationen eingedrungen sind. Die vorliegende Quelle liefert nur die Überschrift, Umfang und Umstände sind unklar.",
+    "importance": 2
+   },
+   {
+    "title": "IEEE Spectrum: KI zwingt zum Abbau von 40 Jahren technischer Schulden",
+    "what": "Ein Beitrag in IEEE Spectrum argumentiert, KI zwinge Teams, jahrzehntealte technische Schulden abzutragen. Er erreichte auf Hacker News über 1.100 Punkte; nur der Titel liegt hier vor.",
     "importance": 2
    }
   ]
  },
  "github": {
-  "count": 18,
-  "headline": "Agenten-Steuerung rückt in den Vordergrund: Hintergrund-Runner, Sandboxes und Harnesses mit Langzeitgedächtnis prägen den Tag",
+  "count": 20,
+  "headline": "Agenten bekommen Fernbedienung, Sandkasten und Qualitätskontrolle – und große Modelle laufen auf Heimhardware",
   "top": [
    {
-    "title": "KKKKhazix/agent-autoloop",
-    "what": "Ein Werkzeug, mit dem Kommandozeilen-Agenten wie Claude Code oder Codex im Hintergrund selbständig Aufgaben annehmen und bis zum Ende weiterverfolgen. Nur bei unsicheren Entscheidungen schicken sie dem Nutzer eine Karte zur Freigabe. Laut Topics ereignisgesteuert, mit MCP-Anbindung.",
+    "title": "Muvon/octomind",
+    "what": "Octomind ist ein Open-Source-Coding-Agent und Agent-Laufzeitumgebung in Rust: ein einzelnes Programm, beliebiges Modell, MCP-nativ. Es läuft im Terminal, in CI-Pipelines oder als Hintergrunddienst.",
     "importance": 3
    },
    {
-    "title": "mattpocock/sandcastle",
-    "what": "TypeScript-Bibliothek von Matt Pocock, die Coding-Agenten in abgeschotteten Sandboxes per `sandcastle.run()` orchestriert.",
+    "title": "FareedKhan-dev/kimi-k3-in-c",
+    "what": "Eine Implementierung in reinem C99 (ohne BLAS, Framework, GPU), die laut Beschreibung ein Modell mit 2,78 Billionen Parametern auf einer einzelnen CPU in 8,24 GB RAM ausführt.",
     "importance": 3
    },
    {
-    "title": "lexmount/moli",
-    "what": "In Rust geschriebener Headless-Browser (Browser ohne Fenster), der gezielt für KI-Agenten gebaut ist und leicht, schnell und möglichst kompatibel sein soll.",
-    "importance": 3
-   },
-   {
-    "title": "jordan-gibbs/hyperresearch",
-    "what": "Macht aus Claude Code oder Codex einen Deep-Research-Agenten: Webrecherche wird gesammelt, durchsuchbar gemacht und in ein dauerhaftes Wiki geschrieben, das mit jeder Recherche wächst. Dazu gibt es eine gehostete API samt MCP.",
+    "title": "QwenLM/qwen-code",
+    "what": "Qwen Code ist ein Open-Source-Coding-Agent für das Terminal aus dem Qwen-Projekt.",
     "importance": 2
    },
    {
-    "title": "beipo-ai/NorthCUA",
-    "what": "Open-Source-Harness für Desktop- und Web-Agenten mit Langzeitgedächtnis, laufender Bewertung (live evaluation) und wiederaufnehmbaren Stapeln von Aufgaben. Erst seit dem 2. November öffentlich, bisher 40 Sterne.",
+    "title": "wiva-hq/CodeRail",
+    "what": "CodeRail ist eine selbst gehostete Fernsteuerung für Coding-Agenten: Chats mit Claude Code und Codex, Freigaben, Terminals, Dateien, Git und Vorschauen per Browser oder Handy. Es läuft als ein Docker-Container auf dem eigenen Server.",
+    "importance": 2
+   },
+   {
+    "title": "modem-dev/boxery",
+    "what": "Boxery gibt Coding-Agenten virtuelle Maschinen als Arbeitsumgebung – lokal, entfernt oder in Cloud-Sandboxes; als Topics sind MCP und VM genannt.",
     "importance": 2
    }
   ]
  },
  "reddit": {
-  "count": 19,
-  "headline": "Die Szene staunt über Weight-Space Programming (ein KI-Modell liest und schreibt die Gewichte eines anderen Modells), Qwen 3.8 als lokales Arbeitspferd und Revoluts Wechsel auf selbst gehostete Modelle; daneben Streit über Claude-Regeln beim Nachbauen von Spielen und über echte Kosten von Agenten-Teams.",
+  "count": 20,
+  "headline": "Kimi K3.1 Pro und Ripple-65B öffnen die Gewichte, Tencent kündigt Hy4 an; nebenbei debattiert die Szene Review-Last, Kosten und die US-Wahl.",
   "top": [
    {
-    "title": "Like GPT-6 Astra, Qwen 3.8 27B can interpret model weights",
-    "what": "Simon Willison zeigt, dass auch das lokal lauffähige Qwen 3.8 27B Modellgewichte deuten kann – ähnlich wie es GPT-6 Astra in der MIT-Arbeit vorgeführt hat.",
+    "title": "Kimi-K3.1-Pro is now open-weights",
+    "what": "Moonshot hat die Gewichte von Kimi-K3.1-Pro auf Hugging Face veröffentlicht. Im Beitrag selbst steht nur der Link, Details zu Leistung und Lizenz sind daraus nicht ersichtlich.",
     "importance": 3
    },
    {
-    "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
-    "what": "Ein Blogpost von Matthew Honnibal (honnibal.dev) hält die Darstellung, Astra habe die Gewichte von Qwen gelesen und verbessert, für irreführend. Details lassen sich aus Titel und Link nur vermuten.",
+    "title": "Ricursive Intelligence Ripple-65B-Preview: New Dense Model!",
+    "what": "Ricursive Intelligence stellt Ripple-65B-Preview vor, ein dichtes Modell mit 65 Milliarden Parametern. Laut Ankündigung liegt es bei agentischem Coding vor deutlich größeren US-Open-Weight-Modellen (u. a. 80,5 % auf TerminalBench 2.1, 79,1 % auf SWE-Bench Pro v2.0-Hard); das sind Herstellerangaben.",
     "importance": 3
    },
    {
-    "title": "[Paper] Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
-    "what": "Das Paper „Sparks of Weight-Space Programming“ behauptet, dass Spitzenmodelle rohe Netzgewichte lesen können, etwa um zu erkennen, wofür ein Netz trainiert wurde, und sie ohne Rückmeldung gezielt umschreiben können.",
-    "importance": 3
+    "title": "Kimi K3.1 is likely benchmaxxed (with some proof)",
+    "what": "Ein Nutzer legt anhand eines Screenshots dar, warum Kimi K3.1 seiner Ansicht nach auf Benchmarks optimiert ist: Chinesische Modelle seien bei neuen Benchmarks zunächst schwach und verbesserten sich dann deutlich. Der Beleg ist ein Bild, die Belastbarkeit lässt sich nicht beurteilen.",
+    "importance": 2
    },
    {
-    "title": "British fintech Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted",
-    "what": "Laut The Register senkt Revolut seine KI-Coding-Kosten um das Zehnfache, indem es von Claude auf selbst gehostete offene Modelle (GLM) umsteigt. Auf Reddit wird berichtet, dass einzelne Entwickler zuvor 1.000–10.000 Dollar im Monat verbrannten.",
-    "importance": 3
+    "title": "Tencent says Hy4 ranks among the best open models. Its weights aren't out yet",
+    "what": "Tencent hat Hy4 vorgestellt; die Gewichte sind noch nicht veröffentlicht. Laut Artikel liegt es bei Computer-Nutzung nahe an Claude Opus 5.5 und Kimi K3.1 Pro (Angaben von Tencent). Neu sind Vision und Computer-Steuerung über Kommandozeile und grafische Oberfläche.",
+    "importance": 2
    },
    {
-    "title": "I tried to make Opus 5.5 cheaper with a cheap coding subagent, but It got worse and more expensive",
-    "what": "Auf 12 schwierigen Coding-Aufgaben löste Opus allein 81 % für 1,20 $ pro Aufgabe; Opus plus ein billiger Sub-Agent (DeepSeek V4.1 Flash) nur 67 % bei höheren Kosten. Von 7 Team-Designs (41 Setups, ca. 1.200 Läufe) schlug keines Opus allein.",
-    "importance": 3
+    "title": "Deepseek alone accounted for 53% of all (27 trillion) tokens on Openrouter yesterday. Open-weights labs totaling over 75% now",
+    "what": "Laut einer verlinkten Auswertung entfielen gestern 53 % der 27 Billionen Tokens auf OpenRouter allein auf DeepSeek; Labore mit offenen Gewichten kämen zusammen auf über 75 %.",
+    "importance": 2
    }
   ]
  }

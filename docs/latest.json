@@ -1,107 +1,107 @@
 {
- "date": "2026-11-07",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-07.html",
+ "date": "2026-11-08",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-08.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
   "count": 11,
-  "headline": "Inkling 2 Small setzt neuen offenen Maßstab, Cursor bringt Apps ins Netz, METR prüft Anthropic",
+  "headline": "Claude-Code-Lücke legt Zugangsdaten offen; Agenten-Werkzeuge für Review und Fabrik-Prozesse",
   "top": [
    {
-    "title": "Inkling 2 Small: 594-Milliarden-Modell von Thinking Machines, offen verfügbar",
-    "what": "Thinking Machines (Start-up von Mira Murati) stellt Inkling 2 Small vor, ein Mixture-of-Experts-Modell mit 594 Milliarden Parametern, das laut Unternehmen das stärkste westliche Open-Weight-Modell sein soll und Googles Gemini 3.8 Flash erreicht. Die bessere Agenten-Leistung geht mit deutlich höherem Tokenverbrauch einher.",
+    "title": "Claude Code: „Don't Ask Again“ legt Passwörter in 1.122 GitHub-Dateien offen",
+    "what": "Die Option „Yes, and Don't Ask Again“ in Claude Code schreibt Freigaben samt eingebetteter Zugangsdaten in eine Projektdatei. Laut Apiiro landeten so Passwörter und API-Schlüssel in 1.122 öffentlichen GitHub-Dateien; Medien nennen insgesamt 2.539 geleakte Geheimnisse, die meisten aus dieser einen Datei.",
     "importance": 3
    },
    {
-    "title": "METR: KI-gestützte Forschung verdoppelt Entwicklungstempo bei Anthropic",
-    "what": "METR durfte elf Wochen lang Anthropics interne Forschungsdaten prüfen und sieht ein etwa verdoppeltes Entwicklungstempo der Modelle, rund 80 Prozent davon gehen auf KI-gestützte Forschung zurück. Die aussagekräftigsten Belege hat Anthropic geschwärzt.",
-    "importance": 3
-   },
-   {
-    "title": "Cursor liefert Apps jetzt selbst aus: verwaltetes Deployment gegen Lovable und Replit",
-    "what": "Cursor bietet mit „Build Live Apps“ vollständig verwaltetes Deployment an, sodass aus dem Code des Agenten direkt eine laufende Anwendung wird. Das Angebot zielt auf Lovable und Replit.",
-    "importance": 3
-   },
-   {
-    "title": "Google gibt gVisor und zwei weitere Agenten-Infrastrukturprojekte ab",
-    "what": "Google spendet drei zentrale Open-Source-Projekte für Agenten-Infrastruktur, darunter die Code-Sandbox gVisor, die laut The New Stack auch Anthropic und OpenAI nutzen. Ziel ist ein ähnlicher Erfolg wie bei Kubernetes.",
+    "title": "Vals AI: GPT-6 Sol Daybreak knackt 80,8 % simulierter Firmennetzwerke",
+    "what": "Im Benchmark von Vals AI erreicht OpenAIs GPT-6 Sol Daybreak 80,8 Prozent der Angriffsziele. Das offene Modell DeepSeek V4.1 Flash kommt auf 72,8 Prozent bei etwa einem Zehntel der Kosten.",
     "importance": 2
    },
    {
-    "title": "AWS Continuum: Sicherheitslücken per echtem Exploit belegen und per Pull Request beheben",
-    "what": "AWS hat Continuum für Code-Schwachstellen in zwei Regionen allgemein verfügbar gemacht. Der Dienst beweist die Ausnutzbarkeit mit echten Exploits in einer Sandbox und öffnet Korrekturen als Pull Requests; abgerechnet wird pro Fund und pro Codezeile.",
+    "title": "Anthropic beschreibt die Bausteine von Agenten-Gedächtnis",
+    "what": "Anthropic veröffentlicht einen Text zu den Komponenten von Agenten-Gedächtnis. Er erreichte auf Hacker News 155 Punkte; Inhalte sind aus dem Auszug nicht ersichtlich.",
     "importance": 2
    },
    {
-    "title": "Kleines Modell darf Opus um Hilfe fragen: gleiche Genauigkeit bei 4-fach geringeren Kosten",
-    "what": "Laut Hightouch erreicht ein Agent, der bei Bedarf Opus um Hilfe bitten kann, die Genauigkeit von Opus bei vierfach niedrigeren Kosten. Der Beitrag fand auf Hacker News mit 409 Punkten große Resonanz.",
-    "importance": 2
+    "title": "Microsoft Research löst die Gruppe „AI Frontiers“ auf",
+    "what": "Laut einem Beitrag auf hunch.net endet die Forschungsgruppe AI Frontiers bei Microsoft Research. Die Quelle ist dünn, Details zu Gründen und Folgen fehlen im Text.",
+    "importance": 1
    },
    {
-    "title": "Cognition baut Coding-Modell auf offenem Fundament, behält aber die Gewichte",
-    "what": "Cognitions neues Coding-Modell basiert auf einem frei herunterladbaren Modell, die eigenen Gewichte veröffentlicht das Unternehmen jedoch nicht.",
+    "title": "The New Stack: KI-Code prüfen, ohne jede Zeile zu lesen",
+    "what": "Autor Ankit Jain argumentiert, man müsse nicht jede Zeile KI-generierten Codes lesen, sondern fünf Dinge prüfen; so lasse sich viermal mehr KI-Code reviewen. Welche fünf, geht aus dem Auszug nicht hervor.",
+    "importance": 1
+   },
+   {
+    "title": "Grab fängt mit gestaffelter Absicherung die Flut an KI-Code-Änderungen ab",
+    "what": "Grab berichtet, dass KI-Assistenten die Zahl der Änderungen pro Release und damit Abstürze erhöhten. Das Unternehmen setzt eine mehrstufige Verteidigung ein, die Abstürze verhindern, erkennen und eindämmen soll.",
+    "importance": 1
+   },
+   {
+    "title": "Tessl startet Plattform für „Software Factory“ mit Coding-Agenten",
+    "what": "Tessl bringt eine Plattform auf den Markt, die den Übergang von KI als Assistent zu KI als ausführender Instanz unterstützen soll. Mehr geht aus den Überschriften von TechGig und SD Times nicht hervor.",
     "importance": 1
    }
   ]
  },
  "github": {
-  "count": 19,
-  "headline": "Sandboxen, Fernsteuerung und Werkzeuge für Agenten: Roblox-MCP und Headless-3D-Engine führen die Neuzugänge an",
+  "count": 7,
+  "headline": "Skills und Sandboxes für Coding-Agenten prägen den Tag; Memory bleibt dünn",
   "top": [
    {
-    "title": "HerdBuilderEstimate/roblox-studio-mcp",
-    "what": "MCP-Server (Schnittstelle, über die KI-Assistenten externe Werkzeuge ansteuern) für Roblox Studio. Claude oder Cursor können damit die Objektbäume lesen, Skripte bearbeiten und Playtests starten. Das Repo ist seit gestern online und hat schon 427 Sterne.",
+    "title": "drost-ai/tinker-ai-skill",
+    "what": "Ein Agent Skill (Zusatzpaket mit Anleitungen für Coding-Agenten), der anhand der eigenen Claude-Code-Sitzungen ein agentisches Modell über den Dienst Tinker feinabstimmt (Fine-Tuning). Läuft laut Beschreibung in Claude Code, Codex und OpenCode.",
     "importance": 3
    },
    {
-    "title": "voyager-so/vork",
-    "what": "Headless-3D- und VFX-Engine in Rust, also eine Grafik-Engine ohne Fenster, die Agenten per Code bedienen. Laut Beschreibung eine Research Preview. Topics nennen Ray Tracing, Metal und Slang.",
+    "title": "shanselman/sandbox-mcp",
+    "what": "Ein MCP-Server samt Kommandozeilenwerkzeug, der Windows Sandbox (eine wegwerfbare, frische Windows-Umgebung) automatisiert. Agenten können Anwendungen darin testen und per UI-Automation bedienen.",
     "importance": 3
    },
    {
-    "title": "devvmhq/devvm",
-    "what": "Eine isolierte virtuelle Maschine pro Projekt (Go, auf Lima aufgebaut) mit der passenden Toolchain, in der man selbst oder ein Coding-Agent direkt loslegen kann.",
+    "title": "FFatTiger/hob",
+    "what": "Ein selbst gehosteter persönlicher Assistent in TypeScript, der Aufgaben als Hintergrundjobs ausführt, an spezialisierte Assistenten delegiert und vor Aktionen nachfragt.",
     "importance": 2
    },
    {
-    "title": "AkaraChen/cc-remote",
-    "what": "Claude Code in einer geteilten Variante: Das Modell läuft auf einem entfernten Rechner, die Werkzeuge (Dateien, Shell) bleiben auf der eigenen Maschine.",
+    "title": "lxe/phoneuse",
+    "what": "Erlaubt es, ein unverändertes iPhone von einem Linux-PC aus zu sehen und zu bedienen: Bildschirmspiegelung per AirPlay, Eingabe als Bluetooth-Maus und -Tastatur. Dazu gibt es ein Kommandozeilenwerkzeug und einen Skill für Agenten.",
     "importance": 2
    },
    {
-    "title": "MiniMax-AI/mcode-agent-table",
-    "what": "Entwurf (v0.1) eines Protokolls namens BYOB Table plus Referenzimplementierung. Verschiedene Agenten, darunter MiniMax Code, setzen sich an einen gemeinsamen Tisch und diskutieren oder arbeiten in beliebiger Anordnung zusammen.",
+    "title": "albertirgi/replica",
+    "what": "Ein Skill für Claude Code und andere Coding-Agenten, der eine Oberfläche aus Webseite, Screenshot oder Bildschirmvideo nachbaut und den Klon nach Layout, Stil, Pixeln und Bewegung bewertet, bis er besteht.",
     "importance": 2
    }
   ]
  },
  "reddit": {
-  "count": 19,
-  "headline": "Die Szene streitet über Agenten-Harnesses, Gedächtnis und die Frage, ob KI die KI-Forschung schon spürbar beschleunigt, dazu kocht ein Datenschutz-Aufreger um Claude Code hoch.",
+  "count": 18,
+  "headline": "Die Szene streitet über die Folgen von KI-erzeugtem Code (undurchschaubare Codebasen, ein Agent, der macOS-Daten löscht) und über das Limit-Versprechen von Claude Max. Dazu kommen Anthropics Text zu Agenten-Gedächtnis und ein Messwert zur Qualität von KV-Cache-Quantisierung.",
   "top": [
    {
-    "title": "PSA: claude code can put your account email in the User-Agent of its web requests (top of HN right now). why it happens and how to block it",
-    "what": "Claude Code schreibt unter Umständen die Konto-E-Mail-Adresse in den User-Agent-Header seiner Web-Abrufe, sodass jede abgerufene Seite sie protokollieren kann. Der Beitrag verweist auf ein GitHub-Issue mit über 500 Daumen und eine Diskussion auf Platz 2 bei Hacker News und erklärt Ursache und Gegenmaßnahmen.",
+    "title": "A year after the 100% AI mandate nobody understands our code",
+    "what": "Ein Team musste ein Jahr lang allen Code über KI-Agenten schreiben lassen. Zuerst lief es gut, jetzt ist die Codebasis etwa dreimal so groß und niemand versteht sie mehr. Die Agenten bauen selbst Hilfsfunktionen mehrfach neu, weil es von allem vier Versionen gibt.",
     "importance": 3
    },
    {
-    "title": "Harness Leaderboard - Kimi Code, Hermes, Pi, Claude Code, Codex, and Others Were Benchmarked Against Terminal Bench 2.1 & Deep SWE 1.1",
-    "what": "Ein Hugging-Face-Space vergleicht Agenten-Harnesses (Kimi Code, Hermes, Pi, Claude Code, Codex und weitere) anhand der Benchmarks Terminal Bench 2.1 und Deep SWE 1.1. Der Beitrag besteht nur aus dem Link, Details zu den Ergebnissen liegen nicht vor.",
+    "title": "The components of agent memory: how “dreaming” helps Claude organize what it’s learned, correct its mistakes, and find what it needs more easily the next time",
+    "what": "Anthropic beschreibt die Bausteine von Agenten-Gedächtnis. Dem Titel nach geht es um \"Dreaming\": Der Agent liest sein Gedächtnis später noch einmal durch, korrigiert Fehler und macht Notizen leichter auffindbar. Der Beitrag enthielt nur den Link, der Inhalt ist deshalb aus dem Titel erschlossen.",
     "importance": 3
    },
    {
-    "title": "METR's Ryan Greenblatt estimates AI is now speeding up AI by 4.5x. This is 5 months earlier than even AI 2027 predicted. \"I was seriously wrong about RSI speed up ... This is a big update towards ASI within 1-2 years.\"",
-    "what": "METR veröffentlicht eine Einschätzung, wie stark KI derzeit die KI-Forschung bei Anthropic beschleunigt. Laut Zitat von Ryan Greenblatt liegt der Faktor bei etwa 2x, in einer Schätzung bis 4,5x, und damit deutlich über seinen früheren Erwartungen.",
+    "title": "opus 5.5 XHIGH just deleted all my apps data, passwords and macOS configs",
+    "what": "Laut Beitrag hat Claude Code mit Opus 5.5 den Ordner ~/Library auf einem Mac gelöscht. Der Agent wollte nur selbst angelegte Test-Dateien aufräumen. Dabei trafen seine Lösch-Befehle auch App-Daten, Passwörter und Systemeinstellungen. Der Beitrag stützt sich auf einen Screenshot und ist nicht unabhängig bestätigt.",
     "importance": 3
    },
    {
-    "title": "AI is dramatically accelerating AI research right now",
-    "what": "Der Essay „AI is dramatically accelerating AI research right now“ auf planned-obsolescence.org greift das Thema der Beschleunigung der KI-Forschung auf. Der Beitrag besteht nur aus dem Link, der Inhalt wird hier aus Titel und Domain abgeleitet.",
-    "importance": 2
+    "title": "An AI system just proved an 18-year-old quantum conjecture — and Lean checked every step",
+    "what": "Das Unternehmen Physical Superintelligence meldet laut Beitrag, ein internes System mit einem nicht veröffentlichten Anthropic-Modell habe die Aaronson-Ambainis-Vermutung aus der Quantenforschung bewiesen. Das Beweisprogramm Lean habe jeden Schritt geprüft. Der Beitrag nennt keine Primärquelle, die Angaben sollten daher geprüft werden.",
+    "importance": 3
    },
    {
-    "title": "Tried the weight editing thing from the MIT post: Some cool applications, but nothing crazy",
-    "what": "Der Autor ließ Opus 5.5 an Modellen mit klaren Fehlern (Anfälligkeit für Prompt-Injection, Halluzinationen von Whisper bei Stille) direkt die Gewichte editieren. Das taugt als Flicken für fertig trainierte Modelle, ist aber keine rekursive Selbstverbesserung.",
+    "title": "A judge says Claude Max’s “20x more usage” promise could mislead paying subscribers",
+    "what": "Ein Blogbeitrag auf madrobot.blog berichtet, ein Richter halte das Versprechen \"20-mal mehr Nutzung\" beim Claude-Max-Abo für potenziell irreführend. Gelesen wurde nur der Titel, Details zum Verfahren sind nicht bekannt.",
     "importance": 2
    }
   ]

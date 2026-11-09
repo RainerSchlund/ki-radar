@@ -236,7 +236,11 @@
     "what": "numbrone ist eine Art Stabschef für Coding-Agenten: Anfragen werden an projektbezogene Manager-Agenten verteilt, die ihrerseits parallele Worker in getrennten git worktrees (separate Arbeitskopien desselben Repos) laufen lassen. Es läuft auf herdr und ist als Shell-Skill gebaut.",
     "why": "Zeigt einen konkreten Ansatz, mehrere Claude-Code-Sitzungen parallel zu steuern, ohne dass sie sich im selben Verzeichnis in die Quere kommen.",
     "headline_de": null,
-    "importance": 3
+    "importance": 3,
+    "pruefung": "ok",
+    "urteil": "vorschlag",
+    "verwendung": "idee adaptieren",
+    "urteil_kurz": "Das Repo organisiert mehrere Coding-Agenten als Hierarchie aus einem Chef, je einem Manager pro Projekt und parallel arbeitenden Workern, wobei alle Absprachen, Aufgaben und Tagesprotokolle als einfache Textdateien vorliegen. Als Vorlage für Rollenanweisungen und Dateiformate lohnt es sich, die Mechanik selbst ist aber an ein bestimmtes Terminalwerkzeug gebunden."
    },
    {
     "full_name": "rainyZhou2/SreAgentHarness",
@@ -256,7 +260,11 @@
     "what": "SreAgentHarness ist ein selbst gehostetes, mandantenfähiges Harness in Go für die Störungsdiagnose im Betrieb (SRE). Es bringt Freigaben für riskante Tool-Aufrufe, wieder aufnehmbare Läufe, Audit-Spur, Modell-Gateway, MCP-Tools und einen Desktop-Chat-Client mit.",
     "why": "Ein ungewöhnlich vollständiges Beispiel dafür, wie ein Harness mit Freigabe- und Nachvollziehbarkeitsfunktionen für den Produktivbetrieb aussehen kann.",
     "headline_de": null,
-    "importance": 3
+    "importance": 3,
+    "pruefung": "ok",
+    "urteil": "vorschlag",
+    "verwendung": "idee adaptieren",
+    "urteil_kurz": "Eine große Laufzeit für Betriebs-Agenten mit dauerhaft gespeicherten Schritten, Freigabepflicht für riskante Aktionen und Wächtern gegen Endlosschleifen und Kostenexplosion. Kein Skill, aber die Schutzmuster lassen sich als Idee in eigene Agenten-Werkzeuge übertragen."
    },
    {
     "full_name": "RapidSailorFreeze/studsmith",
@@ -291,7 +299,11 @@
     "what": "studsmith ist ein kostenloser KI-Agent für Roblox Studio (Windows-App): Er plant, schreibt Luau-Code (Robloxs Skriptsprache), zeigt die Änderungen als Diff und testet sie selbst im Spiel. Lokale Modelle über Ollama werden laut Topics unterstützt.",
     "why": "Eines der wenigen Werkzeuge heute, das einen Coding-Agenten direkt in eine Spiel-Engine-Umgebung einbettet, inklusive eigenem Playtest.",
     "headline_de": null,
-    "importance": 3
+    "importance": 3,
+    "pruefung": "ok",
+    "urteil": "verworfen",
+    "verwendung": null,
+    "urteil_kurz": "Eine kostenlose Windows-App, die in einer Spieleentwicklungsumgebung Skripte schreibt und Änderungen zur Prüfung vorlegt. Verworfen: Im Auszug ist nur Produktwerbung ohne Code zu sehen, und der Anwendungsbereich liegt weit weg von eigenen Agenten-Werkzeugen."
    },
    {
     "full_name": "chenhg5/myco",
@@ -331,7 +343,11 @@
     "what": "claude-work-mode ergänzt Claude Code um Sitzungsmodi über den Befehl /work-mode (auto, out, wrap), optional mit Freigabe-Schranken (gates). Genauere Details gehen aus der Beschreibung nicht hervor.",
     "why": "Mit 161 Sternen in wenigen Tagen ein Hinweis auf Bedarf an mehr Kontrolle über den Ablauf langer Agenten-Sitzungen.",
     "headline_de": null,
-    "importance": 2
+    "importance": 2,
+    "pruefung": "ok",
+    "urteil": "vorschlag",
+    "verwendung": "idee adaptieren",
+    "urteil_kurz": "Das Repo schaltet Claude-Code-Sitzungen per Befehl in Arbeitsmodi und bringt Hook-Prüfungen mit, die unter Autonomie verweigern statt zu fragen und Entscheidungslisten formal erzwingen. Die Muster sind sauber und übernehmenswert, das Plugin als Ganzes hängt aber an einer nicht belegten Hook-Engine."
    },
    {
     "full_name": "janestreet/agent_skills",
@@ -351,7 +367,11 @@
     "what": "janestreet/agent_skills ist eine Sammlung von Agenten-Skills des Börsenhandelshauses Jane Street. Die Beschreibung nennt keine Details, der Inhalt ist daher nur zu vermuten.",
     "why": "Ein bekannter Industrie-Name mit 636 Sternen nach wenigen Tagen; ein Blick lohnt, um zu sehen, welche Skills ein Unternehmen intern für nützlich hält.",
     "headline_de": null,
-    "importance": 2
+    "importance": 2,
+    "pruefung": "ok",
+    "urteil": "vorschlag",
+    "verwendung": "beobachten",
+    "urteil_kurz": "Ein einzelner Prompt-Skill, der als strenger Lern-Tutor mit Fragen, Stufenmodell und Abschlusstest durch ein Thema führt. Das Urteil lautet beobachten: sauber gemacht, aber fachfremd zum Skill-Bau und ohne Tests oder Wirkungsmessung; nur einzelne Muster sind als Anregung brauchbar."
    },
    {
     "full_name": "kunchenguid/headless",
@@ -856,5 +876,42 @@
   "fetched": 370,
   "failures": []
  },
- "generated": "2026-11-09 07:09"
+ "generated": "2026-11-09 07:09",
+ "leitstand_report": {
+  "title": "Coding-Agenten: Benchmarks ernüchtern, Claude Code unter Beobachtung",
+  "text": "Der rote Faden des Tages: Coding-Agenten sind verbreitet, aber ihre Grenzen werden genauer vermessen. Alibabas Co-Design Bench stellt echte, schwierige Nutzeranfragen, und selbst GPT-6 Astra löst nur 26,4 Prozent vollständig, während dieselben Modelle auf älteren Benchmarks über 99 Prozent erreichen [[n-20261109-3eb7e44a]]. Ein Benchmark zu sicherem Code meldet, dass führende Agenten nur in etwa einem Viertel der Fälle sicheren Code erzeugen [[n-20261109-e51bc169]]. Dazu passt Mihail Erics Aussage, selbst in KI-Softwarefabriken sei nur knapp ein Drittel des Codes rein agentengeschrieben [[n-20261109-fa163e09]]; Anthropic nennt dagegen rund 90 Prozent für Claude Code und beschreibt eine sechsstufige Prüfung [[n-20261109-2f204fd6]]. Aus der Szene kommt der Parsimony-Benchmark, der misst, wie viel Code Modelle im Vergleich zur menschlichen Lösung erzeugen [[r-20261109-3dc420ee]]. Willison empfiehlt, aufgeblähte PR-Beschreibungen von Agenten auszublenden [[n-20261109-9b842601]].\n\nZweites Thema ist Claude Code selbst. Die Funktion „Don't Ask Again“ speichert Befehle samt Geheimnissen in einer lokalen Einstellungsdatei; ein Reddit-Beitrag nennt 1.122 öffentliche Dateien auf GitHub [[r-20261109-e2cd9a2e]], eine neuere Zählung spricht von 2.539, andere Quellen von 1.379 [[n-20261109-2373aa9d]]. Goldman Sachs soll Bankern und Tradern Claude Code entziehen, Gründe sind nicht belegt [[n-20261109-6f77d27a]]. In r/ClaudeCode streiten Nutzer, ob Opus abgebaut wurde: Ein Autor sieht serverseitige Experimente [[r-20261109-d98364e3]], ein weiterer fühlt sich bestätigt [[r-20261109-775b9a1a]], ein Enterprise-Nutzer sieht keinen Abfall, was Tests nur bei Privatkonten andeutet, aber nicht belegt [[r-20261109-dc65e035]]. Ein Beitrag mahnt Belege statt Bauchgefühl an [[r-20261109-dfe862d4]].\n\nMarkt und Technik: Cursor soll laut unbestätigtem Bericht für 60 Milliarden Dollar an SpaceX gehen [[n-20261109-4463d27a]]. Entire baut eine Git-Forge für Agenten [[n-20261109-f41e635f]], DeepSeek Harness 0.2.2 reicht Aufgaben an Codex und Claude weiter [[n-20261109-6a18a605]], und ein Beitrag fordert einen offenen Standard für Agenten-Gedächtnis [[n-20261109-cf1acdbb]]. Mistral Large 4 erscheint mit offenen Gewichten [[n-20261109-aac880b0]], Llama-modchip lässt ein 284-Milliarden-Modell auf 64 GB RAM laufen [[n-20261109-0c04d75c]]. Reddit-Berichte: Tencents Qwen3.8-27B-DSpine soll dreifach schneller dekodieren (ungeprüft) [[r-20261109-13cbf776]], Mirendil will mit einem Entwickler und 10 Millionen Dollar ein Kimi-K3-Modell trainiert haben (Herstellerangabe) [[r-20261109-ccc008cb]], GPT-6 Astra editierte laut MIT CSAIL 0,016 Prozent der Gewichte eines Qwen-Modells, Kritiker nennen es Standardarbeit [[r-20261109-5c1c4670]], und als KI-Prüfer hatte es 15 Prozent Fehlalarme [[r-20261109-8b0830a4]].\n\nVibe-Coding-Erfahrungen: Ein Entwickler will wieder selbst Code schreiben [[r-20261109-2e1d0648]], ein Solo-Entwickler brauchte für ein Steam-Spiel ein Jahr [[r-20261109-a2443776]], ein anderer sechs Monate bis zum Prototyp [[r-20261109-e077b9af]], ein Dritter fand per Skript 44 unsichtbare Animationsfehler [[r-20261109-fcbac2a9]]. Der Steam-Markt wird härter [[r-20261109-20369695]]; ein Blog nennt die Zukunft des Berufs „boring“ [[r-20261109-8f09a0e0]].",
+  "ids": [
+   "n-20261109-0c04d75c",
+   "n-20261109-2373aa9d",
+   "n-20261109-2f204fd6",
+   "n-20261109-3eb7e44a",
+   "n-20261109-4463d27a",
+   "n-20261109-6a18a605",
+   "n-20261109-6f77d27a",
+   "n-20261109-9b842601",
+   "n-20261109-aac880b0",
+   "n-20261109-cf1acdbb",
+   "n-20261109-e51bc169",
+   "n-20261109-f41e635f",
+   "n-20261109-fa163e09",
+   "r-20261109-13cbf776",
+   "r-20261109-20369695",
+   "r-20261109-2e1d0648",
+   "r-20261109-3dc420ee",
+   "r-20261109-5c1c4670",
+   "r-20261109-775b9a1a",
+   "r-20261109-8b0830a4",
+   "r-20261109-8f09a0e0",
+   "r-20261109-a2443776",
+   "r-20261109-ccc008cb",
+   "r-20261109-d98364e3",
+   "r-20261109-dc65e035",
+   "r-20261109-dfe862d4",
+   "r-20261109-e077b9af",
+   "r-20261109-e2cd9a2e",
+   "r-20261109-fcbac2a9"
+  ],
+  "fehler": false
+ },
+ "hinweise": []
 }

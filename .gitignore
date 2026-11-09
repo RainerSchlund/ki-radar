@@ -1,3 +1,5 @@
 logs/
 __pycache__/
 *.tmp
+# lokal: Skill-Liste, Prüfberichte, Sperrliste — enthält Nicht-Öffentliches
+local/

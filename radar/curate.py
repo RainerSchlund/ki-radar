@@ -56,28 +56,51 @@ def extract_json(text):
     return obj
 
 
+class ClaudeFehler(RuntimeError):
+    """claude -p ist gescheitert (Exit, Zeitüberschreitung, leere oder kaputte Antwort).
+    Helfer teilen sich das Nutzungslimit und sterben gern still — deshalb jede Form
+    als eigene, lesbare Meldung."""
+
+
 def ask_claude(prompt, model, timeout=900):
     cmd = ["claude", "-p", "--model", model, "--output-format", "json",
            "--tools", "", "--no-session-persistence", "--system-prompt", SYSTEM]
-    res = subprocess.run(cmd, input=prompt, capture_output=True, text=True,
-                         timeout=timeout, cwd=ROOT)
+    try:
+        res = subprocess.run(cmd, input=prompt, capture_output=True, text=True,
+                             timeout=timeout, cwd=ROOT)
+    except subprocess.TimeoutExpired:
+        raise ClaudeFehler(f"claude -p Zeitüberschreitung nach {timeout}s")
     if res.returncode != 0:
-        raise RuntimeError(f"claude -p exit {res.returncode}: {res.stderr[-500:]}"
+        raise ClaudeFehler(f"claude -p exit {res.returncode}: {res.stderr[-500:]}"
                            f" {res.stdout[-500:]}")
-    wrapper = json.loads(res.stdout)
+    if not res.stdout.strip():
+        raise ClaudeFehler(f"claude -p leere Antwort (stdout leer; stderr: {res.stderr[-300:]!r})")
+    try:
+        wrapper = json.loads(res.stdout)
+    except json.JSONDecodeError:
+        raise ClaudeFehler(f"claude -p Antwort kein JSON: {res.stdout[:200]!r}")
     if wrapper.get("is_error"):
-        raise RuntimeError(f"claude -p Fehler: {wrapper.get('result')}")
-    return extract_json(wrapper["result"])
+        raise ClaudeFehler(f"claude -p Fehler: {wrapper.get('result')}")
+    result = wrapper.get("result")
+    if not str(result or "").strip():
+        raise ClaudeFehler("claude -p leere Antwort (result leer)")
+    try:
+        return extract_json(result)
+    except ValueError as e:
+        raise ClaudeFehler(f"claude -p Antwort ohne gültiges JSON: {e}")
 
 
-def curate(kind, candidates, model, max_items=20, ask=ask_claude, recent=()):
-    """kind = 'github' | 'reddit' | 'news'. Gibt (headline, ausgewählte Items) zurück."""
+def curate(kind, candidates, model, max_items=20, ask=ask_claude, recent=(), einsatz=()):
+    """kind = 'github' | 'reddit' | 'news'. Gibt (headline, ausgewählte Items) zurück.
+    einsatz = erlaubte Einsatz-Rubriken (nur GitHub); Unbekanntes wird "Sonstiges"."""
     if not candidates:
         return "Keine neuen Kandidaten.", []
     line, prefix = LINES[kind]
     with open(os.path.join(ROOT, "prompts", f"{kind}.md")) as f:
         head = f.read().replace("{max_items}", str(max_items))
     head = head.replace("{recent}", "\n".join(recent) or "(noch nichts)")
+    names = [e["name"] for e in einsatz]
+    head = head.replace("{einsatz}", "\n".join(f'- "{e["name"]}": {e["wofuer"]}' for e in einsatz))
     prompt = head + "\n".join(line(i, c) for i, c in enumerate(candidates))
     answer = ask(prompt, model)
     by_id = {f"{prefix}{i}": c for i, c in enumerate(candidates)}
@@ -91,5 +114,8 @@ def curate(kind, candidates, model, max_items=20, ask=ask_claude, recent=()):
                        "what": sel.get("what", ""), "why": sel.get("why", ""),
                        "headline_de": sel.get("headline_de"),
                        "importance": int(sel.get("importance") or 1)})
+        if kind == "github" and names:
+            e = sel.get("einsatz")
+            picked[-1]["einsatz"] = e if e in names else "Sonstiges"
     picked.sort(key=lambda x: -x["importance"])  # stabil: Modell-Reihenfolge bleibt je Stufe
     return answer.get("headline", ""), picked[:max_items]

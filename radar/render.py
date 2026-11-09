@@ -58,6 +58,9 @@ table{width:100%;border-collapse:collapse;background:var(--card);border-radius:1
 td,th{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;font-size:14px}
 th{font-size:12px;text-transform:uppercase;color:var(--muted)}
 td.n{text-align:right;white-space:nowrap}
+.verdict{margin-top:8px;padding:6px 10px;border-radius:8px;background:var(--chip);font-size:13.5px}
+.verdict.vorschlag{border-left:3px solid var(--accent)}.verdict.err,.hinweis{color:var(--imp3)}
+.hinweis{margin:10px 0 0;font-size:14px}
 @media (max-width:760px){.lage,.cols,.newsgrid{grid-template-columns:1fr}nav a{margin:0 12px 0 0}}
 """
 
@@ -89,8 +92,23 @@ def fmt_num(n):
     return f"{n:,}".replace(",", ".") if isinstance(n, int) else ""
 
 
+URTEIL = {"vorschlag": "Vorschlag", "verworfen": "Verworfen"}
+
+
+def gh_verdict(r):
+    if r.get("pruefung") == "fehler":
+        return '<div class="verdict err">Gründliche Prüfung gescheitert — siehe Laufprotokoll.</div>'
+    if not r.get("urteil"):
+        return ""
+    how = f" ({esc(r['verwendung'])})" if r.get("verwendung") else ""
+    return (f'<div class="verdict {esc(r["urteil"])}"><b>Geprüft: {URTEIL.get(r["urteil"], esc(r["urteil"]))}{how}</b> '
+            f'— {esc(r.get("urteil_kurz"))}</div>')
+
+
 def gh_card(r):
     meta = [f'<span class="cat">{esc(r["category"])}</span>']
+    if r.get("einsatz"):
+        meta.append(f'<span class="cat" title="Wofür einsetzbar">▸ {esc(r["einsatz"])}</span>')
     if r.get("stars") is not None:
         meta.append(f"★ {fmt_num(r['stars'])}")
     if r.get("stars_today"):
@@ -101,7 +119,7 @@ def gh_card(r):
         meta.append(f"angelegt {r['created_at'][:10]}")
     return f"""<div class="card i{r['importance']}" data-cat="{esc(r['category'])}">
 <div class="t"><a href="{esc(r['url'])}" target="_blank" rel="noopener">{esc(r['full_name'])}</a></div>
-<div class="meta">{' · '.join(meta)}</div><div>{esc(r['what'])}</div><div class="why">{esc(r['why'])}</div></div>"""
+<div class="meta">{' · '.join(meta)}</div><div>{esc(r['what'])}</div><div class="why">{esc(r['why'])}</div>{gh_verdict(r)}</div>"""
 
 
 def rd_card(p):
@@ -158,6 +176,7 @@ def day_page(d, prev_d, next_d):
 <div class="stat"><b>{len(rd['items'])}</b><span>Reddit-Beiträge</span></div>
 <div class="stat"><b>{nw['candidates'] + gh['candidates'] + rd['candidates']}</b><span>neue Kandidaten geprüft</span></div></div>
 <details class="filter"><summary>Nach Kategorie filtern</summary><div class="chips">{''.join(f'<button class="chip" data-cat="{esc(c)}">{esc(c)}</button>' for c in cats)}</div></details>
+{''.join(f'<p class="hinweis">⚠ {esc(n)}</p>' for n in d.get('hinweise', []))}
 {news_html}
 <section class="rubrik"><h2 class="big">Gezielt beobachtet: GitHub &amp; Reddit</h2>
 <div class="lage"><div class="box"><h3>GitHub heute</h3>{esc(gh['headline'])}</div>

@@ -339,5 +339,56 @@
     "max_per_feed": 30,
     "google_news_max_per_query": 20,
     "recent_titles_days": 7
+  },
+  "einsatz_begruendung": "Einsatz-Rubrik 'Wofür einsetzbar' für GitHub-Repos: sortiert nach der Rolle, die ein Repo im eigenen Arbeitsablauf übernehmen würde (nicht nach Thema wie 'category'). Die Rubriken folgen den Stellen, an denen vorhandene Skills und Werkzeuge sitzen — Agent/Harness, Gedächtnis, Werkzeuganbindung, Skills, Prüfen, Orchestrieren — plus Modelle und Spieleentwicklung als Radar-Themen. Klein gehalten, damit die Rubrik filtert; was nicht passt, ist 'Sonstiges'.",
+  "einsatz": [
+    {
+      "name": "Coding-Agent/Harness",
+      "wofuer": "eigenständiger Coding-Agent oder Laufzeit-Umgebung um ein Modell (Agent-Loop, Tools, Kontext, Sandbox)"
+    },
+    {
+      "name": "Gedächtnis & Wissen",
+      "wofuer": "Langzeit-Gedächtnis, Wissensbasis, RAG, Kontext-Aufbereitung für Agenten"
+    },
+    {
+      "name": "Werkzeuge/MCP",
+      "wofuer": "MCP-Server, CLI-Werkzeuge oder Integrationen, die ein Agent aufruft"
+    },
+    {
+      "name": "Skills & Prompts",
+      "wofuer": "Skills, Prompt-/Regel-Sammlungen, Slash-Commands, Plugin-Pakete für Coding-Agenten"
+    },
+    {
+      "name": "Prüfen & Testen",
+      "wofuer": "Code-Review, Tests, Evals, Benchmarks, Qualitäts- und Sicherheitsprüfung"
+    },
+    {
+      "name": "Planung & Orchestrierung",
+      "wofuer": "mehrere Agenten steuern, Aufgaben planen/verteilen, Worktrees, Workflows"
+    },
+    {
+      "name": "Modelle & Inferenz",
+      "wofuer": "Modelle, Feintuning, lokale Inferenz, Serving, Quantisierung"
+    },
+    {
+      "name": "Spieleentwicklung",
+      "wofuer": "KI für Spiele-Engines, Assets, Spielmechanik, Game-Agents"
+    },
+    {
+      "name": "Sonstiges",
+      "wofuer": "passt in keine andere Rubrik"
+    }
+  ],
+  "pruefung": {
+    "top_n": 5,
+    "model": "sonnet",
+    "timeout_seconds": 900,
+    "parallel": 2,
+    "_hinweis": "Top-N-GitHub-Repos des Tages (nach importance, dann Sterne heute, dann Sterne) bekommen eine gründliche Prüfung per skills/repo-pruefung; Berichte bleiben in local/."
+  },
+  "leitstand": {
+    "model": "sonnet",
+    "min_words": 150,
+    "max_words": 400
   }
 }

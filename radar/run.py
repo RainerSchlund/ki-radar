@@ -4,9 +4,11 @@
   python3 radar/run.py --no-publish # alles außer push
   python3 radar/run.py --force      # auch wenn heute schon gelaufen
   python3 radar/run.py --render     # nur Seiten neu erzeugen
+  python3 radar/run.py --pruefen    # Repo-Prüfung + Leitstand-Export für heute nachholen (ohne Abruf)
 
 Schlägt Abruf oder Kuratierung fehl, wird NICHTS ins Archiv geschrieben
-(Exit 1) — der nächste Versuch holt alles nach.
+(Exit 1) — der nächste Versuch holt alles nach. Scheitern dagegen Repo-Prüfung oder
+Leitstand-Bericht, läuft der Tag ohne sie weiter; das steht im Log und auf der Tagesseite.
 """
 import argparse
 import fcntl
@@ -23,6 +25,8 @@ from curate import curate  # noqa: E402
 from fetch_github import GitHubFetcher  # noqa: E402
 from fetch_news import NewsFetcher  # noqa: E402
 from fetch_reddit import RedditFetcher  # noqa: E402
+import leitstand  # noqa: E402
+from pruefung import review_top  # noqa: E402
 import render  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -81,6 +85,27 @@ def latest_json(cfg, day):
     }
 
 
+def enrich(day, cfg, today, review=True):
+    """Repo-Prüfung der Top-N und Leitstand-Export. Scheitert etwas, wird es vermerkt
+    (day['hinweise'], Log) — der Lauf geht weiter."""
+    notes = []
+    if review:
+        failed = review_top(day["github"]["items"], cfg, today, log)
+        if failed:
+            notes.append(f"Repo-Prüfung gescheitert für {len(failed)} Repo(s): {', '.join(failed)}")
+    try:
+        leitstand.export(day, cfg, log)
+        if day.get("leitstand_report", {}).get("fehler"):
+            notes.append("Leitstand-Bericht gescheitert (Ersatztext)")
+    except Exception as e:
+        log(f"FEHLER Leitstand-Export: {type(e).__name__}: {e}")
+        notes.append("Leitstand-Export gescheitert")
+    day["hinweise"] = notes
+    for n in notes:
+        log("VERMERK " + n)
+    return notes
+
+
 def run(args):
     with open(os.path.join(ROOT, "config.json")) as f:
         cfg = json.load(f)
@@ -93,6 +118,19 @@ def run(args):
 
     if args.render:
         render.render_all(status)
+        return 0
+    if args.pruefen:
+        if not os.path.exists(day_file):
+            log(f"--pruefen: keine Ausgabe für {today}")
+            return 1
+        with open(day_file) as f:
+            day = json.load(f)
+        enrich(day, cfg, today)
+        with open(day_file, "w") as f:
+            json.dump(day, f, indent=1, ensure_ascii=False)
+        render.render_all(status)
+        if args.publish:
+            publish(today, True)
         return 0
     if status.get("last_date") == today.isoformat() and not (args.force or args.only):
         log(f"heute ({today}) schon gelaufen — nichts zu tun")
@@ -119,7 +157,8 @@ def run(args):
     for k in sources:
         recent = (arc.recent_titles(today, cfg["news"]["recent_titles_days"])
                   if k == "news" else ())
-        head, items = curate(k, new[k], cfg["model"], cfg["max_items_per_source"], recent=recent)
+        head, items = curate(k, new[k], cfg["model"], cfg["max_items_per_source"], recent=recent,
+                             einsatz=cfg.get("einsatz", ()))
         log(f"kuratiert {SOURCES[k][1]}: {len(items)}")
         old = day.get(k)
         if old and old["items"]:
@@ -133,6 +172,7 @@ def run(args):
     for k in SOURCES:
         day.setdefault(k, {"headline": "", "items": [], "candidates": 0, "fetched": 0,
                            "failures": []})
+    notes = enrich(day, cfg, today, review="github" in sources)
     day["generated"] = datetime.now().strftime("%Y-%m-%d %H:%M")
     counts = {k: len(day[k]["items"]) for k in SOURCES}
     has_news = any(counts.values())
@@ -151,7 +191,7 @@ def run(args):
         with open(os.path.join(ROOT, "docs", "latest.json"), "w") as f:
             json.dump(latest_json(cfg, day), f, indent=1, ensure_ascii=False)
     render.render_all(status)
-    log(f"fertig: {status['last_result']}")
+    log(f"fertig: {status['last_result']}" + (f" — Vermerke: {'; '.join(notes)}" if notes else ""))
     if args.publish:
         publish(today, has_news)
     return 0
@@ -162,6 +202,8 @@ def main():
     ap.add_argument("--no-publish", dest="publish", action="store_false")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--render", action="store_true")
+    ap.add_argument("--pruefen", action="store_true",
+                    help="Repo-Prüfung + Leitstand-Export für die heutige Ausgabe nachholen")
     ap.add_argument("--only", nargs="+", choices=["news", "github", "reddit"],
                     help="nur diese Quellen; Ergebnis wird in die heutige Ausgabe eingefügt")
     args = ap.parse_args()

@@ -44,8 +44,10 @@ def review_one(item, skills, model, sperr, fetch=hole_repo.fetch, ask=ask_claude
         os.makedirs(outdir, exist_ok=True)
         name = item["full_name"].replace("/", "__")
         with open(os.path.join(outdir, name + ".json"), "w") as f:
+            # dateien + skills: damit ein Review-Regressionsfall die Prüfung später nachspielen kann
             json.dump({"repo": item["full_name"], "bericht": report, "roh": answer,
-                       "auszug_dateien": [e["path"] for e in auszug["excerpts"]]},
+                       "auszug_dateien": [e["path"] for e in auszug["excerpts"]],
+                       "dateien": sorted(auszug["files"]), "skills": sorted(names)},
                       f, indent=1, ensure_ascii=False)
     return report
 

@@ -22,6 +22,11 @@ Automatisch: `radar/pruefung.py` macht dieselben Schritte und schickt den Prüfa
 - Skill-Liste, Auszug und Bericht bleiben in `local/` (gitignored). Öffentlich werden nur
   `urteil`, `verwendung` und `kurz_oeffentlich` — nach Prüfung gegen `local/sperrliste.txt`.
 - Ausbauen: neue Pflichten als Prüfung in `pruefschema.validate` + Test, nicht als Prosa.
+- Jedes Urteil ist vorläufig, bis es im Leitstand von Hand reviewt ist (`review` in docs/leitstand.json,
+  Status aus `archive/reviews.json`). `leitstand radar reviews` legt die Reviews nach `local/reviews/`;
+  `scripts/reviews.py` zeigt die Trefferquote je Teil und legt falsch markierte Fälle nach
+  `local/reviews/regression/`. Daraus eine Pflicht in `validate` ableiten und im Fall `erwartung`
+  setzen (lokaler Test spielt ihn nach); öffentlich nur ein neutralisiertes Beispiel als Test.
 
 <!-- PROMPT -->
 Du prüfst ein GitHub-Repo darauf, ob es für einen erfahrenen Entwickler Gehalt hat, der eigene

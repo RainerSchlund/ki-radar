@@ -9,6 +9,8 @@ import json
 import os
 from datetime import date, datetime
 
+import leitstand
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WEEKDAYS = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
 MONTHS = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August",
@@ -59,7 +61,8 @@ td,th{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;verti
 th{font-size:12px;text-transform:uppercase;color:var(--muted)}
 td.n{text-align:right;white-space:nowrap}
 .verdict{margin-top:8px;padding:6px 10px;border-radius:8px;background:var(--chip);font-size:13.5px}
-.verdict.vorschlag{border-left:3px solid var(--accent)}.verdict.err,.hinweis{color:var(--imp3)}
+.verdict.vorschlag{border-left:3px solid var(--accent)}.verdict .rv{font-size:12px;color:var(--muted);font-style:italic}
+.verdict .zurueck{text-decoration:line-through;opacity:.7}.verdict.err,.hinweis{color:var(--imp3)}
 .hinweis{margin:10px 0 0;font-size:14px}
 @media (max-width:760px){.lage,.cols,.newsgrid{grid-template-columns:1fr}nav a{margin:0 12px 0 0}}
 """
@@ -95,17 +98,30 @@ def fmt_num(n):
 URTEIL = {"vorschlag": "Vorschlag", "verworfen": "Verworfen"}
 
 
-def gh_verdict(r):
+# Review des Prüf-Urteils von Hand (archive/reviews.json). Ohne Eintrag ist das Urteil vorläufig.
+REVIEW = {"ungeprueft": "vorläufig, noch nicht von Hand geprüft",
+          "stimmt": "von Hand geprüft und bestätigt",
+          "teilweise": "von Hand geprüft, nur teilweise bestätigt",
+          "falsch": "von Hand geprüft: Urteil falsch, zurückgezogen"}
+
+
+def gh_verdict(r, review="ungeprueft"):
     if r.get("pruefung") == "fehler":
         return '<div class="verdict err">Gründliche Prüfung gescheitert — siehe Laufprotokoll.</div>'
     if not r.get("urteil"):
         return ""
+    review = review if review in REVIEW else "ungeprueft"
     how = f" ({esc(r['verwendung'])})" if r.get("verwendung") else ""
-    return (f'<div class="verdict {esc(r["urteil"])}"><b>Geprüft: {URTEIL.get(r["urteil"], esc(r["urteil"]))}{how}</b> '
-            f'— {esc(r.get("urteil_kurz"))}</div>')
+    label = "Urteil" if review != "ungeprueft" else "Vorläufiges Urteil"
+    note = f'<span class="rv">({REVIEW[review]})</span>'
+    if review == "falsch":
+        return (f'<div class="verdict"><span class="zurueck">{label}: '
+                f'{URTEIL.get(r["urteil"], esc(r["urteil"]))}{how}</span> {note}</div>')
+    return (f'<div class="verdict {esc(r["urteil"])}"><b>{label}: {URTEIL.get(r["urteil"], esc(r["urteil"]))}{how}</b> '
+            f'{note} — {esc(r.get("urteil_kurz"))}</div>')
 
 
-def gh_card(r):
+def gh_card(r, review="ungeprueft"):
     meta = [f'<span class="cat">{esc(r["category"])}</span>']
     if r.get("einsatz"):
         meta.append(f'<span class="cat" title="Wofür einsetzbar">▸ {esc(r["einsatz"])}</span>')
@@ -119,7 +135,7 @@ def gh_card(r):
         meta.append(f"angelegt {r['created_at'][:10]}")
     return f"""<div class="card i{r['importance']}" data-cat="{esc(r['category'])}">
 <div class="t"><a href="{esc(r['url'])}" target="_blank" rel="noopener">{esc(r['full_name'])}</a></div>
-<div class="meta">{' · '.join(meta)}</div><div>{esc(r['what'])}</div><div class="why">{esc(r['why'])}</div>{gh_verdict(r)}</div>"""
+<div class="meta">{' · '.join(meta)}</div><div>{esc(r['what'])}</div><div class="why">{esc(r['why'])}</div>{gh_verdict(r, review)}</div>"""
 
 
 def rd_card(p):
@@ -154,8 +170,12 @@ def news_card(n):
 EMPTY_NEWS = {"headline": "", "items": [], "candidates": 0, "fetched": 0, "failures": []}
 
 
-def day_page(d, prev_d, next_d):
+def day_page(d, prev_d, next_d, reviews=None):
     nw, gh, rd = d.get("news", EMPTY_NEWS), d["github"], d["reddit"]
+    reviews = reviews or {}
+
+    def review_of(r):
+        return reviews.get(leitstand.item_id("github", d["date"], r["key"]), "ungeprueft") if r.get("key") else "ungeprueft"
     cats = []
     for it in nw["items"] + gh["items"] + rd["items"]:
         if it["category"] not in cats:
@@ -182,11 +202,12 @@ def day_page(d, prev_d, next_d):
 <div class="lage"><div class="box"><h3>GitHub heute</h3>{esc(gh['headline'])}</div>
 <div class="box"><h3>Reddit heute</h3>{esc(rd['headline'])}</div></div>
 <div class="cols"><section><h2><span class="dot" style="background:var(--gh)"></span>GitHub · Repos</h2>
-{''.join(gh_card(r) for r in gh['items']) or '<div class="empty">Heute nichts Neues von Belang.</div>'}</section>
+{''.join(gh_card(r, review_of(r)) for r in gh['items']) or '<div class="empty">Heute nichts Neues von Belang.</div>'}</section>
 <section><h2><span class="dot" style="background:var(--rd)"></span>Reddit · Blogs, Meinungen, Berichte</h2>
 {''.join(rd_card(p) for p in rd['items']) or '<div class="empty">Heute nichts Neues von Belang.</div>'}</section></div></section>
 <footer>Linke Randfarbe = Wichtigkeit (rot: heute ansehen, orange: lohnend, grau: zur Kenntnis).
-Jeder Eintrag erscheint nur einmal; das Archiv merkt sich, was schon gezeigt wurde.<br>
+Jeder Eintrag erscheint nur einmal; das Archiv merkt sich, was schon gezeigt wurde.
+Urteile über Repos stammen aus einer automatischen Prüfung und gelten als vorläufig, bis sie von Hand bestätigt sind.<br>
 Quellenstatus: News {nw['fetched']} abgerufen, {len(nw['failures'])} Fehler · GitHub {gh['fetched']} abgerufen,
 {len(gh['failures'])} Fehler · Reddit {rd['fetched']} abgerufen, {len(rd['failures'])} Fehler{(' — ' + esc('; '.join((nw['failures'] + gh['failures'] + rd['failures'])[:8]))) if nw['failures'] or gh['failures'] or rd['failures'] else ''}<br>
 Erzeugt {esc(d['generated'])}</footer>"""
@@ -207,7 +228,8 @@ Zuletzt geprüft: {esc(status.get('last_check', '–'))} ({esc(status.get('last_
     return page("KI-Radar", body)
 
 
-def render_all(status):
+def render_all(status, reviews=None):
+    reviews = leitstand.load_reviews() if reviews is None else reviews
     days = []
     for p in sorted(glob.glob(os.path.join(ROOT, "archive", "items", "*.json"))):
         with open(p) as f:
@@ -219,7 +241,7 @@ def render_all(status):
         prev_d = days[i - 1]["date"] if i else None
         next_d = days[i + 1]["date"] if i + 1 < len(days) else None
         with open(os.path.join(ROOT, "docs", "days", f"{d['date']}.html"), "w") as f:
-            f.write(day_page(d, prev_d, next_d))
+            f.write(day_page(d, prev_d, next_d, reviews))
     with open(os.path.join(ROOT, "docs", "index.html"), "w") as f:
         f.write(index_page(days, status))
     return days

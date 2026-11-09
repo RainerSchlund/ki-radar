@@ -1,3 +1,4 @@
+import json
 import os
 import sys
 import tempfile
@@ -14,6 +15,8 @@ import curate as curate_mod  # noqa: E402
 import leitstand  # noqa: E402
 import pruefung  # noqa: E402
 import pruefschema  # noqa: E402
+import render  # noqa: E402
+import reviews as reviews_mod  # noqa: E402
 import skill_liste  # noqa: E402
 
 TRENDING = """<article class="Box-row"><h2 class="h3 lh-condensed">
@@ -354,7 +357,8 @@ def day_fixture():
 
 
 class LeitstandTest(unittest.TestCase):
-    KEYS = {"id", "rubrik", "title", "url", "what", "importance", "source", "einsatz", "urteil", "urteil_kurz"}
+    KEYS = {"id", "rubrik", "title", "url", "what", "importance", "source", "einsatz", "urteil", "urteil_kurz",
+            "review"}
 
     def _text(self, ids, extra=""):
         return " ".join(["wort"] * 160) + " " + " ".join(f"[[{i}]]" for i in ids) + extra
@@ -375,6 +379,7 @@ class LeitstandTest(unittest.TestCase):
         self.assertEqual((items[2]["einsatz"], items[2]["urteil"], items[2]["urteil_kurz"]),
                          ("Werkzeuge/MCP", "vorschlag", "beobachten: k"))
         self.assertEqual((items[3]["urteil"], items[3]["urteil_kurz"]), (None, None))
+        self.assertEqual((items[2]["review"], items[3]["review"], items[0]["review"]), ("ungeprueft", None, None))
         self.assertIsNone(items[0]["einsatz"])
         self.assertEqual(items, leitstand.build_items(day_fixture()))  # gleiche Eingabe, gleiche IDs
         path = os.path.join(tempfile.mkdtemp(), "l.json")
@@ -458,6 +463,109 @@ class SkillListeTest(unittest.TestCase):
             raise OSError("kein Netz")
         _, notes = skill_liste.company_catalog(run=boom, script=__file__)
         self.assertTrue(notes and "nicht" in notes[0])
+
+
+
+class ReviewTest(unittest.TestCase):
+    """Rückfluss der Reviews: öffentlicher Status, volle Berichte lokal, Auswertung."""
+
+    def test_review_status_from_reviews_file_and_voll_stays_local(self):
+        day = day_fixture()
+        gid = leitstand.build_items(day)[2]["id"]
+        d = tempfile.mkdtemp()
+        rpath = os.path.join(d, "reviews.json")
+        with open(rpath, "w") as f:
+            json.dump({"format": "ki-radar-reviews/1", "reviews": {gid: {"status": "stimmt"},
+                                                                   "x": {"status": "quatsch"}}}, f)
+        self.assertEqual(leitstand.load_reviews(rpath), {gid: "stimmt"})
+        self.assertEqual(leitstand.load_reviews(os.path.join(d, "fehlt.json")), {})
+        self.assertEqual(leitstand.build_items(day, {gid: "stimmt"})[2]["review"], "stimmt")
+        local = os.path.join(d, "local")
+        os.makedirs(os.path.join(local, "pruefungen", "2026-11-09"))
+        with open(os.path.join(local, "pruefungen", "2026-11-09", "a__b.json"), "w") as f:
+            json.dump({"repo": "a/b", "bericht": {**GOOD, "warnungen": []}}, f)
+        voll = os.path.join(local, "leitstand-voll.json")
+        pub = os.path.join(d, "leitstand.json")
+        ids = [i["id"] for i in leitstand.build_items(day)[:2]]
+        leitstand.export(day, {"model": "m"}, lambda m: None, path=pub, voll_path=voll, local=local,
+                         ask=lambda p, m: {"title": "T", "text": " ".join(["w"] * 160) + " [[%s]] [[%s]]" % tuple(ids)})
+        with open(voll) as f:
+            v = json.load(f)
+        self.assertEqual(v["format"], "ki-radar-leitstand-voll/1")
+        self.assertEqual(v["days"]["2026-11-09"][gid]["bericht"]["besser"], GOOD["besser"])
+        with open(pub) as f:
+            self.assertNotIn("besser", f.read())  # öffentlich nie der volle Bericht
+
+    def test_public_page_marks_unreviewed_and_withdrawn(self):
+        r = repo("a/b", 2, pruefung="ok", urteil="vorschlag", verwendung="beobachten", urteil_kurz="k")
+        self.assertIn("Vorläufiges Urteil", render.gh_verdict(r))
+        self.assertIn("noch nicht von Hand geprüft", render.gh_verdict(r, "ungeprueft"))
+        self.assertIn("bestätigt", render.gh_verdict(r, "stimmt"))
+        falsch = render.gh_verdict(r, "falsch")
+        self.assertIn("zurückgezogen", falsch)
+        self.assertNotIn("— k", falsch)
+
+    def _rv(self, iid, status, teile=(), korr=""):
+        return {"id": iid, "repo": "acme/" + iid, "datum": "2026-11-09", "bericht": GOOD,
+                "review": {"status": status, "teile_falsch": list(teile), "korrektur": korr}}
+
+    def test_summary_hit_rate_per_part(self):
+        s = reviews_mod.summary([self._rv("a", "stimmt"), self._rv("b", "falsch"),
+                                 self._rv("c", "teilweise", ["besser", "belege"], "Beleg ist nur README"),
+                                 self._rv("d", "teilweise")])
+        self.assertEqual(s["status"], {"stimmt": 1, "teilweise": 2, "falsch": 1})
+        self.assertEqual(s["ohne_angabe"], 1)
+        self.assertEqual(s["teile"]["urteil"]["bewertet"], 3)
+        self.assertEqual(s["teile"]["urteil"]["falsch"], 1)  # 'falsch' ohne Teile = Urteil falsch
+        self.assertAlmostEqual(s["teile"]["besser"]["quote"], 0.667, places=3)
+        self.assertEqual(s["teile"]["belege"]["korrekturen"][0]["text"], "Beleg ist nur README")
+        md = reviews_mod.markdown(s)
+        self.assertIn("| urteil | 3 | 1 | 67% |", md)
+
+    def test_regression_case_keeps_expectation_and_replays(self):
+        d = tempfile.mkdtemp()
+        os.makedirs(os.path.join(d, "pruef", "2026-11-09"))
+        with open(os.path.join(d, "pruef", "2026-11-09", "acme__b.json"), "w") as f:
+            json.dump({"roh": GOOD, "dateien": FILES, "skills": ["token-budget"], "bericht": GOOD}, f)
+        out = os.path.join(d, "regression")
+        rv = [self._rv("a", "stimmt"), self._rv("b", "teilweise", ["besser"], "nur README")]
+        paths = reviews_mod.write_cases(rv, out, os.path.join(d, "pruef"))
+        self.assertEqual([os.path.basename(p) for p in paths], ["b.json"])  # 'stimmt' ist kein Fall
+        with open(paths[0]) as f:
+            case = json.load(f)
+        self.assertTrue(case["eingabe"]["roh_ist_original"])
+        self.assertIsNone(reviews_mod.check_case(case))  # ohne Erwartung kein Test
+        case["erwartung"] = {"warnung_enthaelt": "unbekannter Vergleichs-Skill"}
+        self.assertEqual(reviews_mod.check_case(case)[0], True)
+        case["erwartung"] = {"ungueltig": True}
+        self.assertEqual(reviews_mod.check_case(case)[0], False)
+        with open(paths[0], "w") as f:
+            json.dump(case, f)
+        reviews_mod.write_cases(rv, out, os.path.join(d, "pruef"))  # Neulauf überschreibt Erwartung nicht
+        with open(paths[0]) as f:
+            self.assertEqual(json.load(f)["erwartung"], {"ungueltig": True})
+
+
+class ReviewRegressionLocalTest(unittest.TestCase):
+    """Spielt die lokalen Regressionsfälle (local/reviews/regression/*.json) mit gesetzter
+    `erwartung` gegen das aktuelle pruefschema.validate nach. Ohne lokale Fälle: übersprungen."""
+
+    def test_local_cases(self):
+        import glob as _glob
+        root = os.path.join(os.path.dirname(__file__), "..")
+        cases = []
+        for p in sorted(_glob.glob(os.path.join(root, "local", "reviews", "regression", "*.json"))):
+            with open(p) as f:
+                c = json.load(f)
+            if c.get("erwartung"):
+                cases.append((p, c))
+        if not cases:
+            self.skipTest("keine lokalen Regressionsfälle mit erwartung")
+        sperr = pruefschema.load_sperrliste(os.path.join(root, "local", "sperrliste.txt"))
+        for p, c in cases:
+            with self.subTest(fall=os.path.basename(p)):
+                ok, msg = reviews_mod.check_case(c, sperr)
+                self.assertTrue(ok, msg)
 
 
 if __name__ == "__main__":

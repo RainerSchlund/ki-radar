@@ -1,107 +1,107 @@
 {
- "date": "2026-11-11",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-11.html",
+ "date": "2026-11-12",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-12.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 14,
-  "headline": "Gemini 4 Carbon für alle, Signal-Beweis per KI, Grok-Build-Datenleck",
+  "count": 13,
+  "headline": "Google startet spezialisiertes Entscheidungsmodell, AWS legt von Agenten gebauten Cloud-Emulator vor",
   "top": [
    {
-    "title": "Gemini 4 Carbon allgemein verfügbar, mit „/swarm“-Agententeams",
-    "what": "Google gibt Gemini 4 Carbon nach zwei Wochen Testphase für alle frei. Das Modell führt in mehreren Benchmarks, teils vor Anthropics Fable 5.2, und ist günstiger. Die Funktion „/swarm“ lässt koordinierte Agententeams Aufgaben in Echtzeit aufteilen. Laut Simon Willison kostet es zum Start 2 $ pro Million Eingabe-Token und 10 $ pro Million Ausgabe-Token; zum 1. Dezember soll sich der Preis verdoppeln.",
+    "title": "Gemini Decisions API: Ja/Nein-Entscheidungen statt Textgenerierung, 150–250 ms",
+    "what": "Google Deepmind stellt die Gemini Decisions API mit dem Modell Gemini Decision 1 vor. Sie bewertet bis zu 1.000 geschlossene Entscheidungen pro Durchlauf über Text, Bild, Audio und Video, in 150 bis 250 Millisekunden, laut Google rund fünfmal günstiger als Gemini 3.5 Flash-Lite.",
     "importance": 3
    },
    {
-    "title": "AlphaProof Code: KI beweist Signals Kernverschlüsselung in Lean",
-    "what": "Google DeepMind stellt AlphaProof Code vor. Die Agenten schrieben drei Millionen Zeilen Beweise in Lean, um Signals zentrale Verschlüsselung formal zu verifizieren. Laut The New Stack lief das auf Gemini 4 Carbon und dauerte Wochen.",
+    "title": "AWS Emulator: offizieller lokaler AWS-Klon, von Agenten in Rust geschrieben",
+    "what": "AWS veröffentlicht einen offiziellen Emulator, mit dem sich Tests gegen einen lokalen Klon vieler AWS-Dienste fahren lassen, ohne kostenpflichtige Zugänge. Laut Simon Willison schrieb ihn ein großer Agentenschwarm in Rust, mit 29.684 Commits in den ersten drei Wochen. Laut The New Stack pflegen die Agenten ihn auch weiter.",
     "importance": 3
    },
    {
-    "title": "Grok Build: 35.000 Apps offen einsehbar, auch interne SpaceXSI-Daten",
-    "what": "Ein Forscher fand rund 35.000 mit dem Coding-Agenten Grok Build erzeugte Apps, die für jeden zugänglich waren. Darin lagen viele vertrauliche Informationen, teils von SpaceXSI selbst (laut Ars Technica).",
-    "importance": 3
-   },
-   {
-    "title": "Update: Fable 5.2 schafft 41,3 % echter Freelance-Aufträge im Remote Labor Index",
-    "what": "Im Remote Labor Index erledigt Claude Fable 5.2 41,3 Prozent realer Freelance-Aufträge in Profiqualität. Das ist mehr als doppelt so viel wie Opus 5.5 und GPT 6 Astra. Vor einem Jahr lag der Bestwert bei 2,5 Prozent; Produktdesign und Animation bleiben Schwächen.",
+    "title": "Anthropic: Mythos portierte Claude in drei Tagen auf AMD-GPUs",
+    "what": "Laut Anthropic hat das hauseigene Modell Mythos Claude in nur drei Tagen und fast ohne menschliches Zutun auf AMD-GPUs portiert. Claude läuft inzwischen auf vier Chip-Familien.",
     "importance": 2
    },
    {
-    "title": "Google: Technische Schulden lenken Coding-Agenten ab („Agent Distraction“)",
-    "what": "Zwei Google-Ingenieure beschreiben, dass Coding-Agenten sich von veralteten TODO-Kommentaren, überholten Bug-Verweisen und alten Specs ablenken lassen. Sie starten dann ungefragte „Side-Quests“.",
+    "title": "Fable 5.2 baut Ego-Shooter mit einem Prompt: 8 Stunden, 550 Dollar",
+    "what": "Ein Anthropic-Ingenieur gab Claude Fable 5.2 einen einzigen Prompt für einen Ego-Shooter und ließ das Modell acht Stunden laufen. Die Kosten lagen laut The New Stack bei rund 550 Dollar.",
     "importance": 2
    },
    {
-    "title": "Paul Irish: Modern Web Guidance bringt Agenten von JS-Altlasten auf moderne Web-Standards",
-    "what": "Das Projekt soll Coding-Agenten von Code im Stil von etwa 2019 auf native Browserfunktionen umstellen, etwa `CSS.highlights`, `<dialog>` mit showModal() und `field-sizing`. Auf Hacker News erreicht es 323 Punkte; Search Engine Journal nennt die Version 1.0 von Google.",
-    "importance": 2
+    "title": "Nvidia gibt OpenShell, die Laufzeit zur Absicherung von Agenten, an die CNCF",
+    "what": "Nvidia hat OpenShell, seine quelloffene Laufzeitumgebung zur Absicherung und Steuerung von KI-Agenten, der Cloud Native Computing Foundation gespendet. The New Stack beleuchtet die Gründe.",
+    "importance": 1
    },
    {
-    "title": "Unreal Engine 5.9 Preview erschienen, laut Epic mit KI entwickelt",
-    "what": "Die Preview von Unreal Engine 5.9 bringt laut 80 Level KI-Workflow-Verbesserungen, Web-Plattform-Unterstützung sowie Neuerungen bei Rendering und Animation. Die Engine selbst sei mit KI-Hilfe gebaut worden.",
-    "importance": 2
+    "title": "MCP: Lösung für das Datei-Upload-Problem zeichnet sich ab",
+    "what": "Entwickler behelfen sich laut The New Stack seit zwei Jahren mit Umwegen, um über das Model Context Protocol (MCP) Dateien hochzuladen. Ein Vorschlag für eine saubere Lösung nimmt nun Gestalt an.",
+    "importance": 1
+   },
+   {
+    "title": "JetBrains stellt „Air“ vor: IDEs für das Zeitalter der Coding-Agenten",
+    "what": "JetBrains positioniert seine IDEs mit Air für agentische Entwicklung. Als Begründung nennt es, dass laut Atlassian-Report 49 % der Entwickler vier oder mehr Wochenstunden mit dem Prüfen von KI-Ausgaben und dem Korrigieren von Prompts verbringen.",
+    "importance": 1
    }
   ]
  },
  "github": {
   "count": 17,
-  "headline": "Agenten bekommen Gedächtnis, Sandbox und Sichtbarkeit: Werkzeuge rund um Claude Code dominieren den Tag",
+  "headline": "Agenten-Orchestrierung und lokale Inferenz dominieren: Tencent LoopForge und shadcn/improve ordnen, wie Coding-Agenten Arbeit verteilen",
   "top": [
    {
-    "title": "vzroslieigry/maxagent",
-    "what": "Hooks für Claude Code, Codex, Antigravity und OpenClaw, die festhalten, was bei einer Aufgabe funktioniert hat, und es bei späteren Aufgaben wieder abrufen. Dazu eine Brücke (maxagent-bridge), mit der der Agent den eigenen Chrome-Browser nutzen kann.",
+    "title": "shadcn/improve",
+    "what": "Ein Werkzeug von shadcn, bei dem das leistungsfähigste Modell die Codebasis prüft und Pläne schreibt, die günstigere Modelle dann abarbeiten. Die Beschreibung nennt weder Sprache noch Topics, die Trending-Zahlen sind aber stark (361 neue Sterne heute).",
     "importance": 3
    },
    {
-    "title": "WhiteTowerAI/ohmygame",
-    "what": "Quelloffene App als Ein-Personen-Spielestudio mit KI: Spielfläche (Canvas), Coding-Agent sowie Bild- und Videogenerierung, mit eigenem API-Key.",
+    "title": "Tencent/LoopForge",
+    "what": "Tencents selbst gehostetes Framework, das CodeBuddy, Codex und Claude Code per Skripten zu Abläufen verbindet. Menschliche Freigabestufen sind eingebaut, geschrieben ist es in Go.",
     "importance": 3
    },
    {
-    "title": "assassin808/learn-from-lessons",
-    "what": "Skill und Werkzeug, mit dem Coding-Agenten (Claude Code, Codex, opencode, über MCP) aus Korrekturen des Nutzers lernen. Die Korrekturen werden offenbar gespeichert und später wieder herangezogen.",
+    "title": "unstablebuild/rune",
+    "what": "Eine GPU-beschleunigte IDE mit Terminal-Multiplexer in Go, ausgelegt für automatische wie manuelle Programmierung und das Steuern mehrerer Coding-Agenten. Sie ist seit September auf GitHub und holt aktuell weiter Sterne.",
     "importance": 2
    },
    {
-    "title": "simplexai-labs/linger",
-    "what": "Quelloffener Arbeitsbereich, in dem KI-Agenten lokal auf dem eigenen Rechner neben dem Nutzer arbeiten. Laut Topics mit Agententeams, lokalen Modellen, Gedächtnis und proaktivem Verhalten.",
+    "title": "pmndrs/pine",
+    "what": "Ein reaktives Harness für Agenten vom Team pmndrs, das für seine Grafik-Bibliotheken bekannt ist. Mehr als diese eine Zeile verraten Beschreibung und Topics nicht.",
     "importance": 2
    },
    {
-    "title": "tommy0103/blackhole",
-    "what": "Isoliert Claude Code auf macOS in einem Container (Colima, virtio-fs), damit der Agent in einer Sandbox läuft statt direkt auf dem Rechner.",
+    "title": "agentes-chat/agentes-chat",
+    "what": "Eine selbst gehostete Slack-Alternative, in der Menschen und KI-Agenten (Claude, Codex, Gemini, Grok) gemeinsam in Kanälen arbeiten. Agenten haben MCP-Werkzeuge, eigenen Browser, Routinen, Gedächtnis und Freigaben, laufen per Docker Compose mit Postgres unter AGPL-3.0.",
     "importance": 2
    }
   ]
  },
  "reddit": {
-  "count": 20,
-  "headline": "Fable 5.2 dominiert die Szene: Vergleiche, Limit-Streit und Anthropics Fähigkeitsdeckel; dazu Debatte um KI in Spielen (Big Walk) und AI-2027-Update",
+  "count": 18,
+  "headline": "Fable 5.2 im Praxistest, Qwen4-Max-Preview und der Streit um Tokenverbrauch und Sicherheitslücken in Coding-Agenten",
   "top": [
    {
-    "title": "Claude Fable 5.2 coordinated more than 1,000 AI agents to build a working operating system in eight days",
-    "what": "Laut Bericht von Interesting Engineering hat Claude Fable 5.2 in einem internen Anthropic-Experiment mehr als 1.000 Subagenten koordiniert und in acht Tagen ein lauffähiges Betriebssystem (Kernel, Treiber, Dateisystem, GUI, Installer) bauen lassen. Es handelt sich um eine Anthropic-interne Angabe, unabhängig nicht geprüft.",
+    "title": "Opus 5.5 on the API: same prompts, same settings, ~60% more output tokens per call since mid-October (charts from my Console export)",
+    "what": "Ein API-Nutzer belegt mit seinem Console-Export, dass Opus 5.5 bei identischen Prompts und Einstellungen seit Mitte Oktober rund 60 % mehr Ausgabetokens pro Eingabetoken erzeugt (0,69 auf 1,09).",
     "importance": 3
    },
    {
-    "title": "GDM introduces AlphaProof Code, an AI framework that formally verified Signal’s core cryptographic code in just four weeks, a task that historically takes years",
-    "what": "Google DeepMind stellt AlphaProof Code vor: Agenten mit Gemini Carbon erzeugten über sechs Millionen Zeilen maschinell geprüfter Lean-Beweise für den Kerncode des Signal-Protokolls, in vier Wochen statt üblicherweise Jahren; Menschen prüften nur rund 1 %.",
+    "title": "Heads up: Claude Code's \"don't ask again\" has been leaking secrets into public repos",
+    "what": "Claude Code speichert bei \"Yes, and don't ask again\" den exakten Shell-Befehl in `.claude/settings.local.json`; laut zitierter Apiiro-Analyse liegen 104.185 solcher Dateien in öffentlichen Repos, 1.122 davon mit Geheimnissen.",
     "importance": 3
    },
    {
-    "title": "Anthropic confirms Fable 5.2 was intentionally limited at improving LLMs",
-    "what": "Mehrere Beiträge (u. a. r59, r66, r99) berichten, Anthropic bestätige, dass Fable 5.2 im Training gezielt in der Fähigkeit begrenzt wurde, KI-Entwicklung zu beschleunigen; in r99 wird zusätzlich auf Leitplanken hingewiesen. Die Belege sind Screenshots; der genaue Wortlaut ist hier nicht sichtbar.",
-    "importance": 3
-   },
-   {
-    "title": "Pretty insane video from Fable 5.2 with 1 single short prompt",
-    "what": "Verlinkt wird ein Beitrag von Ethan Mollick (oneusefulthing.org) zu Fable 5.2 und „jagged AGI“; der Reddit-Beitrag zeigt ein Video, das aus einem einzigen kurzen Prompt entstand. Zum Inhalt des Essays selbst gibt der Beitrag wenig her.",
+    "title": "If your repo has both AGENTS.md and CLAUDE.md, Claude Code may be ignoring AGENTS.md",
+    "what": "Liegen AGENTS.md und CLAUDE.md gleichzeitig im Repo, lädt Claude Code laut Memory-Doku standardmäßig nur CLAUDE.md; gemeinsame Kommandos und Freigabelisten aus AGENTS.md bleiben dann unsichtbar.",
     "importance": 2
    },
    {
-    "title": "AI 2027 Authors update timeline and urge \"pacing\" to slow the progress of humanity, laughably.",
-    "what": "Der AI Futures Project aktualisiert seine Zeitleiste („Q3.5 Timelines Update“): Eine Intelligenzexplosion zeichne sich nun für 2027 ab, rund fünf Monate früher als im ursprünglichen AI-2027-Szenario; die Autoren raten zugleich zu „Pacing“. Die Reddit-Titel sind stark wertend.",
+    "title": "PSA: Claude Code now automatically syncs claude.ai web skills and plugins to local machines (enabled by default)",
+    "what": "Claude Code synchronisiert laut Bericht standardmäßig Skills und Plugins aus dem claude.ai-Web-Konto auf lokale Rechner; der Autor fand rund 700 Dateien in neuen Ordnern unter ~/.claude.",
+    "importance": 2
+   },
+   {
+    "title": "An attacker found an exposed agent dashboard and just asked the agent for its API key. Notes from METR's incident write-up",
+    "what": "Aus dem METR-Vorfallbericht: Ein öffentlich erreichbares, vibe-codiertes Agenten-Dashboard mit Fail-open-Fehler führte dazu, dass ein Angreifer den Agenten einfach nach dessen API-Schlüssel fragen konnte.",
     "importance": 2
    }
   ]

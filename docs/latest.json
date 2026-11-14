@@ -1,107 +1,107 @@
 {
- "date": "2026-11-13",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-13.html",
+ "date": "2026-11-14",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-14.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 10,
-  "headline": "Gemini 4 Hydrogen löst Flash ab und bringt Modellwechsel im Coding-Agenten; Claude Meetings und Adobe-Agentenöffnung ergänzen den Tag",
+  "count": 17,
+  "headline": "Agenten bekommen Geldbeutel, Selbsthosting und ein stabiles Fundament für lokale Modelle",
   "top": [
    {
-    "title": "Gemini 4 Hydrogen: schnelles, günstiges Modell löst Flash ab",
-    "what": "Google bringt Gemini 4 Hydrogen als Nachfolger von Flash heraus. Laut The Decoder erreicht es im Artificial Analysis Intelligence Index fast das Niveau von Claude Sonnet 5.5 und macht laut Benchmarks das teurere Argon überflüssig, schwächelt aber bei agentischer Terminal-Arbeit. Es ist ab heute in Suche, Gemini-App und weiteren Produkten verfügbar.",
+    "title": "OpenAI startet ChatGPT Wallet: Agenten kaufen mit Freigabe per Face ID ein",
+    "what": "Nutzer hinterlegen eine Karte und bestätigen jeden Kauf per Face ID oder Fingerabdruck. Echte Kartendaten bleiben hinter Zahlungs-Token (Ersatzwerten) verborgen. Der Start läuft laut TechCrunch zunächst begrenzt für US-Pro-Abonnenten. Es ist der zweite Anlauf nach dem verworfenen „Instant Checkout“.",
     "importance": 3
    },
    {
-    "title": "Googles Coding-Agent wechselt mitten in der Aufgabe das Modell, 19 % schneller",
-    "what": "Zusammen mit Gemini 4 Hydrogen hat Google ein System vorgestellt, mit dem Coding-Agenten während einer Aufgabe zwischen Modellen wechseln. Laut The New Stack werden Aufgaben dadurch 19 % schneller fertig.",
+    "title": "Anthropic: Claude Managed Agents jetzt zum Selbsthosten, mit Meldefrist von 8 Stunden",
+    "what": "Anthropic bietet seine Plattform zum Bauen und Betreiben von Agenten nun auch selbst gehostet an. Laut The New Stack gibt es eine Auflage: Wird ein Sicherheitsrisiko gemeldet, bleiben nur 8 Stunden, um zu reagieren.",
+    "importance": 3
+   },
+   {
+    "title": "llama.cpp erreicht Version 1.0.0: stabile Basis für lokale KI",
+    "what": "Das verbreitete Projekt zum lokalen Betrieb von Sprachmodellen erscheint als 1.0.0. Eine deutschsprachige Meldung nennt eine stabile Programmierschnittstelle (API) und 35 gestrichene Funktionen; die Details sind nur aus dem Titel belegt.",
+    "importance": 3
+   },
+   {
+    "title": "Claude-Ausfall: Anmeldefehler auf claude.ai, Claude Code und Console",
+    "what": "Anthropic bestätigt Authentifizierungsfehler, die claude.ai, Claude Code und die Console betreffen. Der Statusbeitrag erreichte 488 Punkte auf Hacker News, zeitgleich lief eine Microsoft-365-Störung.",
     "importance": 2
    },
    {
-    "title": "Claude Meetings: Claude nimmt als Teilnehmer an Videocalls teil",
-    "what": "Anthropic lässt Claude als sichtbaren Teilnehmer in Videoanrufe, wo es live Dokumente, Whiteboards und Protokolle erstellt. Zunächst Beta für Team- und Enterprise-Tarife auf Google Meet, weitere Plattformen sollen folgen.",
+    "title": "OpenAI sperrt Cursor den Zugang zu seinen Modellen",
+    "what": "Laut Mashable kappt OpenAI den Zugriff von Cursor auf die eigenen KI-Modelle und verschärft damit den Streit mit Musk. Die Quelle liefert nur die Überschrift, Umfang und Folgen sind unklar.",
     "importance": 2
    },
    {
-    "title": "Adobe öffnet Photoshop und Premiere für externe KI-Agenten",
-    "what": "Auf der Adobe Max kündigt Adobe an, dass ChatGPT, Claude und andere Assistenten Photoshop und Premiere direkt bedienen können. Die Projektdateien bleiben dabei bearbeitbar.",
+    "title": "Google gibt AQuA frei: Fehlern von Agenten im Produktivbetrieb auf der Spur",
+    "what": "AQuA (Ambient Quality Agent) wertet Sitzungen produktiver KI-Agenten aus, bestätigt wiederkehrende Fehlermuster und sucht die Ursache im ausgelieferten Quellcode. In einem Testlauf mit 32 Sitzungen sank eine Fehlerart von 15 auf 2 Sitzungen, eine andere von 7 auf 0.",
     "importance": 2
    },
    {
-    "title": "Angriff über MCP-Server bringt Webhoster Mittwald in den Krisenmodus",
-    "what": "Laut heise ist die Website des Hosters Mittwald im Notbetrieb, das Blog offline und Administrationsdienste für Kunden deaktiviert. Auslöser war ein Angriff über einen MCP-Server (Schnittstelle, über die Agenten Werkzeuge nutzen).",
+    "title": "DeepSeeks Coding-Agent verliert Benchmark-Punkte, weil er zu ordentlich arbeitet",
+    "what": "Laut The New Stack büßt der quelloffene Coding-Agent von DeepSeek in einem großen Benchmark Punkte für eine Gewohnheit ein, die Entwickler sonst als gute Praxis sehen.",
     "importance": 2
-   },
-   {
-    "title": "GDC-Umfrage: 40 % der Spieleentwickler nutzen generative KI bei der Arbeit",
-    "what": "Laut GDC State of the Game Industry nutzen 40 % der Befragten generative KI im Job, nach 36 % im Vorjahr. Game Developer ergänzt: Meist dient sie Recherche und Brainstorming, KI-Code ist der dritthäufigste Einsatz.",
-    "importance": 2
-   },
-   {
-    "title": "Gemini 4 Hydrogen und Orchestrator in Antigravity",
-    "what": "Google stellt in Antigravity Hydrogen zusammen mit einem Orchestrator vor, der Aufgaben auf Modelle verteilt. Der Hacker-News-Beitrag erreicht 368 Punkte; Details gehen aus dem Eintrag selbst kaum hervor.",
-    "importance": 1
    }
   ]
  },
  "github": {
-  "count": 13,
-  "headline": "Heute fällt vor allem Werkzeug rund um mehrere gleichzeitig laufende Coding-Agenten auf (Überwachung, Bedienoberflächen, geteilte Regeln), dazu eine Bewertungshilfe für Skills von NVIDIA. Etwa ein Dutzend fast identischer Blender-Repos mit zufälligen Nutzernamen wurde als Spam-Muster aussortiert.",
+  "count": 14,
+  "headline": "Agenten-Werkzeugkasten wächst: Skills, Proxys und Geräte-Steuerung",
   "top": [
    {
-    "title": "NVIDIA/SkillEvaluator",
-    "what": "NVIDIAs Rahmenwerk, das prüft, ob Skills (kleine Anleitungspakete für Coding-Agenten) etwas taugen. Es kennt mehrere Stufen: Qualitätsschranken, Erkennung von Überschneidungen zwischen Skills, künstlich erzeugte Testdaten und Läufe mit einem echten Agenten, die messen, wie ein Skill dessen Verhalten verändert.",
+    "title": "kajisho5/ffmpeg-skill",
+    "what": "Lokaler Videoschnitt für Coding-Agenten: 42 FFmpeg-Werkzeuge mit maschinenlesbarem Vertrag und MCP-Server für Claude Code, Cursor und Codex. Schnitt, Untertitel, Umformatierung und Lautheit laufen ohne Cloud und ohne API-Schlüssel.",
     "importance": 3
    },
    {
-    "title": "IluvatarLabs/sitrep",
-    "what": "Eine selbst gehostete Übersichtsseite (sitrep), die laufende Claude-Code- und Codex-Agenten über mehrere Rechner hinweg anzeigt, Kontextverbrauch und Kosten mitzählt und meldet, wenn eine Sitzung auf den Menschen wartet.",
+    "title": "callstack/agent-device",
+    "what": "Eine Geräte-Schicht für Coding-Agenten: Kommandozeile, MCP-Server und typisierte Node.js-API, um mobile, Web-, TV- und Desktop-Apps auf Geräten und Simulatoren zu steuern, lokal oder in der Cloud. Die Topics nennen E2E-Tests.",
     "importance": 3
    },
    {
-    "title": "smtg-ai/claude-squad",
-    "what": "Ein Terminal-Programm (claude-squad), das mehrere KI-Coding-Agenten wie Claude Code, Codex, OpenCode und Amp nebeneinander verwaltet.",
+    "title": "avenoxai/avenoxbeyin",
+    "what": "Ein Obsidian-plus-Claude-Code-System, das als „zweites Gehirn“ mit dauerhaftem Gedächtnis über mehrere Sitzungen hinweg gedacht ist und sich per einem Befehl einrichten lassen soll.",
     "importance": 2
    },
    {
-    "title": "ELU-Labs/elu",
-    "what": "Eine Vollbild-Terminal-App (elu), die Coding-Sitzungen auf den bereits installierten KI-Kommandozeilen (Claude Code, Codex) laufen lässt. Dazu kommen Bots, die Code prüfen oder Arbeit übernehmen, und Teammitglieder, die man fragen kann.",
+    "title": "lidge-jun/opencodex",
+    "what": "Ein Proxy, der Codex CLI, App, SDK und Claude Code mit beliebigen anderen Modellen betreibt (Claude, Gemini, Grok, DeepSeek, Ollama und weitere). Mit über 18.000 Sternen und 54 neuen heute stark gefragt.",
     "importance": 2
    },
    {
-    "title": "aryehlev/PeerHarness",
-    "what": "PeerHarness: Korrigiert man Claude Code einmal, wird daraus eine Ein-Satz-Regel (ein Agent Skill), über die das Team abstimmt. Bei Mehrheit gilt sie für den Agenten jedes Mitglieds. Läuft Peer-to-Peer ohne Server, geschrieben in Rust.",
+    "title": "a2ui-project/a2ui",
+    "what": "Offenes Framework für generative Oberflächen: Agenten streamen Layout-Daten, die Apps mit nativen Komponenten in React, Angular, Lit, Flutter, SwiftUI und Jetpack Compose darstellen.",
     "importance": 2
    }
   ]
  },
  "reddit": {
-  "count": 20,
-  "headline": "Fable 5.2 spaltet die Szene: starke Agenten-Demos, aber hoher Tokenverbrauch; dazu Nvidia-Turbulenzen, Anthropic-Börsengang und Gemini 4 Hydrogen.",
+  "count": 17,
+  "headline": "Fable 5.2 und Opus 5.5 dominieren die Gespräche (Benchmarks, Computer-Use-Demos, Ratschläge zum Zusammenspiel), dazu der Claude-Login-Ausfall durch die Microsoft-Störung, OpenAIs ChatGPT Wallet und aufgelöstes Robotik-Team sowie llama.cpp v1.0 und neue offene Modelle im lokalen Lager.",
   "top": [
    {
-    "title": "I tested Anthropic's \"one agent with skills beats a team of subagents\" claim in Claude Code. 35 runs on 2 real builds: same quality, the team cost 62% more and took twice as long",
-    "what": "Ein Nutzer testete in 35 Läufen auf zwei echten Builds Anthropics Aussage, ein einzelner Agent mit Skills schlage ein Team aus Subagenten. Ergebnis: gleiche Qualität, das Team kostete 62 % mehr und brauchte doppelt so lange.",
+    "title": "Claude Fable 5.2 just topped the Artificial Analysis Intelligence Index at 65 — has anyone actually felt the jump over Opus 5.5?",
+    "what": "Fable 5.2 (öffentliche Variante, 8/40 Dollar pro Million Tokens) führt laut Artificial Analysis den Intelligence Index mit 65 an, vor Gemini 4 Carbon. Anthropic nennt 69,9 % auf SWE v2 gegenüber 62,3 % bei Opus 5.5. Der Beitrag fragt die Community, ob der Sprung im Alltag spürbar ist.",
     "importance": 3
    },
    {
-    "title": "Anthropic says ~1,000 Claude Fable 5.2 agents formalized Fermat's Last Theorem in Lean in 30 hours (first run in September took 11 days)",
-    "what": "Laut Anthropic haben rund 1.000 Fable-5.2-Agenten den Beweis des Großen Fermatschen Satzes in 30 Stunden in Lean formalisiert, der erste Lauf im September brauchte noch 11 Tage. Ausgangspunkt waren minimale Prompts ohne mathematische Referenzen.",
+    "title": "llama.cpp v1.0 is here 🦙",
+    "what": "llama.cpp erscheint in Version 1.0; Hugging Face will weiterhin alle Plattformen und Modelltypen abdecken und das Projekt schlank für darauf aufbauende Anwendungen halten. Dazu kommen Desktop-Apps für lokale KI mit wenigen Klicks.",
     "importance": 3
    },
    {
-    "title": "Claude Managed Agents can now run self-hosted, inside your own perimeter (private beta)",
-    "what": "Anthropic kündigt selbst gehostete Managed Agents an (private Beta): Harness, Sandboxes, Zugangsdaten und Sitzungsverlauf laufen in der eigenen Cloud oder On-Prem, Modellanfragen gehen wahlweise an Anthropic, Bedrock, Google, Microsoft Foundry oder ein eigenes Gateway.",
+    "title": "What kept a 300k-line Claude Code game project from falling apart",
+    "what": "Ein Entwickler berichtet, was ein Claude-Code-Spielprojekt mit rund 172.000 Zeilen Code und 135.000 Zeilen Tests (943 von 1.644 Commits mit Claude als Co-Autor) zusammengehalten hat. Das Kartenspiel Aita erscheint am 1. Dezember.",
     "importance": 3
    },
    {
-    "title": "Local harness removed in Feb. 2027",
-    "what": "Laut VS-Code-Dokumentation soll der lokale Harness von GitHub Copilot im Februar 2027 entfallen; Chat Participants für Erweiterungen werden ebenfalls entfernt. Entwickler beklagen den Aufwand, und r44 befürchtet Nachteile für BYOK und lokal gehostete Modelle.",
-    "importance": 3
+    "title": "Fable is smart, but don't forget to have other models review its code",
+    "what": "Der Autor lässt Fable seinen Code schreiben und verweist auf Anthropics Empfehlung, Subagenten in die Hauptschleife zu falten. Trotzdem sollten andere Modelle den Code prüfen, weil auch Fable nicht fehlerfrei arbeitet.",
+    "importance": 2
    },
    {
-    "title": "Having agents reset context around 225K tokens dropped a g coat by 50-75% for me",
-    "what": "Ein Betreiber rund um die Uhr laufender Agenten lässt den Kontext in seinem eigenen Harness bei etwa 225K Tokens am Ende einer Aufgabe zurücksetzen statt zufällig zu verdichten; die Kosten pro Zug sanken laut Bericht um 50–75 %. Der Beitrag verlinkt auf einen Blogpost.",
+    "title": "A small frozen eval set is enough to tell if your agent actually got better",
+    "what": "Plädoyer für ein kleines, eingefrorenes Evaluierungsset aus etwa 20 echten Aufgaben, um zu prüfen, ob ein Agent nach einer Änderung wirklich besser geworden ist, statt sich auf Demos oder Bauchgefühl zu verlassen.",
     "importance": 2
    }
   ]

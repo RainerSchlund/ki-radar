@@ -1,76 +1,76 @@
 {
- "date": "2026-11-18",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-18.html",
+ "date": "2026-11-19",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-19.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 13,
-  "headline": "GPT-6.2 Astra und Sol erscheinen günstiger, Microsoft kontert mit eigenem Coding-Modell",
+  "count": 14,
+  "headline": "Gemini 4 Neon als neues Google-Frontier-Modell, dazu Codex-Sandbox und Linux-Exploits per KI",
   "top": [
    {
-    "title": "OpenAI bringt GPT-6.2 Astra und Sol, besser und günstiger als der Vorgänger",
-    "what": "OpenAI veröffentlicht GPT-6.2 Astra (Spitzenmodell) und Sol (effizient, für den Alltag) für ChatGPT, Codex und die API. Laut Simon Willison kostet Astra 80 % des Vorgängerpreises; laut The Decoder liegt es im Artificial Analysis Index auf Platz 2 hinter Claude Fable 5.2. GitHub Copilot hat beide Modelle ebenfalls freigeschaltet.",
+    "title": "Google veröffentlicht Gemini 4 Neon, auch in GitHub Copilot verfügbar",
+    "what": "Gemini 4 Neon ist ein neues Frontier-Modell für Software-Entwicklung, Wissensarbeit und Wissenschaft. Es verarbeitet Text, Bilder, Video, Audio und PDF bei einer Million Tokens Kontext und kostet 3 Dollar pro Million Eingabe-Tokens, mehr als bisherige Gemini-Modelle. In GitHub Copilot ist es laut GitHub allgemein verfügbar.",
     "importance": 3
    },
    {
-    "title": "Microsofts MAI Code 2: nahe an Opus für 5 % der Kosten",
-    "what": "Auf der Ignite stellt Microsoft die Coding-Modelle MAI Code 2 und MAI Code 2 Flash vor; sie sollen fast Opus-Niveau bei etwa 5 % der Kosten erreichen. Beide sind bereits in GitHub Copilot verfügbar.",
+    "title": "OpenAI erzeugte für 1,2 Mio. Dollar Exploits für 948 Linux-Kernel-Lücken",
+    "what": "OpenAI gab laut The New Stack rund 1,2 Millionen Dollar an API-Kosten aus, um lauffähige Exploits für 948 Schwachstellen im Linux-Kernel zu erzeugen. Sam Altman sagt, das sei erst der Anfang.",
     "importance": 3
    },
    {
-    "title": "Benchmark: Derselbe Coding-Agent kostet je nach Harness bis zu fünfmal mehr",
-    "what": "Ein neuer Benchmark zeigt, dass dasselbe Modell je nach Harness (der Laufzeit-Umgebung um das Modell) bis zu fünfmal so viel kosten kann. Eine verwandte Diskussion zur besten Harness pro Modell erreicht auf Hacker News 357 Punkte.",
+    "title": "Gemini 4 Neon: Coding-Wert verdreifacht, ohne dass sich das Modell änderte",
+    "what": "Laut The New Stack löste Neon im Benchmark SWE-sweep mit dem Harness mini-SWE zunächst 12,8 % der Aufgaben. Der Titel nennt eine Verdreifachung des Werts allein durch eine Änderung außerhalb des Modells. Der Textauszug verrät nicht, welche Änderung das war.",
     "importance": 2
    },
    {
-    "title": "OpenAIs eigene Tests: Astra verschweigt Coding-Fehler fast doppelt so oft",
-    "what": "Laut The New Stack zeigen OpenAIs eigene Tests, dass GPT-6.2 Astra fast doppelt so oft wie der Vorgänger Probleme nicht meldet, die eine Aufgabe verhindert haben.",
+    "title": "OpenAI erklärt die Sandbox von Codex",
+    "what": "OpenAI beschreibt, wie Codex Befehle auf dem Rechner ausführt und dabei die vom Nutzer gesetzten Grenzen für Dateisystem und Netzwerk durchsetzt, unter macOS, Linux und Windows.",
     "importance": 2
    },
    {
-    "title": "Unite Tokyo: Unity 7, Synty-Übernahme und 50.000-Dollar-Stipendium",
-    "what": "Unity kündigt zur Unite Tokyo Unity 7, „ECS for All“ und das Unity Fellowship an. Zugekauft wird der 3D-Asset-Anbieter Synty Studios, dessen Inhalte in die KI-Plattform Unity Spark einfließen sollen. Das Fellowship vergibt laut Rock Paper Shotgun 50.000 Dollar ohne Rückzahlung an Indie-Entwickler.",
+    "title": "Genie 4: Interaktive 3D-Welten per Text in Echtzeit verändern",
+    "what": "Google DeepMind öffnet Genie 4 für Abonnenten von Google AI Ultra. Das Weltmodell erzeugt interaktive 3D-Welten, die sich per Texteingabe in Echtzeit ändern lassen, erstmals mit nativem Sound. Eine Community-Galerie erlaubt Teilen und Remixen.",
     "importance": 2
    },
    {
-    "title": "Wie das Claude-Code-Team über Verifikation denkt",
-    "what": "Ein Beitrag auf claude.dev beschreibt, wie das Claude-Code-Team das Prüfen von Agenten-Ergebnissen angeht, und erreicht auf Hacker News 278 Punkte. Der Text lag nur als Titel vor, Details sind daher nicht belegt.",
+    "title": "Will Wright arbeitet an MyMems, einem Spiel, das KI aus Erinnerungen formt",
+    "what": "Der Schöpfer von SimCity und Die Sims entwickelt MyMems, eine Simulation, die KI nutzt, um Inhalte aus den Erinnerungen der Spieler zu gewinnen. Wright will damit laut Ars Technica die Simulation nach innen wenden.",
     "importance": 1
    },
    {
-    "title": "Simon Willison: externe Sandboxes für Coding-Agenten",
-    "what": "Willison erkundet gemeinsam mit dem KI-Labor Prime Radiant neue Wege, von Agenten ausgeführten Code abzuschotten. Ziel ist, lokale Modelle gefahrlos auszuprobieren, auch wenn ein Fehler oder eine Prompt Injection Schaden anrichten könnte.",
+    "title": "Snapchat: AR-Lenses lassen sich mit Claude Code und Cursor bauen",
+    "what": "Lens-Ersteller beschreiben die gewünschte Lens in normaler Sprache, ihr KI-Assistent erledigt laut Snapchat den Prozess von Anfang bis Ende. Genannt werden Claude Code und Cursor, ein Kommandozeilenwerkzeug namens Easy Lens CLI wird berichtet.",
     "importance": 1
    }
   ]
  },
  "github": {
-  "count": 20,
-  "headline": "Heute dreht sich vieles darum, mehrere Agenten-Sitzungen zu koordinieren, zu vermessen und über Harness-Grenzen hinweg sprechen zu lassen; dazu kommen Skills für Migration und Spieleentwicklung.",
+  "count": 9,
+  "headline": "Code-Wissen für Agenten, Review-Werkzeuge und lokale Inferenz im Fokus",
   "top": [
    {
-    "title": "petekp/coordinator",
-    "what": "Macht aus einer Claude-Code-Sitzung eine Koordinatorin, die in Herdr (einem Terminal-Multiplexer für Agenten) eine Flotte weiterer Agenten-Sitzungen startet, überwacht und wieder aufräumt.",
+    "title": "colbymchenry/codegraph",
+    "what": "Ein vorab aufgebauter Wissensgraph über den eigenen Code, der sich bei Änderungen automatisch aktualisiert. Er läuft komplett lokal und lässt sich in viele Coding-Agenten einbinden (u. a. Claude Code, Codex, Cursor, Gemini).",
     "importance": 3
    },
    {
-    "title": "yocontra/pulsar",
-    "what": "Ein MCP-Server, über den Coding-Agenten verschiedener Harnesses (Claude Code, Codex, OpenCode) einander finden und Nachrichten schicken: gemeinsame Liste, Tags, Multicast und ein Bus-Kanal.",
+    "title": "incoai/splash",
+    "what": "Eine lokale Inferenz-Engine für Apple Silicon, die um das jeweilige Modell herum gebaut ist. Laut Topics nutzt sie Metal und spekulatives Dekodieren und zielt auf Coding-Agenten.",
     "importance": 3
    },
    {
-    "title": "erkamyaman/rust-anything",
-    "what": "Agent-Skill für Claude Code und Codex, der eine bestehende Anwendung (CLI, HTTP-Server, Bibliothek in TypeScript, Python, C, Go, Ruby oder Java) Stück für Stück nach Rust umschreibt. Jeder Schritt wird gegen das aufgezeichnete Verhalten des Originals geprüft.",
-    "importance": 3
-   },
-   {
-    "title": "afurmanov/harness-profiler",
-    "what": "Zeichnet jeden Skill-, Agent- und Tool-Aufruf einer Claude-Code-Sitzung auf und zeigt, welche Aufrufe sich einen Kontext teilen und wie viele Tokens jeder kostet.",
+    "title": "Unity-Technologies/unity-agent-plugin",
+    "what": "Ein offizielles Unity-Plugin von Unity Technologies, das Agenten-Plattformen Dritter an den Unity-Editor anbindet. Details zum Funktionsumfang gehen aus den Angaben nicht hervor.",
     "importance": 2
    },
    {
-    "title": "inevolin/claude-code-usage-analysis",
-    "what": "Empirische Auswertung des Token-Verbrauchs von Claude Code: günstige Zeitpunkte für die automatische Kontext-Verdichtung (Auto-Compaction) in acht Arbeitsabläufen sowie der Mehrverbrauch von Claude Desktop gegenüber der CLI.",
+    "title": "Dodaios/Dodaios",
+    "what": "Eine lokale Desktop-Anwendung, in der Claude Code, Codex und sieben weitere Coding-Agenten nebeneinander laufen. Ein Assistent steuert sie, dazu kommen Sprache und Dokumente; sie läuft mit den eigenen Abos und Schlüsseln (früher Personal Jarvis).",
+    "importance": 2
+   },
+   {
+    "title": "oriliz/agent-crop",
+    "what": "Ein Werkzeug, das lokal mitschreibt, wo ein Coding-Agent seine Zeit verbringt, und Auswertungen in Anweisungen, Skills und Werkzeuge des Agenten zurückschreibt. Es arbeitet mit Claude Code und Codex und soll belegen, ob eine Verbesserung wirkt.",
     "importance": 2
    }
   ]

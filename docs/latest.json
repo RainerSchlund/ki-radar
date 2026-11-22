@@ -1,76 +1,76 @@
 {
- "date": "2026-11-21",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-21.html",
+ "date": "2026-11-22",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-22.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 14,
-  "headline": "Claude soll die Riemann-Vermutung bewiesen haben, ein menschlicher Beweis konkurriert",
+  "count": 12,
+  "headline": "Riemann-Beweis mit Claude wird bestätigt, Nvidia stellt lange Kontextfenster infrage",
   "top": [
    {
-    "title": "Anthropic-Mathematiker will mit Claude die Riemann-Vermutung bewiesen haben",
-    "what": "Levent Alpöge von Anthropic sagt, er habe mit Claude einen Beweis der Riemann-Vermutung gefunden, die Verallgemeinerung eingeschlossen, und die Argumente formalisiert. Laut TechCrunch gibt es zugleich einen unabhängigen menschlichen Lösungsversuch. Tom's Hardware betont, dass der Beweis noch unbestätigt ist.",
+    "title": "Update: Zwei Gruppen bestätigen Claude-gestützten Riemann-Beweis",
+    "what": "Update: Laut Guardian haben zwei Gruppen die Behauptung des Anthropic-Mathematikers Levent Alpöge geprüft, Claude habe beim Beweis der Riemannschen Vermutung geholfen. Weitere Quellen sprechen von einer Bestätigung des in Lean (einer Software, die Beweise Schritt für Schritt maschinell nachprüft) formalisierten Beweises; zugleich liegt ein unabhängiger, rein menschlicher Gegenentwurf aus Stanford vor.",
     "importance": 3
    },
    {
-    "title": "OpenAI schützt Denkprozesse von GPT-6.2 und sperrt Destillations-Konten",
-    "what": "Bei GPT-6.2 Astra und Sol sank in Red-Teaming-Tests die Erfolgsquote für das Auslesen geschützter Gedankengänge von 54 auf 0,2 Prozent. Wöchentlich sperrt OpenAI tausende bis zehntausende Konten, die an koordinierten Destillationskampagnen beteiligt sind.",
+    "title": "Nvidia: Gezielte Suche schlägt das Einlesen ganzer Dokumente",
+    "what": "Nvidia-Forschende zeigen, dass Zwischenzusammenfassungen und gezielte Stichwortsuche bei langen Dokumenten meist gleichwertige Ergebnisse liefern wie das vollständige Einlesen, bei einem Bruchteil der Kosten. Sie schlagen sogar einen neuen Modellentwurf vor, der große Kontextfenster (die Textmenge, die ein Modell auf einmal sieht) kaum noch braucht.",
     "importance": 2
    },
    {
-    "title": "Signal sperrt Screenshots, damit KI-Agenten keine Chats mitlesen",
-    "what": "Signal schränkt Screenshots auf Android und iOS ein, um Agenten wie Apples Siri AI, Googles Gemini Intelligence oder Metas Muse am Auslesen privater Nachrichten zu hindern. Der Messenger nennt das eine existenzielle Bedrohung für den Datenschutz und räumt Lücken, etwa auf macOS, ein. Der Beitrag dazu erreicht auf Hacker News über 500 Punkte.",
+    "title": "Inkling 2 Mini: offenes Modell rechnet in Schleifen und läuft auf dem Laptop",
+    "what": "Thinking Machines veröffentlicht Inkling 2 Mini, einen offenen Looped-Transformer (ein Modell, das einen Teil seiner Schichten mehrfach durchläuft): Zwölf von 24 Schichten laufen pro Token dreimal. Im Artificial-Analysis-Intelligence-Index liegt es mit Qwen3.8 27B gleichauf, bei deutlich geringerem Aufwand.",
     "importance": 2
    },
    {
-    "title": "Frostbite: Eine von KI entworfene und verifizierte CPU-Architektur",
-    "what": "Architect Labs stellt Frostbite vor, eine CPU-Architektur, die laut Titel von einer KI entdeckt, entworfen und verifiziert wurde. Der Beitrag erreicht auf Hacker News 638 Punkte. Details liegen in der Quelle nicht als Text vor.",
+    "title": "OpenAI veröffentlicht Prompt-Vorlagen für GPT-6.2 Astra und Sol",
+    "what": "Die neuen Vorlagen sollen typische Eigenheiten der Modelle ausgleichen, etwa zu knappe Antworten, unnötige Rückfragen und übermäßiges Testen beim Programmieren. Auch die API ändert sich: Nachträgliche Änderungen am Gesprächsverlauf können Reasoning-Inhalte (die internen Denkschritte) verwerfen.",
     "importance": 2
    },
    {
-    "title": "AWS Emulator: freier lokaler AWS-Nachbau, komplett von Agenten geschrieben",
-    "what": "AWS veröffentlicht einen CC0-lizenzierten lokalen Ersatz für über 200 Dienste, erzeugt aus den öffentlichen API-Modellen und gedacht für Testschleifen von Coding-Agenten. Agenten schreiben und pflegen den gesamten Code, pro Release erscheinen Treuewerte. IAM wird laut Doku nicht ausgewertet.",
+    "title": "Bytedance: Axion 1.0 kommt mit drei Trainingsphasen nah an Spitzenmodelle",
+    "what": "Bytedance und mehrere US-Universitäten stellen den Agenten Axion 1.0 vor, der in Benchmarks an kommerzielle Spitzenmodelle von OpenAI und Anthropic heranreicht. Den Hebel sehen sie in sorgfältig aufbereiteten Trainingsdaten statt in immer mehr Trainingsschritten. Modell, Daten und Code werden laut Quelle veröffentlicht.",
     "importance": 2
    },
    {
-    "title": "Paper: Sprachmodelle können ihre eigenen Gewichte umschreiben",
-    "what": "Eine arXiv-Arbeit mit dem Titel „Language Models Can Rewrite Their Own Weights“ erhält auf Hacker News 376 Punkte. Der Quelle liegt kein Text bei, Inhalt und Methode sind daher offen.",
-    "importance": 1
+    "title": "Nvidia erzeugt mit Factorys Droid-Harness Trainingsdaten für Nemotron 3 Ultra",
+    "what": "Nvidia nutzte das Coding-Agent-Harness (die Laufzeit-Umgebung um ein Modell) Droid von Factory, um rund 20.000 Zeilen Nachtrainingsdaten für das 550-Milliarden-Parameter-Modell Nemotron 3 Ultra zu erzeugen. Laut Bericht sprang danach der Coding-Wert deutlich.",
+    "importance": 2
    },
    {
-    "title": "Google gibt Agent Substrate und gVisor an die CNCF ab",
-    "what": "Google übergibt zwei Bausteine seiner Agenten-Infrastruktur, Agent Substrate und die Sandbox gVisor, an die Cloud Native Computing Foundation. Beide stehen damit unter herstellerneutraler Open-Source-Verwaltung.",
-    "importance": 1
+    "title": "Together AI meldet Prompt-Leck, nachdem ein Coding-Agent Zugangsdaten preisgab",
+    "what": "Together AI hat offengelegt, dass Prompts abgeflossen sind, nachdem ein Coding-Agent ein Credential (Zugangsdatum) offengelegt hatte. Medien verknüpfen den Fall mit einer Dragos-Studie über gehackte Anbieter; Details gehen aus den Schlagzeilen nicht hervor.",
+    "importance": 2
    }
   ]
  },
  "github": {
-  "count": 11,
-  "headline": "Agenten-Ökosystem wächst an den Rändern: Orchestrierung, Skills und Token-Sparen rund um Claude Code, Codex und Antigravity",
+  "count": 13,
+  "headline": "Agent-Skills und Harness-Zusatzwerkzeuge dominieren den Tag: vom Godot-Skill bis zur Inferenz-Anleitung für große MoE-Modelle auf Consumer-GPUs",
   "top": [
    {
-    "title": "INK-Q/agy-fast",
-    "what": "Ein MCP-Plugin (Schnittstelle, über die Agenten Werkzeuge aufrufen) für Googles Antigravity. Es soll laut Beschreibung die Zahl der Modell-Runden um 34 %, das Token-Kontingent um 31 % und den Upload-Verkehr um 40 % senken, ohne die Oberfläche zu verändern.",
+    "title": "alesha-pro/inference-optimization-playbook",
+    "what": "Sammlung von 97 getesteten Hypothesen, wie sich riesige MoE-Modelle (Mixture of Experts, Modelle mit vielen spezialisierten Teilnetzen) auf Consumer-Hardware beschleunigen lassen: 4x RTX 3090, Experten im RAM, llama.cpp, Speculative Decoding. Enthält, was funktionierte und was nicht, plus einen fertigen Skill für Coding-Agenten.",
     "importance": 3
    },
    {
-    "title": "keli-wen/cospan",
-    "what": "Verbindet verschiedene Coding-Agenten (Antigravity, Codex, Claude Code, DeepSeek Harness) über ein gemeinsames asynchrones Delegations-Protokoll, sodass sie sich gegenseitig Aufgaben übergeben können.",
+    "title": "sybil-solutions/skill-distill",
+    "what": "Werkzeug, das aus einer gelungenen Claude-Code- oder Codex-Sitzung einen Skill destilliert, dem ein Open-Weight-Modell (Modell mit frei verfügbaren Gewichten) folgen kann, um die Aufgabe nachzustellen. Beschreibung und Topics sind knapp, Details zur Methode sind unklar.",
+    "importance": 3
+   },
+   {
+    "title": "EL4CTEO/godot-skills",
+    "what": "Agent-Skills für Godot 4.7 (GDScript und C#/.NET) mit exakter API-Abfrage, sicherem Bearbeiten von Szenen und Compile-Checks. Läuft mit Claude Code, Codex und Cursor.",
+    "importance": 3
+   },
+   {
+    "title": "AI4XE/ai4ai",
+    "what": "Werkzeugkasten, der über mehrere Harnesses (Claude Code, Codex, DeepSeek-Harness) hinweg Laufzeitstatus, Kontext-Erneuerung und Selbst-Vervielfältigung von Agenten ermöglicht.",
     "importance": 2
    },
    {
-    "title": "kn0sti/agora-mesh",
-    "what": "Ein in Rust geschriebenes, gleichberechtigtes Peer-to-Peer-Netz für Claude Code: Agenten auf mehreren Rechnern planen, teilen Arbeit auf und nutzen gemeinsam ein Gedächtnis. Unabhängiges Community-Projekt.",
-    "importance": 2
-   },
-   {
-    "title": "svaraborut/work3",
-    "what": "Ein Kommandozeilen-Werkzeug (TypeScript), das aus einem Branch-Namen mit einem Befehl einen fertig eingerichteten Worktree (zusätzliches Arbeitsverzeichnis desselben Repos) erzeugt und darin Claude Code startet.",
-    "importance": 2
-   },
-   {
-    "title": "danielwh2/sprite-stacking",
-    "what": "Ein Agenten-Skill, der aus vier Pixel-Art-Ansichten ein drehbares Fake-3D-Sprite per Sprite-Stacking (Schichten übereinander gestapelt) erzeugt. Läuft laut Beschreibung mit Claude Code, Codex, Cursor, OpenCode, Gemini CLI und Pi.",
+    "title": "EL4CTEO/fast-anything",
+    "what": "Plugin/Skill für Claude Code und Codex: Es profiliert langsame Python-, Node- oder Ruby-Anwendungen, portiert nur die heißen Funktionen nach Rust und prüft per Test, dass sich der Code gleich verhält.",
     "importance": 2
    }
   ]

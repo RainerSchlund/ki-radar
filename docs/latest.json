@@ -1,76 +1,76 @@
 {
- "date": "2026-11-22",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-22.html",
+ "date": "2026-11-23",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-23.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 12,
-  "headline": "Riemann-Beweis mit Claude wird bestätigt, Nvidia stellt lange Kontextfenster infrage",
+  "count": 14,
+  "headline": "Claude Code gibt Zugangsdaten preis, Agenten scheitern im Büroalltag, Lean bestätigt Riemann-Beweis",
   "top": [
    {
-    "title": "Update: Zwei Gruppen bestätigen Claude-gestützten Riemann-Beweis",
-    "what": "Update: Laut Guardian haben zwei Gruppen die Behauptung des Anthropic-Mathematikers Levent Alpöge geprüft, Claude habe beim Beweis der Riemannschen Vermutung geholfen. Weitere Quellen sprechen von einer Bestätigung des in Lean (einer Software, die Beweise Schritt für Schritt maschinell nachprüft) formalisierten Beweises; zugleich liegt ein unabhängiger, rein menschlicher Gegenentwurf aus Stanford vor.",
+    "title": "Claude Code legt über „Don't Ask Again“ Geheimnisse in öffentlichen Repos offen",
+    "what": "Die Sicherheitsfirma Apiiro fand 1.122 Zugangsdaten in `.claude/settings.local.json`-Dateien und weitere 1.160 in der Git-Historie, der gemeinsamen `settings.json` und Agenten-Chats. Ursache ist, dass Claude Code freigegebene Befehle samt Geheimnissen lokal speichert, um die Funktion „Don't Ask Again“ umzusetzen.",
     "importance": 3
    },
    {
-    "title": "Nvidia: Gezielte Suche schlägt das Einlesen ganzer Dokumente",
-    "what": "Nvidia-Forschende zeigen, dass Zwischenzusammenfassungen und gezielte Stichwortsuche bei langen Dokumenten meist gleichwertige Ergebnisse liefern wie das vollständige Einlesen, bei einem Bruchteil der Kosten. Sie schlagen sogar einen neuen Modellentwurf vor, der große Kontextfenster (die Textmenge, die ein Modell auf einmal sieht) kaum noch braucht.",
+    "title": "Coding-Agenten schließen in simulierter Firma weniger als jede zehnte Aufgabe ab",
+    "what": "Ein neuer Praxistest stellt Agenten in einen simulierten Entwicklerjob mit Kollegen, Projekt-Boards und unvollständigen Übergaben. Selbst Opus 5.5 und Astra erledigen deutlich weniger als jedes zehnte Ticket, obwohl sie isolierte Tests gut bestehen.",
+    "importance": 3
+   },
+   {
+    "title": "Update: Lean-Community bestätigt offiziell den Claude-gestützten Riemann-Beweis",
+    "what": "Die Lean- und Mathlib-Community hat Levent Alpöges Beweis offiziell als korrekt bestätigt. Der rund 17 Millionen Zeilen lange Code wurde von Dutzenden unabhängigen Prüfern verifiziert; Terence Tao hatte eine Lösung erst um 2050 erwartet.",
+    "importance": 3
+   },
+   {
+    "title": "Google startet Agent Compute Engine: Agenten laufen in isolierten Mikro-VMs",
+    "what": "Der verwaltete Dienst führt KI-Agenten in isolierten microVMs aus und kann Umgebungen per Checkpoint anhalten und fortsetzen. Zugangsdaten, API-Schlüssel und OAuth-Tokens bleiben außerhalb der Sandbox; ein externes Agent Gateway authentifiziert Anfragen.",
     "importance": 2
    },
    {
-    "title": "Inkling 2 Mini: offenes Modell rechnet in Schleifen und läuft auf dem Laptop",
-    "what": "Thinking Machines veröffentlicht Inkling 2 Mini, einen offenen Looped-Transformer (ein Modell, das einen Teil seiner Schichten mehrfach durchläuft): Zwölf von 24 Schichten laufen pro Token dreimal. Im Artificial-Analysis-Intelligence-Index liegt es mit Qwen3.8 27B gleichauf, bei deutlich geringerem Aufwand.",
+    "title": "QCon: Das Harness ist das neue Betriebssystem",
+    "what": "Manju Rajashekhar von Mad Labs argumentierte in der Eröffnungs-Keynote, dass die Umgebung um das Modell (Kontext, Werkzeuge, Zustand, Berechtigungen, Rückkopplung) bestimmt, was ein Agent kann und wie sicher er es tut. Er verglich diese Teile mit Aufgaben eines Betriebssystems.",
     "importance": 2
    },
    {
-    "title": "OpenAI veröffentlicht Prompt-Vorlagen für GPT-6.2 Astra und Sol",
-    "what": "Die neuen Vorlagen sollen typische Eigenheiten der Modelle ausgleichen, etwa zu knappe Antworten, unnötige Rückfragen und übermäßiges Testen beim Programmieren. Auch die API ändert sich: Nachträgliche Änderungen am Gesprächsverlauf können Reasoning-Inhalte (die internen Denkschritte) verwerfen.",
+    "title": "Perplexity Monitor-API lässt Agenten das Web rund um die Uhr beobachten",
+    "what": "Die API durchsucht das Web nach Zeitplan und meldet Agenten per Webhook nur relevante Änderungen. Ein eigenes Entscheidungsmodell filtert unwichtige Treffer heraus.",
     "importance": 2
    },
    {
-    "title": "Bytedance: Axion 1.0 kommt mit drei Trainingsphasen nah an Spitzenmodelle",
-    "what": "Bytedance und mehrere US-Universitäten stellen den Agenten Axion 1.0 vor, der in Benchmarks an kommerzielle Spitzenmodelle von OpenAI und Anthropic heranreicht. Den Hebel sehen sie in sorgfältig aufbereiteten Trainingsdaten statt in immer mehr Trainingsschritten. Modell, Daten und Code werden laut Quelle veröffentlicht.",
-    "importance": 2
-   },
-   {
-    "title": "Nvidia erzeugt mit Factorys Droid-Harness Trainingsdaten für Nemotron 3 Ultra",
-    "what": "Nvidia nutzte das Coding-Agent-Harness (die Laufzeit-Umgebung um ein Modell) Droid von Factory, um rund 20.000 Zeilen Nachtrainingsdaten für das 550-Milliarden-Parameter-Modell Nemotron 3 Ultra zu erzeugen. Laut Bericht sprang danach der Coding-Wert deutlich.",
-    "importance": 2
-   },
-   {
-    "title": "Together AI meldet Prompt-Leck, nachdem ein Coding-Agent Zugangsdaten preisgab",
-    "what": "Together AI hat offengelegt, dass Prompts abgeflossen sind, nachdem ein Coding-Agent ein Credential (Zugangsdatum) offengelegt hatte. Medien verknüpfen den Fall mit einer Dragos-Studie über gehackte Anbieter; Details gehen aus den Schlagzeilen nicht hervor.",
+    "title": "METR: Modelle werden schneller besser, als sich ihre Fähigkeiten messen lassen",
+    "what": "Laut METR verbessern sich Opus 5.5 und GPT-6 Astra bei Forschungsaufgaben rasant, die Messung hinkt hinterher. Eine gefährliche Beschleunigung der KI-Entwicklung lasse sich mit den aktuellen Daten nicht ausschließen, gängige Tests könnten das Können auch überschätzen.",
     "importance": 2
    }
   ]
  },
  "github": {
-  "count": 13,
-  "headline": "Agent-Skills und Harness-Zusatzwerkzeuge dominieren den Tag: vom Godot-Skill bis zur Inferenz-Anleitung für große MoE-Modelle auf Consumer-GPUs",
+  "count": 15,
+  "headline": "Agenten-Fabriken, durchsuchbares Team-Wissen und lokales Training dominieren den Tag",
   "top": [
    {
-    "title": "alesha-pro/inference-optimization-playbook",
-    "what": "Sammlung von 97 getesteten Hypothesen, wie sich riesige MoE-Modelle (Mixture of Experts, Modelle mit vielen spezialisierten Teilnetzen) auf Consumer-Hardware beschleunigen lassen: 4x RTX 3090, Experten im RAM, llama.cpp, Speculative Decoding. Enthält, was funktionierte und was nicht, plus einen fertigen Skill für Coding-Agenten.",
+    "title": "bluesky-social/diderot",
+    "what": "Selbst betriebene Suche und Fragefunktion über das Wissen einer Organisation: Slack, Sitzungen von Coding-Agenten, Dokumente und Tickets. Als Werkzeug-Schnittstelle (MCP) für Agenten und mit RAG (Antworten auf Basis gefundener Textstellen) ausgestattet, geschrieben in Go. Kommt von Bluesky.",
     "importance": 3
    },
    {
-    "title": "sybil-solutions/skill-distill",
-    "what": "Werkzeug, das aus einer gelungenen Claude-Code- oder Codex-Sitzung einen Skill destilliert, dem ein Open-Weight-Modell (Modell mit frei verfügbaren Gewichten) folgen kann, um die Aufgabe nachzustellen. Beschreibung und Topics sind knapp, Details zur Methode sind unklar.",
+    "title": "openfabriq/openfabriq",
+    "what": "Beschreibt eine „Software-Fabrik“ als lesbare Dateien: Agenten sortieren Tickets, setzen sie um, prüfen und korrigieren ein GitHub-Repository. Läuft mit Claude Code auf dem eigenen Rechner oder Server.",
     "importance": 3
    },
    {
-    "title": "EL4CTEO/godot-skills",
-    "what": "Agent-Skills für Godot 4.7 (GDScript und C#/.NET) mit exakter API-Abfrage, sicherem Bearbeiten von Szenen und Compile-Checks. Läuft mit Claude Code, Codex und Cursor.",
+    "title": "sous-labs/songe",
+    "what": "Trainingswerkzeug für lokale Modelle, das ungenutzte Rechenzeit nutzt. Laut Topics geht es um Destillation (ein kleines Modell lernt von einem großen), LoRA-Feintuning und Apple MLX. Die Beschreibung nennt Coding-Agenten als Bezug.",
     "importance": 3
    },
    {
-    "title": "AI4XE/ai4ai",
-    "what": "Werkzeugkasten, der über mehrere Harnesses (Claude Code, Codex, DeepSeek-Harness) hinweg Laufzeitstatus, Kontext-Erneuerung und Selbst-Vervielfältigung von Agenten ermöglicht.",
+    "title": "nxbridge/nxbridge",
+    "what": "Lokale Kommunikation zwischen Claude Code und Codex CLI als gleichberechtigte Partner. Die Beschreibung ist knapp und auf Chinesisch.",
     "importance": 2
    },
    {
-    "title": "EL4CTEO/fast-anything",
-    "what": "Plugin/Skill für Claude Code und Codex: Es profiliert langsame Python-, Node- oder Ruby-Anwendungen, portiert nur die heißen Funktionen nach Rust und prüft per Test, dass sich der Code gleich verhält.",
+    "title": "daoif/tokless",
+    "what": "Per `npx tokless install` installierbares Paket für Coding-Agenten. Es liefert ein Code-Gerüst aus dem Syntaxbaum (nur Signaturen statt ganzer Dateien), eine Sperre gegen blindes Lesen und eine Abrechnung des Token-Verbrauchs.",
     "importance": 2
    }
   ]

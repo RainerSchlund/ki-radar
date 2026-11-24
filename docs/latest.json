@@ -1,76 +1,76 @@
 {
- "date": "2026-11-23",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-23.html",
+ "date": "2026-11-24",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-24.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 14,
-  "headline": "Claude Code gibt Zugangsdaten preis, Agenten scheitern im Büroalltag, Lean bestätigt Riemann-Beweis",
+  "count": 12,
+  "headline": "Claude Ship lässt Agenten Pull Requests prüfen, reparieren und freigeben",
   "top": [
    {
-    "title": "Claude Code legt über „Don't Ask Again“ Geheimnisse in öffentlichen Repos offen",
-    "what": "Die Sicherheitsfirma Apiiro fand 1.122 Zugangsdaten in `.claude/settings.local.json`-Dateien und weitere 1.160 in der Git-Historie, der gemeinsamen `settings.json` und Agenten-Chats. Ursache ist, dass Claude Code freigegebene Befehle samt Geheimnissen lokal speichert, um die Funktion „Don't Ask Again“ umzusetzen.",
+    "title": "Anthropic startet Claude Ship: Agenten prüfen, reparieren und genehmigen PRs",
+    "what": "Anthropic hat Claude Ship vorgestellt, ein Paket aus drei Agenten, die Pull Requests prüfen, Fehler darin beheben und routinemäßige Änderungen selbst freigeben können. Es erweitert die bestehende Code-Review-Funktion von Claude.",
     "importance": 3
    },
    {
-    "title": "Coding-Agenten schließen in simulierter Firma weniger als jede zehnte Aufgabe ab",
-    "what": "Ein neuer Praxistest stellt Agenten in einen simulierten Entwicklerjob mit Kollegen, Projekt-Boards und unvollständigen Übergaben. Selbst Opus 5.5 und Astra erledigen deutlich weniger als jedes zehnte Ticket, obwohl sie isolierte Tests gut bestehen.",
-    "importance": 3
-   },
-   {
-    "title": "Update: Lean-Community bestätigt offiziell den Claude-gestützten Riemann-Beweis",
-    "what": "Die Lean- und Mathlib-Community hat Levent Alpöges Beweis offiziell als korrekt bestätigt. Der rund 17 Millionen Zeilen lange Code wurde von Dutzenden unabhängigen Prüfern verifiziert; Terence Tao hatte eine Lösung erst um 2050 erwartet.",
-    "importance": 3
-   },
-   {
-    "title": "Google startet Agent Compute Engine: Agenten laufen in isolierten Mikro-VMs",
-    "what": "Der verwaltete Dienst führt KI-Agenten in isolierten microVMs aus und kann Umgebungen per Checkpoint anhalten und fortsetzen. Zugangsdaten, API-Schlüssel und OAuth-Tokens bleiben außerhalb der Sandbox; ein externes Agent Gateway authentifiziert Anfragen.",
+    "title": "Anthropic veröffentlicht Claudes behaupteten Beweis von VP ≠ VNP",
+    "what": "Anthropic hat ein Paper mit einem von Claude erarbeiteten Beweis zu VP ≠ VNP veröffentlicht, Valiants Vermutung von vor 47 Jahren. Laut The Register umfasst der ausgeschriebene Beweis rund 250.000 Seiten. Die Prüfung durch Fachleute steht noch aus.",
     "importance": 2
    },
    {
-    "title": "QCon: Das Harness ist das neue Betriebssystem",
-    "what": "Manju Rajashekhar von Mad Labs argumentierte in der Eröffnungs-Keynote, dass die Umgebung um das Modell (Kontext, Werkzeuge, Zustand, Berechtigungen, Rückkopplung) bestimmt, was ein Agent kann und wie sicher er es tut. Er verglich diese Teile mit Aufgaben eines Betriebssystems.",
+    "title": "DeepMind: Gemini-4-Agenten senken Quantenrechenkosten 290-fach, Lean-Prüfung offen",
+    "what": "Google DeepMind hat das Lean-4-Framework quelloffen gemacht, mit dem sich von Gemini-4-Agenten entwickelte Quantenalgorithmen formal verifizieren lassen. Laut The New Stack sinken die Kosten bestimmter Algorithmen um das 290-Fache.",
     "importance": 2
    },
    {
-    "title": "Perplexity Monitor-API lässt Agenten das Web rund um die Uhr beobachten",
-    "what": "Die API durchsucht das Web nach Zeitplan und meldet Agenten per Webhook nur relevante Änderungen. Ein eigenes Entscheidungsmodell filtert unwichtige Treffer heraus.",
+    "title": "OpenAI legt interne Perplexity-Kurve der GPT-Reihe offen",
+    "what": "OpenAI-Chefwissenschaftler Jakub Pachocki hat erstmals die internen Perplexity-Werte der gesamten GPT-Reihe veröffentlicht, auch eines unveröffentlichten Modells. Fähigkeiten tauchen demnach an überraschend präzisen Schwellen auf. Er wirbt dafür, Perplexity als branchenweite Fortschrittsmetrik und Grundlage gemeinsamer Sicherheitslimits zu nutzen.",
     "importance": 2
    },
    {
-    "title": "METR: Modelle werden schneller besser, als sich ihre Fähigkeiten messen lassen",
-    "what": "Laut METR verbessern sich Opus 5.5 und GPT-6 Astra bei Forschungsaufgaben rasant, die Messung hinkt hinterher. Eine gefährliche Beschleunigung der KI-Entwicklung lasse sich mit den aktuellen Daten nicht ausschließen, gängige Tests könnten das Können auch überschätzen.",
-    "importance": 2
+    "title": "GPT-6.2 Astra liefert eigenständig einen Lean-Beweis für Smoktunowicz' Lückensatz",
+    "what": "Laut Vals AI hat GPT-6.2 Astra ohne menschliches Eingreifen einen maschinell prüfbaren Lean-Beweis für den Lückensatz von Smoktunowicz erzeugt und dabei einen eigenen Ansatz gewählt, weil Grundlagen in Mathlib fehlten. Auf dem Benchmark Autoform-Hard führt Astra mit 49 von 56 Aufgaben.",
+    "importance": 1
+   },
+   {
+    "title": "OpenAI und Cisco veröffentlichen Shirudo, Open-Source-Schutz für laufende Linux-Systeme",
+    "what": "Shirudo ist eine quelloffene Laufzeitumgebung für Linux, die laufende Systeme schützen soll, während Patches ausgerollt werden. Laut Berichten arbeitet sie mit eBPF und ohne Neustart; OpenAIs Codex war offenbar am Bau beteiligt.",
+    "importance": 1
+   },
+   {
+    "title": "AWS bringt Strands Decider v2: fünf offene Entscheidungsmodelle für Agenten",
+    "what": "AWS hat Strands Decider v2 veröffentlicht, eine Familie aus fünf offenen Modellen, die Agenten Entscheidungen abnehmen sollen. Laut Berichten stehen sie unter Apache 2.0 und zeigen Zweifel ehrlicher an. Die Veröffentlichung folgt nur sieben Wochen auf die erste Version.",
+    "importance": 1
    }
   ]
  },
  "github": {
-  "count": 15,
-  "headline": "Agenten-Fabriken, durchsuchbares Team-Wissen und lokales Training dominieren den Tag",
+  "count": 12,
+  "headline": "Agenten-Werkzeuge im Umfeld von Claude Code und Codex: Simulatoren, Kontext-Pflege und Orchestrierung",
   "top": [
    {
-    "title": "bluesky-social/diderot",
-    "what": "Selbst betriebene Suche und Fragefunktion über das Wissen einer Organisation: Slack, Sitzungen von Coding-Agenten, Dokumente und Tickets. Als Werkzeug-Schnittstelle (MCP) für Agenten und mit RAG (Antworten auf Basis gefundener Textstellen) ausgestattet, geschrieben in Go. Kommt von Bluesky.",
+    "title": "Developing-Gamer/agent-sim",
+    "what": "Stellt iOS-Simulatoren für KI-Agenten unter Linux bereit, in Rust geschrieben. Laut Topics ist es über MCP (Schnittstelle, über die Agenten Werkzeuge aufrufen) ansprechbar und für Claude Code gedacht.",
     "importance": 3
    },
    {
-    "title": "openfabriq/openfabriq",
-    "what": "Beschreibt eine „Software-Fabrik“ als lesbare Dateien: Agenten sortieren Tickets, setzen sie um, prüfen und korrigieren ein GitHub-Repository. Läuft mit Claude Code auf dem eigenen Rechner oder Server.",
-    "importance": 3
-   },
-   {
-    "title": "sous-labs/songe",
-    "what": "Trainingswerkzeug für lokale Modelle, das ungenutzte Rechenzeit nutzt. Laut Topics geht es um Destillation (ein kleines Modell lernt von einem großen), LoRA-Feintuning und Apple MLX. Die Beschreibung nennt Coding-Agenten als Bezug.",
-    "importance": 3
-   },
-   {
-    "title": "nxbridge/nxbridge",
-    "what": "Lokale Kommunikation zwischen Claude Code und Codex CLI als gleichberechtigte Partner. Die Beschreibung ist knapp und auf Chinesisch.",
+    "title": "hmmgotit/RuoCun",
+    "what": "RuoCun ist ein Coding-Agent für das Terminal, in Python geschrieben. Laut README löst er in einem Selbsttest 71 von 89 Aufgaben des Terminal-Bench 2.1 (79,78 %) und erreicht 99 % Cache-Treffer bei den Eingabe-Tokens.",
     "importance": 2
    },
    {
-    "title": "daoif/tokless",
-    "what": "Per `npx tokless install` installierbares Paket für Coding-Agenten. Es liefert ein Code-Gerüst aus dem Syntaxbaum (nur Signaturen statt ganzer Dateien), eine Sperre gegen blindes Lesen und eine Abrechnung des Token-Verbrauchs.",
+    "title": "lbc9168/antigravity-codex-worker",
+    "what": "Ein Skill für Antigravity, der die lokale Codex-CLI als abgeschottet laufenden Programmier-Worker einsetzt. Gemini oder Opus übernehmen dabei die Rolle von Architekt und Reviewer.",
+    "importance": 2
+   },
+   {
+    "title": "BoneD-Q/contextbridge",
+    "what": "Ein Skill, der Wissen beim Wechsel zwischen Agenten oder Sitzungen strukturiert übergibt. Dabei hält er Belege und Unsicherheiten fest und prüft die Übergabe.",
+    "importance": 2
+   },
+   {
+    "title": "zou172866/antigravity-agy-dart",
+    "what": "Ein Plugin für Google Antigravity, das Cache-Treffer verbessert, den Cache automatisch warm hält und die Kontextnutzung live anzeigt. Abgestürzte Sitzungen rettet es und spart Tokens (laut Beschreibung).",
     "importance": 2
    }
   ]

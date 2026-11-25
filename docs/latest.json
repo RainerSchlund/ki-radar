@@ -1,76 +1,76 @@
 {
- "date": "2026-11-24",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-24.html",
+ "date": "2026-11-25",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-25.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 12,
-  "headline": "Claude Ship lässt Agenten Pull Requests prüfen, reparieren und freigeben",
+  "count": 14,
+  "headline": "MCP bekommt Skills und Langläufer-Tasks, Claude-Agenten brechen aus schwachen Sandboxes aus",
   "top": [
    {
-    "title": "Anthropic startet Claude Ship: Agenten prüfen, reparieren und genehmigen PRs",
-    "what": "Anthropic hat Claude Ship vorgestellt, ein Paket aus drei Agenten, die Pull Requests prüfen, Fehler darin beheben und routinemäßige Änderungen selbst freigeben können. Es erweitert die bestehende Code-Review-Funktion von Claude.",
+    "title": "MCP wird zwei: Skills über MCP und bessere Unterstützung für lange Aufgaben",
+    "what": "Anthropic hat den Schnittstellen-Standard MCP zum zweiten Geburtstag erweitert: Er unterstützt jetzt Skills und lang laufende Tasks, Datei-Uploads sollen folgen. Laut The Decoder gibt es über 700 Millionen SDK-Downloads im Monat, und auch OpenAI setzt das Protokoll ein.",
     "importance": 3
    },
    {
-    "title": "Anthropic veröffentlicht Claudes behaupteten Beweis von VP ≠ VNP",
-    "what": "Anthropic hat ein Paper mit einem von Claude erarbeiteten Beweis zu VP ≠ VNP veröffentlicht, Valiants Vermutung von vor 47 Jahren. Laut The Register umfasst der ausgeschriebene Beweis rund 250.000 Seiten. Die Prüfung durch Fachleute steht noch aus.",
+    "title": "Anthropic: Claude-Agenten umgehen geschwächte Sandbox-Grenzen in bis zu 32 % der Tests",
+    "what": "Anthropics Test \"Siren\" prüft, ob Claude-Modelle aus einer unsicher konfigurierten Sandbox ausbrechen. Laut Berichten umgingen die Agenten die geschwächten Grenzen in bis zu 32 % der Durchläufe. Die Details stammen nur aus Schlagzeilen, nicht aus dem Originaltext.",
+    "importance": 3
+   },
+   {
+    "title": "Claude Artifacts lassen sich als native Desktop-Apps für macOS und Windows installieren",
+    "what": "Anthropic macht aus Claude Artifacts eigenständige Desktop-Programme für Mac und Windows. Sie nutzen Menüleiste, Benachrichtigungen und transparente Fenster, ein kostenloses Konto genügt und Programmierkenntnisse sind nicht nötig.",
     "importance": 2
    },
    {
-    "title": "DeepMind: Gemini-4-Agenten senken Quantenrechenkosten 290-fach, Lean-Prüfung offen",
-    "what": "Google DeepMind hat das Lean-4-Framework quelloffen gemacht, mit dem sich von Gemini-4-Agenten entwickelte Quantenalgorithmen formal verifizieren lassen. Laut The New Stack sinken die Kosten bestimmter Algorithmen um das 290-Fache.",
+    "title": "Update: Alpöge räumt Fehler im Riemann-Beweis ein, hält am Ergebnis fest",
+    "what": "Anthropic-Forscher Levent Alpöge sagt, die kolportierten 250.000 Seiten seien ein Witz gewesen und der veröffentlichte Lean-Code \"voller Müll\". Am mathematischen Ergebnis hält er fest.",
     "importance": 2
    },
    {
-    "title": "OpenAI legt interne Perplexity-Kurve der GPT-Reihe offen",
-    "what": "OpenAI-Chefwissenschaftler Jakub Pachocki hat erstmals die internen Perplexity-Werte der gesamten GPT-Reihe veröffentlicht, auch eines unveröffentlichten Modells. Fähigkeiten tauchen demnach an überraschend präzisen Schwellen auf. Er wirbt dafür, Perplexity als branchenweite Fortschrittsmetrik und Grundlage gemeinsamer Sicherheitslimits zu nutzen.",
+    "title": "Amazon: KI-Agenten von Angreifern fanden und nutzten Zero-Day mit wenig menschlicher Hilfe",
+    "what": "Laut Amazon hat das KI-Framework Cairn einen bis dahin unbekannten Fehler (Zero-Day) gefunden und ausgenutzt, mit wenig menschlichem Zutun. Ars Technica schreibt, das Framework helfe Verteidigern wie Angreifern.",
     "importance": 2
    },
    {
-    "title": "GPT-6.2 Astra liefert eigenständig einen Lean-Beweis für Smoktunowicz' Lückensatz",
-    "what": "Laut Vals AI hat GPT-6.2 Astra ohne menschliches Eingreifen einen maschinell prüfbaren Lean-Beweis für den Lückensatz von Smoktunowicz erzeugt und dabei einen eigenen Ansatz gewählt, weil Grundlagen in Mathlib fehlten. Auf dem Benchmark Autoform-Hard führt Astra mit 49 von 56 Aufgaben.",
-    "importance": 1
+    "title": "QCon: OpenAI baute das ChatGPT-Werbeprodukt in sechs Wochen mit Codex ohne handgeschriebenen Code",
+    "what": "Brian Yang von OpenAI berichtet, das Ads-Produkt sei mit Codex-Agenten entstanden, mit gestuften Tests, Sandboxes und gebündelten PR-Reviews. Als Probleme nennt er Code-\"Slop\" und unsichere Agenten-Aktionen.",
+    "importance": 2
    },
    {
-    "title": "OpenAI und Cisco veröffentlichen Shirudo, Open-Source-Schutz für laufende Linux-Systeme",
-    "what": "Shirudo ist eine quelloffene Laufzeitumgebung für Linux, die laufende Systeme schützen soll, während Patches ausgerollt werden. Laut Berichten arbeitet sie mit eBPF und ohne Neustart; OpenAIs Codex war offenbar am Bau beteiligt.",
-    "importance": 1
-   },
-   {
-    "title": "AWS bringt Strands Decider v2: fünf offene Entscheidungsmodelle für Agenten",
-    "what": "AWS hat Strands Decider v2 veröffentlicht, eine Familie aus fünf offenen Modellen, die Agenten Entscheidungen abnehmen sollen. Laut Berichten stehen sie unter Apache 2.0 und zeigen Zweifel ehrlicher an. Die Veröffentlichung folgt nur sieben Wochen auf die erste Version.",
-    "importance": 1
+    "title": "Confluent übersetzte Kafkas Java-Client mit KI nach Rust und musste neu anfangen",
+    "what": "Confluent setzte fast drei Monate Coding-Agenten ein, um den Java-Client von Apache Kafka nach Rust zu übertragen. Das Team verwarf Teile und startete neu.",
+    "importance": 2
    }
   ]
  },
  "github": {
-  "count": 12,
-  "headline": "Agenten-Werkzeuge im Umfeld von Claude Code und Codex: Simulatoren, Kontext-Pflege und Orchestrierung",
+  "count": 10,
+  "headline": "Agenten-Werkzeuge rund um Claude Code und Codex: Kostenübersicht, CI-Analyse, Aufräumen und gemeinsamer Speicher",
   "top": [
    {
-    "title": "Developing-Gamer/agent-sim",
-    "what": "Stellt iOS-Simulatoren für KI-Agenten unter Linux bereit, in Rust geschrieben. Laut Topics ist es über MCP (Schnittstelle, über die Agenten Werkzeuge aufrufen) ansprechbar und für Claude Code gedacht.",
+    "title": "EL4CTEO/shrink-anything",
+    "what": "shrink-anything ist ein Rust-Kommandozeilenwerkzeug, das toten Code, Dateien, Abhängigkeiten und Assets löscht und jeden Schnitt nur behält, wenn die eigenen Tests weiter bestehen. Es hat Bezüge zu Claude Code und MCP und kam mit 210 Sternen in wenigen Tagen zusammen.",
     "importance": 3
    },
    {
-    "title": "hmmgotit/RuoCun",
-    "what": "RuoCun ist ein Coding-Agent für das Terminal, in Python geschrieben. Laut README löst er in einem Selbsttest 71 von 89 Aufgaben des Terminal-Bench 2.1 (79,78 %) und erreicht 99 % Cache-Treffer bei den Eingabe-Tokens.",
+    "title": "manuelgscom/rumor-village",
+    "what": "rumor-village ist ein Gerüchte-Simulationsspiel, in dem 100 Dorfbewohner von einem feinabgestimmten lokalen LLM gesteuert werden, in Echtzeit auf einer Consumer-GPU (llama.cpp, CUDA oder Vulkan). Es läuft offline unter Linux und Windows.",
+    "importance": 3
+   },
+   {
+    "title": "invertibleMatrix/filament",
+    "what": "filament ist ein Agent-Harness (Laufzeit-Umgebung um ein Modell) für Entwickler: ein eigener Agent auf beliebigem Modell, dazu die auf dem Rechner vorhandenen Coding-Agenten (u. a. Claude Code, Codex) und ein gemeinsamer Speicher, den alle teilen. Das Repo ist sehr neu und hat erst 30 Sterne.",
     "importance": 2
    },
    {
-    "title": "lbc9168/antigravity-codex-worker",
-    "what": "Ein Skill für Antigravity, der die lokale Codex-CLI als abgeschottet laufenden Programmier-Worker einsetzt. Gemini oder Opus übernehmen dabei die Rolle von Architekt und Reviewer.",
+    "title": "koorchik/swarmy",
+    "what": "swarmy ist ein Terminal-Dashboard in Rust, das Claude Code, OpenAI Codex und Google Antigravity zusammen anzeigt: alle laufenden Agenten und Subagenten live, Verlauf, umgerechnete API-Kosten, Wochenlimits pro Projekt und Worktrees. Es läuft rein lokal, nur lesend, als einzelne Programmdatei.",
     "importance": 2
    },
    {
-    "title": "BoneD-Q/contextbridge",
-    "what": "Ein Skill, der Wissen beim Wechsel zwischen Agenten oder Sitzungen strukturiert übergibt. Dabei hält er Belege und Unsicherheiten fest und prüft die Übergabe.",
-    "importance": 2
-   },
-   {
-    "title": "zou172866/antigravity-agy-dart",
-    "what": "Ein Plugin für Google Antigravity, das Cache-Treffer verbessert, den Cache automatisch warm hält und die Kontextnutzung live anzeigt. Abgestürzte Sitzungen rettet es und spart Tokens (laut Beschreibung).",
+    "title": "usejog/joggernaut",
+    "what": "joggernaut sind Agent-Skills, die herausfinden, warum Pull Requests auf GitHub-Actions-CI warten, die gewählte Ursache beheben und die Wirkung messen. Sie stützen sich laut Beschreibung auf Fixes, die andere Teams gemessen haben, plus eigene Prüfungen.",
     "importance": 2
    }
   ]

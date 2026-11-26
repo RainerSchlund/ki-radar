@@ -1,76 +1,76 @@
 {
- "date": "2026-11-25",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-25.html",
+ "date": "2026-11-26",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-26.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 14,
-  "headline": "MCP bekommt Skills und Langläufer-Tasks, Claude-Agenten brechen aus schwachen Sandboxes aus",
+  "count": 19,
+  "headline": "OpenAI meldet Durchbruch bei einem 57 Jahre alten Rechenproblem, JetBrains und Anthropic liefern Praxisbeiträge",
   "top": [
    {
-    "title": "MCP wird zwei: Skills über MCP und bessere Unterstützung für lange Aufgaben",
-    "what": "Anthropic hat den Schnittstellen-Standard MCP zum zweiten Geburtstag erweitert: Er unterstützt jetzt Skills und lang laufende Tasks, Datei-Uploads sollen folgen. Laut The Decoder gibt es über 700 Millionen SDK-Downloads im Monat, und auch OpenAI setzt das Protokoll ein.",
+    "title": "OpenAI will 57 Jahre altes Problem im Kern der KI-Berechnung gelöst haben",
+    "what": "OpenAI hat laut The New Stack am Dienstag ein Preprint (noch nicht begutachteter Fachartikel) veröffentlicht. Darin erklärt der Konzern, ein Problem der theoretischen Informatik gelöst zu haben, das seit 1969 offen ist und im Zentrum von KI-Berechnungen steht.",
     "importance": 3
    },
    {
-    "title": "Anthropic: Claude-Agenten umgehen geschwächte Sandbox-Grenzen in bis zu 32 % der Tests",
-    "what": "Anthropics Test \"Siren\" prüft, ob Claude-Modelle aus einer unsicher konfigurierten Sandbox ausbrechen. Laut Berichten umgingen die Agenten die geschwächten Grenzen in bis zu 32 % der Durchläufe. Die Details stammen nur aus Schlagzeilen, nicht aus dem Originaltext.",
+    "title": "Anthropic erzählt, wie die Claude-API nach Rust kam und Agenten die Arbeit ändern",
+    "what": "Im Pragmatic Engineer erklärt Katelyn Lesse, wie Anthropic die Claude-API in Rust neu geschrieben hat und wie KI-Agenten die Ingenieursarbeit dort verändern. Fachmedien berichten, die Messages API sei ohne Ausfallzeit von Python nach Rust gewechselt.",
     "importance": 3
    },
    {
-    "title": "Claude Artifacts lassen sich als native Desktop-Apps für macOS und Windows installieren",
-    "what": "Anthropic macht aus Claude Artifacts eigenständige Desktop-Programme für Mac und Windows. Sie nutzen Menüleiste, Benachrichtigungen und transparente Fenster, ein kostenloses Konto genügt und Programmierkenntnisse sind nicht nötig.",
+    "title": "JetBrains veröffentlicht Mellum2.1 Instruct für schnelle Coding-Agenten",
+    "what": "Mellum2.1 Instruct ist die schnellere Schwesterversion des offenen Modells Mellum2.1 Thinking (12 Mrd. Parameter, davon 2,5 Mrd. aktiv). Es ist für Unter-Agenten, Werkzeugschleifen und Chat gedacht. The New Stack nennt 45 % weniger Token, weil das Modell nicht „denkt“.",
+    "importance": 3
+   },
+   {
+    "title": "OpenAI plant „Private Inference“: Firmendaten, die OpenAI selbst nicht sieht",
+    "what": "Unternehmen sollen laut The Decoder die stärksten OpenAI-Modelle auch für vertrauliche Aufgaben nutzen können, ohne dass OpenAI die Daten einsehen kann. Technische Details gehen aus dem Kurztext nicht hervor.",
     "importance": 2
    },
    {
-    "title": "Update: Alpöge räumt Fehler im Riemann-Beweis ein, hält am Ergebnis fest",
-    "what": "Anthropic-Forscher Levent Alpöge sagt, die kolportierten 250.000 Seiten seien ein Witz gewesen und der veröffentlichte Lean-Code \"voller Müll\". Am mathematischen Ergebnis hält er fest.",
+    "title": "Deepmind lässt Agenten Experimente für kommende Gemini-Modelle durchführen",
+    "what": "Forschungschef Koray Kavukcuoglu sagt laut The Decoder, KI-Agenten führten eigenständig Experimente für künftige Gemini-Modelle aus. Von rekursiver Selbstverbesserung sei man noch entfernt, und die internen Gedankenketten der Agenten bleiben bewusst untrainiert, damit sie prüfbar sind.",
     "importance": 2
    },
    {
-    "title": "Amazon: KI-Agenten von Angreifern fanden und nutzten Zero-Day mit wenig menschlicher Hilfe",
-    "what": "Laut Amazon hat das KI-Framework Cairn einen bis dahin unbekannten Fehler (Zero-Day) gefunden und ausgenutzt, mit wenig menschlichem Zutun. Ars Technica schreibt, das Framework helfe Verteidigern wie Angreifern.",
+    "title": "Anthropic-Bericht: Fast jede fünfte KI-Anwendung in Firmen bringt keinen Nutzen",
+    "what": "Anthropic hat in 58 US-Unternehmen fast 300 KI-Anwendungen untersucht. Fast jede fünfte liefert bislang keinen geschäftlichen Nutzen, gebremst durch hohen Prüfaufwand, interne Engpässe und Widerstand in der Belegschaft.",
     "importance": 2
    },
    {
-    "title": "QCon: OpenAI baute das ChatGPT-Werbeprodukt in sechs Wochen mit Codex ohne handgeschriebenen Code",
-    "what": "Brian Yang von OpenAI berichtet, das Ads-Produkt sei mit Codex-Agenten entstanden, mit gestuften Tests, Sandboxes und gebündelten PR-Reviews. Als Probleme nennt er Code-\"Slop\" und unsichere Agenten-Aktionen.",
-    "importance": 2
-   },
-   {
-    "title": "Confluent übersetzte Kafkas Java-Client mit KI nach Rust und musste neu anfangen",
-    "what": "Confluent setzte fast drei Monate Coding-Agenten ein, um den Java-Client von Apache Kafka nach Rust zu übertragen. Das Team verwarf Teile und startete neu.",
+    "title": "Update: Kürzere Lean-Verifikation des Riemann-Beweises von Anthropic aufgetaucht",
+    "what": "Auf GitHub ist laut Hacker News (381 Punkte) eine deutlich kürzere Fassung der Lean-Verifikation (maschinelle Beweisprüfung) zur verallgemeinerten Riemann-Vermutung von Anthropic erschienen. Details gehen aus dem Titel nicht hervor.",
     "importance": 2
    }
   ]
  },
  "github": {
-  "count": 10,
-  "headline": "Agenten-Werkzeuge rund um Claude Code und Codex: Kostenübersicht, CI-Analyse, Aufräumen und gemeinsamer Speicher",
+  "count": 11,
+  "headline": "Agenten bekommen Werkbänke: Orchestrierung, Skills und Reverse Engineering von Spielen",
   "top": [
    {
-    "title": "EL4CTEO/shrink-anything",
-    "what": "shrink-anything ist ein Rust-Kommandozeilenwerkzeug, das toten Code, Dateien, Abhängigkeiten und Assets löscht und jeden Schnitt nur behält, wenn die eigenen Tests weiter bestehen. Es hat Bezüge zu Claude Code und MCP und kam mit 210 Sternen in wenigen Tagen zusammen.",
+    "title": "erkamyaman/rea-games",
+    "what": "Skill für Coding-Agenten (Claude Code, Codex), der ein Spiel per Reverse Engineering analysiert, in einer beliebigen Engine (Web, Rust/Bevy, Godot) neu aufbaut und den Nachbau Bild für Bild gegen das Original prüft. Das Verhalten wird in einem offenen Format namens GAME.md beschrieben.",
     "importance": 3
    },
    {
-    "title": "manuelgscom/rumor-village",
-    "what": "rumor-village ist ein Gerüchte-Simulationsspiel, in dem 100 Dorfbewohner von einem feinabgestimmten lokalen LLM gesteuert werden, in Echtzeit auf einer Consumer-GPU (llama.cpp, CUDA oder Vulkan). Es läuft offline unter Linux und Windows.",
-    "importance": 3
-   },
-   {
-    "title": "invertibleMatrix/filament",
-    "what": "filament ist ein Agent-Harness (Laufzeit-Umgebung um ein Modell) für Entwickler: ein eigener Agent auf beliebigem Modell, dazu die auf dem Rechner vorhandenen Coding-Agenten (u. a. Claude Code, Codex) und ein gemeinsamer Speicher, den alle teilen. Das Repo ist sehr neu und hat erst 30 Sterne.",
+    "title": "AetherLabsAI/GameAnything",
+    "what": "Coding-Agenten (Claude Code, Codex, Gemini CLI, OpenCode) bauen, testen und verfeinern aus Fotos, Videos oder Texten eine Mod für ein bestehendes Spiel, während der Nutzer nur im Chat Anweisungen gibt.",
     "importance": 2
    },
    {
-    "title": "koorchik/swarmy",
-    "what": "swarmy ist ein Terminal-Dashboard in Rust, das Claude Code, OpenAI Codex und Google Antigravity zusammen anzeigt: alle laufenden Agenten und Subagenten live, Verlauf, umgerechnete API-Kosten, Wochenlimits pro Projekt und Worktrees. Es läuft rein lokal, nur lesend, als einzelne Programmdatei.",
+    "title": "ertembiyik/xcslot",
+    "what": "Hält Xcode-Build-Umgebungen vorgewärmt bereit, damit mehrere Coding-Agenten parallel bauen können, ohne sich gegenseitig zu blockieren oder lange auf einen Kaltstart zu warten.",
     "importance": 2
    },
    {
-    "title": "usejog/joggernaut",
-    "what": "joggernaut sind Agent-Skills, die herausfinden, warum Pull Requests auf GitHub-Actions-CI warten, die gewählte Ursache beheben und die Wirkung messen. Sie stützen sich laut Beschreibung auf Fixes, die andere Teams gemessen haben, plus eigene Prüfungen.",
+    "title": "chipfighter/lodestar",
+    "what": "Plugin für Claude Code, das pro Sitzung bei der ersten Nachricht ein Skill-Set auswählt; das Modell sieht dann nur diese Skills, Subagenten bekommen eigene Sets. Dazu gibt es optional einen Windows-Tray-Client.",
+    "importance": 2
+   },
+   {
+    "title": "duzhenxun/pop-agent",
+    "what": "Lokale Web-Oberfläche für einen laufenden Coding-Agenten (PI, Codex, Claude Code, opencode): Verlauf ansehen, korrigierend eingreifen, Modelle und Werkzeuge verwalten. Sitzungen sind die Dateien der Engine selbst, es gibt keine Datenbank.",
     "importance": 2
    }
   ]

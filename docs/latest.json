@@ -1,76 +1,76 @@
 {
- "date": "2026-11-26",
- "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-26.html",
+ "date": "2026-11-27",
+ "url": "https://rainerschlund.github.io/ki-radar/days/2026-11-27.html",
  "archive_url": "https://rainerschlund.github.io/ki-radar/",
  "notify": "RainerSchlund",
  "news": {
-  "count": 19,
-  "headline": "OpenAI meldet Durchbruch bei einem 57 Jahre alten Rechenproblem, JetBrains und Anthropic liefern Praxisbeiträge",
+  "count": 17,
+  "headline": "Angreifer-Agenten übernehmen Netzwerke, Microsoft baut Agenten-Governance aus, OpenAI verrechnet sich bei GPT-6.2",
   "top": [
    {
-    "title": "OpenAI will 57 Jahre altes Problem im Kern der KI-Berechnung gelöst haben",
-    "what": "OpenAI hat laut The New Stack am Dienstag ein Preprint (noch nicht begutachteter Fachartikel) veröffentlicht. Darin erklärt der Konzern, ein Problem der theoretischen Informatik gelöst zu haben, das seit 1969 offen ist und im Zentrum von KI-Berechnungen steht.",
+    "title": "Microsoft legt ARTEX offen: Angriffs-Agenten übernehmen Netzwerke in Minuten",
+    "what": "Microsoft veröffentlicht die Architektur von ARTEX, einem seit Juli 2026 verbreiteten KI-Framework, das Cyberangriffe mit spezialisierten Agenten nahezu ohne menschliches Eingreifen ausführt. Staatliche Gruppen aus China und Nordkorea sowie Kriminelle setzen es laut Microsoft bereits ein.",
     "importance": 3
    },
    {
-    "title": "Anthropic erzählt, wie die Claude-API nach Rust kam und Agenten die Arbeit ändern",
-    "what": "Im Pragmatic Engineer erklärt Katelyn Lesse, wie Anthropic die Claude-API in Rust neu geschrieben hat und wie KI-Agenten die Ingenieursarbeit dort verändern. Fachmedien berichten, die Messages API sei ohne Ausfallzeit von Python nach Rust gewechselt.",
-    "importance": 3
-   },
-   {
-    "title": "JetBrains veröffentlicht Mellum2.1 Instruct für schnelle Coding-Agenten",
-    "what": "Mellum2.1 Instruct ist die schnellere Schwesterversion des offenen Modells Mellum2.1 Thinking (12 Mrd. Parameter, davon 2,5 Mrd. aktiv). Es ist für Unter-Agenten, Werkzeugschleifen und Chat gedacht. The New Stack nennt 45 % weniger Token, weil das Modell nicht „denkt“.",
-    "importance": 3
-   },
-   {
-    "title": "OpenAI plant „Private Inference“: Firmendaten, die OpenAI selbst nicht sieht",
-    "what": "Unternehmen sollen laut The Decoder die stärksten OpenAI-Modelle auch für vertrauliche Aufgaben nutzen können, ohne dass OpenAI die Daten einsehen kann. Technische Details gehen aus dem Kurztext nicht hervor.",
+    "title": "Microsoft Ignite 2026: Copilot als „Betriebssystem der Arbeit“ mit Agenten-Kontrolle",
+    "what": "Microsoft positioniert Copilot als Work OS und erweitert Identität, Governance und Kostenkontrolle für Agenten über Azure, Foundry, Entra und Defender. Dazu kommen unter anderem ein eigenständiges Azure AI Gateway, eine Dauer-Verbesserungsschleife in Foundry und Microsoft IQ.",
     "importance": 2
    },
    {
-    "title": "Deepmind lässt Agenten Experimente für kommende Gemini-Modelle durchführen",
-    "what": "Forschungschef Koray Kavukcuoglu sagt laut The Decoder, KI-Agenten führten eigenständig Experimente für künftige Gemini-Modelle aus. Von rekursiver Selbstverbesserung sei man noch entfernt, und die internen Gedankenketten der Agenten bleiben bewusst untrainiert, damit sie prüfbar sind.",
+    "title": "OpenAI räumt Abrechnungsfehler bei GPT-6.2 ein: Limits 40 Prozent schneller erreicht",
+    "what": "Nutzer von GPT-6.2 Astra und Sol erreichen ihre Limits laut OpenAI nach einem Abrechnungsfehler 40 beziehungsweise 25 Prozent schneller als in der Vorwoche. Als Ausgleich gibt es einen Extra-Reset und für Business-Kunden kostenlosen Fast-Mode bis Jahresende; zudem testet OpenAI die Zusammenlegung von Chat- und Work-Modus.",
     "importance": 2
    },
    {
-    "title": "Anthropic-Bericht: Fast jede fünfte KI-Anwendung in Firmen bringt keinen Nutzen",
-    "what": "Anthropic hat in 58 US-Unternehmen fast 300 KI-Anwendungen untersucht. Fast jede fünfte liefert bislang keinen geschäftlichen Nutzen, gebremst durch hohen Prüfaufwand, interne Engpässe und Widerstand in der Belegschaft.",
+    "title": "Cloudflare: Suche für KI-Agenten auf Websites per Schalter, Betreiber zahlen",
+    "what": "Cloudflare bietet Website-Betreibern eine Funktion, mit der KI-Agenten per einzelnem Schalter relevante Informationen auf der Seite finden und abrufen können. Die Kosten der Anfragen tragen die Seitenbetreiber.",
     "importance": 2
    },
    {
-    "title": "Update: Kürzere Lean-Verifikation des Riemann-Beweises von Anthropic aufgetaucht",
-    "what": "Auf GitHub ist laut Hacker News (381 Punkte) eine deutlich kürzere Fassung der Lean-Verifikation (maschinelle Beweisprüfung) zur verallgemeinerten Riemann-Vermutung von Anthropic erschienen. Details gehen aus dem Titel nicht hervor.",
+    "title": "Z.AI und Moonshot verschieben große Modelle laut Insidern auf 2027",
+    "what": "Die chinesischen Firmen Z.AI und Moonshot AI müssen ihre nächsten Flaggschiff-Modelle verschieben, weil US-Chipregeln und Destillations-Blockaden sie bremsen. Sie suchen nach neuen Quellen für Trainingsdaten. Die Angaben stützen sich auf Insider.",
+    "importance": 2
+   },
+   {
+    "title": "Genie 4 streamt KI-Welten mit Ton und Reaktion bei 24 Bildern pro Sekunde",
+    "what": "Laut PCGH erzeugt Genie 4 interaktive KI-Welten live per Stream, mit Ton, Reaktion auf Eingaben und 24 Bildern pro Sekunde. Mehr Details gibt die Quelle in der Meldung nicht her.",
+    "importance": 2
+   },
+   {
+    "title": "Update: Ubisoft dementiert KI-Pflicht, will Entwickler aber zum Ausprobieren ermuntern",
+    "what": "Ubisoft widerspricht Berichten, Teams müssten Generative KI nutzen oder ihren Verzicht begründen. Man ermuntere Entwickler, KI zu „erkunden“, zwinge aber niemanden. Insider Gaming nennt die Gesamtlage weiterhin unklar.",
     "importance": 2
    }
   ]
  },
  "github": {
-  "count": 11,
-  "headline": "Agenten bekommen Werkbänke: Orchestrierung, Skills und Reverse Engineering von Spielen",
+  "count": 12,
+  "headline": "Spiele-Studio aus Coding-Agenten, Skill-Pakete im Trend und Video-KI auf 8 GB Grafikspeicher",
   "top": [
    {
-    "title": "erkamyaman/rea-games",
-    "what": "Skill für Coding-Agenten (Claude Code, Codex), der ein Spiel per Reverse Engineering analysiert, in einer beliebigen Engine (Web, Rust/Bevy, Godot) neu aufbaut und den Nachbau Bild für Bild gegen das Original prüft. Das Verhalten wird in einem offenen Format namens GAME.md beschrieben.",
+    "title": "nexu-io/opengame",
+    "what": "OpenGame versteht sich als Spiele-Studio für KI-Agenten. Über 20 Coding-Agenten (u. a. Claude Code, Codex, DeepSeek) sollen damit 3D- und Mini-Spiele bauen und auf Plattformen wie WeChat, TikTok, Telegram und itch.io veröffentlichen. Dazu kommen laut Beschreibung über 100 Spiele zum Nachbauen.",
     "importance": 3
    },
    {
-    "title": "AetherLabsAI/GameAnything",
-    "what": "Coding-Agenten (Claude Code, Codex, Gemini CLI, OpenCode) bauen, testen und verfeinern aus Fotos, Videos oder Texten eine Mod für ein bestehendes Spiel, während der Nutzer nur im Chat Anweisungen gibt.",
+    "title": "FlashML-org/FreeVideo",
+    "what": "FreeVideo lässt das Videomodell MiniMax H3 lokal laufen, nach Angabe schon mit 8 GB Grafikspeicher und 16 GB Arbeitsspeicher. Der Beschleunigungsweg wird an die vorhandene Hardware angepasst.",
     "importance": 2
    },
    {
-    "title": "ertembiyik/xcslot",
-    "what": "Hält Xcode-Build-Umgebungen vorgewärmt bereit, damit mehrere Coding-Agenten parallel bauen können, ohne sich gegenseitig zu blockieren oder lange auf einen Kaltstart zu warten.",
+    "title": "mjmirza/app-store-compliance",
+    "what": "Eine Sammlung von 125 dokumentierten Ablehnungsgründen für App Store und Google Play samt Lösungen, dazu Prüfungen für Privacy Manifest und Data Safety sowie 117 verfolgte Fristen (u. a. EU AI Act). Enthalten ist ein Skill, den Coding-Agenten vor dem Einreichen nutzen können.",
     "importance": 2
    },
    {
-    "title": "chipfighter/lodestar",
-    "what": "Plugin für Claude Code, das pro Sitzung bei der ersten Nachricht ein Skill-Set auswählt; das Modell sieht dann nur diese Skills, Subagenten bekommen eigene Sets. Dazu gibt es optional einen Windows-Tray-Client.",
+    "title": "Imbad0202/academic-research-skills",
+    "what": "Skill-Paket für Claude Code, das eine wissenschaftliche Arbeit durch die Stufen Recherche, Schreiben, Begutachten, Überarbeiten und Finalisieren führt.",
     "importance": 2
    },
    {
-    "title": "duzhenxun/pop-agent",
-    "what": "Lokale Web-Oberfläche für einen laufenden Coding-Agenten (PI, Codex, Claude Code, opencode): Verlauf ansehen, korrigierend eingreifen, Modelle und Werkzeuge verwalten. Sitzungen sind die Dateien der Engine selbst, es gibt keine Datenbank.",
+    "title": "Wasabi2575/dsh-workflow-canvas",
+    "what": "Ein Plugin für das DeepSeek Harness (DSH), das in der Seitenleiste eine Arbeitsfläche für Multi-Agenten-Abläufe bereitstellt. Es unterstützt parallele Unteragenten, Verzweigungen, Wiederholungsschleifen und Freigaben durch einen Lead-Agenten, außerdem Zusammenfassungen der Läufe.",
     "importance": 2
    }
   ]
